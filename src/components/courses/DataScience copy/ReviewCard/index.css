@@ -1,0 +1,32 @@
+.courseReviewCard{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: #bfbfbf 4px 4px 4px 4px;
+    width:330px;
+    padding:30px;
+}
+.courseReviewFirstContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courseReviewProfileImage{
+    width:50px;
+    height:50px;
+    align-self: flex-start;
+}
+.courseReviewName{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.courseReviewDesignation{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.courseLinkedInImage{
+    width:30px;
+    height:30px;
+    align-self: start;
+}

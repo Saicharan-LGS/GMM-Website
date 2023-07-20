@@ -1,0 +1,23 @@
+.courseFlexibleProgramCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:400px;
+    height:200px;
+    box-shadow: #bfbfbf 4px 4px 4px 4px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.courseFlexibleProgramCard:hover{
+    transform: translate3d(10px,0,20px);
+}
+.courseFlexibleProgramImage{
+    color:red;
+    font-size: 50px;
+}
+.courseFlexibleProgramQuestion{
+    font-size: 20px;
+}

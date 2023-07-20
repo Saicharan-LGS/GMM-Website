@@ -1,0 +1,62 @@
+.courseWhyGloriousMindMineList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:60%;
+}
+
+.courseFlexibleProgramList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courseFlexibleProgramMainHeading{
+
+}
+
+.coursesBasicDoubtsTabsList{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.coursesBasicDoubtsTabsListItem{
+
+}
+.coursesBasicDoubtsTabsListItemButton{
+    background-color: #1b7e953a;
+    border: none;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.courseBasicDoubtActiveTab{
+    background-color: #33FF8F;
+}
+.coursesBasicDoubtsList{
+    list-style-type: none;
+}
+.courseReviewList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.courseBanner{
+    margin-bottom: 30px;
+}
+.courseTutionFeeListItemContainer{
+    display: flex;
+    align-items: center;
+}
+.courseTutionFeeIcon{
+    color:red;
+    font-weight: 500;
+    font-size: 20px;
+}

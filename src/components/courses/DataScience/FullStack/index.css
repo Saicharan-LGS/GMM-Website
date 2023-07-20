@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.Fullstack-main-container{
+    padding:30px;
+
+}
+.Fullstack-journey-heading{
+    font-family: "Roboto";
+    font-size:28px;
+    font-weight:600;
+    text-align:center;
+}
+
+.Fullstack-journey-heading-underline {
+    position: relative;
+    margin-right: 1rem;
+  }
+  .Fullstack-journey-heading-underline:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    border: solid 3px #ff6600;
+    border-color: #ff6600 transparent transparent transparent;
+    border-radius: 30%;
+  }
+.Foundation-track-heading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-top:10px;
+}
+.Foundation-track-heading-underline{
+    position: relative;
+}
+.Foundation-track-heading-underline:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    border: solid 3px #ff6600;
+    border-color: #ff6600 transparent transparent transparent;
+    border-radius: 80%;
+}
+.Foundation-track-description{
+    font-family: "Roboto";
+    font-size:20px;
+    margin-top:10px;
+    color:#6c6c6c;
+}
+.Fullstack-company-image-container{
+    padding:20px;
+}
+.Fullstack-company-image{
+    width:100%;
+    object-fit:cover;
+}
