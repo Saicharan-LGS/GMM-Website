@@ -45,7 +45,6 @@ class DoubtItem extends Component {
       </button>
     )
   }
-
   render() {
     const {faqDetails} = this.props
     const {question} = faqDetails

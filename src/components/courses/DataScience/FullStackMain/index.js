@@ -15,6 +15,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import TransformingCard from "../TransformingCarrerCard"
 import FullStack from "../FullStack"
+import Intro from "../Introduction"
 
 import "./index.css"
 const learnersReviews=[
@@ -170,6 +171,7 @@ class Course extends Component{
           }
         return(
             <>
+            <Intro />
             <FullStack />
              <div className="slider-container">
                 <Slider {...settings}>

@@ -1,0 +1,261 @@
+.designationimage {
+    height: 500px;
+    width: 100%;
+  }
+  
+  .designationimage:hover {
+    height: 600px;
+    width: 650px;
+  }
+  
+  .learnersimage {
+    /* height: 700px; */
+    width: 100%;
+  }
+  
+  .learnersimage:hover {
+    height: 750px;
+    width: 600px;
+  }
+  
+  .startheading {
+    color: black;
+    font-family: gellix-semibold, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  }
+  .startredheading {
+    color: red;
+    font-family: gellix-semibold, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  }
+  .startpara {
+    color: #757575;
+    font-size: 26px;
+    font-family: gellix-semibold, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+  }
+  .coursescard {
+    /* height: 650px; */
+    width: 500px;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  .coursescard:hover {
+    background-color: rgb(254, 232, 230);
+    border: 2px solid black;
+  }
+  .reviewstopcard {
+    height: 700px;
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+  }
+  .reviewsbottomcard {
+    height: 450px;
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+  }
+  .reviewsheading {
+    color: red;
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+  
+  .reviewspara {
+    color: #757575;
+    font-size: 16px;
+    font-family: gellix-semibold, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .reviewsborder {
+    border-style: solid;
+    border-color: #757575;
+    border-width: 2px;
+  }
+  
+  .spancontainer {
+    color: red;
+    font-family: sans-serif;
+  }
+  
+  .acceleratecontainer {
+    background: linear-gradient(
+      124.35deg,
+      rgb(250, 211, 211) 29.7%,
+      rgb(254, 237, 237) 74.19%
+    );
+    border-radius: 10px;
+    /* height: 400px; */
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .accelerateinside {
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 300px;
+  }
+  
+  .startblackheading {
+    color: black;
+    font-family: gellix-semibold, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 700;
+  }
+  
+  .backimagecontainer {
+    background-image: url("https://www.almabetter.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity%2FGroup%201000002484%20(2).png&w=1200&q=75");
+    background-size: cover;
+    /* height: 800px; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .reviewstopcard:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .reviewsbottomcard:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .zeeshan {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .startredheading:hover {
+    font-size: 55px;
+  }
+  
+  .azonixfont {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+  }
+  
+  
+  .hover-popup {
+    background-color: white;
+  
+    color: black;
+  }
+  
+  @media screen and (min-width: 431px) and (max-width: 800px) {
+    .nav-inner-container {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      align-items: center;
+    }
+  }
+  
+  /* Responsive styles for screens up to 500px width */
+  @media screen and (max-width: 500px) {
+    .mbl-nav-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      border-bottom: solid 1px #eeeeee;
+    }
+  
+    .mbl-nav-inner-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .mbl-logo {
+      height: 15px;
+      width: 60px;
+    }
+  
+    .mbl-heading-whatsapp-btn {
+      height: 150%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      margin-bottom: 8%;
+    }
+  
+    .mbl-nav-un-ordered-list-container {
+      list-style-type: none;
+      color: rgb(124, 124, 124);
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 30%;
+      align-items: center;
+    }
+  
+    .mbl-join-button {
+      color: white;
+      height: 25px;
+      display: flex;
+      background-color: white;
+      width: 50px;
+      align-self: center;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-weight: bold;
+      font-size: 15px;
+      padding-top: 11px;
+    }
+  
+    .mbl-hamburger-whatsapp-icons-container {
+      display: flex;
+    }
+  
+    .mbl-hamburger-icon-btn {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      margin-right: 2px;
+      height: 10px;
+    }
+  }
+  
+  .acceleratebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  @media (min-width:380px) and (max-width: 768px){
+    .acceleratebox{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+}
