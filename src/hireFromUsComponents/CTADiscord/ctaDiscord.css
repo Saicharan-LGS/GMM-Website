@@ -1,0 +1,56 @@
+section.ctaDiscord-section {
+  background: linear-gradient(
+    85.33deg,
+    #f00037 -7.67%,
+    rgba(240, 0, 55, 0.33) 69.34%,
+    #f00037 146.34%
+  );
+  overflow: hidden;
+  border-radius: 10px;
+}
+.ctaDiscord-section img {
+  overflow: hidden;
+}
+
+.discord-image {
+  position: relative;
+  top: -25px;
+}
+
+.cta-text {
+  padding: 20px 30px;
+  width: 45%;
+}
+
+.ctaDiscordBtn {
+  background-color: rgb(255 255 255);
+  text-transform: uppercase;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  color: rgb(240 0 55);
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  gap: 17px;
+
+  grid-template-columns: 20% auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button img {
+  width: 50px;
+}
+
+@media screen and (max-width: 830px) {
+  .ctaDiscord-section .flex {
+    flex-direction: column;
+  }
+
+  .discord-image {
+    margin-top: 3rem;
+  }
+}
