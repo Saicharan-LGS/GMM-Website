@@ -1,3 +1,18 @@
+.All-container{
+    width:95vw;
+    margin-left:50px;
+    margin-right:50px;
+}
+.courseWhyGloriousMindMineMainContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseWhyGloriousMindMineMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:10px;
+}
 .courseWhyGloriousMindMineList{
     display: flex;
     flex-wrap: wrap;
@@ -59,4 +74,18 @@
     color:red;
     font-weight: 500;
     font-size: 20px;
+}
+.slider-container{
+    margin:30px;
+}
+@media screen and (max-width: 1200px) {
+    .slider-container .slick-slide {
+      display: block;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .slider-container .slick-slide {
+      display: flex;
+      justify-content: center;
+}
 }
