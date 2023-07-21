@@ -38,7 +38,7 @@ export const Header = () => {
           <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div className="navbar-nav w-100">
               <ul className="nav-un-ordered-list-container">
-              <li><a className="nav-link active m-3" href="#">
+              <li><a className="nav-link active m-1" href="#">
                 Courses <span class="sr-only"></span>
               </a>
               <ul id="submenu">
@@ -48,16 +48,16 @@ export const Header = () => {
                 <li><a href="" className="nav-link ">Polarian</a></li>
               </ul>
               </li>
-              <li><a className="nav-link m-3" href="#">
+              <li><a className="nav-link m-1" href="#">
                 Placements
               </a></li>
-              <li><a className="nav-link m-3" href="#">
+              <li><a className="nav-link m-1" href="#">
                 Community
               </a></li>
-              <li><a className="nav-link m-3" href="#">
+              <li><a className="nav-link m-1" href="#">
                 Hire From Us
               </a></li>
-              <button className="join-button m-3">Sign In</button>
+              <button className="join-button m-1">Sign In</button>
               </ul>
             </div>
           </div>
