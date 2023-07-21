@@ -1,0 +1,17 @@
+.card {
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 10px 5px;
+  margin: 10px;
+}
+
+.card img {
+  width: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .card {
+    padding: 10px 5px;
+    margin: 10px;
+  }
+}

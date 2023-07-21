@@ -1,7 +1,9 @@
 
 import './App.css'
 import Course from './components/courses/DataScience/FullStackMain'
-
-const App = () => <Course />
+import Home from "./components/Home/HomeMain"
+import HireFromUs from "./hireFromUsComponents/hireFromUs"
+//import Header from "./components/Home/Header"
+const App = () => <Course  />
 
 export default App
