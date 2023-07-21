@@ -11,7 +11,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 //import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import { BiPhoneCall, BiLogoFacebook, BiLogoGmail } from "react-icons/bi";
 
-export const Footer = () => {
+ const Footer = () => {
   return (
     <>
       <div className="TotalFooterContainer container-fluid">
@@ -187,3 +187,4 @@ export const Footer = () => {
     </>
   );
 };
+export default Footer

@@ -3,8 +3,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../HomeMain/index.css";
 import Nav from "../Nav";
 import "./index.css";
+import {Link} from 'react-router-dom'
 
-export const Header = () => {
+ const Header = () => {
   return (
     <div className="container">
       <nav
@@ -42,10 +43,10 @@ export const Header = () => {
                 Courses <span class="sr-only"></span>
               </a>
               <ul id="submenu">
-                <li> <a href="" className="nav-link ">Full Stack Development</a></li>
-                <li><a href="" className="nav-link ">Data Science</a></li>
-                <li><a href="" className="nav-link ">Mendix</a></li>
-                <li><a href="" className="nav-link ">Polarian</a></li>
+              <Link to="/Fullstack" className="nav-course-list"><li >Full Stack Development</li></Link>
+                <li className="nav-course-list">Data Science</li>
+                <li className="nav-course-list"><a href="" className="nav-link ">Mendix</a></li>
+                <li className="nav-course-list"><a href="" className="nav-link ">Polarian</a></li>
               </ul>
               </li>
               <li><a className="nav-link m-1" href="#">
@@ -54,9 +55,9 @@ export const Header = () => {
               <li><a className="nav-link m-1" href="#">
                 Community
               </a></li>
-              <li><a className="nav-link m-1" href="#">
+              <Link to="/Hirefromus" className="nav-course-list"><li>
                 Hire From Us
-              </a></li>
+              </li></Link>
               <button className="join-button m-1">Sign In</button>
               </ul>
             </div>
@@ -72,3 +73,4 @@ export const Header = () => {
     </div>
   );
 };
+export default Header

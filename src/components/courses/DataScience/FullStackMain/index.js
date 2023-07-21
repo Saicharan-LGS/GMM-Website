@@ -15,8 +15,10 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import TransformingCard from "../TransformingCarrerCard"
 import FullStack from "../FullStack"
-import Intro from "../Introduction"
 import CourseJobReady from '../CourseJobReady';
+import Intro from '../Introduction'
+import Header from '../../../Home/Header'
+import Footer from '../../../Home/Footer'
 
 import "./index.css"
 const learnersReviews=[
@@ -171,6 +173,9 @@ class Course extends Component{
             speed: 500,
             slidesToShow: 3, // Show 3 slides in large devices
             slidesToScroll: 1,
+    
+                
+                
             responsive: [
                 {
                     breakpoint: 1100,
@@ -188,9 +193,13 @@ class Course extends Component{
           }
         return(
             <>
-            <Intro />
-            <FullStack />
-             <div className="slider-container">
+                <Header/>
+            
+            <div className="All-container">
+            <div className="slider-container">
+                <div>
+                    <Intro/>
+                </div>
                 <Slider {...settings}>
                     {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                 </Slider>
@@ -267,7 +276,8 @@ class Course extends Component{
                 {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
             </ul>
         </div>
-    
+        </div>
+        <Footer/>
         </>
         )
       }

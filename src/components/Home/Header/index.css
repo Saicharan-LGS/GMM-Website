@@ -1,11 +1,9 @@
 .nav-container {
     display: flex;
   
-    justify-content: center;
   
     align-items: center;
   
-    align-self: center;
   
     width: 100%;
   
@@ -252,4 +250,9 @@
   background-color: white;
   z-index: 2;
   margin-top: 15px;
+}
+.nav-course-list{
+  list-style-type: none;
+  text-decoration: none !important;
+  color:#222;
 }

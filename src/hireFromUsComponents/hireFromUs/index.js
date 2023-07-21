@@ -8,11 +8,14 @@ import HowItWorks from "../howItWorks/HowItWorks";
 import PlacementTeam from "../placementTeam/placementTeam";
 import CTADiscord from "../CTADiscord/CTADiscord";
 import Testimonial from "../testimonial/Testimonial"
+import Header from '../../components/Home/Header'
+import Footer from '../../components/Home/Footer'
 
 class HireFromUs extends Component {
     render() {
       return (
         <>
+        <Header/>
           <div className="splitLayout-section">
             <div className="container">
               <SplitLayout
@@ -51,6 +54,7 @@ class HireFromUs extends Component {
             <PlacementTeam title="Start hiring the top 1% Data Science Talent" />
             <CTADiscord />
           </div>
+          <Footer/>
         </>
       );
     }

@@ -7,11 +7,11 @@ class Nav extends Component{
         return(
             <div className="hover-popup">
             <ul className="nav-hover-un-ordered-list-container" id="submenu">
-                <Link to="/sales" className="nav-hover-reviews-list-link">
+                 
                     <li className="nav-hover-list-container">
-                        <div>Full Stack Web development</div>
+                        <Link to="/Fullstack" ><div>Full Stack Web development</div></Link>
                     </li>
-                </Link>
+                
                 <Link to="/productmanagement"  className="nav-hover-reviews-list-link">
                     <li className="nav-hover-list-container">
                         <div>Polarian</div>
