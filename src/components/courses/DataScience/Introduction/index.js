@@ -5,7 +5,7 @@ import './index.css'
 class Intro extends Component{
     render(){
         return(
-            <div>
+            <div className="course-intro-main-container">
                 <div className="course-intro-sub-container">
                     <h1 className="course-Intro-Heading">Certification In Full Stack Data Science And AI</h1>
                     <div className="course-intro-batch-container">
@@ -43,19 +43,19 @@ class Intro extends Component{
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg" alt=""/>
-                    <p>Kamal</p>
-                    <div>
+                <div className="course-side-image-main-container">
+                    <img src="https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg" alt="" className="course-intro-side-image"/>
+                    <p className="course-intro-data-analyst">Kamal</p>
+                    <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                                <line x1="50" y1="0" x2="50" y2="90" stroke="#000" stroke-dasharray="1, 3" />
-                                <polyline points="45,90 50,95 55,90" fill="#000" />
-                            </svg>
-                        </span>
+                        <p className="arrow-width">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                            <line x1="0" y1="20" x2="30" y2="20" stroke="#000" stroke-dasharray="1, 3" />
+                            <polyline points="30,15 35,20 30,25" fill="#000" />
+                        </svg>
+                        </p>
                         
-                        <h1>Data Analyst</h1>
+                        <p className="course-intro-data-analyst">Data Analyst</p>
                     </div>
                 </div>
             </div>

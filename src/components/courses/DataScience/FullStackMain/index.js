@@ -235,12 +235,20 @@ class Course extends Component{
             </div>
             <div className='courseTutionFeeMainContainer'>
                 <h1 className='courseTutionFeeMainHeading'>Tuition Fee</h1>
-                <div>
+                <div className="courseTutionFeeSubContainer">
                    <ul>
-                    {tuitionFeeList.map(each=>(<div className='courseTutionFeeListItemContainer'><AiOutlineCheck className='courseTutionFeeIcon' /><p>{each}</p></div>))}
+                    {tuitionFeeList.map(each=>(
+                        <div className='courseTutionFeeListItemContainer'>
+                            <AiOutlineCheck className='courseTutionFeeIcon' />
+                            <p className="courseTutionList">{each}</p>
+                        </div>
+                    ))}
                    </ul>
-                   <button>Enroll Now</button>
-                   <button>Download Broucher</button>
+                   <div className="ButtonContainer">
+                        <button className="EnrollNowButton">Enroll Now</button>
+                        <button className="DownloadBroucherButton">Download Broucher</button>
+                   </div>
+                   
                 </div>
             </div>
         <div className='coursesBasicDoubtssMainContainer'>

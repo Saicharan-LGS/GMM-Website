@@ -1,5 +1,5 @@
 .faq-item {
-    width: 80%;
+    width: 90%;
     border: 1px solid #d7dae6;
     border-radius: 16px;
     margin-bottom: 24px;
@@ -17,8 +17,7 @@
   .question {
     color: #050c14;
     font-family: 'Roboto';
-    font-size: 12px;
-    font-weight: 900;
+
   }
   
   @media screen and (min-width: 768px) {
