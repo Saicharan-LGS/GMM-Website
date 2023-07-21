@@ -16,6 +16,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import TransformingCard from "../TransformingCarrerCard"
 import FullStack from "../FullStack"
 import Intro from "../Introduction"
+import CourseJobReady from '../CourseJobReady';
 
 import "./index.css"
 const learnersReviews=[
@@ -170,9 +171,6 @@ class Course extends Component{
             speed: 500,
             slidesToShow: 3, // Show 3 slides in large devices
             slidesToScroll: 1,
-    
-                
-                
             responsive: [
                 {
                     breakpoint: 1100,
@@ -258,7 +256,8 @@ class Course extends Component{
                 {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
             </ul>
         </div>
-        </div>
+    
+        </>
         )
       }
 }
