@@ -1,4 +1,4 @@
-/*.leftimg {
+.leftimg {
     max-width: 200px;
     height: 60px;
     padding: 0 15px;
@@ -34,8 +34,8 @@
     100% {
       transform: translate(-100%) !important;
     }
-  }*/
-  .leftimg {
+  }
+  /*.leftimg {
     max-width: 200px;
     height: 60px;
     padding: 0 15px;
@@ -85,5 +85,5 @@
     100% {
       transform: translate(-100%);
     }
-  }
+  }*/
   
