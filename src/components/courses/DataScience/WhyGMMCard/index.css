@@ -7,11 +7,18 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    justify-content: center;
     padding: 30px;
     margin-bottom: 20px;
+    
 }
+.courseWhyGloriousMindMineCard:hover{
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
 .courseWhyGloriousMindMineImage{
-   font-size: 50px;
+   width: 300px;
    color:red;
 }
 .courseWhyGloriousMindMineDescription{

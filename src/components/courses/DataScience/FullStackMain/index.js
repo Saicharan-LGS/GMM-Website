@@ -15,6 +15,8 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import TransformingCard from "../TransformingCarrerCard"
 import FullStack from "../FullStack"
+import CourseJobReady from '../CourseJobReady';
+import Intro from '../Introduction'
 
 import "./index.css"
 const learnersReviews=[
@@ -165,17 +167,40 @@ class Course extends Component{
         const lista=this.getTabApps();
         const settings = {
             dots: true,
-            slidesToShow: 3,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3, // Show 3 slides in large devices
             slidesToScroll: 1,
+    
+                
+                
+            responsive: [
+                {
+                    breakpoint: 1100,
+                    settings: {
+                    slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                    slidesToShow: 1, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    },
+                },
+            ],
           }
         return(
-            <>
-            <FullStack />
-             <div className="slider-container">
+            <div className="All-container">
+            <div className="slider-container">
+                <div>
+                    <Intro/>
+                </div>
                 <Slider {...settings}>
                     {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                 </Slider>
             </div>
+            <FullStack />
+             
             <div className='courseWhyGloriousMindMineMainContainer'>
                 <h1 className='courseWhyGloriousMindMineMainHeading'>Why GloriousMindMine?</h1>
                 <div>
@@ -189,6 +214,9 @@ class Course extends Component{
                 <ul className='courseFlexibleProgramList'>
                     {flexibleProgramList.map(each=>(<FlexibleProgram key={each.id} programDetails={each} />))}
                 </ul>
+            </div>
+            <div>
+                <CourseJobReady/>
             </div>
             <div>
                 <h1>Companies hiring at Glorious Mind Mine</h1>
@@ -232,7 +260,7 @@ class Course extends Component{
                 {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
             </ul>
         </div>
-        </>
+        </div>
         )
       }
 }
