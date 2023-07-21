@@ -14,14 +14,9 @@ export const Header = () => {
           flexDirection: "row",
           justifyContent: "space-between",
         }}>
-        {/* <div
-            style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-            }}> */}
-        <div>
-          <a className="navbar-brand" href="#image">
+        
+        <div >
+          <a className="navbar-brand" href="#">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTtA_4GjOO-CEcjEcLcMUoNXc8Q76Vv4R83cnkCtsaQ&s"
               className="navbar-image"
@@ -29,7 +24,7 @@ export const Header = () => {
             />
           </a>
         </div>
-        <div>
+        <div >
           <button
             className="navbar-toggler"
             type="button"
@@ -40,31 +35,40 @@ export const Header = () => {
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ml-auto">
-              <a className="nav-link active m-3" href="#image">
-                Courses <Nav/><span class="sr-only"></span>
+          <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div className="navbar-nav w-100">
+              <ul className="nav-un-ordered-list-container">
+              <li><a className="nav-link active m-3" href="#">
+                Courses <span class="sr-only"></span>
               </a>
-              <a className="nav-link m-3" href="#image">
+              <ul id="submenu">
+                <li> <a href="" className="nav-link ">Full Stack Development</a></li>
+                <li><a href="" className="nav-link ">Data Science</a></li>
+                <li><a href="" className="nav-link ">Mendix</a></li>
+                <li><a href="" className="nav-link ">Polarian</a></li>
+              </ul>
+              </li>
+              <li><a className="nav-link m-3" href="#">
                 Placements
-              </a>
-              <a className="nav-link m-3" href="#image">
+              </a></li>
+              <li><a className="nav-link m-3" href="#">
                 Community
-              </a>
-              <a className="nav-link m-3" href="#image">
+              </a></li>
+              <li><a className="nav-link m-3" href="#">
                 Hire From Us
-              </a>
+              </a></li>
               <button className="join-button m-3">Sign In</button>
+              </ul>
             </div>
           </div>
         </div>
-        {/* </div> */}
+       
       </nav>
 
 
       
 
 
-    </div>
+    </div>
   );
 };
