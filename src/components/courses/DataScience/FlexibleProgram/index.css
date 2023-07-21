@@ -9,15 +9,22 @@
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 10px;
+    text-align: center;
     
 }
 .courseFlexibleProgramCard:hover{
-    transform: translate3d(10px,0,20px);
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
 }
 .courseFlexibleProgramImage{
     color:red;
     font-size: 50px;
 }
 .courseFlexibleProgramQuestion{
-    font-size: 20px;
+    font-size: 18px;
+    font-family:"Roboto"
+}
+.courseFlexibleProgramAnswer{
+    font-size: 16px;
+    font-family:"Roboto"
 }

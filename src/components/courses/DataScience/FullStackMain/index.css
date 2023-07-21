@@ -1,5 +1,5 @@
 .All-container{
-    width:95vw;
+    width:90vw;
     margin-left:50px;
     margin-right:50px;
 }
@@ -13,23 +13,51 @@
     font-weight:600;
     margin-bottom:10px;
 }
+.courseWhyGloriousMindMineSubContainer{
+    display:flex;
+    gap:15px;
+}
 .courseWhyGloriousMindMineList{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width:60%;
 }
+.courseWhyGloriousMindMineSideImageContainer{
+    width:35%;
+    display:flex;
+    align-items:center;
+}
+.courseWhyGloriousMindMineSideImage{
+    width:100%;
+    object-fit: cover;
+}
 
+.courseFlexibleProgramContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseFlexibleProgramMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
 .courseFlexibleProgramList{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
-
-.courseFlexibleProgramMainHeading{
-
+.courseCompaniesHiringContainer{
+    padding:30px;
+    padding-top:0px;
 }
-
+.courseCompaniesHiringHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
 .coursesBasicDoubtsTabsList{
     list-style-type: none;
     display: flex;

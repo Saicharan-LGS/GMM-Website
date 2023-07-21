@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './index.css'
 const CourseJobReady = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 767);
@@ -34,13 +34,13 @@ const CourseJobReady = () => {
   });
 
   return (
-    <div className="course-tab-content-container">
+    <div className="courseReady-tab-content-container">
       {!isMobileView && ( // Render tabs on the left side for large devices
-        <ul className="course-tab-list">
+        <ul className="courseReady-tab-list">
           {tabData.map((tab, index) => (
             <li
               key={index}
-              className={`${activeTab === index ? 'course-active-tab' : ''} course-tab-list-item`}
+              className={`${activeTab === index ? 'courseReady-active-tab' : ''} courseReady-tab-list-item`}
               onClick={() => handleTabClick(index)}
             >
               {tab.title}
@@ -48,29 +48,29 @@ const CourseJobReady = () => {
           ))}
         </ul>
       )}
-      <div className="course-main-container">
+      <div className="courseReady-main-container">
         {isMobileView ? ( // Render accordion for mobile devices
-          <div className="course-accordion-content-display">
+          <div className="courseReady-accordion-content-display">
             {tabData.map((tab, index) => (
-              <div key={index} className="course-accordion">
+              <div key={index} className="courseReady-accordion">
                 <div
-                  className={`course-accordion-header ${activeTab === index ? 'course-active-accordion' : ''}`}
+                  className={`courseReady-accordion-header ${activeTab === index ? 'courseReady-active-accordion' : ''}`}
                   onClick={() => handleTabClick(index)}
                 >
                   {tab.title}
                 </div>
                 {activeTab === index && (
-                  <div className="course-accordion-content">
-                    <img src={tabData.images} alt="" />
-                    </div>
+                  <div className="courseReady-accordion-content">
+                    <img src={tabData.images} alt="" className="courseReady-accordion-image" />
+                  </div>
                 )}
               </div>
             ))}
           </div>
         ) : (
           // Render content on the right side for large devices
-          <div className="course-content-display">
-          <img src={tabData[activeTab].images} alt=""/>
+          <div className="courseReady-content-display">
+          <img src={tabData[activeTab].images} alt="" className="courseReady-content-image"/>
           </div>
         )}
       </div>

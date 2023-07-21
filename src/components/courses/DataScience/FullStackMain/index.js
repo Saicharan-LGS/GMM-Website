@@ -203,10 +203,13 @@ class Course extends Component{
              
             <div className='courseWhyGloriousMindMineMainContainer'>
                 <h1 className='courseWhyGloriousMindMineMainHeading'>Why GloriousMindMine?</h1>
-                <div>
-                <ul className='courseWhyGloriousMindMineList'>
-                    {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}
-                </ul>
+                <div className="courseWhyGloriousMindMineSubContainer">
+                    <ul className='courseWhyGloriousMindMineList'>
+                        {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}
+                    </ul>
+                    <div className="courseWhyGloriousMindMineSideImageContainer">
+                        <img src="https://www.almabetter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvikas.04749eb6.png&w=640&q=75" alt="" className="courseWhyGloriousMindMineSideImage"/>
+                    </div>
                 </div>
             </div>
             <div className='courseFlexibleProgramContainer'>
@@ -218,8 +221,8 @@ class Course extends Component{
             <div>
                 <CourseJobReady/>
             </div>
-            <div>
-                <h1>Companies hiring at Glorious Mind Mine</h1>
+            <div className='courseCompaniesHiringContainer'>
+                <h1 className="courseCompaniesHiringHeading">Companies hiring at Glorious Mind Mine</h1>
                 <div className="courseBanner">
                     <BannerRight images={ScrolllingImages1} speed={5000} />
                 </div>

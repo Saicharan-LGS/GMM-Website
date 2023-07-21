@@ -6,10 +6,12 @@ class WhyGloriousMindMineCard extends Component{
         const {eachDetails}=this.props
         const {description,Image}=eachDetails
         return(
-            <div className="courseWhyGloriousMindMineCard">
-                <Image className="courseWhyGloriousMindMineImage" />
-                <p className="courseWhyGloriousMindMineDescription">{description}</p>   
-            </div>
+
+                 <div className="courseWhyGloriousMindMineCard">
+                    <Image className="courseWhyGloriousMindMineImage" />
+                    <p className="courseWhyGloriousMindMineDescription">{description}</p>   
+                </div>
+           
         )
     }
 }
