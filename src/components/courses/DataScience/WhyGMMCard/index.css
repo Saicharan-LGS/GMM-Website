@@ -18,9 +18,10 @@
 }
 
 .courseWhyGloriousMindMineImage{
-   width: 300px;
-   color:red;
+    font-size:50px;
+    color:red;
 }
 .courseWhyGloriousMindMineDescription{
     font-size: 18px;
+    font-family:"Roboto";
 }
