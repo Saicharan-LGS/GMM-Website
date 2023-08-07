@@ -1,0 +1,201 @@
+.HireFromUsContainer1{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.HireFromUsContainer1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    align-items: center;
+    text-align: center;
+}
+.HireFromUsContainer2Heading{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.HireFromUsContainer1Heading{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.HireFromUsContainer1Text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.HireFromUsContainer1-2{
+    width:50%;
+    padding:20px;
+    margin-left: 0px;
+    background-color: #e6f0ff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.HireFromUsContainer1Button{
+font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: #fff;
+    background-color: #196AE5;
+    border-radius: 8px;
+    padding: 16px 24px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border:none;
+    width:max-content;
+    margin-top: 15px;
+
+}
+
+.HireFromUsContainer2{
+    display: flex;
+    justify-content: space-between;
+}
+.HireFromUsContainer2Image{
+    width:40%;
+}
+.HireFromUsContainer3-2{
+    margin-left: 0px;
+    padding-left: 0px;
+    width:40%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.HireFromUsheading2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.HireFromUsContainer4{
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e6f0ff;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+margin: 5%;
+border-radius: 20px;
+}
+.HireFromUsContainer4-2{
+    background-color: #e6f0ff;
+    margin-left: 0px;
+    padding-left: 0px;
+    width:40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+@media (max-width:797px){
+    .HireFromUsContainer1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .HireFromUsContainer3-2{
+        width:100%;
+        align-items: center;
+        justify-content: center;}
+    .HireFromUsContainer4-2{
+            width:100%;
+            align-items: center;
+            justify-content: center;
+    }.HireFromUsContainer1-2{
+        margin-top: 20px;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }.HireFromUsContainer1-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+    }.HireFromUsContainer2Image{
+        width: 100%;
+    }
+}
+
+
+/* styles.css */
+.schedule-call-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #bfbfbf;
+    border-radius: 10px;
+  }
+  
+  .schedule-call-container{
+    margin-bottom: 20px;
+  }
+
+  
+  .schedule-call-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+
+  
+  /* Media queries for responsive design */
+  @media screen and (max-width: 600px) {
+    .form-container {
+      max-width: 100%;
+    }
+  }
+  
+
+  .schedule-call-label{
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: 400;
+    padding-bottom: 2px;
+    display:flex;
+    align-self:flex-start;
+  }
+
+  .schedule-call-button{
+    background-color: #196AE5;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+  }
+
+  .schedule-call-success-message{
+    color: green;
+  }
+
+  .schedule-call-error-message{
+    color:red;
+}

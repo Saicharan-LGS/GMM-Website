@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.carrerSupportIntoductionContainer{
+    background-color: #e6f0ff;
+    width:100%;
+    padding:30px 80px 30px 80px;
+}
+.carrerSupportIntroductionSubContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.careerSupportIntoductionContainer1{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.careerSupportHeading{
+    margin-bottom: 15px;
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:700;
+    color:#222;
+}
+.careerSupportIntoductionText{
+    font-family:"Roboto";
+    font-size:16px;
+    color:#222;
+    border:2px solid #222;
+    width:max-content;
+    padding:4px 10px 4px 10px;
+    border-radius:5px;
+    display:flex;
+    align-self:center;
+}
+.careerSupportIntoductionIcon{
+    color:#222;
+    display:flex;
+    align-self:center;
+}
+.video-player{
+    display:flex;
+    align-items:center;
+}
+.carrerintro-data-main-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index:999;
+    background-color: #fff;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:10px;
+    margin:20px 80px 0px 80px;
+    box-shadow: rgba(173, 216, 230, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.carrer-intro-data-sub-container{
+    text-align: center;
+}
+.carrer-intro-data-heading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+}
+.carrer-intro-data-text{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:500;
+}
+.carrerJobBoardsMainContainer{
+    padding:30px 80px 30px 80px; 
+}
+.carrerJobBoardsMainHeading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+}
+.carrerJobBoardsMaintext{
+    font-family:"Roboto";
+    font-size:20px;
+}
+.carrerJobBoardsList{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.carrerJobBoardsListItem{
+    font-family:"Roboto";
+    font-size:16px;
+}
+.carrerTransitionsMainContainer{
+    padding:0px 80px 30px 80px; 
+}
+.carrerTransitionsMainHeading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.carrerTransitionsListItem{
+    margin-top: 25px;
+}
+.carrerCarrerPrepMainContainer{
+    padding:20px 80px 30px 80px; 
+    display:flex;
+    gap:20px;
+}
+.carrerCarrerPrepContainer2{
+    display:flex;
+    gap:20px;
+}
+.carrerCarrerPrepMainHeading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.carrerCarrerPrepText{
+    font-family:"Roboto";
+    font-size:20px;
+}
+.carrerCarrerPrepContainer3{
+    background-color:#e6f0ff;
+    padding:20px;
+    border-radius:8px;
+    width:max-content;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+.carrerCarrerPrepContainer3Heading{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:600;
+}
+.carrerCarrerPrepContainer3Text{
+    font-family:"Roboto";
+    font-size:18px;
+}
+.carrerCounselingButton{
+    background-color:#196AE5;
+    border:none;
+    padding:10px 20px 10px 20px;
+    border-radius:5px;
+    color:#fff;
+    margin-left:80px;
+    font-weight:bold;
+    font-family: "Roboto";
+    margin-bottom:20px;
+}
+.careerHiringMainContainer{
+    padding:30px 80px 30px 80px;
+}
+@media (max-width:992px){
+    .carrerSupportIntoductionContainer{
+        background-color: #e6f0ff;
+        width:100%;
+        padding:20px 20px 20px 20px;
+    }.careerSupportHeading{
+        font-size: 20px;
+    }
+    .carrerSupportIntroductionSubContainer{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        gap:20px;
+    }.video-container1{
+        width: 200px;
+        height:100px
+    }
+    .video-container{
+        display:none;
+    }
+    .video-player{
+        display:none;
+    }
+    .carrerCarrerPrepMainContainer{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .carrerCarrerPrepContainer2{
+        display:flex;
+        flex-direction: column;
+    }
+    .carrerCounselingButton{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carrerintro-data-main-container{
+        display:flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+    }.carrerJobBoardsMainContainer{
+        margin:0px;
+        padding:20px 20px 30px 20px;
+        width: 100%;
+    }.carrerJobBoardsMainHeading{
+        margin-top: 10px;
+        font-size: 18px;
+    }.carrerCarrerPrepText{
+        font-size: 14px;
+    }.carrerCarrerPrepContainer1{
+        padding:0px;
+        width:100%;
+    }.carrerCarrerPrepMainContainer{
+        padding:0 10px 0 10px;   
+    }
+    .carrerTransitionsMainContainer{
+        padding:10px 30px 20px 30px; 
+    }
+    .carrerCarrerPrepContainer3{
+        width:100%;   
+    }.careersupportslider{
+        max-width: 90%;
+        margin-right:5%;
+    }.careerHiringMainContainer{
+      padding:20px 20px 20px 20px;
+        width:100%;
+    }.careerHiringMainHeading{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+}
+.carrerSupportMain-home-container{
+    max-width: 100%;
+}

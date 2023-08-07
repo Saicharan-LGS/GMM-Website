@@ -2,7 +2,7 @@
 
 .Fullstack-main-container{
     padding:30px;
-
+    width:100%;
 }
 .Fullstack-journey-heading{
     font-family: "Roboto";
@@ -22,8 +22,8 @@
     left: 0;
     height: 7px;
     width: 100%;
-    border: solid 3px #ff6600;
-    border-color: #ff6600 transparent transparent transparent;
+    border: solid 3px #196AE5;
+    border-color: #196AE5 transparent transparent transparent;
     border-radius: 30%;
   }
 .Foundation-track-heading{
@@ -42,8 +42,8 @@
     left: 0;
     height: 7px;
     width: 100%;
-    border: solid 3px #ff6600;
-    border-color: #ff6600 transparent transparent transparent;
+    border: solid 3px #196AE5;
+    border-color: #196AE5 transparent transparent transparent;
     border-radius: 80%;
 }
 .Foundation-track-description{

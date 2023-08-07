@@ -1,0 +1,48 @@
+/*.kk {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+.left-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.right-image {
+  flex: 1;
+  max-width: 400px;
+  height: auto;
+  margin-left: 20px;
+}*/
+/* HomeBannerCarousel.css */
+
+.slick-dots li button:before {
+  color: #196AE5 !important;
+}
+
+/* Custom styles for the arrows */
+.slick-prev:before, .slick-next:before {
+  color: #196AE5 !important;
+  opacity: 1 !important;
+  font-size: 30px;
+  font-weight:500;
+}
+
+
+.carousel-slider-home{
+    margin-bottom:50px;
+    width:85vw;
+    margin-left:7.5%;
+    margin-right: 7.5%;
+}
+@media (max-width:972px){
+  .carousel-slider-home{
+    margin-left:20px;
+  }
+}

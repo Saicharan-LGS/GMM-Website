@@ -2,6 +2,8 @@ import {Component} from 'react'
 import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import './index.css'
+import {Link} from 'react-router-dom'
+import img2 from '../../../Images/cardphoto.jpg'
 class Intro extends Component{
     render(){
         return(
@@ -14,19 +16,18 @@ class Intro extends Component{
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <p className='course-intro-list-text'>6 months part-time program with live online classes</p>
+                        <span className='course-intro-list-text'>6 months part-time program with live online classes</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon'/>
-                        <p className='course-intro-list-text'>Re-engineered curriculum for post Chat-GPT era</p>
+                        <span className='course-intro-list-text'>Re-engineered curriculum for post Chat-GPT era</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <p>No coding experience required</p>
+                        <span>No coding experience required</span>
                     </div>
                     <div className='course-intro-button-container'>
-                        <button className='course-intro-button1'>EXPLORE PROGRAM</button>
-                        <button className='course-intro-button2'>ENROLL NOW</button>
+                        <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
                     </div>
                     <div className='course-intro-data-main-container'>
                         <div className='course-intro-data-sub-container'>
@@ -44,7 +45,7 @@ class Intro extends Component{
                     </div>
                 </div>
                 <div className="course-side-image-main-container">
-                    <img src="https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg" alt="" className="course-intro-side-image"/>
+                    <img src={img2} alt="" className="course-intro-side-image"/>
                     <p className="course-intro-data-analyst">Kamal</p>
                     <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>

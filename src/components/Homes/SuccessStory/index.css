@@ -1,0 +1,110 @@
+.alumni-banner {
+    border-radius: 24px;
+    background: #e6f0ff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    margin-right: 5%; 
+  }
+
+  .alumini-text{
+    color:#222;
+    margin-bottom: 20px;
+  }
+  .alum-banner-image {
+    width: 50%; 
+    display: flex;
+  }
+
+  .alum-banner-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 16px; 
+  }
+ 
+  .alumni-banner-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    text-align: center;
+  }
+.success-story-testimonial-container{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   list-style-type: none;
+   padding:0px;
+  margin: 5%;
+}
+.success-story-testimonial-each-list{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  min-width:300px;
+  padding:20px 40px;
+  margin:10px;
+  border-radius:4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+@media (max-width:992px){
+  .success-story-testimonial-container{
+    justify-content: center;
+  }.alumini-para{
+      font-size: 12px;
+  }.alumini-text{
+    font-size: 22px;
+  }
+}
+.success-story-testimonial-image{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:20px;
+}
+.success-story-testimonial-name{
+   font-family:"Roboto";
+   font-size:16px;
+   color:#222;
+   margin:0px 0px 20px;
+   font-weight:600;
+}
+.success-story-testimonial-previous-role{
+  font-family:"Roboto";
+  font-size:14px;
+  color:#222;
+  margin:0px 0px 20px;
+}
+.success-story-testimonial-icon{
+  margin-bottom:10px;
+  color: darkblue;
+  font-weight:bold;
+}
+.success-story-testimonial-current-role{
+  font-family:"Roboto";
+  font-size:14px;
+  color:#222;
+  margin:0px 0px 20px;
+}
+.success-story-testimonial-company-image{
+  width:120px;
+}.alumini-para{
+  font-size: 18px;
+}
+
+@media (max-width:992px){
+  .alum-banner-image{
+    width: 100%;
+  }
+  .alumni-banner{
+    flex-direction: column;
+  }.alumni-banner-content{
+    max-width: 100%;
+  }
+}

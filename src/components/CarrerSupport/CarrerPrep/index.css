@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.carrerpreplistContainer{
+    padding:0px 80px 0px 80px;
+}
+.carrerpreplistSubContainer{
+    display:flex;
+}
+.careerPrepCounsilingImageContainer{
+    width:50%;
+}
+.careerPrepCounsilingImage{
+    width:350px;
+    display: flex;
+    align-items: center;
+}
+.carrerpreplistContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.carrerpreplistheading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+}
+.carrerpreplistContent{
+    font-family:"Roboto";
+    font-size:16px;
+    margin-top: 10px;
+}
+@media (max-width:767px){
+    .carrerpreplistSubContainer{
+        display:flex;
+        flex-direction: column;
+    }
+    .careerPrepCounsilingImageContainer{
+        width:100%;
+    }.careerPrepCounsilingImage{
+        width:80%;
+    }.carrerpreplistContainer{
+        padding:0px 20px 0px 20px;
+    }
+}

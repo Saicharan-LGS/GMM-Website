@@ -1,37 +1,162 @@
-.bannerimg {
-  max-width: 200px;
-  height: 60px;
-  padding: 0 15px;
-  object-fit: cover;
-}
 
-.bannerimg:last-of-type {
-  padding-left: 0;
-}
-
-.inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 5rem;
-}
-
-.wrapper {
-  position: absolute;
-  display: flex;
-}
-
-.section {
-  display: flex;
-  animation: swipe var(--speed) linear infinite backwards;
-}
-
-@keyframes swipe {
-  0% {
-    transform: translate(0);
+.leftimg {
+    width: 160px;
+    max-width: 250px;
+    height: 50px;
+    padding: 0 15px;
+    object-fit: cover;
   }
 
-  100% {
-    transform: translate(-100%) !important;
+.leftimg:last-of-type {
+    padding-left: 0;
   }
-}
+.leftinner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 5rem;
+  }
+
+ 
+
+  .leftwrapper {
+
+    position: absolute;
+
+    display: flex;
+
+  }
+
+ 
+
+  .leftsection {
+
+    display: flex;
+
+    animation: swipe var(--speed) linear infinite backwards;
+
+  }
+
+ 
+
+  @keyframes swipe {
+
+    0% {
+
+      transform: translate(0);
+
+    }
+
+ 
+
+    100% {
+
+      transform: translate(-100%) !important;
+
+    }
+
+  }
+
+  /*.leftimg {
+
+    max-width: 200px;
+
+    height: 60px;
+
+    padding: 0 15px;
+
+    object-fit: cover;
+
+  }
+
+ 
+
+  .leftimg:last-of-type {
+
+    padding-right: 0;
+
+  }
+
+ 
+
+  .leftinner {
+
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    height: 5rem;
+
+  }
+
+ 
+
+  .leftwrapper {
+
+    position: absolute;
+
+    display: flex;
+
+  }
+
+ 
+
+  .leftsection {
+
+    display: flex;
+
+    animation: swipeLeft var(--speed) linear infinite backwards;
+
+  }
+
+ 
+
+  @keyframes swipeLeft {
+
+    0% {
+
+      transform: translate(0);
+
+    }
+
+ 
+
+    100% {
+
+      transform: translate(100%);
+
+    }
+
+  }
+
+ 
+
+  .leftsection:nth-child(2) {
+
+    animation: swipeRight var(--speed) linear infinite backwards;
+
+  }
+
+ 
+
+  @keyframes swipeRight {
+
+    0% {
+
+      transform: translate(0);
+
+    }
+
+ 
+
+    100% {
+
+      transform: translate(-100%);
+
+    }
+
+  }*/
+
+ 

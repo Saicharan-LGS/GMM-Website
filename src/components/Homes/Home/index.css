@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.why-choose-glorious-couse{
+  color:#000000DE;
+  font-size:40px;
+  font-family:"Roboto";
+  text-align:center;
+  margin:0 0 16px;
+  font-weight:600;
+}
+
+.home-section-service-image-container{
+  width:50%;
+  flex-shrink: 0;
+}
+.home-section-service-image{
+  width:100%;
+  height:100%
+}
+.home-section-service-container{
+  margin:15px 50px 15px 50px;
+  display:flex;
+  margin-bottom:30px;
+}
+.home-section-right-side-container{
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align:center;
+  flex-grow:1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-section-service-heading{
+    color:#000000;
+    font-size:34px;
+    font-family:"Roboto";
+    margin:32px 0px 0px;
+    font-weight:600;
+}
+.home-section-service-description{
+  color:#00000099;
+    font-size:24px;
+    font-family:"Roboto";
+    margin:24px 0px 0px;
+}
+.home-section-service-stats-container{
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+.home-section-service-stats-item{
+  padding:16px 8px 0;
+  font-size:15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section-service-stats-title{
+    color:#000000;
+    font-size:20px;
+    font-family:"Roboto";
+    margin:24px 0px 0px;
+}
+.home-section-service-stats-subtitle{
+  color:#00000099;
+  font-size:16px;
+  font-family:"Roboto";
+  margin:4px 0px 0px;
+}
+.home-section-service-stats-icon-container{
+  background-color: #F8F8F8;
+  border-radius:5px;
+}
+.home-section-service-stats-icon{
+  color:#000000;
+  font-size:24px;
+}
+.home-section-service-stats-star{
+  color:#ff6600;
+  font-size:24px;
+}
+.home-section-service-container-2{
+  margin:15px 50px 15px 50px;
+  display:flex;
+  flex-direction: row-reverse;
+  margin-bottom:30px;
+}
+@media (max-width:800px){
+  .home-section-service-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .home-section-service-container-2{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .why-choose-glorious-couse{
+      font-size:30px;
+  }
+  .home-section-service-image-container{
+    width:100%;
+  }.home-section-service-description{
+    font-size: 14px;
+  }.home-section-service-heading{
+    font-size: 18px;
+  }.home-section-right-side-container{
+    width:100%;
+    padding: 0px;
+  }
+  
+}
+
+
+.home-section-success-stories-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 5% 40px 10%;
+}
+.home-section-success-stories-text{
+  font-weight: bold;
+  font-size: 18px;
+}
+.home-section-sucesss-stories-heading{
+  font-weight: bold;
+  font-size: 42px;
+}
+.home-section-success-stories-description{
+  font-size: 22px;
+}
+.home-section-sucess-stories-button{
+    color: #196ae5;
+    background-color: rgba(25,106,229,.05);
+    border: none;
+    padding:5px 10px 5px 10px;
+}
+
+@media (max-width:768px){
+  .home-section-success-stories-text{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .home-section-sucesss-stories-heading{
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .home-section-success-stories-description{
+    font-size: 112x;
+  }
+  .home-section-sucess-stories-button{
+      color: #196ae5;
+      background-color: rgba(25,106,229,.05);
+      border: none;
+      padding:5px 10px 5px 10px;
+}
+}
+
+.home-section-transformed-careers-container{
+  background-color: #701bef;
+  display: flex;
+  margin: 0px 10% 0px 10%;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0px 30px;
+  margin-bottom: 40px;
+}
+.home-section-transformed-careers-container1{
+  width:60%;
+}
+.home-section-transformed-careers-heading{
+  color: #fff;
+}
+.home-section-transformed-careers-text{
+  color:#bfbfbf;
+  font-size: 18px;
+}
+.home-section-transformed-careers-buttton{
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+.home-section-transformed-carrers-text1{
+  font-size: 14px;
+  color:#bfbfbf;
+}
+
+@media (max-width:768px){
+  .home-section-transformed-careers-container{
+    background-color: #701bef;
+    display: flex;
+    margin: 0px 3% 0px 3%;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px 30px;
+    margin-bottom: 40px;
+  }
+  .home-section-transformed-careers-container1{
+    width:60%;
+  }
+  .home-section-transformed-careers-heading{
+    font-size: 22px;
+  }
+  .home-section-transformed-careers-text{
+    font-size: 14px;
+  }
+  .home-section-transformed-careers-buttton{
+    border: none;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    font-size: 10px;
+  }.home-section-transformed-carrers-text1{
+    font-size: 12px;
+  }
+  
+}
+
+.home-section-explore-courses-section{
+  display: flex;
+  align-items: center;
+  width:80%;
+  margin: 0px 10% 40px 15%;
+}
+.home-section-explore-courses-section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: self-start;
+  width:40%;
+  gap:30px;
+}
+
+.home-section-explore-courses-section2{
+  width: 40%;
+}
+.home-section-explore-courses-button{
+  background-color: #196ae5;
+  color: #fff;
+  border: none;
+  padding: 50px 15x 10px 15px;
+}
+.home-section-explore-courses-image{
+  width:100%
+}
+
+@media (max-width:768px){
+  .home-section-explore-courses-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:90%;
+    margin: 10px 5% 40px 5%;
+  }
+  .home-section-explore-courses-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: self-start;
+    width:100%;
+    gap:30px;
+  }
+  
+  .home-section-explore-courses-section2{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-section-explore-courses-button{
+    background-color: #196ae5;
+    color: #fff;
+    border: none;
+    padding: 50px 15x 10px 15px;
+  }
+  .home-section-explore-courses-image{
+    width:100%;
+  }
+  
+}
+
+.world-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.world-image{
+  width:90%;
+  margin:20px 5% 50px 5%;
+}

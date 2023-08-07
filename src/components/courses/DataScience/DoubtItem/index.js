@@ -1,11 +1,10 @@
 import {Component} from 'react'
 
 import './index.css'
+import {AiOutlinePlusCircle} from 'react-icons/ai'
+import {AiOutlineMinusCircle} from 'react-icons/ai'
 
-const PLUS_IMAGE =
-  'https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png'
-const MINUS_IMAGE =
-  'https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png'
+
 
 class DoubtItem extends Component {
   state = {
@@ -36,12 +35,12 @@ class DoubtItem extends Component {
 
   renderActiveImage = () => {
     const {isActive} = this.state
-    const image = isActive ? MINUS_IMAGE : PLUS_IMAGE
-    const altText = isActive ? 'minus' : 'plus'
+    const Image = isActive ? AiOutlineMinusCircle : AiOutlinePlusCircle
+  
 
     return (
       <button className="button" type="button" onClick={this.onToggleIsActive}>
-        <img className="image" src={image} alt={altText} />
+        <Image className="doubt-image" />
       </button>
     )
   }

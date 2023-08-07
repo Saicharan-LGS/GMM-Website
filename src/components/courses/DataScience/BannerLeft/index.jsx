@@ -1,26 +1,28 @@
+
 import "./index.css"
+
 const BannerLeft = ({ images, speed = 5000 }) => {
     return (
-      <div className="inner">
-        <div className="wrapper">
-          <section className="section" style={{ "--speed": `${speed}ms` }}>
+      <div className="leftinner">
+        <div className="leftwrapper">
+          <section className="leftsection" style={{ "--speed": `${speed}ms` }}>
             {images.map(({ id, image }) => (
-              <div className="bannerimage" key={id}>
-                <img className="bannerimg" src={image} alt={id} />
+              <div className="leftimage" key={id}>
+                <img className="leftimg" src={image} alt={id} />
               </div>
             ))}
           </section>
-          <section className="section" style={{ "--speed": `${speed}ms` }}>
+          <section className="leftsection" style={{ "--speed": `${speed}ms` }}>
             {images.map(({ id, image }) => (
-              <div className="bannerimage" key={id}>
-                <img className="bannerimg" src={image} alt={id} />
+              <div className="leftimage" key={id}>
+                <img className="leftimg" src={image} alt={id} />
               </div>
             ))}
           </section>
-          <section className="section" style={{ "--speed": `${speed}ms` }}>
+          <section className="leftsection" style={{ "--speed": `${speed}ms` }}>
             {images.map(({ id, image }) => (
-              <div className="bannerimage" key={id}>
-                <img className="bannerimg" src={image} alt={id} />
+              <div className="leftimage" key={id}>
+                <img className="leftimg" src={image} alt={id} />
               </div>
             ))}
           </section>
@@ -28,5 +30,7 @@ const BannerLeft = ({ images, speed = 5000 }) => {
       </div>
     );
   };
-  
+
+ 
+
   export { BannerLeft };

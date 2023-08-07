@@ -3,11 +3,7 @@ import './index.css'
 const TabContent = (props) => {
   const [activeTab, setActiveTab] = useState(0);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 767);
-
   const {tabData} = props
- 
-
-
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
@@ -49,11 +45,8 @@ const TabContent = (props) => {
                     {tab.content.map((item,index)=>(
                         <li key={index}>
                             {item}
-                        
                         </li>
-                        
                     ))}
-                  
                     </ul>
                     </div>
                 )}

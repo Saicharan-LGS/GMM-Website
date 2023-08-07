@@ -17,10 +17,9 @@ import TransformingCard from "../TransformingCarrerCard"
 import FullStack from "../FullStack"
 import CourseJobReady from '../CourseJobReady';
 import Intro from '../Introduction'
-import Header from '../../../Home/Header'
-import Footer from '../../../Home/Footer'
-
-import "./index.css"
+import Header from '../../../Homes/Headers'
+import Footer from '../../../Homes/Footer'
+import './index.css'
 const learnersReviews=[
 {id:1,image:"src",name:"Ashruti Agrawal",designation:"Junior Data Engineer At Argus Media",review:"I’m elated to share that I’m starting a new journey as Junior Data Engineer at Argus Media Media! I would like to thank AlmaBetter for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
 {id:2,image:"src",name:"Pavan Dhongari",designation:"Data Analytics Consultant At Logic Pursuits",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analytics Consultant at Logic Pursuits! Thanks to AlmaBetter team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
@@ -43,31 +42,31 @@ const basicDoubtsTabsList = [
   ]
 
 const basicDoubtsQuestionAnswerList=[
-    {id:1,question:"Who can enrol in AlmaBetter's courses?",answer:"AlmaBetter's courses are open to anyone willing to learn Data Science or Web Development. There is no limitation with respect to your educational background or stage of study. The courses are especially beneficial for people who have jobs or other commitments and therefore want to learn Data Science or Web Development from scratch at their own pace. Also, if you have already done some courses and want our placement services, you can enrol in any of the two courses and be eligible for placements just after clearing the competency tests. To summarise, the courses are suitable for everyone, whether you are a beginner with no coding background or you have done some courses in either Data Science or Web Development.",category:"Admissions"},
+    {id:1,question:"Who can enrol in Glorious's courses?",answer:"Glorious's courses are open to anyone willing to learn Data Science or Web Development. There is no limitation with respect to your educational background or stage of study. The courses are especially beneficial for people who have jobs or other commitments and therefore want to learn Data Science or Web Development from scratch at their own pace. Also, if you have already done some courses and want our placement services, you can enrol in any of the two courses and be eligible for placements just after clearing the competency tests. To summarise, the courses are suitable for everyone, whether you are a beginner with no coding background or you have done some courses in either Data Science or Web Development.",category:"Admissions"},
     {id:2,question:"What is a Cohort?",answer:"A cohort is just another term used for a batch.",category:"Admissions"},
-    {id:3,question:"Is there any selection test for enroling in AlmaBetter's courses?",answer:"No, you don't have to take any test to enrol in the Full Stack courses that we offer.",category:"Admissions"},
-    {id:4,question:"Is it mandatory to opt for the AlmaX Career Track?",answer:"No, it is not mandatory to opt for AlmaX Career Track. However, we strongly recommend opting for AlmaX Career Track in order to get placed amongst our 700+ hiring partners.",category:"Admissions"},
+    {id:3,question:"Is there any selection test for enroling in Glorious's courses?",answer:"No, you don't have to take any test to enrol in the Full Stack courses that we offer.",category:"Admissions"},
+    {id:4,question:"Is it mandatory to opt for the Glorious Career Track?",answer:"No, it is not mandatory to opt for Glorious Career Track. However, we strongly recommend opting for Glorious Career Track in order to get placed amongst our 700+ hiring partners.",category:"Admissions"},
     {id:5,question:"What if I am not able to clear a particular module?",answer:"You will get multiple attempts to clear a module.",category:"Learning"},
-    {id:6,question:"What is the duration of the courses AlmaBetter offers?",answer:"The Full Stack courses that AlmaBetter offers has a flexible duration. It can be completed between 1-12 months depending upon your commitment and prior knowledge of data science and web development concepts. For example, if you have already done some courses and are confident about your knowledge, you can directly attempt the competency tests. But if you are new to these fields, it may take 8-12 months for mastering all the concepts to become job-ready.",category:"Learning"},
+    {id:6,question:"What is the duration of the courses Glorious offers?",answer:"The Full Stack courses that Glorious offers has a flexible duration. It can be completed between 1-12 months depending upon your commitment and prior knowledge of data science and web development concepts. For example, if you have already done some courses and are confident about your knowledge, you can directly attempt the competency tests. But if you are new to these fields, it may take 8-12 months for mastering all the concepts to become job-ready.",category:"Learning"},
     {id:7,question:"How will I be evaluated during the my learning journey?",answer:"Once you learn and master a particular module, you will be required to attempt a set of tests which includes Competency Challenges, Capstone Projects, and Mentored Mock Interviews. Once you pass all of these, you will be considered competent. Overall, you have to master 6 modules in Full Stack Data Science and 5 modules in Full Stack Web Development.",category:"Learning"},
     {id:8,question:"How much attendance is mandatory for completing any of the 2 courses?",answer:"There is no mandatory attendance policy for the courses we offer. You can attend live sessions or can learn at your own pace by watching recorded lectures.",category:"Learning"},
     {id:9,question:"What are the criteria for passing the Pro Program?",answer:"Passing a module means completing Competency Challenges, Capstone Projects and Mentored Mock Interview.",category:"Learning"},
     {id:10,question:"Will I be given certificate upon course completion?",answer:"Yes, post completion, you will get a certificate post completion of your course. Additionally, you will also get completion certificate for successfully clearing milestone competency tests.",category:"Learning"},
     {id:11,question:"How will the doubts be resolved if I'm learning at my own pace?",answer:"In case you have any doubts or difficulties in learning, you can post your questions on the ‘Discussion forum’ or ‘Community channel’ and it will be resolved quickly. You’ll get exposure to those right after enrolling in the program.",category:"Learning"},
     {id:13,question:"How will the doubts be resolved if I'm learning through Live courses?",answer:"In the Live courses, along with discussion forums and community platforms, you can also ask your doubts on the go in your live classes. In addition to that, there will also be a Live chat room open for doubt clarification on your learning platform.",category:"Learning"},
-    {id:12,question:"What is an Income Share Agreement?",answer:"Income Share Agreement or ISA is a legal agreement, which ensures that students share a pre-determined part of their income as Career Services Fee. Our career services fee for Certification Program is INR 10,000 per month up to 15 months if you get a job between 3-5LPA. INR 10,000 per month up to 24 months if you get a job above 5 LPA. You only need to sign ISA if you become eligible and opt to for AlmaX Career Services.",category:"PayAfterPlacement"},
-    {id:14,question:"When do students sign the ISA?",answer:"The students are required to sign the ISA once they have completed their learning, earned the course completion certificate and have opted for the assured career services through AlmaX.",category:"PayAfterPlacement"},
+    {id:12,question:"What is an Income Share Agreement?",answer:"Income Share Agreement or ISA is a legal agreement, which ensures that students share a pre-determined part of their income as Career Services Fee. Our career services fee for Certification Program is INR 10,000 per month up to 15 months if you get a job between 3-5LPA. INR 10,000 per month up to 24 months if you get a job above 5 LPA. You only need to sign ISA if you become eligible and opt to for Glorious Career Services.",category:"PayAfterPlacement"},
+    {id:14,question:"When do students sign the ISA?",answer:"The students are required to sign the ISA once they have completed their learning, earned the course completion certificate and have opted for the assured career services through Glorious.",category:"PayAfterPlacement"},
     {id:15,question:"When do I have to start paying as per the ISA?",answer:"You will start paying from the time you get your first salary after joining a high-paying job. The threshold salary has been kept at 3 LPA for the Data Science program and the Web Development program. You don't pay us anything until you get a job that pays above the minimum threshold salary.",category:"PayAfterPlacement"},
     {id:16,question:"Can I see a copy of the ISA?",answer:"Yes, of course. As you go through our ISA signing process, you will be counseled on various aspects of the ISA and a copy of the same will be made available to you at the end.",category:"PayAfterPlacement"},
-    {id:17,question:"How will AlmaBetter verify my income?",answer:"As per the ISA, you will be legally bound to furnish all the income relevant documents such as Offer Letter, Salary Slips, Income Tax Returns, Bank Statements, etc. to AlmaBetter.",category:"PayAfterPlacement"},
+    {id:17,question:"How will Glorious verify my income?",answer:"As per the ISA, you will be legally bound to furnish all the income relevant documents such as Offer Letter, Salary Slips, Income Tax Returns, Bank Statements, etc. to Glorious.",category:"PayAfterPlacement"},
     {id:18,question:"Will I have to pay if I quit the job or get fired?",answer:"If you voluntarily quit your job, your payment will continue. However, in cases of forced termination, your payment will be paused and we will put our best efforts to get you another job as soon as possible. However, any such arrangement will involve a third party (a NBFC) and a non-payment window will be provided only after proper verification.",category:"PayAfterPlacement"},
-    {id:19,question:"What will happen if I do not pay any EMI?",answer:"At AlmaBetter, fee collection happens through a NBFC partner. In case of voluntary non-payments, the NBFC will initiate legal action to recover the pending payments. Also, this will negatively impact your credit score.",category:"PayAfterPlacement"},
-    {id:20,question:"When will the placement process start?",answer:"Once you clear the Foundation Track you will earn a certificate of completion. Post that you will be eligible to participate in our placement drive called AlmaX.",category:"Placements"},
+    {id:19,question:"What will happen if I do not pay any EMI?",answer:"At Glorious, fee collection happens through a NBFC partner. In case of voluntary non-payments, the NBFC will initiate legal action to recover the pending payments. Also, this will negatively impact your credit score.",category:"PayAfterPlacement"},
+    {id:20,question:"When will the placement process start?",answer:"Once you clear the Foundation Track you will earn a certificate of completion. Post that you will be eligible to participate in our placement drive called Glorious.",category:"Placements"},
     {id:21,question:"What are competency tests?",answer:"Competency challenges are meant to solidify your theoretical learning.",category:"Placements"},
-    {id:22,question:"How many hiring partners does AlmaBetter have?",answer:"We currently have partnerships with 700+ companies ranging from high growth startups to large MNCs. However, owing to our relentless pursuit, this number keeps increasing as we have been constantly expanding our network of hiring partners.",category:"Placements"},
+    {id:22,question:"How many hiring partners does Glorious have?",answer:"We currently have partnerships with 700+ companies ranging from high growth startups to large MNCs. However, owing to our relentless pursuit, this number keeps increasing as we have been constantly expanding our network of hiring partners.",category:"Placements"},
     {id:23,question:"What if I want to get a job only in my hometown?",answer:"Your job location is solely based on the opportunities available with our hiring partners. We do not commit anything with respect to a preferential job location",category:"Placements"},
-    {id:24,question:"Does AlmaBetter provide job-switching assistance?",answer:"Yes, we believe in making a long-term relationship with our students. We will help you in switching jobs through our strong alumni network.",category:"Placements"},
-    {id:25,question:"How do you ensure placements for students who come from non-technical background?",answer:"Well, at AlmaBetter, we have an equivalent number of students from non-technical backgrounds who are enthusiastic about learning Data Science & Blockchain, and building a career in the same field from scratch. Therefore, our curriculum is designed in such a way that it caters to the doubts of a layman as well as an expert in this subject. So, do not hesitate to begin your learning journey because you’ll be taught everything beginning from the high school concepts to the advanced level. And once you complete the program, you will have sufficient knowledge to tackle the interviews as well as have hands-on experience in multiple projects which you can add to your profile.",category:"Placements"},
+    {id:24,question:"Does Glorious provide job-switching assistance?",answer:"Yes, we believe in making a long-term relationship with our students. We will help you in switching jobs through our strong alumni network.",category:"Placements"},
+    {id:25,question:"How do you ensure placements for students who come from non-technical background?",answer:"Well, at Glorious, we have an equivalent number of students from non-technical backgrounds who are enthusiastic about learning Data Science & Blockchain, and building a career in the same field from scratch. Therefore, our curriculum is designed in such a way that it caters to the doubts of a layman as well as an expert in this subject. So, do not hesitate to begin your learning journey because you’ll be taught everything beginning from the high school concepts to the advanced level. And once you complete the program, you will have sufficient knowledge to tackle the interviews as well as have hands-on experience in multiple projects which you can add to your profile.",category:"Placements"},
 ]
 const flexibleProgramList=[
     {id:1,Image:SiGoogleclassroom,question:"What if I miss a class?",answer:"Our class timings are 8 PM to 10:30 PM. In case you miss a class, you can watch the recording later. If you miss multiple classes, you can switch to another Cohort."},
@@ -152,7 +151,7 @@ const TransformingCarrerList=[
   ]
 
 
-class Course extends Component{
+class DataScience extends Component{
     state={basicDoubtTab:basicDoubtsTabsList[0].tabId}
 
     changeBasicDoubtTabId = event => {
@@ -173,9 +172,6 @@ class Course extends Component{
             speed: 500,
             slidesToShow: 3, // Show 3 slides in large devices
             slidesToScroll: 1,
-    
-                
-                
             responsive: [
                 {
                     breakpoint: 1100,
@@ -192,20 +188,22 @@ class Course extends Component{
             ],
           }
         return(
-            <>
-                <Header/>
-            
+         <>
+            <Header/>
             <div className="All-container">
             <div className="slider-container">
                 <div>
                     <Intro/>
                 </div>
-                <Slider {...settings}>
-                    {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
-                </Slider>
+                <div>
+                    <h1 className="courseWhyGloriousMindMineMainHeading">Transforming careers with guaranteed outcomes</h1>
+                    <p className="Transform-career-sub-heading">We don’t just give certification but outcomes!</p>
+                    <Slider {...settings}>
+                        {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
+                    </Slider>
+                </div>    
             </div>
             <FullStack />
-             
             <div className='courseWhyGloriousMindMineMainContainer'>
                 <h1 className='courseWhyGloriousMindMineMainHeading'>Why GloriousMindMine?</h1>
                 <div className="courseWhyGloriousMindMineSubContainer">
@@ -217,6 +215,7 @@ class Course extends Component{
                     </div>
                 </div>
             </div>
+            
             <div className='courseFlexibleProgramContainer'>
                 <h1 className='courseFlexibleProgramMainHeading'>A Flexible Program created just for You!</h1>
                 <ul className='courseFlexibleProgramList'>
@@ -229,15 +228,16 @@ class Course extends Component{
             <div className='courseCompaniesHiringContainer'>
                 <h1 className="courseCompaniesHiringHeading">Companies hiring at Glorious Mind Mine</h1>
                 <div className="courseBanner">
-                    <BannerRight images={ScrolllingImages1} speed={5000} />
+                    <BannerRight images={ScrolllingImages1} speed={20000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerLeft images={ScrolllingImages2} speed={7000} />
+                    <BannerLeft images={ScrolllingImages2} speed={10000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerRight images={ScrolllingImages3} speed={10000} />
+                    <BannerRight images={ScrolllingImages3} speed={20000} />
                 </div>
             </div>
+            
             <div className='courseTutionFeeMainContainer'>
                 <h1 className='courseTutionFeeMainHeading'>Tuition Fee</h1>
                 <div className="courseTutionFeeSubContainer">
@@ -245,13 +245,13 @@ class Course extends Component{
                     {tuitionFeeList.map(each=>(
                         <div className='courseTutionFeeListItemContainer'>
                             <AiOutlineCheck className='courseTutionFeeIcon' />
-                            <p className="courseTutionList">{each}</p>
+                            <span className="courseTutionList">{each}</span>
                         </div>
                     ))}
                    </ul>
                    <div className="ButtonContainer">
-                        <button className="EnrollNowButton">Enroll Now</button>
-                        <button className="DownloadBroucherButton">Download Broucher</button>
+                        <button className="EnrollNowButton1">Enroll Now</button>
+                        <button className="DownloadBroucherButton1">Download Broucher</button>
                    </div>
                    
                 </div>
@@ -260,10 +260,10 @@ class Course extends Component{
             <h1 className='coursesBasicDoubtsMainHeading'>Clear all your basic doubts with these FAQs</h1>
             <ul className='coursesBasicDoubtsTabsList'>
                 {basicDoubtsTabsList.map(each=>{
-                    const activeTab=each.tabId===basicDoubtTab ? "courseBasicDoubtActiveTab" : ""
+                    const activeTab=each.tabId===basicDoubtTab ? "courseBasicDoubtActiveTab1" : ""
                    // console.log(each.id)
                 return(
-                <li className= {`coursesBasicDoubtsTabsListItem`} key={each.tabId}><button className={`coursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.tabId} onClick={this.changeBasicDoubtTabId}>{each.displayText}</button></li>
+                <li className= {`coursesBasicDoubtsTabsListItem`} key={each.tabId}><button className={`coursesBasicDoubtsTabsListItemButton1 ${activeTab}`} value={each.tabId} onClick={this.changeBasicDoubtTabId}>{each.displayText}</button></li>
                 )})}
             </ul>
             <ul className='coursesBasicDoubtsList'>
@@ -271,7 +271,7 @@ class Course extends Component{
             </ul>
         </div>
         <div className='courseReviewsMainContainer'>
-            <h1 className='courseReviewMainHeading'>What our learners say about AlmaBetter Programs</h1>
+            <h1 className='courseReviewMainHeading'>What our learners say about GloriousMindMine Programs</h1>
             <ul className='courseReviewList'>
                 {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
             </ul>
@@ -283,4 +283,4 @@ class Course extends Component{
       }
 }
 
-export default Course;
+export default DataScience;

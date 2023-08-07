@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.navEachCourseContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:500px;
+    align-items:center;
+    padding:30px 40px;
+    text-align:center;
+    gap:20px;
+}
+.navCertification{
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:600;
+}
+.navEachCourseHeading{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:600;
+}
+.navEachCourseDescription{
+    font-family:"Roboto";
+    font-size:16px;
+}
+.Navcourse-intro-list-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: left;
+}
+.course-intro-list-container{
+    display: flex;
+    padding-left: 0px;
+}
+.course-intro-list-icon{
+    color: rgb(127, 255, 161);
+    font-size: 18px;
+    margin-right: 20px;
+    display:flex;
+    align-items:center;
+}
+.course-intro-list-text{
+    font-size: 16px;
+    display:flex;
+    align-items:center;
+    font-family:"Roboto"
+}
+.NavCourseButtons{
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.NavExploreCourseButton{
+    border:none;
+    background-color: #196AE5;
+    border-radius:5px;
+    padding:10px 20px 10px 20px;
+    color:#fff;
+    cursor:pointer;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.NavRegisterNowButton{
+    border:1px solid #196AE5;
+    color:#222;
+    border-radius:5px;
+    padding:10px 20px 10px 20px;
+    cursor:pointer;
+    font-family:"Roboto";
+    font-weight:bold;
+    background-color: #fff;
+}

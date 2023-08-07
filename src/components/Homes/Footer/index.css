@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+  font-family: 'Roboto';
+  margin-top:0px;
+}
+/*.footer1 {
+    background-color:antiquewhite;
+  }
+  
+  .footerpara {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+  .footercontact {
+    color: #757575;
+    font-size: 22px;
+  }
+  
+  .TotalFooterContainer {
+    font-weight: bold;
+  
+    font-family: "Roboto";
+  
+    padding: 20px;
+  
+    background: #fceabb;  
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  
+    background: linear-gradient(to right, #f8b500, #fceabb); 
+
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .footerContactList {
+    padding-left: 0px;
+  
+    color: black;
+    font-weight: bolder;
+  
+    list-style-type: none;
+  
+    line-height: 4px;
+  }
+  
+  .footerContactListClumzi {
+    padding-left: 0px;
+  
+    color: black;
+  
+    font-weight: bolder;
+  
+    list-style-type: none;
+  }
+  
+  .footerContactListItem {
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footerContainer {
+    width: 100%;
+  }
+  
+  .footerUsefullLinks {
+    color: black;
+  
+    font-weight: bolder;
+  }
+  
+  .footerServices {
+    color: black;
+  
+    font-weight: bolder;
+  }
+  
+  .footerContact {
+    color: black;
+  
+    font-weight: bolder;
+  }
+  
+  .footerContent {
+    color: black;
+  
+    font-weight: bolder;
+  
+    font-size: 15px;
+  }
+  
+  .footerHeader {
+    font-size: 25px;
+  }
+  
+  .footerHorizontalLine {
+    border: 0.25px solid #ffffff;
+  }
+  
+  .ListItem1:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem2:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem3:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem4:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem5:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem6:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .footerIcon {
+    display:flex;
+    align-self: center;
+  }
+  
+  .ListItem7:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem8:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+  .ListItem9:hover {
+    margin-left: 20px;
+  
+    font-weight: 900;
+  }
+  
+ 
+  
+  .footerIcon {
+    border-radius: 100%;
+  }
+  
+  .footerIconsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+@media (min-width: 768px){ 
+  .footerContactList {
+     
+    font-weight: bolder;  
+   font-size: 12px;  
+    line-height: 4px;
+  }
+
+  .footerpara {
+   
+    font-size: 12px;
+    
+  }
+  .footerContactListClumzi {
+    font-size: 12px;
+  }
+  .footerContent {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 1200px){ 
+  .footerContactList {
+     
+    font-weight: bolder;  
+   font-size: 15px;  
+    line-height: 4px;
+  }
+
+  .footerpara {
+   
+    font-size: 15px;
+    
+  }
+  .footerContactListClumzi {
+    font-size: 15px;
+  }
+  .footerContent {
+    font-size: 15px;
+  }
+}*/
+.Ecommerce-Website-Footer-Section-bg {
+  background-color: #e6f0ff;
+}
+
+.Ecommerce-Website-Footer-Section-logo {
+  width: 150px;
+}
+
+.Ecommerce-Website-Footer-Section-logo-card {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #152c3e;
+  padding-left: 12px;
+  padding-top: 8px;
+  color: #fff;
+  margin-right:5px;
+  cursor:pointer;
+}
+.footer-section-company-logo{
+      display:flex;
+      justify-content: left;
+}
+@media (max-width:500px){
+  .footer-section-company-logo{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+.Ecommerce-Website-Footer-Section-logo-card:hover{
+  background-color: #196AE5;
+}
+
+.Ecommerce-Website-Footer-Section-address {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-left:0px;
+}
+
+.Ecommerce-Website-Footer-Section-heading {
+  color: #003380;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+p {
+  color: #003380;
+  font-size: 16px;
+  font-family: "Roboto";
+
+}
+
+.Ecommerce-Website-Footer-Section-line {
+  width: 100;
+  border-width: 2px;
+  border-color: #003380;
+}
+
+.Ecommerce-Website-Footer-Section-copy-right {
+  color: #003380;
+}
+.Footer-courses-list{
+  display:flex;
+  flex-direction: column;
+  line-height:8px;
+}
+.Footer-courses-list-2{
+  display:flex;
+  flex-direction: column;
+  line-height:8px;
+}
+.Footer-Each-course{
+  cursor:pointer;
+  text-decoration: none;
+}
+.Footer-Each-course:hover{
+  font-weight:bold;
+  color:#222;
+}
+.Ecommerce-Website-Footer-Section-address{
+  color: #003380;
+}

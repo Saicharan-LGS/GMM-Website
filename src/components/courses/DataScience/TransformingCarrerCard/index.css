@@ -3,20 +3,21 @@
 
 .courseTransformingcard{
     width:400px;
-    height:400px;
+    height:350px;
     border:1px solid lightgrey;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 auto;
+    
 }
 .courseTransformingcard:hover{
     -webkit-transform: scale(0.9);
 	transform: scale(0.9);
 }
 .courseTransformingContainer1{
-    background-color:#ffbb99;
-    min-height:100px;
-    max-height:100px;
+    background-color:#e6f0ff;
+    min-height:110px;
+    max-height:110px;
     font-style:oblique;
     padding: 25px;
     border-radius: 10px;
@@ -32,62 +33,77 @@
     align-items: center;
     padding:20px;
     padding-bottom:0px;
+    color:#222;
 }
 .courseTransormingContainer2-1{
     display: flex;
     flex-direction: column;
-    line-height:1px;
+    color:#222;
 }
 .courseTransformingName{
     font-family:"Roboto";
     font-size:16px;
     font-weight:500;
+    color:#222;
 }
 .courseTransformingPrviousrole{
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
+    color:#222;
 }
 .courseTransformingRole{
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
+    color:#222;
 }
 .courseTransformingContainer3{
     display: flex;
     justify-content: space-between;
     padding:20px;
     padding-bottom:0px;
+    color:#222;
 }
 .courseTransformingCompany{
     font-family:"Roboto";
     font-size:14px;
     font-weight:600;
+    color:#222;
 }
 .courseTransformingHike{
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
-    color:green;
+    color:#222;
 }
 @media (max-width:1000px){
     .courseTransformingcard{
         display:block;
         width:300px;
+        overflow:scroll;
     }
 }
 @media (max-width:767px){
     .courseTransformingcard{
         display:block;
         width:100%;
+        overflow:scroll;
+    }
+    .courseTransformingContainer1{
+        max-height:max-content;
+     
     }
 }
 @media (max-width:300px){
     .courseTransformingcard{
         width:100%;
         max-height:max-content;
+        overflow:scroll;
     }
     .courseTransformingContainer1{
-        max-height:fit-content;
+        max-height:max-content;
+       
+    
     }
 }

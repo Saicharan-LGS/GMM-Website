@@ -1,0 +1,256 @@
+
+.All-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Transform-career-sub-heading{
+    font-family: "Roboto";
+    font-size:16px;
+}
+.courseWhyGloriousMindMineMainContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseWhyGloriousMindMineMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.courseWhyGloriousMindMineSubContainer{
+    display:flex;
+    gap:15px;
+    
+}
+@media(max-width:767px){
+    .courseWhyGloriousMindMineSubContainer{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    }.All-container{
+        width:100vw;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+.courseWhyGloriousMindMineList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:60%;
+    padding-left: 0px;
+}
+.courseWhyGloriousMindMineSideImageContainer{
+    width:35%;
+    display:flex;
+    align-items:center;
+}
+.courseWhyGloriousMindMineSideImage{
+    width:100%;
+    object-fit: cover;
+}
+
+.courseFlexibleProgramContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseFlexibleProgramMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
+.courseFlexibleProgramList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.courseCompaniesHiringContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseBanner{
+    margin-bottom: 30px;
+}
+.courseCompaniesHiringHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
+.courseTutionFeeMainContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.courseTutionFeeMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
+.courseTutionFeeSubContainer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:10px;
+    padding-bottom:30px;
+    
+}
+.courseTutionFeeListItemContainer{
+    gap:10px;
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+}
+.courseTutionFeeIcon{
+    font-size:10px;
+    display:flex;
+    align-items:center;
+}
+.courseTutionList{
+    font-family: "Roboto";
+    font-size:18px;
+    display:flex;
+    align-items:center;
+}
+.ButtonContainer{
+    display:flex;
+    gap:10px;
+}
+.EnrollNowButton{
+    width:50%;
+    background-color:#ff6600;
+    border-radius: 10px 40px;
+    border:none;
+    outline:none;
+    padding:13px;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Roboto";
+    cursor:pointer;
+}
+.EnrollNowButton:hover{
+    opacity:0.9;
+}
+.DownloadBroucherButton{
+    width:50%;
+    border-radius: 10px 40px;
+    border:2px solid #ff6600;
+    outline:none;
+    padding:11px;
+    color:#222;
+    font-weight:bold;
+    background-color: #fff;
+    font-family:"Roboto";
+    cursor:pointer;
+}
+.DownloadBroucherButton:hover{
+    width:50%;
+    background-color:#ff6600;
+    border-radius: 10px 40px;
+    border:none;
+    outline:none;
+    padding:13px;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Roboto";
+    cursor:pointer;
+}
+.coursesBasicDoubtsTabsList{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.coursesBasicDoubtssMainContainer{
+    padding:30px;
+    padding-top:0px;
+}
+.coursesBasicDoubtsMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
+.coursesBasicDoubtsTabsListItemButton{
+    background-color: #fff2e6;
+    border: none;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:"Roboto";
+    margin-left: 0px;
+}
+.courseBasicDoubtActiveTab{
+    background-color: #ff6600;
+    color:#fff;
+    font-weight:bold;
+}
+.coursesBasicDoubtsList{
+    list-style-type: none;
+    width:100%;
+    padding-left: 0px;
+}
+.courseBanner{
+    margin-bottom: 30px;
+}
+.courseTutionFeeListItemContainer{
+    display: flex;
+    align-items: center;
+}
+.courseTutionFeeIcon{
+    color:red;
+    font-weight: 500;
+    font-size: 20px;
+}
+.courseReviewsMainContainer{
+    padding: 30px;
+    padding-top: 0px;
+}
+.courseReviewMainHeading{
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:16px;
+}
+.courseReviewList{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.slider-container{
+    margin:30px;
+}
+@media screen and (max-width: 1200px) {
+    .slider-container .slick-slide {
+      display: block;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .slider-container .slick-slide {
+      display: flex;
+      justify-content: center;
+}
+.courseFlexibleProgramList{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}.courseWhyGloriousMindMineSideImageContainer{
+    width:100%;
+}.courseWhyGloriousMindMineList{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    }
+}

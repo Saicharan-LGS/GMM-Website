@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.nav-header {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      background-color: #ffffff;
+    }
+    @media screen and (max-width: 768px) {
+      .nav-header {
+        flex-direction: column;
+        align-items: center;
+        border-bottom-style: none;
+      }
+    }
+    
+    .nav-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width:100%;
+      height: 64px;
+      background-color:#fff;
+      box-shadow: 0px 10px 10px -15px #111;  
+    }
+    @media (max-width: 767px) {
+      .nav-content {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+    
+    .nav-bar-mobile-logo-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .nav-mobile-logo{
+      margin-top: 0px;
+      width:50px;
+    }
+    @media screen and (min-width: 768px) {
+      .nav-bar-mobile-logo-container {
+        display: none;
+      }
+    }
+    
+    .nav-bar-website-logo-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 160px;
+      text-decoration: none;
+    }
+    
+    .nav-website-name {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: #196AE5;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .nav-bar-website-logo-link {
+        width: 170px;
+      }
+      .nav-website-name {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    .nav-bar-large-container {
+      display: flex;
+      width: 100%;
+      padding:0px 20px 0px 20px;
+
+    }
+    
+    @media screen and (max-width: 767px) {
+      .nav-bar-large-container {
+        display: none;
+      }
+    }
+    
+    .nav-website-logo {
+      width: 140px;
+      margin-top: 0px;
+    }
+    @media screen and (min-width: 768px) {
+      .nav-website-logo {
+        width: 140px;
+        margin-top: 0px;
+      }
+    }
+    
+    .nav-mobile-btn {
+      background-color: transparent;
+      padding: 0px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+    
+    .nav-mobile-menu-icon {
+      font-size: 24px;
+    }
+    
+    .nav-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      align-self: flex-end;
+      flex: 1;
+      list-style-type: none;
+      gap:20px;
+      align-self: center;
+      margin-top: 3px;
+      margin-bottom: 0px;
+    }
+    .nav-menu-mobile{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+      align-self: flex-end;
+      flex: 1;
+      list-style-type: none;
+      gap:20px;
+      padding-top:20px;
+      
+    }
+    @media (max-width:900px){
+      .nav-menu-item{
+        font-size:10px;
+      }
+    }
+    @media (min-width:800px){
+      .nav-menu-mobile{
+        display:none;
+      }
+    }
+    .nav-menu-item {
+      margin-right: 20px;
+      font-family:"Poppins";
+      font-size:14px;
+      font-weight:550;
+      letter-spacing:0.5px;
+    }
+    .nav-menu-item:hover{
+      color:#196AE5;
+    }
+    
+    .nav-link {
+      text-decoration: none;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #262626;
+    }
+    
+    .logout-desktop-btn {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 16px;
+      font-weight:bold;
+      padding: 8px 24px;
+      line-height: 16px;
+      color: #ffffff;
+      background-color: #196AE5;
+      border: none;
+      border-radius: 4px;
+      margin-left: 14px;
+      cursor: pointer;
+      outline: none;
+      margin-top: 6px;
+      margin-bottom: 0px;
+    }
+    
+    @media (max-width: 767px) {
+      .nav-items-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .nav-menu {
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+      }
+      .nav-mobile-close-button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 20px;
+      }
+    }
+    .navItemActive {
+      color: #196AE5;
+    }
+    .dropdown{
+      position:absolute;
+      top:100%;
+      left:0;
+      width:100%;
+      padding:0;
+    }
+    .Explore-program {
+      position: relative;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Changed to flex-start */
+      align-items: center;
+    }    
+    @media (max-width:1000px){
+     
+    }
+    .display-content{
+      position: absolute;
+      list-style-type:none;
+      visibility: hidden;
+      display:flex;
+      justify-content:center;
+      top:20px;
+      padding-top:35px;
+      margin-left:40vw;
+      height:75vh;
+      width:max-content;
+    }
+    
+    .Explore-program:hover .display-content{
+      visibility: visible;
+      z-index:999;
+      
+    }
+  
+.Explore-program-item-name:hover{
+      border:1px solid #196AE5;
+      padding:10px;
+      border-radius: 5px;
+}
+.explore-program-main-container{
+    display:flex;
+    background-color:#fff;
+
+}
+
+.NavcoursesBasicDoubtsTabsList{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        padding-top:40px;
+        list-style-type: none;
+        width:350px;
+        border-radius:5px; 
+        background-color:#e6f0ff; 
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
+}
+.NavcoursesBasicDoubtsTabsListItemButton {
+    border:none;
+    width:200px;
+    padding:10px;
+    background-color: transparent;
+    font-family:"Roboto";
+    font-weight:bold;
+    cursor:pointer;
+    font-size:15px;
+    align-self: self-start;
+}
+.NavcoursesBasicDoubtsTabsListItemButton:hover{
+  color:#196AE5;
+}
+@media (max-width:900px){
+  .display-content{
+    margin-left:100%;
+  }
+}
+.Mobile-explore-items-list{
+  display:none;
+}
+.Mobile-explore-sub-container{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type:none;
+}
+.Mobile-explore-container:hover .Mobile-explore-items-list{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.explore-program-item{
+  background-color:#196AE5;
+  color:#fff;
+  font-weight:600;
+  padding:8px 10px 8px 10px;
+  border-radius:4px;
+  margin-right:100px;
+}
+.explore-program-item:hover{
+  border:2px solid #196AE5;
+  background-color: #fff;
+  color:196AE5;
+}
+
+.NavcourseslistContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.NavcoursesBasicDoubtsTabsDetailsContainer{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

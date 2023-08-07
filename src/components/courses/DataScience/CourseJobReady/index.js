@@ -61,7 +61,7 @@ const CourseJobReady = () => {
                 </div>
                 {activeTab === index && (
                   <div className="courseReady-accordion-content">
-                    <img src={tabData.images} alt="" className="courseReady-accordion-image" />
+                    <img src={tabData[index].images} alt="" className="courseReady-accordion-image" />
                   </div>
                 )}
               </div>

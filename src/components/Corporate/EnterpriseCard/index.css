@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.Enterprise-card-skill-main-container{
+    width:250px;
+    padding:10px 10px 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border:1px solid grey;
+    margin:0px 10px;
+}
+.Enterprise-card-skill-sub-container{
+    width:230px;
+    height:230px;
+}
+.Enterprise-card-skill-main-icon-container{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    padding:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.Enterprise-card-skill-main-icon{
+    font-size:24px;
+}
+.Enterprice-card-skill-main-heading{
+    font-size:18px;
+    font-family:"Poppins",sans-serif;
+}
+.Enterprise-card-skill-main-description{
+    font-size:14px;
+    font-family:"Poppins",sans-serif;
+}
