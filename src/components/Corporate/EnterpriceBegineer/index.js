@@ -53,7 +53,7 @@ const EnterpriseContinuousLearners = [
 
 ]
 
-const settings2 = {
+const Enterprisesettings = {
     dots: true,
     infinite: true,
     speed: 5000,
@@ -72,16 +72,16 @@ const settings2 = {
             breakpoint: 1000,
             settings: {
             slidesToShow: 2,
-            centerMode: true, 
+            
             },
         },
         {
             breakpoint: 768,
             settings: {
             slidesToShow: 1,
-            centerMode: true,
-            variableWidth: true,
-             
+            centerMode:true,
+            variableWidth:true,
+            arrows: false,
             },
         },
     ],
@@ -96,7 +96,7 @@ function EnterpriseBeginner(){
                     <h2 className="Enterprise-card-beginner-sub-heading">Foundation Skill Library</h2>
                 </div>
                 <div className="Enterprise-beginner-slider-container">
-                        <Slider {...settings2} className="Enterprise-beginner-slider">
+                        <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
                             {Enterprisebeginner.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
@@ -112,7 +112,7 @@ function EnterpriseBeginner(){
                     <h2 className="Enterprise-card-beginner-sub-heading">Freshers Academy</h2>
                 </div>
                 <div className="Enterprise-beginner-slider-container">
-                        <Slider {...settings2} className="Enterprise-beginner-slider">
+                        <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
                             {EnterpriseGraduate.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
@@ -135,7 +135,7 @@ function EnterpriseBeginner(){
                     <h2 className="Enterprise-card-beginner-sub-heading">Digital Skills Certificate</h2>
                 </div>
                 <div className="Enterprise-beginner-slider-container">
-                        <Slider {...settings2} className="Enterprise-beginner-slider">
+                        <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
                             {EnterpriseEmployees.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
@@ -158,7 +158,7 @@ function EnterpriseBeginner(){
                     <h2 className="Enterprise-card-beginner-sub-heading">Premium Executive Programs</h2>
                 </div>
                 <div className="Enterprise-beginner-slider-container">
-                    <Slider {...settings2} className="Enterprise-beginner-slider">
+                    <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
                             {EnterpriseContinuousLearners.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                     </Slider>
                 </div>
