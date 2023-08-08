@@ -87,7 +87,7 @@
 @media (max-width:767px){
     .courseTransformingcard{
         display:block;
-        width:100%;
+        width:80%;
         overflow:scroll;
     }
     .courseTransformingContainer1{

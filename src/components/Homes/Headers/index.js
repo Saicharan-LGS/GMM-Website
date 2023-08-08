@@ -72,9 +72,8 @@ class Header extends Component {
                 <Link to="/registration"><button
                   type="button"
                   className="logout-desktop-btn"
-                  onClick={this.onClickLogout}
                 >
-                  Sign In
+                  Contact Us
                 </button></Link>
               </li>
         

@@ -20,6 +20,8 @@ import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
 import './index.css'
+import { Link } from 'react-router-dom';
+import founder from "../../../Images/founder.jpg"
 const learnersReviews=[
 {id:1,image:"src",name:"Ashruti Agrawal",designation:"Junior Data Engineer At Argus Media",review:"I’m elated to share that I’m starting a new journey as Junior Data Engineer at Argus Media Media! I would like to thank AlmaBetter for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
 {id:2,image:"src",name:"Pavan Dhongari",designation:"Data Analytics Consultant At Logic Pursuits",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analytics Consultant at Logic Pursuits! Thanks to AlmaBetter team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
@@ -195,7 +197,7 @@ class DataScience extends Component{
                 <div>
                     <Intro/>
                 </div>
-                <div>
+                <div className='courseTransformingcarrercarouselcontainer'>
                     <h1 className="courseWhyGloriousMindMineMainHeading">Transforming careers with guaranteed outcomes</h1>
                     <p className="Transform-career-sub-heading">We don’t just give certification but outcomes!</p>
                     <Slider {...settings}>
@@ -211,7 +213,7 @@ class DataScience extends Component{
                         {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}
                     </ul>
                     <div className="courseWhyGloriousMindMineSideImageContainer">
-                        <img src="https://www.almabetter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvikas.04749eb6.png&w=640&q=75" alt="" className="courseWhyGloriousMindMineSideImage"/>
+                        <img src={founder} alt="" className="courseWhyGloriousMindMineSideImage"/>
                     </div>
                 </div>
             </div>
@@ -250,7 +252,7 @@ class DataScience extends Component{
                     ))}
                    </ul>
                    <div className="ButtonContainer">
-                        <button className="EnrollNowButton1">Enroll Now</button>
+                        <button className="EnrollNowButton1"><Link to="/registration" className="EnrollNowButton1" style={{textDecoration:"none"}}>Enroll Now</Link></button>
                         <button className="DownloadBroucherButton1">Download Broucher</button>
                    </div>
                    

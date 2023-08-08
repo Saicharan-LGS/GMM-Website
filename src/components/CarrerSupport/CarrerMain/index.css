@@ -26,8 +26,8 @@
 .careerSupportIntoductionText{
     font-family:"Roboto";
     font-size:16px;
-    color:#222;
-    border:2px solid #222;
+    color:#f7f8f8;
+    background-color: #196AE5;
     width:max-content;
     padding:4px 10px 4px 10px;
     border-radius:5px;
@@ -35,9 +35,10 @@
     align-self:center;
 }
 .careerSupportIntoductionIcon{
-    color:#222;
+    color:#273dea;
     display:flex;
     align-self:center;
+    size: 100;
 }
 .video-player{
     display:flex;

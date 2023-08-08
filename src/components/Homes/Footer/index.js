@@ -217,18 +217,18 @@ const Footer = () => {
                             <img src={gmmlogo} alt="" className="Ecommerce-Website-Footer-Section-logo" />
                         </div>
                         <div class="d-flex flex-row justify-content-md-start justify-conent-center mt-3 ml-3 mb-3 footer-section-company-logo">
-                            <div class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            <a href="https://www.facebook.com/gloriousmindmine" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                                 <BiLogoFacebook/>
-                            </div>
-                            <div class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            </a>
+                            <a href="https://twitter.com/GmmTraining" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                               <AiOutlineTwitter/>
-                            </div>
-                            <div class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            </a>
+                            <a href="https://www.linkedin.com/company/glorious-mindmine-consulting-pvt-ltd-/" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                                 <BiLogoLinkedin/>
-                            </div>
-                            <div class="Ecommerce-Website-Footer-Section-logo-card">
+                            </a>
+                            <a href="https://www.instagram.com/gloriousmindmine/" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card">
                                 <BsInstagram/>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -238,14 +238,11 @@ const Footer = () => {
                         <div className="Footer-courses-list">
                         <Link
                           to="/career" style={{textDecorationLine:"none",color:"black"}}
-                      
                         >
                           <p className="Footer-Each-course">Career Support</p>
                         </Link>
                         <Link
                           to="/success" style={{textDecorationLine:"none",color:"black"}}
-                        
-                          
                         >
                           <p className="Footer-Each-course" >Success Stories</p>
                         </Link>

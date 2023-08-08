@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BsPuzzle,BsFileBarGraph } from 'react-icons/bs';
 import { CgNotes } from 'react-icons/cg';
-import { AiOutlineArrowRight,AiOutlineArrowLeft} from 'react-icons/ai';
+//import { AiOutlineArrowRight,AiOutlineArrowLeft} from 'react-icons/ai';
 import { LuAlarmClock } from 'react-icons/lu';
 import { BannerLeft } from "../../courses/DataScience/BannerLeft"
 import ReactPlayer from 'react-player'
@@ -9,6 +9,11 @@ import "./index.css";
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
 import EnterpriseBeginner from "../EnterpriceBegineer"
+import picture1 from "../../Images/Corporates.jpg"
+import punith from "../../Images/punith.jpg"
+import mani from "../../Images/mani.jpg"
+import syed from "../../Images/syed.jpeg"
+import reddy from "../../Images/reddy.png"
 
 const bannerRender = [
     "8.2 Million+ learners globally",
@@ -17,10 +22,10 @@ const bannerRender = [
 ];
 
 const ourPatners=[
-    {"title":"Foundation Skills Library" , "subTitle":"Access 1,000+ hours of video resources for learning","imageSrc":"https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/foundation-ba1b914df999b9c480a1a35cb5d4630e8bd4e01c24d0810943b68cf537c91f56.png"},
-    {"title":"Freshers Academy" , "subTitle":"Fill the skill-gap for campus hires before day 0 ","imageSrc":"https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/fresher-acadamy-c53b2ee9d51f95b624bfb59cfc87d30b238ee870c3f8dbcf8ba86a83a76f0cc9.jpg"},
-    {"title":"Digital Skills Certificate" , "subTitle":"Transform employees into experts","imageSrc":"https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/digital-skills-c9df0ef2abb3769ce0bb633ae292a3f75a1cf1a593c777f9dfe7ef06e7ec75c7.jpg"},
-    {"title":"Premium Executive Programs" , "subTitle":"Reward and retain your workforce","imageSrc":"https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/premium-executive-ef9d2ded52cb7dffcf169e22ba9735d5826d7f9adcb59226494f6026dc63bb84.jpg"}
+    {"title":"Anton Punith" , "subTitle":"Founder & Director Ozzitech Innovations","imageSrc":punith},
+    {"title":"Mani Kumar" , "subTitle":"Founder, Director & CEO Innospire Group","imageSrc":mani},
+    {"title":"Syed Rizwan" , "subTitle":"Founder & Director SRM 360 Degree Consulting","imageSrc":syed},
+    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.. Partner Terra Liva Estates LLP","imageSrc":reddy}
 ]
 
 const consultativeCardData = [
@@ -190,7 +195,7 @@ const cardsPerPage = 5; // Number of cards to display per page
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
                     <button className='enterprise-banner-section-button'>Learn More</button>
                 </div>
-                <img className='enterprise-banner-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/banner-img-6d7efbd7b3f8aae256fdd8a4e39fb23e0ef81a9db6ca0982e1f5f1d699096130.png" alt="" />
+                <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>
             <div className='enterprise-industry-section'> 
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>

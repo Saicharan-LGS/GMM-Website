@@ -18,6 +18,7 @@ import ReviewCard from '../../DataScience/ReviewCard';
 import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
+import {Link} from "react-router-dom"
 
 import "../../DataScience/FullStackMain/index.css"
 
@@ -197,7 +198,7 @@ class English extends Component{
                 <div>
                     <Intro/>
                 </div>
-                <div>
+                <div className='courseTransformingcarrercarouselcontainer'>
                     <h1 className="courseWhyGloriousMindMineMainHeading">Transforming careers with guaranteed outcomes</h1>
                     <p className="Transform-career-sub-heading">We don’t just give certification but outcomes!</p>
                     <Slider {...settings}>
@@ -253,7 +254,7 @@ class English extends Component{
                     ))}
                    </ul>
                    <div className="ButtonContainer">
-                        <button className="EnrollNowButton1">Enroll Now</button>
+                        <button className="EnrollNowButton1"><Link to="/registration" className="EnrollNowButton1" style={{textDecoration:"none"}}>Enroll Now</Link></button>
                         <button className="DownloadBroucherButton1">Download Broucher</button>
                    </div>
                    
