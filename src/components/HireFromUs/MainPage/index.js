@@ -12,15 +12,20 @@ import {GiMaterialsScience} from "react-icons/gi"
 import {IoIosCloudDone} from "react-icons/io"
 import Header from "../../Homes/Headers";
 import Footer from "../../Homes/Footer";
-
+import roy from '../../Images/roy.png'
+import saicharan from '../../Images/saicharan.jpg'
+import venu from '../../Images/venuprofile.jpg'
+import umar from '../../Images/umarprofile.png'
+import chandana from '../../Images/chandana.jpeg'
+import prashanth from '../../Images/prashanth.png'
 
 const HireFromUsList1=[
-    {id:1,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"Saicharan",text:"Software Developer"},
-    {id:2,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"KapilRaj",text:"Mendix developer"},
-    {id:3,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"Prashanth",text:"Polarion developer"},
-    {id:4,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"Saicharan",text:"Data Scientist" },
-    {id:5,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"Saicharan",text:"software developer"},
-    {id:6,Image:"https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg",name:"Saicharan Gangula",text:"software developer"},
+    {id:1,Image:saicharan,name:"Saicharan",text:"Software Developer"},
+    {id:2,Image:venu,name:"venu",text:"Mendix developer"},
+    {id:3,Image:prashanth,name:"Prashanth",text:"Software Engineer"},
+    {id:4,Image:chandana,name:"Chandana",text:"Data Scientist" },
+    {id:5,Image:roy,name:"Vashini Roy",text:"Senior developer"},
+    {id:6,Image:umar,name:"Umar",text:"Polarion Developer"},
 
    ]
    const HireFromUsList3=[
