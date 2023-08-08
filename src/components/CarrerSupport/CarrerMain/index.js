@@ -9,6 +9,7 @@ import ReactPlayer from 'react-player'
 import Header from "../../Homes/Headers";
 import Footer from "../../Homes/Footer";
 
+
 const TransformingCarrerList=[
     {id:1,description:"If I were to name one value for which AlmaBetter stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Soumya Jain",previousRole:"Data Analyst",Role:"Assistant Manager Analystics",company:"PaisaBazaar",hike:"70% hike"},
     {id:2,description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Smruti Ranjan Pradhan",previousRole:"Pesearch Assistant",Role:"Data Science Analyst",company:"Accenture",hike:"70% hike"},
@@ -37,7 +38,7 @@ const ScrolllingImages1 = [
     image
   }));
 
-const settings1 = {
+const settings = {
     dots: true,
     infinite: true,
     speed: 500,// Show 3 slides in large devices
@@ -48,16 +49,14 @@ const settings1 = {
             breakpoint: 1100,
             settings: {
             slidesToShow: 2,
-            centerMode: true,
-            variableWidth: true, // Show 1 slide in small devices (e.g., tablets and mobiles)
+           // Show 1 slide in small devices (e.g., tablets and mobiles)
             },
         },
         {
             breakpoint: 768,
             settings: {
             slidesToShow: 1,
-            centerMode: true,
-            variableWidth: true, // Show 1 slide in small devices (e.g., tablets and mobiles)
+             // Show 1 slide in small devices (e.g., tablets and mobiles)
             },
         },
     ],
@@ -92,6 +91,9 @@ class CareerSupport extends Component{
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
                             <span className="careerSupportIntoductionText">Your Dream Job</span>
                         </div>
+                        {/*<div>
+                            <img src={careerImage} alt="" className="careerSupportIntroImage"/>
+                    </div>*/}
                         <div className="video-container">
                             <ReactPlayer url='https://youtu.be/1-EA7bhFWt4' className="video-container1" controls />
                         </div>
@@ -123,7 +125,7 @@ class CareerSupport extends Component{
                     <div className="carrerTransitionsMainContainer">
                         <h1 className="carrerTransitionsMainHeading">Successful Career Transitions To Inspire You</h1>
                         <div className="careersupportslider">
-                        <Slider {...settings1}>
+                        <Slider {...settings}>
                         {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                     </Slider>
                     </div>

@@ -1,26 +1,18 @@
-.slick-center .slick-slide {
-    transform: scale(1.2); 
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slick-slide {
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slick-center .slick-slide {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-.slick-track{
-    margin:0px;
-}
+
 .Enterprise-card-main-beginner-container{
     padding:20px 80px 20px 80px;
+    
+}
+.Enterprise-card-main-text-container{
+    display:block;
+    height:max-content;
 }
 .Enterprise-card-beginner-main-heading{
     font-family:"Poppins",sans-serif;
     font-size: 16px;
     margin-top:40px;
     color:#196AE5;
+    display:block;
 }
 .Enterprise-card-beginner-sub-heading{
     font-family:"Poppins",sans-serif;
@@ -30,6 +22,7 @@
 }
 .Enterprise-beginner-slider-container{
     margin:0px;
+    height:max-content;
 }
 .Enterprise-beginner-slider{
     padding:20px;
@@ -119,18 +112,6 @@
     .Enterprise-card-beginner-sub-heading{
         font-size:24px;
     }
-
-
-    .slick-slide {
-        width: auto !important;
-        margin: 0 auto;
-    }
-    
-    .slick-center .slick-slide {
-        transform: scale(1.2);
-        transition: transform 0.5s ease-in-out;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    }
     
     .Enterprise-beginner-slider {
         display: flex;
@@ -164,9 +145,16 @@
         padding:5%;
     }
 }
-@media (max-width:572px){
-    .Enterprise-beginner-slider{
-        margin-top: 20px;
-        height:200px;
+
+@media (max-width: 767px) {
+    .Enterprise-beginner-slider-container {
+        margin: 0;
+        overflow: hidden;
+        margin-top:20px;
     }
+}
+@media (max-width:450px){
+    .Enterprise-beginner-slider-container {
+        height:300px;
+    }        
 }

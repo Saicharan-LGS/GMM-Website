@@ -9,6 +9,7 @@ import "./index.css";
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
 import EnterpriseBeginner from "../EnterpriceBegineer"
+import picture1 from "../../picture/zeeshan.jpg"
 
 const bannerRender = [
     "8.2 Million+ learners globally",
@@ -190,7 +191,7 @@ const cardsPerPage = 5; // Number of cards to display per page
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
                     <button className='enterprise-banner-section-button'>Learn More</button>
                 </div>
-                <img className='enterprise-banner-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/banner-img-6d7efbd7b3f8aae256fdd8a4e39fb23e0ef81a9db6ca0982e1f5f1d699096130.png" alt="" />
+                <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>
             <div className='enterprise-industry-section'> 
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>
