@@ -46,7 +46,7 @@ class Intro extends Component{
                 </div>
                 <div className="course-side-image-main-container">
                     <img src={Profile} alt="" className="course-intro-side-image"/>
-                    <p className="course-intro-data-analyst">Kamal</p>
+                    <p className="course-intro-data-analyst">Nagesh</p>
                     <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>
                         <p className="arrow-width">
