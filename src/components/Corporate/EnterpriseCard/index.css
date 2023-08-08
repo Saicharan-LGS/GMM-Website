@@ -11,19 +11,23 @@
 .Enterprise-card-skill-sub-container{
     width:230px;
     height:230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .Enterprise-card-skill-main-icon-container{
-    width:30px;
+    width:50px;
     height:30px;
     border-radius:50%;
-    padding:10px;
+    padding:15px;
     color:#fff;
     display:flex;
     align-items:center;
     justify-content:center;
 }
 .Enterprise-card-skill-main-icon{
-    font-size:24px;
+    font-size: 30px;
+    
 }
 .Enterprice-card-skill-main-heading{
     font-size:18px;

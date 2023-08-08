@@ -19,7 +19,7 @@ import CourseJobReady from '../CourseJobReady';
 import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
-
+import {Link} from "react-router-dom"
 import "../../DataScience/FullStackMain/index.css"
 
 const learnersReviews=[
@@ -253,7 +253,7 @@ class Polarian extends Component{
                     ))}
                    </ul>
                    <div className="ButtonContainer">
-                        <button className="EnrollNowButton1">Enroll Now</button>
+                        <button className="EnrollNowButton1"><Link to="/registration" className="EnrollNowButton1" style={{textDecoration:"none"}}>Enroll Now</Link></button>
                         <button className="DownloadBroucherButton1">Download Broucher</button>
                    </div>
                 </div>
