@@ -3,7 +3,7 @@ import "./index.css"
 class TransformingCard extends Component{
     render(){
         const {cardDetails}=this.props
-        const {description,Role,name,previousRole,hike,company}=cardDetails
+        const {description,Role,name,previousRole,hike,company,image}=cardDetails
         return(
             <div className="courseTransformingcard">
                 <div className="courseTransformingContainer1">
@@ -20,7 +20,7 @@ class TransformingCard extends Component{
                         </svg>
                         <p className="courseTransformingRole">{Role}</p>
                     </div>
-                        <img className="courseReviewProfileImage" alt="profile" src="https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg" />   
+                        <img className="courseReviewProfileImage" alt="profile" src= {image} />   
                 </div>
                 <div className="courseTransformingContainer3">
                         <p className="courseTransformingCompany">{company}</p>
