@@ -195,7 +195,7 @@ class DataScience extends Component{
                 <div>
                     <Intro/>
                 </div>
-                <div>
+                <div className='courseTransformingcarrercarouselcontainer'>
                     <h1 className="courseWhyGloriousMindMineMainHeading">Transforming careers with guaranteed outcomes</h1>
                     <p className="Transform-career-sub-heading">We don’t just give certification but outcomes!</p>
                     <Slider {...settings}>
