@@ -114,7 +114,7 @@ class Header extends Component {
             </button>
           </div>
           <div className="nav-bar-large-container">
-            <div style={{display:"flex",alignItems:"center", gap:"10px",alignSelf:"center"}}>
+            <div style={{display:"flex",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
             <Link to="/" className="nav-link">
               <img
                 className="nav-website-logo"

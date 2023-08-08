@@ -217,16 +217,16 @@ const Footer = () => {
                             <img src={gmmlogo} alt="" className="Ecommerce-Website-Footer-Section-logo" />
                         </div>
                         <div class="d-flex flex-row justify-content-md-start justify-conent-center mt-3 ml-3 mb-3 footer-section-company-logo">
-                            <a href="https://www.facebook.com/gloriousmindmine" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            <a href="https://www.facebook.com/gloriousmindmine" rel="noreferrer" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                                 <BiLogoFacebook/>
                             </a>
-                            <a href="https://twitter.com/GmmTraining" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            <a href="https://twitter.com/GmmTraining" target="_blank" rel="noreferrer" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                               <AiOutlineTwitter/>
                             </a>
-                            <a href="https://www.linkedin.com/company/glorious-mindmine-consulting-pvt-ltd-/" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
+                            <a href="https://www.linkedin.com/company/glorious-mindmine-consulting-pvt-ltd-/" rel="noreferrer" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card mr-2">
                                 <BiLogoLinkedin/>
                             </a>
-                            <a href="https://www.instagram.com/gloriousmindmine/" target="_blank" class="Ecommerce-Website-Footer-Section-logo-card">
+                            <a href="https://www.instagram.com/gloriousmindmine/" target="_blank" rel="noreferrer" class="Ecommerce-Website-Footer-Section-logo-card">
                                 <BsInstagram/>
                             </a>
                         </div>
