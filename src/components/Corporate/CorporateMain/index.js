@@ -264,7 +264,7 @@ export default function Corporate() {
             <div className='enterprise-business-section-container'>
                 <div className='enterprise-business-section-container-content'>
                     <p className='enterprise-business-section-subtitle'>500+ enterprises use </p>
-                    <h1 className='enterprise-business-section-title'>Great Learning for Business</h1>
+                    <h1 className='enterprise-business-section-title'>Glorious for Business</h1>
                     <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how Great Learning for Business can power your Enterprise Learning.</p>
                     <div>
                     <button className='enterprise-partners-section-button'>TALK TO US</button>

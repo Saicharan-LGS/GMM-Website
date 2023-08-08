@@ -145,16 +145,15 @@ const ScrolllingImages1 = [
   }));
   // eslint-disable-next-line
   const TransformingCarrerList=[
-    {id:1,description:"If I were to name one value for which AlmaBetter stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2,description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4,description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5,description:"I was not financially sound, so AlmaBetter proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6,description:"I was not financially sound, so AlmaBetter proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7,description:"My experience at AlmaBetter was fabulous, and I’ll always be thankful to the entire AlmaBetter team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
-    {id:8,description:"At AlmaBetter, students are always connected with mentors and peers on the AlmaBetter Community App..",name:"",previousRole:"",Role:"Associate Stastical Programmer",company:"Novartis",hike:""},
-    {id:9,description:"Mentorship sessions helped me improve my communication skills and articulate my knowledge efficiently. I learned something new from every session.",name:"Sumaya Bhai",previousRole:"Fresher",Role:"Junior Business Analyst",company:"saras",hike:""},
+    {id:1, image:Akhila,description:"If I were to name one value for which AlmaBetter stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
+    {id:2, image:saicharan, description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
+    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
+    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
+    {id:5, image:nagesh, description:"I was not financially sound, so AlmaBetter proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
+    {id:6, image:venu, description:"I was not financially sound, so AlmaBetter proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
+    {id:7, image:roy, description:"My experience at AlmaBetter was fabulous, and I’ll always be thankful to the entire AlmaBetter team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
 ]
+
   const tuitionFeeList=[
     "Fundamentals of Data Science with Specialisation Track","Placement Track offering guaranteed job above 5 LPA","100+ Live Classes and real time doubt resolution",
     "10+ industry relevant capstone projects","1:1 Mentorship and dedicated career coach","Educators from Microsoft, Google, Netflix, Airbnb, Apple",
