@@ -22,13 +22,7 @@ import Footer from '../../../Homes/Footer'
 import './index.css'
 import { Link } from 'react-router-dom';
 import founder from "../../../Images/founder.png"
-import Akhila from '../../../Images/Akhila.png'
-import Nagesh from '../../../Images/nagesh.jpg'
-import saicharan from '../../../Images/saicharan.jpg'
-import roy from '../../../Images/roy.png'
-import triveni from '../../../Images/triveni.jpg'
-import umar from '../../../Images/umar.jpg'
-import venuprofile from '../../../Images/venuprofile.jpg'
+
 
 
 import roy from '../../../Images/roy.png'
