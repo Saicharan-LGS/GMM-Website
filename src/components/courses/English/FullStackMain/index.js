@@ -19,7 +19,7 @@ import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
 import {Link} from "react-router-dom"
-
+import founder from "../../../Images/founder.png"
 import "../../DataScience/FullStackMain/index.css"
 
 const learnersReviews=[
@@ -216,7 +216,7 @@ class English extends Component{
                         {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}
                     </ul>
                     <div className="courseWhyGloriousMindMineSideImageContainer">
-                        <img src="https://www.almabetter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvikas.04749eb6.png&w=640&q=75" alt="" className="courseWhyGloriousMindMineSideImage"/>
+                        <img src={founder} alt="" className="courseWhyGloriousMindMineSideImage"/>
                     </div>
                 </div>
             </div>

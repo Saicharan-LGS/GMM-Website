@@ -3,6 +3,7 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
 import {Link} from 'react-router-dom'
+import Profile from "../../../Images/nagesh.jpg"
 class Intro extends Component{
     render(){
         return(
@@ -44,7 +45,7 @@ class Intro extends Component{
                     </div>
                 </div>
                 <div className="course-side-image-main-container">
-                    <img src="https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg" alt="" className="course-intro-side-image"/>
+                    <img src={Profile} alt="" className="course-intro-side-image"/>
                     <p className="course-intro-data-analyst">Kamal</p>
                     <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>
@@ -55,7 +56,7 @@ class Intro extends Component{
                         </svg>
                         </p>
                         
-                        <p className="course-intro-data-analyst">Data Analyst</p>
+                        <p className="course-intro-data-analyst">Digital Marketing Specialist</p>
                     </div>
                 </div>
             </div>

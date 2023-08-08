@@ -7,12 +7,13 @@
 }
 .carrerpreplistSubContainer{
     display:flex;
+    justify-content: space-between;
 }
 .careerPrepCounsilingImageContainer{
-    width:50%;
+    width:25%;
 }
 .careerPrepCounsilingImage{
-    width:350px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -20,7 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    width:60%;
 }
 .carrerpreplistheading{
     font-family:"Roboto";
@@ -40,8 +41,11 @@
     .careerPrepCounsilingImageContainer{
         width:100%;
     }.careerPrepCounsilingImage{
-        width:80%;
+        width:100%;
+        margin:10px 0px 10px 0px;
     }.carrerpreplistContainer{
         padding:0px 20px 0px 20px;
+    }.carrerpreplistContainer1{
+        width:100%;
     }
 }

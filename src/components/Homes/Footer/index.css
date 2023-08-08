@@ -304,3 +304,13 @@ p {
 .Ecommerce-Website-Footer-Section-address{
   color: #003380;
 }
+
+@media (max-width:512px){
+  .Footer-courses-list{
+    line-height:16px;
+  }
+
+  .Footer-courses-list-2{
+    line-height:15px;
+  }
+}

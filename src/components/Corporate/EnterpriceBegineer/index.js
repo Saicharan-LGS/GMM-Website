@@ -103,7 +103,7 @@ function EnterpriseBeginner(){
             </div>
             <div className="Enterprise-video-container">
                 <div className="Enterprise-video-sub-container">
-                    <ReactPlayer url="https://www.youtube.com/watch?v=1-EA7bhFWt4" className="Enterprise-video-sub-container" controls />
+                    <ReactPlayer url="https://youtu.be/4PVnFsogysk" className="Enterprise-video-sub-container" controls />
                 </div>
             </div>
             <div>

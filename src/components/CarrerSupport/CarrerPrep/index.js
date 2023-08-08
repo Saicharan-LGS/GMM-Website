@@ -12,7 +12,6 @@ const CarrerPrep=(props)=>{
                 <div className="careerPrepCounsilingImageContainer">
                      <img src={imageurl} alt="prepimage" className="careerPrepCounsilingImage"/>
                 </div>
-                
                 <div className="carrerpreplistContainer1">
                     <h1 className="carrerpreplistheading">{heading}</h1>
                     <ul>

@@ -209,7 +209,6 @@ const cardsPerPage = 5; // Number of cards to display per page
                     </div>
                 </div>
             </div>
-            
             <div className='enterprise-partners-section-conatiner'>
                 <p className='enterprise-partners-section-conatiner-subtitle'>Helping Our Partners</p>
                 <h1 className='enterprise-partners-section-title'>Solutions To Empower Enterprises</h1>
