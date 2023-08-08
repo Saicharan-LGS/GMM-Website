@@ -3,6 +3,7 @@
 
 .carrerpreplistContainer{
     padding:0px 80px 0px 80px;
+    margin-bottom: 20px;
 }
 .carrerpreplistSubContainer{
     display:flex;

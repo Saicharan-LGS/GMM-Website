@@ -8,7 +8,9 @@ import './index.css'
 import ReactPlayer from 'react-player'
 import Header from "../../Homes/Headers";
 import Footer from "../../Homes/Footer";
-
+import pic1 from "../../Images/Interview1.jpg"
+import pic2 from "../../Images/careermen.png"
+import pic3 from "../../Images/linked.jpg"
 
 const TransformingCarrerList=[
     {id:1,description:"If I were to name one value for which AlmaBetter stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Soumya Jain",previousRole:"Data Analyst",Role:"Assistant Manager Analystics",company:"PaisaBazaar",hike:"70% hike"},
@@ -63,9 +65,9 @@ const settings = {
   }
 
   const careerPrepList=[
-  {id:0,imageurl:"image",heading:"Career mentoring",list:["LIVE online sessions with experienced industry professionals","Expert mentors guide you on the career path that’s right for you","Suggestions on setting your short term and long term career goals","Mentors from various domains help you gain valuable industry insights"]},
-  {id:1,imageurl:"image",heading:"CV/Linkedin Review",list:["Feedback from experts to make your resume and LinkedIn profiles stand out from the crowd","Personalized and detailed suggestions to improve the content and format of your CV","Tips on customizing your resume for the job profile you are applying to"]},
-  {id:2,imageurl:"image",heading:"Interview Preparation Session",list:["mock interviews with industry experts to help you land your dream job","Guidance from our alumni currently in roles you aspire for","Develop industry context with case studies and learn answers to common technical and HR questions"]}
+  {id:0,imageurl:pic2,heading:"Career mentoring",list:["LIVE online sessions with experienced industry professionals","Expert mentors guide you on the career path that’s right for you","Suggestions on setting your short term and long term career goals","Mentors from various domains help you gain valuable industry insights"]},
+  {id:1,imageurl:pic1,heading:"CV/Linkedin Review",list:["Feedback from experts to make your resume and LinkedIn profiles stand out from the crowd","Personalized and detailed suggestions to improve the content and format of your CV","Tips on customizing your resume for the job profile you are applying to"]},
+  {id:2,imageurl:pic3,heading:"Interview Preparation Session",list:["mock interviews with industry experts to help you land your dream job","Guidance from our alumni currently in roles you aspire for","Develop industry context with case studies and learn answers to common technical and HR questions"]}
 ]
 
 class CareerSupport extends Component{
