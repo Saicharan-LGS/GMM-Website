@@ -115,7 +115,7 @@ class Header extends Component {
             </button>
           </div>
           <div className="nav-bar-large-container">
-            <div>
+            <div style={{display:"flex",alignItems:"center", gap:"10px",alignSelf:"center"}}>
             <Link to="/" className="nav-link">
               <img
                 className="nav-website-logo"
@@ -123,9 +123,7 @@ class Header extends Component {
                 alt="website logo"
               />
             </Link>
-            </div>
-            <ul className="nav-menu">
-                <ul className="Explore-program">
+            <ul className="Explore-program">
                     <Link to="/" className="nav-link">
                       <li className="nav-menu-item explore-program-item">Explore Programs</li>
                     </Link> 
@@ -137,7 +135,7 @@ class Header extends Component {
                             return(
                             <div className='NavcourseslistContainer'>
                               <li className= {`NavcoursesBasicDoubtsTabsListItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.id} onMouseOver={this.changeNavTabId}>{each.tab}</button></li>
-                              <AiOutlineArrowRight />
+                              <AiOutlineArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
                             </div>
                             )})}
                         </ul>
@@ -147,6 +145,9 @@ class Header extends Component {
                         </div>                        
                     </div>
                 </ul>
+            </div>
+            <div>
+            <ul className="nav-menu">
                 <Link
                 to="/career"
                 className="nav-link">
@@ -177,8 +178,9 @@ class Header extends Component {
                 className="nav-link">
                 <li className="nav-menu-item">About Us</li>
               </Link>
-              
             </ul>
+            </div>
+            <div>
             <li style={{listStyleType:"none"}}>
                 <Link to="/registration"><button
                   type="button"
@@ -187,6 +189,7 @@ class Header extends Component {
                   Contact Us
                 </button></Link>
               </li>
+            </div>
           </div>
         </div>
         {showNavItems && this.renderNavItems()}
