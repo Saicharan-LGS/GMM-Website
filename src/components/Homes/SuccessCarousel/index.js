@@ -6,15 +6,16 @@ import "./index.css"
 class SuccessCarousel extends Component{
     render(){
         const {cardDetails}=this.props
-        const {head,text,description,Image,link}=cardDetails
+        const {title,text1,text2,text3,image}=cardDetails
         return(
-            <div className="Carousel-card-main-container">
-                <div className="Carousel-card-left-container">
-                    <h1 className="Carousel-card-left-heading">{head}</h1>
-                    <h5 className="Carousel-card-left-text">{text}</h5>
-                    <p className="Carousel-card-left-desc">{description}</p>
+            <div className="successCarousel-card-main-container">
+                <div className="success-Carousel-card-left-container">
+                    <h1 className="success-Carousel-card-left-title">{title}</h1>
+                    <p className="success-Carousel-card-left-text">{text1}</p>
+                    <p className="success-Carousel-card-left-text">{text2}</p>
+                    <p className="success-Carousel-card-left-text">{text3}</p>
                 </div>
-                    <img src={Image} alt="" className="Carousel-card-right-image"/>
+                <img src={image} alt="" className="successCarousel-card-right-image"/>
             </div>
         )
     }

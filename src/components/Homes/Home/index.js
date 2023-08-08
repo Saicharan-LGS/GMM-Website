@@ -14,6 +14,9 @@ import image1 from "../../Images/image-2.jpg"
 import image2 from "../../Images/image1.png"
 import world from "../../Images/world.png"
 import SuccessCarousel from '../SuccessCarousel';
+import story1 from "../../Images/story2.png"
+import story2 from "../../Images/story1.png"
+import story3 from "../../Images/story3.png"
 const settings = {
   dots: true,
   infinite: true,
@@ -85,9 +88,20 @@ const awardsData=[
 ]
 
 const SuccessCarouselList=[
-  {id:0,title:"Do Whatever It Takes To Get The Job Done", text1:"In a very under developed area of Hyderabad, there lived a determined and resilient young girl named Rasheeda Shaik. At a very early age, she faced a life-altering accident that resulted in her left leg being amputated below the knee. Despite this challenging setback, Rasheeda's indomitable spirit and unyielding determination pushed her to overcome every obstacle that life threw her way.",
-  text2:"Rasheeda was the eldest daughter in a family of seven, with one brother and four sisters. Life was tough for her and her family every day, but she never let her circumstances define her. From a young age, Rasheeda knew she had to fight her battles and rise above her limitations. "},
-  {id:1,title:""}
+  {id:0,title:"The People Who Take Actions Are the One’s Who Get Results", text1:"In a very under developed area of Hyderabad, there lived a determined and resilient young girl named Rasheeda Shaik. At a very early age, she faced a life-altering accident that resulted in her left leg being amputated below the knee. Despite this challenging setback, Rasheeda's indomitable spirit and unyielding determination pushed her to overcome every obstacle that life threw her way.",
+  text2:"Rasheeda was the eldest daughter in a family of seven, with one brother and four sisters. Life was tough for her and her family every day, but she never let her circumstances define her. From a young age, Rasheeda knew she had to fight her battles and rise above her limitations. ",
+text3:"In her pursuit of excellence, Rasheeda realized that to achieve her dreams and enhance her skills, she needed a supportive and nurturing environment. That's when she came across 'Glorious Mindmine,' an institute dedicated to empowering individuals and honing their talents. Rasheeda joined Glorious Mindmine with the sole purpose of enhancing her skills and securing a job in a multinational company.",
+image:story1},
+  {id:1,title:"From Sangareddy to the USA: A Journey of Perseverance and Success",
+text1:"Couple of years ago in Sangareddy, India, there lived a determined and ambitious young man named Mohammed Imran. Despite facing numerous financial difficulties, Mohammed Imran had a burning desire to improve his life and fulfil his dreams. He knew that the key to a brighter future was acquiring employability skills and IT training, but there was a significant obstacle in his way - the lack of resources to pursue these courses in his hometown. ",
+text2:"Through sheer determination and hard work, Mohammed Imran completed the employability skills and IT training courses with flying colors. His passion for learning and his hunger for success set him apart from others, and he caught the attention of his instructors and peers alike. He was not only equipped with technical skills but also possessed an impressive set of soft skills, making him a well-rounded professional. ",
+text3:"At Tech Mahindra, Mohammed Imran continued to excel, impressing his superiors with his dedication and passion for his work. He quickly climbed the career ladder, taking on more responsibilities and challenges. His journey from Sangareddy to Hyderabad and eventually to Tech Mahindra was an inspiring tale of resilience, hard work, and determination, proving that with the right mindset and drive, one can conquer any obstacle in their path",
+image:story2},
+{id:2,title:"Do Whatever It Takes To Get The Job Done",
+text1:"Carol Sheeba's success story is an inspiring tale of determination, perseverance, and hard work in the face of adversity. Despite facing financial difficulties and the loss of her father at a young age, Carol remained ambitious and committed to achieving her goals. ",
+text2:"However, Carol was not one to be deterred by the obstacles in her path. She knew that education and improving her communication skills were crucial for her future success. So, she decided to take charge of her destiny and joined Glorious Mindmine, an organization that helped her enhance her communication skills and overall personality.",
+text3:"With her professional growth came financial stability. Carol's determination, coupled with her acquired skills and experience, helped her earn a decent salary, which significantly improved her family's living conditions. She was no longer burdened by financial constraints, and the family could lead a more comfortable life. ",
+image:story3}
 ]
 const Home  =()=>{
 
@@ -247,7 +261,7 @@ const cardsPerPage = 5; // Number of cards to display per page
             <button className="home-section-sucess-stories-button">Get Inspired</button>
           </div>
           <div>
-          <Slider {...settings} className="carousel-slider-home">
+          <Slider {...settings} className="success-carousel-slider-home">
             {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}
           </Slider>
           </div>
