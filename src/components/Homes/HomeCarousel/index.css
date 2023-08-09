@@ -1,27 +1,3 @@
-/*.kk {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.carousel-item {
-  display: flex;
-  align-items: center;
-}
-
-.left-content {
-  flex: 1;
-  padding: 20px;
-  text-align: left;
-}
-
-.right-image {
-  flex: 1;
-  max-width: 400px;
-  height: auto;
-  margin-left: 20px;
-}*/
-/* HomeBannerCarousel.css */
-
 .slick-dots li button:before {
   color: #196AE5 !important;
 }

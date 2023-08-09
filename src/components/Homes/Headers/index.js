@@ -8,7 +8,6 @@ import Mendix from "../Text"
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
 const NavbarCourseList=[
-
   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
   {id:1, tab:"Fullstack Developer",link:"/FullStackCourse",item1:"Certification in Fullstack development", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
   {id:2, tab:"Data Scientist",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
@@ -44,7 +43,6 @@ class Header extends Component {
               <Link
                 to="/success"
                 className="nav-link"
-                
               >
                 <li className="nav-menu-item">Success Stories</li>
               </Link>
@@ -76,7 +74,6 @@ class Header extends Component {
                   Contact Us
                 </button></Link>
               </li>
-        
       </ul>
       {/*<button
         type="button"
@@ -104,7 +101,6 @@ class Header extends Component {
                 src={gmmlogo}
               />
             </Link>
-            
             <button
               type="button"
               onClick={this.toggleShowNavItems}

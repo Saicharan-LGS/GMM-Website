@@ -16,7 +16,7 @@ import roy from '../../Images/roy.png'
 import saicharan from '../../Images/saicharan.jpg'
 import venu from '../../Images/venuprofile.jpg'
 import umar from '../../Images/umarprofile.png'
-import chandana from '../../Images/chandana.jpeg'
+import chandana from '../../Images/chandana.jpg'
 import prashanth from '../../Images/prashanth.png'
 
 const HireFromUsList1=[

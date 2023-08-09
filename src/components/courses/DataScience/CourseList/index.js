@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './index.css'
-const TabContent = (props) => {
+const CourseList = (props) => {
   const [activeTab, setActiveTab] = useState(0);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 767);
   const {tabData} = props
@@ -68,4 +68,4 @@ const TabContent = (props) => {
   );
 };
 
-export default TabContent;
+export default CourseList;

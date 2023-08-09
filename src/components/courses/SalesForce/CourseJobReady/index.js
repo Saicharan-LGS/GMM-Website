@@ -79,4 +79,4 @@ const CourseJobReady = () => {
   );
 };
 
-export default CourseJobReady
+export default CourseJobReady

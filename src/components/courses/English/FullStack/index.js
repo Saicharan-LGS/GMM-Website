@@ -1,5 +1,5 @@
 import React from 'react'
-import CourseList from '../CourseList'
+import CourseList from '../../DataScience/CourseList'
 import "../../DataScience/FullStack/index.css"
 
 const foundation = [

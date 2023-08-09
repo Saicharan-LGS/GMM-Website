@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import Slider from 'react-slick';
+import {Link} from "react-router-dom"
 //import { AiOutlineArrowRight,AiOutlineArrowLeft} from 'react-icons/ai';
 import Footer from "../Footer"
 import Header from "../Headers";
@@ -331,7 +332,7 @@ const Home  =()=>{
                 <p className="home-section-transformed-careers-text">A program advisor will get in touch with you shortly.</p>
             </div>
             <div>
-              <button className="home-section-transformed-careers-buttton">Contact Us</button>
+              <button className="home-section-transformed-careers-buttton"><Link to="/registration" style={{textDecoration:"none"}}>Contact Us</Link></button>
             </div>
           </div>
         </div>

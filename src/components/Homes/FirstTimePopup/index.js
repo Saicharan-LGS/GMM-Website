@@ -43,7 +43,6 @@ const FirstTimePopup = () => {
           })
         }
       );
-
       if (response.ok) {
         const data = await response.json();
         setSuccessMsg(data.success);
@@ -58,7 +57,6 @@ const FirstTimePopup = () => {
       console.error(error);
     }
   };
-
   return (
     <>
       {showPopup && (
@@ -90,7 +88,6 @@ const FirstTimePopup = () => {
                className="ppr-popup-input"
                required
              />
-   
              <label htmlFor="course" className="ppr-popup-label-name">Select Course *</label>
              <select
                id="course"
@@ -118,7 +115,6 @@ const FirstTimePopup = () => {
                className="ppr-popup-input"
                required
              />
-   
              <label htmlFor="comment" className="ppr-popup-label-name">Comment</label>
              <input
                type="text"

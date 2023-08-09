@@ -29,7 +29,7 @@ import triveni from '../../../Images/triveni.jpg'
 import venu from '../../../Images/venuprofile.jpg'
 import umar from '../../../Images/umarprofile.png'
 import nagesh from '../../../Images/nagesh.jpg'
-import chandana from '../../../Images/chandana.jpeg'
+import chandana from '../../../Images/chandana.jpg'
 import prashanth from '../../../Images/prashanth.png'
 
 const learnersReviews=[

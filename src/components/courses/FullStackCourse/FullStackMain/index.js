@@ -3,7 +3,7 @@ import {BannerLeft}  from '../../DataScience/BannerLeft';
 import { BannerRight } from '../../DataScience/BannerRight';
 import DoubtItem from '../../DataScience/DoubtItem';
 import  ReviewCard from "../../DataScience/ReviewCard"
-import FlexibleProgram from '../../FullStackCourse/FlexibleProgram';
+import FlexibleProgram from '../../DataScience/FlexibleProgram';
 import WhyGloriousMindMineCard from '../../DataScience/WhyGMMCard';
 import {SiGoogleclassroom} from "react-icons/si"
 import {AiOutlineSchedule,AiOutlineCheck,AiOutlineMessage,AiOutlineProject,AiOutlineVideoCamera,AiOutlineQuestionCircle,AiOutlineFileAdd} from "react-icons/ai"
@@ -30,7 +30,7 @@ import triveni from '../../../Images/triveni.jpg'
 import venu from '../../../Images/venuprofile.jpg'
 import umar from '../../../Images/umarprofile.png'
 import nagesh from '../../../Images/nagesh.jpg'
-import chandana from '../../../Images/chandana.jpeg'
+import chandana from '../../../Images/chandana.jpg'
 import prashanth from '../../../Images/prashanth.png'
 
 const learnersReviews=[
