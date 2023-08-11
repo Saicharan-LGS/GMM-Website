@@ -89,7 +89,6 @@ class Header extends Component {
   }
   render() {
     const {tab,showNavItems} = this.state
-    console.log(tab)
     return (
       <nav className="nav-header">
         <div className="nav-content">
@@ -128,7 +127,7 @@ class Header extends Component {
                         {NavbarCourseList.map(each=>{
                             const activeTab=each.id===tab ? "NavcourseBasicDoubtActiveTab" : ""
                             return(
-                            <div className='NavcourseslistContainer'>
+                            <div  key={each.id} className='NavcourseslistContainer'>
                               <li className= {`NavcoursesBasicDoubtsTabsListItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.id} onMouseOver={this.changeNavTabId}>{each.tab}</button></li>
                               <AiOutlineArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
                             </div>

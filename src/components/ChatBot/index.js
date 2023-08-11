@@ -30,8 +30,6 @@ class ChatBot extends Component {
   }
 }
 
- 
-
 export default ChatBot;
 
  

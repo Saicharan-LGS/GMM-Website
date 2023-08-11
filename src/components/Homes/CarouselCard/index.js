@@ -2,12 +2,11 @@ import { Component } from "react";
 import "./index.css"
 import {Link} from "react-router-dom"
 
-
 class CarouselCard extends Component{
     render(){
         const {cardDetails}=this.props
         const {head,text,description,Image,link}=cardDetails
-        return(
+        return( 
             <div className="Carousel-card-main-container">
                 <div className="Carousel-card-left-container">
                     <h1 className="Carousel-card-left-heading">{head}</h1>
@@ -22,3 +21,4 @@ class CarouselCard extends Component{
 }
 
 export default CarouselCard
+

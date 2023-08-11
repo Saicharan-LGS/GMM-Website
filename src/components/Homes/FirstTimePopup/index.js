@@ -7,7 +7,7 @@ const FirstTimePopup = () => {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [course, setCourse] = useState('English Communication Blue Print');
-  const [phoneNumber, setPhoneNumber] = useState(null);
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [comment, setComment] = useState('');
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
@@ -77,7 +77,6 @@ const FirstTimePopup = () => {
                className="ppr-popup-input"
                required
              />
-   
              <label htmlFor="email" className="ppr-popup-label-name">Email Address *</label>
              <input
                type="email"
@@ -94,8 +93,7 @@ const FirstTimePopup = () => {
                value={course}
                onChange={(e) => setCourse(e.target.value)}
                className="ppr-popup-input ppr-popup-select"
-               required
-             >
+               required>
                <option value="English Communication Blue Print" >English Communication Blue Print</option>
                <option value="Full Stack Developer" >Full Stack Developer</option>
                <option value="Data Science" >Data Science</option>
@@ -104,7 +102,6 @@ const FirstTimePopup = () => {
                <option value="Polarion">Polarion</option>
                <option value="Digital Marketing Expert">Digital Marketing Expert</option>
              </select>
-   
              <label htmlFor="phoneNumber" className="ppr-popup-label-name">Phone Number * </label>
              <input
                type="number"

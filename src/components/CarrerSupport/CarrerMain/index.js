@@ -114,48 +114,48 @@ class CareerSupport extends Component{
                             <h1 className='carrer-intro-data-heading'>25 LPA</h1>
                             <p className='carrer-intro-data-text'>Highest Salary</p>
                         </div>
-                    </div>
-                    <div className="carrerJobBoardsMainContainer">
-                        <h1 className="carrerJobBoardsMainHeading">Job Boards</h1>
-                        <p className="carrerJobBoardsMaintext">Our dedicated learner success team posts hand-picked opportunities from top organizations relevant to your profile and experience.</p>
-                        <ul className="carrerJobBoardsList">
-                            <li className="carrerJobBoardsListItem">60+ Job postings per month on an average</li>
-                            <li className="carrerJobBoardsListItem">Opportunities customised to your work experience</li>
-                            <li className="carrerJobBoardsListItem">Alumni connect for industry insights & interview tips</li>
-                        </ul>
-                    </div>
-                    <div className="carrerTransitionsMainContainer">
-                        <h1 className="carrerTransitionsMainHeading">Successful Career Transitions To Inspire You</h1>
-                        <div className="careersupportslider">
+                </div>
+                <div className="carrerJobBoardsMainContainer">
+                    <h1 className="carrerJobBoardsMainHeading">Job Boards</h1>
+                    <p className="carrerJobBoardsMaintext">Our dedicated learner success team posts hand-picked opportunities from top organizations relevant to your profile and experience.</p>
+                    <ul className="carrerJobBoardsList">
+                        <li className="carrerJobBoardsListItem">60+ Job postings per month on an average</li>
+                        <li className="carrerJobBoardsListItem">Opportunities customised to your work experience</li>
+                        <li className="carrerJobBoardsListItem">Alumni connect for industry insights & interview tips</li>
+                    </ul>
+                </div>
+                <div className="carrerTransitionsMainContainer">
+                    <h1 className="carrerTransitionsMainHeading">Successful Career Transitions To Inspire You</h1>
+                    <div className="careersupportslider">
                         <Slider {...settings}>
-                        {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
-                    </Slider>
+                            {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
+                        </Slider>
                     </div>
+                </div>
+                <div className="carrerCarrerPrepMainContainer">
+                    <div className="carrerCarrerPrepContainer1">
+                        <h1 className="carrerCarrerPrepMainHeading">Career Prep</h1>
+                        <p className="carrerCarrerPrepText">Learn from leading academicians in the field of data science and business analytics and several experienced industry practitioners from top organizations.</p>
                     </div>
-                    <div className="carrerCarrerPrepMainContainer">
-                        <div className="carrerCarrerPrepContainer1">
-                            <h1 className="carrerCarrerPrepMainHeading">Career Prep</h1>
-                            <p className="carrerCarrerPrepText">Learn from leading academicians in the field of data science and business analytics and several experienced industry practitioners from top organizations.</p>
+                    <div className="carrerCarrerPrepContainer2">
+                        <div className="carrerCarrerPrepContainer3">
+                            <h1 className="carrerCarrerPrepContainer3Heading">4.7/5</h1>
+                            <p className="carrerCarrerPrepContainer3Text">Avg Mentorship Rating</p>
                         </div>
-                        <div className="carrerCarrerPrepContainer2">
-                            <div className="carrerCarrerPrepContainer3">
-                                <h1 className="carrerCarrerPrepContainer3Heading">4.7/5</h1>
-                                <p className="carrerCarrerPrepContainer3Text">Avg Mentorship Rating</p>
-                            </div>
-                            <div className="carrerCarrerPrepContainer3">
-                                <h1 className="carrerCarrerPrepContainer3Heading">3500+</h1>
-                                <p className="carrerCarrerPrepContainer3Text">Guidance sessions done</p>
-                            </div>
+                        <div className="carrerCarrerPrepContainer3">
+                            <h1 className="carrerCarrerPrepContainer3Heading">3500+</h1>
+                            <p className="carrerCarrerPrepContainer3Text">Guidance sessions done</p>
                         </div>
                     </div>
-                    {careerPrepList.map(each=>(<CarrerPrep key={each} details={each} />))}
-                    <div className="careerHiringMainContainer">
-                        <h1 className="careerHiringMainHeading">Our Hiring Partners</h1>
-                        <BannerLeft images={ScrolllingImages1} speed={5000} />
-                    </div>
+                </div>
+                {careerPrepList.map(each=>(<CarrerPrep key={each} details={each} />))}
+                <div className="careerHiringMainContainer">
+                    <h1 className="careerHiringMainHeading">Our Hiring Partners</h1>
+                    <BannerLeft images={ScrolllingImages1} speed={5000} />
+                </div>
             </div>
-            <Footer/>
-            </>
+        <Footer/>
+        </>
         )
     }
 }

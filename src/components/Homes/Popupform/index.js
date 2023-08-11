@@ -13,9 +13,7 @@ const PopupForm = ({ onSubmit }) => {
   const [successMsg, setSuccessMsg] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   const [showPopup, setShowPopup] = useState(true);
-
   const navigate = useNavigate();
-
   const closePopup = () => {
     setShowPopup(false);
     navigate("/");
@@ -40,7 +38,6 @@ const PopupForm = ({ onSubmit }) => {
           })
         }
       );
-
       if (response.ok) {
         const data = await response.json();
         setSuccessMsg(data.success);
@@ -74,7 +71,6 @@ const PopupForm = ({ onSubmit }) => {
             className="ppr-popup-input"
             required
           />
-
           <label htmlFor="email" className="ppr-popup-label-name">Email Address *</label>
           <input
             type="email"
@@ -85,15 +81,13 @@ const PopupForm = ({ onSubmit }) => {
             className="ppr-popup-input"
             required
           />
-
           <label htmlFor="course" className="ppr-popup-label-name">Select Course *</label>
           <select
             id="course"
             value={course}
             onChange={(e) => setCourse(e.target.value)}
             className="ppr-popup-input ppr-popup-select"
-            required
-          >
+            required>
             <option value="English Communication Blue Print" >English Communication Blue Print</option>
             <option value="Full Stack Developer" >Full Stack Developer</option>
             <option value="Data Science" >Data Science</option>
@@ -102,7 +96,6 @@ const PopupForm = ({ onSubmit }) => {
             <option value="Polarion">Polarion</option>
             <option value="Digital Marketing Expert">Digital Marketing Expert</option>
           </select>
-
           <label htmlFor="phoneNumber" className="ppr-popup-label-name">Phone Number * </label>
           <input
             type="number"
@@ -111,9 +104,7 @@ const PopupForm = ({ onSubmit }) => {
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
             className="ppr-popup-input"
-            required
-          />
-
+            required/>
           <label htmlFor="comment" className="ppr-popup-label-name">Comment</label>
           <input
             type="text"
@@ -121,8 +112,7 @@ const PopupForm = ({ onSubmit }) => {
             placeholder="Enter your Comment"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-            className="ppr-popup-input"
-          />
+            className="ppr-popup-input"/>
           <p className='ppr-success-message'>{successMsg}</p>
           <p className='ppr-error-message'>{errorMsg}</p>
           <button type="submit" onClick={handleSubmit}>Submit</button>

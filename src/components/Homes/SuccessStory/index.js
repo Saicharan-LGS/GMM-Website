@@ -95,8 +95,6 @@ const SuccessStory = () => {
       currentRole: "Senior Marketing Manager",
       previousCompany2: "ABC Marketing Solutions",
     },
-    
-    
     // Add four more testimonials following a similar pattern
     // Testimonial 3 data
     // Testimonial 4 data
@@ -125,9 +123,7 @@ const SuccessStory = () => {
         <ul className="success-story-testimonial-container">
           {reviewsList.map((each, index) => (
             <li key={index} className="success-story-testimonial-each-list">
-          
                 <img className="success-story-testimonial-image" src={img2} alt="Profile" />
-               
                 <p className="success-story-testimonial-name">{each.name}</p>
                 <p className="success-story-testimonial-previous-role">{each.currentRole}</p>
                 <BsArrowDown className="success-story-testimonial-icon"/>

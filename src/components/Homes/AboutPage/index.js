@@ -4,6 +4,7 @@ import {AiOutlineArrowRight} from "react-icons/ai"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
+
 export default function About() {
   return (
     <>

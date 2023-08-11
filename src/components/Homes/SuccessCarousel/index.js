@@ -2,7 +2,6 @@ import { Component } from "react";
 import "./index.css"
 //import {Link} from "react-router-dom"
 
-
 class SuccessCarousel extends Component{
     render(){
         const {cardDetails}=this.props
