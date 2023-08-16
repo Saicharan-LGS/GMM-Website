@@ -13,6 +13,12 @@ import {BiLogoLinkedin} from 'react-icons/bi'
 import {BsInstagram} from 'react-icons/bs'
 import {Link} from 'react-router-dom'
 import gmmlogo from '../../Images/GMM logo.png'
+import Facebook from '../../Images/Facebook-Logo.png'
+import Instagram from '../../Images/Instagram-Logos.png'
+import Twitter from '../../Images/Twitter-Logos.png'
+import Linkedin from '../../Images/Linkedin-Logos.png'
+import Youtube from '../../Images/Youtubelogo.png'
+
 
 const Footer = () => {
   return (
@@ -27,16 +33,20 @@ const Footer = () => {
                         </div>
                         <div className="d-flex flex-row justify-content-md-start justify-conent-center mt-3 ml-3 mb-3 footer-section-company-logo">
                             <a href="https://www.facebook.com/gloriousmindmine" rel="noreferrer" target="_blank" className="Ecommerce-Website-Footer-Section-logo-card mr-2">
-                                <BiLogoFacebook/>
+                                <img src={Facebook} alt="facebook" className="social-media-logos"/>
                             </a>
                             <a href="https://twitter.com/GmmTraining" target="_blank" rel="noreferrer" className="Ecommerce-Website-Footer-Section-logo-card mr-2">
-                              <AiOutlineTwitter/>
+                              <img src={Twitter} alt="twitter" className="social-media-logos"/>
                             </a>
                             <a href="https://www.linkedin.com/company/glorious-mindmine-consulting-pvt-ltd-/" rel="noreferrer" target="_blank" className="Ecommerce-Website-Footer-Section-logo-card mr-2">
-                                <BiLogoLinkedin/>
+                                
+                                <img src={Linkedin} alt="linkedin" className="social-media-logos"/>
                             </a>
                             <a href="https://www.instagram.com/gloriousmindmine/" target="_blank" rel="noreferrer" className="Ecommerce-Website-Footer-Section-logo-card">
-                                <BsInstagram/>
+                                <img src={Instagram} alt="instagram" className="social-media-logos"/>
+                            </a>
+                            <a href="https://www.youtube.com/@GloriousMindmineTraining" target="_blank" rel="noreferrer" className="Ecommerce-Website-Footer-Section-logo-card">
+                                <img src={Youtube} alt="youtube" className="social-media-logos"/>
                             </a>
                         </div>
                     </div>
@@ -95,11 +105,14 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="Ecommerce-Website-Footer-Section-line" />
-            <div className="d-flex flex-row justify-content-center">
-                <div className="Ecommerce-Website-Footer-Section-copy-right">
-                    <i className="fa fa-copyright" aria-hidden="true"></i>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+                
+                <div className="d-flex flex-row gap-4">
+                  <p><Link to="" >Privacy Policy</Link></p>
+                  <p><Link to="" >Terms & Conditions</Link></p>
                 </div>
                 <div className="ml-2 mt-1">
+                  
                     <h1 className="Ecommerce-Website-Footer-Section-address">Copyright © 2022 ZEESHAAN MEHDI | By Zeeshaan Mehdi (a.k.a English Communication Coach)</h1>
                 </div>
             </div>
