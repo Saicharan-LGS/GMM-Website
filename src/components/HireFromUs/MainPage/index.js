@@ -7,6 +7,7 @@ import Card4 from "../Card4"
 import {BiTimeFive,BiMessageAdd} from "react-icons/bi"
 import {AiFillFileAdd,AiOutlineSearch} from "react-icons/ai"
 import {ImProfile} from "react-icons/im"
+import {FiPhoneCall} from "react-icons/fi"
 import {TbFreeRights} from "react-icons/tb"
 import {GiMaterialsScience} from "react-icons/gi"
 import {IoIosCloudDone} from "react-icons/io"
@@ -29,16 +30,17 @@ const HireFromUsList1=[
 
    ]
    const HireFromUsList3=[
-    {id:1,Image:ImProfile,question:"Book Demo",answer:"Book a demo session to get detailed information on our hiring proposition"},
-    {id:2,Image:AiOutlineSearch,question:"Shortlist top candidates",answer:"Save time by avoiding scrutiny on a pile of resumes. Talk to our top performers directly"},
-    {id:3,Image:BiMessageAdd,question:"Conduct Interviews",answer:"Conduct interviews on your own OR use our in-house video-interview platform to do interviews seamlessly"},
-    {id:4,Image:TbFreeRights,question:"Hire free of cost",answer:"We charge zero fee for facilitating quick and trusted hiring for partnered recruiters."},
+    {id:1,Image:FiPhoneCall,question:"Book Demo",answer:"Book a demo session to get detailed information on our hiring proposition"},
+    {id:2,Image:AiOutlineSearch,question:"Shortlist",answer:"Save time by avoiding scrutiny on a pile of resumes."},
+    {id:3,Image:BiMessageAdd,question:"Interviews",answer:"Conduct interviews on your own OR use our in-house platform."},
+    {id:4,Image:TbFreeRights,question:"Hire free of cost",answer:"We charge zero fee for facilitating quick and trusted hiring."},
    ]
    
-   const HireFromUsList4=[{id:1,Image:GiMaterialsScience,question:"",answer:"Passed intensive Tech assessments"},
-    {id:2,Image:AiOutlineSearch,question:"",answer:"Completed real world Capstone projects"},
-    {id:3,Image:BiMessageAdd,question:"",answer:"Completed Mock Interviews"},
-    {id:4,Image:IoIosCloudDone,question:"",answer:"Dedicated career coach for mock interviews & career guidance."}
+   const HireFromUsList4=[
+    {id:1,Image:GiMaterialsScience,question:"",answer:"Passed intensive Tech assessments"},
+    {id:2,Image:AiOutlineSearch,question:"",answer:"Completed real world projects"},
+    {id:3,Image:BiMessageAdd,question:"",answer:"Completed Mock Interviews  and Mentor connects"},
+    {id:4,Image:IoIosCloudDone,question:"",answer:"Dedicated career coach for mock interviews"}
 
 ]
 
@@ -46,7 +48,7 @@ const HireFromUsList1=[
     {id:1,Image:ImProfile,question:"200+",answer:" GloriousMindMine Graduates"},
     {id:2,Image:BiTimeFive,question:"1000+",answer:"Hours of Learning"},
     {id:3,Image:BiMessageAdd,question:"50+",answer:"Mock Interviews"},
-    {id:4,Image:AiFillFileAdd,question:"150+",answer:"Capstone projects & Assignments"}
+    {id:4,Image:AiFillFileAdd,question:"150+",answer:"Projects & Assignments"}
 ]
 
 const HireFromUs=()=>{
@@ -105,16 +107,14 @@ const HireFromUs=()=>{
               }
             } catch (error) {
               console.error(error);
-            }
-          };
-        
-      
+            }
+        };
     return(
         <>
         <Header/>
         <div className="HireFromUsContainer1">
             <div className="HireFromUsContainer1-1">
-                <h1 className="HireFromUsContainer2Heading">Hire top 1% IT talent</h1>
+                <h1 className="HireFromUsContainer2Heading">Hire top 5% IT talent</h1>
                 <p className="HireFromUsContainer1Text">Build your Data & Engineering Team with industry ready top skilled tech talent.</p>
                 <button onClick={() => document.querySelector("#schedulecallContainer").scrollIntoView({ behavior: "smooth" })} className="HireFromUsContainer1Button">Hire Now</button>
             </div>
@@ -135,7 +135,7 @@ const HireFromUs=()=>{
         <div className="HireFromUsContainer1"> 
         <div className="HireFromUsContainer1-1">
                 <h1 className="HireFromUsContainer3Heading">Intensive Candidate Training</h1>
-                <p className="HireFromUsContainer3Text">Our training process is quite intensive simulating a workplace environment for students to work in teams to solve industry relevant projects. With prior hands-on experience, our candidates are productive from Day 1 at the job.</p>
+                <p className="HireFromUsContainer1Text">Our training process is quite intensive simulating a workplace environment for students to work in teams to solve industry relevant projects. With prior hands-on experience, our candidates are productive from Day 1 at the job.</p>
             </div>
             <ul className="HireFromUsContainer3-2">
                 {HireFromUsList2.map(each=>(

@@ -19,12 +19,14 @@ import NotFound from './components/NotFound'
 import ChatBot from './components/ChatBot'
 import Whatsapp from './components/Whatsapp'
 import Corporate from './components/Corporate/CorporateMain'
+import Terms from "./components/TermsAndConditions"
 //import Studyabroad from './components/StudyAbroad/studyabroad'
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
+        <Route exact path="/terms-and-conditions" element={<Terms />}/>
         <Route exact path="/corporate" element={<Corporate />} />
         <Route exact path="/Polarian" element={<Polarian />} />
         <Route exact path="/Mendix" element={<Mendix />} />

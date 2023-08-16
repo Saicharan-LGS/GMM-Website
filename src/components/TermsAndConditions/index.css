@@ -1,0 +1,30 @@
+.Terms_container{
+    margin: 0px 30px 10px 30px;
+    padding: 10px;
+}
+
+.Terms_paragraph_whole{
+    font-family: Poppins, sans-serif;   
+    font-size: 15px;
+    text-align: left;   
+    color: #00000099;
+    overflow-x: hidden;
+    padding: 10px;    
+    line-height: 1.6;
+}
+.Terms_heading_background{
+    background: linear-gradient(to right,rgba(13,53,115, .99) 0%, rgba(13,53,115, 0.95) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+}
+
+.Terms_sub_heading{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:1.69;
+}
