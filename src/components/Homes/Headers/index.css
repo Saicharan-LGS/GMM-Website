@@ -270,7 +270,7 @@
       top:20px;
       padding-top:35px;
       margin-left:40vw;
-      height:65vh;
+      height:max-content;
       width:max-content;
     }
     
