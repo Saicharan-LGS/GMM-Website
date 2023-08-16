@@ -96,7 +96,7 @@ const ScrolllingImages = [
     "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
     "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
     "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org_237/5020af0a-289b-44d0-8e17-8b5ff1f0a985_Tiger_LOGO_new_main.png",
+    
     "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
     "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
 ].map((image) => ({
@@ -204,7 +204,7 @@ export default function Corporate() {
                 <div className='enterprise-industry-section-certificate-conatiner'>
                     <img className='enterprise-industry-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/iso-logo-1f29cec08343f009564ec969b6e154b1d1175213c214de1f97c02859b055dea8.jpg" alt="" />
                     <div className='enterprise-industry-section-certificate-conatiner-content'>
-                        <p className='enterprise-industry-section-certificate-heading'>Great Learning is ISO 27001 Certified</p>
+                        <p className='enterprise-industry-section-certificate-heading'>Glorious Mindmine is ISO 27001 Certified</p>
                         <p className='enterprise-industry-section-certificate-content'>ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS) and their requirements. We at Great Learning have the industry best Data Privacy & Security practices, and the ISO 27001 certification from ISOQAR of UK is a testament of the same.</p>
                     </div>
                 </div>

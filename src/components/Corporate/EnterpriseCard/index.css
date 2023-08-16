@@ -3,7 +3,7 @@
 
 .Enterprise-card-skill-main-container{
     width:250px;
-    padding:10px 10px 10px 20px;
+    padding:10px 20px 10px 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border:1px solid grey;
     margin:0px 10px;
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding:10px;
 }
 .Enterprise-card-skill-main-icon-container{
     width:50px;
@@ -29,7 +30,7 @@
     font-size: 30px;
     
 }
-.Enterprice-card-skill-main-heading{
+.Enterprise-card-skill-main-heading{
     font-size:18px;
     font-family:"Poppins",sans-serif;
 }

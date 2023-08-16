@@ -258,7 +258,7 @@ const Home  =()=>{
             <p className="home-section-success-stories-text">Inspiring everyone to learn with</p>
             <h1 className="home-section-sucesss-stories-heading">Multiple stories of growth</h1>
             <p className="home-section-success-stories-description">Find out how our Learners transformed their careers after learning with us.</p>
-            <button className="home-section-sucess-stories-button">Get Inspired</button>
+            <button className="home-section-explore-courses-button">Get Inspired</button>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >
             {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}

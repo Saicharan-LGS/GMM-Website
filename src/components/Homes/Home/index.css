@@ -132,11 +132,20 @@
 .home-section-success-stories-description{
   font-size: 22px;
 }
-.home-section-sucess-stories-button{
-    color: #196ae5;
-    background-color: rgba(25,106,229,.05);
-    border: none;
-    padding:5px 10px 5px 10px;
+.home-section-explore-courses-button{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1.25px;
+  color: #fff;
+  background-color: #196AE5;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  border:none;
 }
 
 @media (max-width:768px){

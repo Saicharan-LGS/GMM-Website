@@ -6,10 +6,7 @@
     width:330px;
     padding:30px;
 }
-.courseReviewCard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
+
 .courseReviewFirstContainer{
     display: flex;
     justify-content: space-between;

@@ -12,17 +12,15 @@
     text-align: center;
     
 }
-.courseFlexibleProgramCard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
+
 .courseFlexibleProgramImage{
     color:#196AE5;
     font-size: 70px;
 }
 .courseFlexibleProgramQuestion{
     font-size: 18px;
-    font-family:"Roboto"
+    font-family:"Roboto";
+    font-weight:700;
 }
 .courseFlexibleProgramAnswer{
     font-size: 16px;

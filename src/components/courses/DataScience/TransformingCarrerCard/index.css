@@ -3,17 +3,14 @@
 
 .courseTransformingcard{
     width:400px;
-    height:350px;
+    height:320px;
     border:1px solid lightgrey;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 auto;
     
 }
-.courseTransformingcard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
+
 .courseTransformingContainer1{
     background-color:#e6f0ff;
     min-height:110px;
@@ -45,18 +42,26 @@
     font-size:16px;
     font-weight:500;
     color:#222;
+    font-weight:600;
 }
 .courseTransformingPrviousrole{
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
     color:#222;
+    margin-bottom:5px;
+}
+.courseTransformingArrow{
+    font-size:30px;
+    color:#196AE5;
 }
 .courseTransformingRole{
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
     color:#222;
+    margin-top:5px;
+    margin-bottom:0px;
 }
 .courseTransformingContainer3{
     display: flex;
@@ -75,7 +80,8 @@
     font-family:"Roboto";
     font-size:14px;
     font-weight:500;
-    color:#222;
+    color: #00AE8C;
+    font-weight:800;
 }
 @media (max-width:1000px){
     .courseTransformingcard{
