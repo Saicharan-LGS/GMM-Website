@@ -249,7 +249,7 @@ class English extends Component{
                 </div>
             </div>
             <div className='courseTutionFeeMainContainer'>
-                <h1 className='courseTutionFeeMainHeading'>Tuition Fee</h1>
+                <h1 className='courseTutionFeeMainHeading'>What You'll Get</h1>
                 <div className="courseTutionFeeSubContainer">
                    <ul>
                     {tuitionFeeList.map(each=>(
