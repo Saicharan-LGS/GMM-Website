@@ -63,6 +63,12 @@
     margin-top:5px;
     margin-bottom:0px;
 }
+.courseTransformImage{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    align-self:flex-start;
+}
 .courseTransformingContainer3{
     display: flex;
     justify-content: space-between;
@@ -99,6 +105,12 @@
     .courseTransformingContainer1{
         max-height:max-content;
      
+    }
+    .courseTransformImage{
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        align-self:flex-start;
     }
 }
 @media (max-width:300px){
