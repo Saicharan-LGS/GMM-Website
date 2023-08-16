@@ -7,10 +7,7 @@ import './index.css'
 //import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 //import { BiPhoneCall, BiLogoFacebook, BiLogoGmail } from "react-icons/bi";
 
-import {BiLogoFacebook} from 'react-icons/bi'
-import {AiOutlineTwitter} from 'react-icons/ai'
-import {BiLogoLinkedin} from 'react-icons/bi'
-import {BsInstagram} from 'react-icons/bs'
+
 import {Link} from 'react-router-dom'
 import gmmlogo from '../../Images/GMM logo.png'
 import Facebook from '../../Images/Facebook-Logo.png'
@@ -70,6 +67,11 @@ const Footer = () => {
                           >
                           <p className="Footer-Each-course" >Hire From Us</p>
                         </Link>
+                        <Link style={{textDecorationLine:"none",color:"black"}}
+                          to="/corporate"
+                          >
+                          <p className="Footer-Each-course" >Corporate</p>
+                        </Link>
                         <Link
                           to="/aboutus" style={{textDecorationLine:"none",color:"black"}}
                           >
@@ -82,14 +84,14 @@ const Footer = () => {
                     <div>
                         <h1 className="Ecommerce-Website-Footer-Section-heading mb-4">Courses</h1>
                         <div className="Footer-courses-list">
-                          <Link to="/DigitalMarkting"  style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">DigitalMarketing</p></Link>
                           <Link to="/english"  style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course"> English Communication</p></Link>
-                          <Link to="/salesforce" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Salesforce</p></Link>
-                          <Link to="/Mendix" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Mendix</p></Link>
-                          <Link to="/Polarian" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Polarion</p></Link>
-                          <Link to="/Datascience" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">DataScience</p></Link>
-                          <Link to="/FullStackCourse" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">FullStack</p></Link>
-                        </div>  
+                          <Link to="/Datascience" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Data Science Engineer</p></Link>
+                          <Link to="/FullStackCourse" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Full Stack Developer</p></Link>
+                          <Link to="/Mendix" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Mendix Developer</p></Link>
+                          <Link to="/Polarian" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Polarion Expert</p></Link>
+                          <Link to="/DigitalMarkting"  style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Digital Marketing</p></Link>
+                          <Link to="/salesforce" className="Footer-Each-cours" style={{textDecorationLine:"none",color:"black"}}><p className="Footer-Each-course">Salesforce Admin</p></Link>
+                          </div>  
                     </div>
                 </div>
                 <div className="col-6 col-md-6 col-lg-3">
@@ -112,8 +114,7 @@ const Footer = () => {
                   <p><Link to="" >Terms & Conditions</Link></p>
                 </div>
                 <div className="ml-2 mt-1">
-                  
-                    <h1 className="Ecommerce-Website-Footer-Section-address">Copyright © 2022 ZEESHAAN MEHDI | By Zeeshaan Mehdi (a.k.a English Communication Coach)</h1>
+                    <h1 className="Ecommerce-Website-Footer-Section-address">Copyright @2023 By Glorious Mindmine</h1>
                 </div>
             </div>
         </div>

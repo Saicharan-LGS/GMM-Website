@@ -248,7 +248,6 @@ class DataScience extends Component{
                     <BannerRight images={ScrolllingImages3} speed={20000} />
                 </div>
             </div>
-            
             <div className='courseTutionFeeMainContainer'>
                 <h1 className='courseTutionFeeMainHeading'>Tuition Fee</h1>
                 <div className="courseTutionFeeSubContainer">
@@ -262,36 +261,35 @@ class DataScience extends Component{
                    </ul>
                    <div className="ButtonContainer">
                         <button className="EnrollNowButton1"><Link to="/registration" className="EnrollNowButton1" style={{textDecoration:"none"}}>Enroll Now</Link></button>
-                        <button className="DownloadBroucherButton1">Download Broucher</button>
-                   </div>
-                   
+                        {/* <button className="DownloadBroucherButton1">Download Broucher</button> */}
+                   </div>   
                 </div>
             </div>
-        <div className='coursesBasicDoubtssMainContainer'>
-            <h1 className='coursesBasicDoubtsMainHeading'>Clear all your basic doubts with these FAQs</h1>
-            <ul className='coursesBasicDoubtsTabsList'>
-                {basicDoubtsTabsList.map(each=>{
-                    const activeTab=each.tabId===basicDoubtTab ? "courseBasicDoubtActiveTab1" : ""
-                   // console.log(each.id)
-                return(
-                <li className= {`coursesBasicDoubtsTabsListItem`} key={each.tabId}><button className={`coursesBasicDoubtsTabsListItemButton1 ${activeTab}`} value={each.tabId} onClick={this.changeBasicDoubtTabId}>{each.displayText}</button></li>
-                )})}
-            </ul>
-            <ul className='coursesBasicDoubtsList'>
-                {lista.map(each=>(<DoubtItem key={each.id} faqDetails={each} />))}
-            </ul>
-        </div>
-        <div className='courseReviewsMainContainer'>
-            <h1 className='courseReviewMainHeading'>What our learners say about GloriousMindMine Programs</h1>
-            <ul className='courseReviewList'>
-                {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
-            </ul>
-        </div>
+            <div className='coursesBasicDoubtssMainContainer'>
+                <h1 className='coursesBasicDoubtsMainHeading'>Clear all your basic doubts with these FAQs</h1>
+                <ul className='coursesBasicDoubtsTabsList'>
+                    {basicDoubtsTabsList.map(each=>{
+                        const activeTab=each.tabId===basicDoubtTab ? "courseBasicDoubtActiveTab1" : ""
+                    // console.log(each.id)
+                    return(
+                    <li className= {`coursesBasicDoubtsTabsListItem`} key={each.tabId}><button className={`coursesBasicDoubtsTabsListItemButton1 ${activeTab}`} value={each.tabId} onClick={this.changeBasicDoubtTabId}>{each.displayText}</button></li>
+                    )})}
+                </ul>
+                <ul className='coursesBasicDoubtsList'>
+                    {lista.map(each=>(<DoubtItem key={each.id} faqDetails={each} />))}
+                </ul>
+            </div>
+            <div className='courseReviewsMainContainer'>
+                <h1 className='courseReviewMainHeading'>What our learners say about GloriousMindMine Programs</h1>
+                <ul className='courseReviewList'>
+                    {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
+                </ul>
+            </div>
         </div>
         <Footer/>
-        </>
-        )
-      }
+    </>
+    )
+  }
 }
 
 export default DataScience;

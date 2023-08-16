@@ -25,7 +25,7 @@ const App = () => (
     <Whatsapp />
     <ChatBot />
     <Routes>
-        <Route exact path="/enterprise" element={<Corporate />} />
+        <Route exact path="/corporate" element={<Corporate />} />
         <Route exact path="/Polarian" element={<Polarian />} />
         <Route exact path="/Mendix" element={<Mendix />} />
         <Route exact path="/carrerSupport" element={<CarrerSupport />}/>

@@ -191,7 +191,7 @@ export default function Corporate() {
             <div className='enterprise-banner-section'>
                 <div className='enterprise-banner-section-conatiner'>
                     <h1 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h1>
-                    <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for enterprises, helping them build skills in emerging technologies at scale</p>
+                    <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
                     <button className='enterprise-banner-section-button'>Learn More</button>
                 </div>
@@ -199,7 +199,7 @@ export default function Corporate() {
             </div>
             <div className='enterprise-industry-section'> 
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>
-                <h1 className='enterprise-partners-section-title'>Our Enterprise Partners</h1>
+                <h1 className='enterprise-partners-section-title'>Our Corporate Partners</h1>
                 <BannerLeft  images={ScrolllingImages} speed={10000} />
                 <div className='enterprise-industry-section-certificate-conatiner'>
                     <img className='enterprise-industry-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/iso-logo-1f29cec08343f009564ec969b6e154b1d1175213c214de1f97c02859b055dea8.jpg" alt="" />
@@ -211,7 +211,7 @@ export default function Corporate() {
             </div>
             <div className='enterprise-partners-section-conatiner'>
                 <p className='enterprise-partners-section-conatiner-subtitle'>Helping Our Partners</p>
-                <h1 className='enterprise-partners-section-title'>Solutions To Empower Enterprises</h1>
+                <h1 className='enterprise-partners-section-title'>Solutions To Empower Corporates</h1>
                 <div className='enterprise-partners-section-cards-conatiner'>
                     {ourPatners.map((partner, index) => (
                             <div key={index} className='enterprise-partners-section-card-conatiner'> 
@@ -254,7 +254,7 @@ export default function Corporate() {
             <EnterpriseBeginner />
             <div className='enterprise-partnership-section-container'>
                 <p className='enterprise-partners-section-conatiner-subtitle'>In Partnership With</p>
-                <h1 className='enterprise-partnership-section-conatiner-title'>World's Top Universities</h1>
+                <h1 className='enterprise-partnership-section-conatiner-title'>World's Top Corporates</h1>
                 <div className='enterprise-partnership-section-image-conatiner'>
                     {partnershipImages.map((imageUrl) => (
                         <img key={imageUrl} className='enterprise-partners-section-conatiner-image' src={imageUrl} alt="" />
@@ -263,7 +263,7 @@ export default function Corporate() {
             </div>
             <div className='enterprise-business-section-container'>
                 <div className='enterprise-business-section-container-content'>
-                    <p className='enterprise-business-section-subtitle'>500+ enterprises use </p>
+                    <p className='enterprise-business-section-subtitle'>500+ corporates use </p>
                     <h1 className='enterprise-business-section-title'>Glorious for Business</h1>
                     <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how Great Learning for Business can power your Enterprise Learning.</p>
                     <div>
