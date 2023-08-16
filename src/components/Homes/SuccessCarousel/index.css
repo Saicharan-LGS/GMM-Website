@@ -2,12 +2,11 @@
 
 .successCarousel-card-main-container{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items:center;
     margin-top:25px;
     margin-bottom: 0px;
-    max-width:98%;
 }
 .success-Carousel-card-left-container{
     display:flex;

@@ -260,18 +260,16 @@ const Home  =()=>{
             <p className="home-section-success-stories-description">Find out how our Learners transformed their careers after learning with us.</p>
             <button className="home-section-sucess-stories-button">Get Inspired</button>
           </div>
-          <div>
-          <Slider {...settings} className="success-carousel-slider-home">
+          <Slider {...settings} className="success-carousel-slider-home" >
             {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}
           </Slider>
-          </div>
           <div className="home-section-transformed-careers-container">
             <div className="home-section-transformed-careers-container1">
                 <h1 className="home-section-transformed-careers-heading">66% of our learners transformed their careers</h1>
-                <p className="home-section-transformed-careers-text">Alumni Career Transitions in the industry for degree & PG programs</p>
+                <p className="home-section-transformed-careers-text">There is no lack of jobs but lack of Employability Skills</p>
             </div>
             <div>
-              <button className="home-section-transformed-careers-buttton">Download Carrer Report</button>
+              <button className="home-section-transformed-careers-buttton"><Link to="/registration" style={{textDecoration:"none"}}>Register Now</Link></button>
             </div>
           </div>
           {/* <div className='enterprise-media-section-container'>
