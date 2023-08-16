@@ -20,7 +20,7 @@ import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
 import {Link} from "react-router-dom"
-import "./index.css"
+import "../../DataScience/FullStackMain/index.css"
 import "../../DataScience/FullStackMain/index.css"
 import founder from "../../../Images/founder.png"
 import roy from '../../../Images/roy.png'
@@ -261,7 +261,7 @@ class FullStackCourse extends Component{
                    </ul>
                    <div className="ButtonContainer">
                         <button className="EnrollNowButton1"><Link to="/registration" className="EnrollNowButton1" style={{textDecoration:"none"}}>Enroll Now</Link></button>
-                        <button className="DownloadBroucherButton1">Download Broucher</button>
+                        {/* <button className="DownloadBroucherButton1">Download Broucher</button> */}
                    </div>   
                 </div>
             </div>

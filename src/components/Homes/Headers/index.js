@@ -47,7 +47,7 @@ class Header extends Component {
                 <li className="nav-menu-item">Success Stories</li>
               </Link>
               <Link
-                to="/enterprise"
+                to="/corporate"
                 className="nav-link">
                 <li className="nav-menu-item">Corporate</li>
               </Link>
@@ -153,7 +153,7 @@ class Header extends Component {
                 <li className="nav-menu-item">Success Stories</li>
               </Link>
               <Link
-                to="/enterprise"
+                to="/corporate"
                 className="nav-link">
                 <li className="nav-menu-item">Corporate</li>
               </Link>

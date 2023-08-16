@@ -4,10 +4,9 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding:25px;
-    justify-content: center;
     margin-bottom: 20px;
     text-align:center;
     max-height:max-content;
@@ -19,12 +18,13 @@
 }
 
 .courseWhyGloriousMindMineImage{
-    font-size:50px;
+    font-size:70px;
     color:#196AE5;
 }
 .courseWhyGloriousMindMineDescription{
     font-size: 18px;
     font-family:"Roboto";
+    height:30%;
     color: #222;
 }
 @media (max-width:768px){
