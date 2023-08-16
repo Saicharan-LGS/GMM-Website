@@ -10,11 +10,11 @@ import {BsArrowDown} from 'react-icons/bs'
 const SuccessStory = () => {
   const reviewsList = [
     {
-      name: "Harsh Bhatnagar",
-      description: "Cloud Computing",
-      previousCompany: "Barclays Capital",
-      currentRole: "Vice President- Engineering Manager",
-      previousCompany2: "Wells Fargo",
+      name: "Vashni Roy",
+      description: "Junior Developer",
+      previousCompany: "Accenture",
+      currentRole: "Senior Developer",
+      previousCompany2: "Cognizant",
     },
     {
       name: "Pankhuri",
