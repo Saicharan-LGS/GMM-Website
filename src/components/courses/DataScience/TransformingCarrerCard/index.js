@@ -22,7 +22,7 @@ class TransformingCard extends Component{
                         <BsArrowDown className="courseTransformingArrow"/>
                         <p className="courseTransformingRole">{Role}</p>
                     </div>
-                        <img className="courseReviewProfileImage" alt="profile" src= {image} />   
+                        <img className="courseTransformImage" alt="profile" src= {image} />   
                 </div>
                 <div className="courseTransformingContainer3">
                         <p className="courseTransformingCompany">{company}</p>
