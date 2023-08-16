@@ -17,89 +17,64 @@ const SuccessStory = () => {
       previousCompany2: "Cognizant",
     },
     {
-      name: "Pankhuri",
-      description: "Cyber Security",
-      previousCompany: "Amazon Web Services (AWS)",
-      currentRole: "Sr. Technical Account Manager",
+      name: "Akhila",
+      description: "Non-Technical",
+      previousCompany: "Cognizant",
+      currentRole: "Data Analyst",
       previousCompany2: "Google",
     },
     // Add six more testimonials here
     {
-      name: "John Doe",
+      name: "Sai Charan",
       description: "Experienced software engineer with a passion for creating innovative solutions.",
       previousCompany: "Tech Innovators Inc.",
-      currentRole: "Senior Software Engineer",
-      previousCompany2: "XYZ Tech Solutions",
+      currentRole: "Full Stack Developer",
+      previousCompany2: "Capgemini",
     },
     {
-      name: "Jane Smith",
+      name: "Triveni",
       description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
+      previousCompany: "Wipro",
+      currentRole: "Sales force admin ",
+      previousCompany2: "Wipro",
     },
     {
-      name: "Jane Smith",
+      name: "Umar",
       description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
+      previousCompany: "LGS",
+      currentRole: "Polarian Developer",
+      previousCompany2: "LGS",
     },
     {
-      name: "Jane Smith",
+      name: "Nagesh",
       description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
+      previousCompany: "Genpact",
+      currentRole: "Digital Marketing Specialist",
+      previousCompany2: "Genpact",
     },
     
     {
-      name: "Jane Smith",
+      name: "Venu",
       description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
+      previousCompany: "LGS",
+      currentRole: "Mendix Developer",
+      previousCompany2: "LGS",
+    },
+    {
+      name: "Chandana",
+      description: "Marketing professional with expertise in brand strategy and digital marketing.",
+      previousCompany: "LGS",
+      currentRole: "Data Scientist",
       previousCompany2: "ABC Marketing Solutions",
     },
     {
-      name: "Jane Smith",
+      name: "Prashanth",
       description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
+      previousCompany: "LGS",
+      currentRole: "software Engineer",
       previousCompany2: "ABC Marketing Solutions",
     },
-    {
-      name: "Jane Smith",
-      description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
-    },
-    {
-      name: "Jane Smith",
-      description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
-    },
-    {
-      name: "Jane Smith",
-      description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
-    },
-    {
-      name: "Jane Smith",
-      description: "Marketing professional with expertise in brand strategy and digital marketing.",
-      previousCompany: "Global Marketing Agency",
-      currentRole: "Senior Marketing Manager",
-      previousCompany2: "ABC Marketing Solutions",
-    },
-    // Add four more testimonials following a similar pattern
-    // Testimonial 3 data
-    // Testimonial 4 data
-    // Testimonial 5 data
-    // Testimonial 6 data
+    
   ];
 
   return (
