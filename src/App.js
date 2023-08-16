@@ -13,18 +13,20 @@ import FullStackCourse from './components/courses/FullStackCourse/FullStackMain'
 import MobileViewCourse from './components/Homes/MobileViewCourse'
 import PopupForm from './components/Homes/Popupform'
 import About from './components/Homes/AboutPage'
-import SuccessStory from './components/Homes/SuccessStory'
+import SuccessStory from './components/SucessStory'
 import CareerSupport from './components/CarrerSupport/CarrerMain'
 import NotFound from './components/NotFound'
 import ChatBot from './components/ChatBot'
 import Whatsapp from './components/Whatsapp'
 import Corporate from './components/Corporate/CorporateMain'
+import Terms from "./components/TermsAndConditions"
 //import Studyabroad from './components/StudyAbroad/studyabroad'
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
+        <Route exact path="/terms-and-conditions" element={<Terms />}/>
         <Route exact path="/corporate" element={<Corporate />} />
         <Route exact path="/Polarian" element={<Polarian />} />
         <Route exact path="/Mendix" element={<Mendix />} />

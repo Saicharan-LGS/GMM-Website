@@ -14,6 +14,13 @@ import punith from "../../Images/punith.jpg"
 import mani from "../../Images/mani.jpg"
 import syed from "../../Images/syed.jpeg"
 import reddy from "../../Images/reddy.png"
+import cor1 from "../../Images/corporate1.png"
+import cor2 from "../../Images/corporate2.png"
+import cor3 from "../../Images/corporate3.png"
+import cor4 from "../../Images/corporate4.png"
+const partnershipImages=[
+    cor1,cor2,cor3,cor4
+]
 
 const bannerRender = [
     "8.2 Million+ learners globally",
@@ -76,16 +83,7 @@ const consultativeCardData = [
     
 ];
 
-const partnershipImages=[
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/stanford-business.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/texas-austin.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/great-lakes.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/northwestern.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/mit-idss.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/iit-roorkee.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/iiith.png",
-    "https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/page-banners/home/univ-logos/nus.png"
-]
+
 
 const ScrolllingImages = [
     "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg",
