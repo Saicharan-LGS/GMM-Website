@@ -98,7 +98,7 @@ const SuccessStory = () => {
         <div>
           <div className="alumni-banner">
             <div className="alumni-banner-content">
-              <h1 className="alumini-text">Inspiring stories of success from our learners</h1>
+              <h3 className="alumini-text">Inspiring stories of success from our learners</h3>
               <p className='alumini-para'>Pick from our pool of qualified & pre-trained candidates. Increase your interview-to-offer ratio.</p>
               {/*<div className="alumni-banner-btns">
               <button class="alumni-banner__btn " data-event-type="View Career Transitions" data-title="Alumni Banner" data-tab-id="tab-career-transition">Explore Career Transitions</button>

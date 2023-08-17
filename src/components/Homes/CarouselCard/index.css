@@ -72,6 +72,12 @@
             width:50px;
         }
 }
+@media (max-width:768px){
+    .Carousel-card-left-button{
+        padding:8px 16px;
+        font-size:12px;
+    }
+}
 @media (max-width:500px){
     .Carousel-card-left-container{
         width:40%;
@@ -87,7 +93,7 @@
         font-size:8px;
     }
     .Carousel-card-left-button{
-        padding:3px;
+        padding:4px 10px;
         font-size:10px;
     }
     .Carousel-card-right-image{

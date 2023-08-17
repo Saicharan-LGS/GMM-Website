@@ -221,7 +221,7 @@ const foundation = [
           ]
     },
     {
-      title: "Coding and Techanical Revision",
+      title: "Coding and Technical Revision",
       content: [
         "20+ Coding Challenges",
         "50+ Assignments",
@@ -244,13 +244,13 @@ const FullStack=()=> {
           <CourseList tabData={foundation}/>
         </div>
         <div>
-          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialisation</span> Track</h2>
-          <p className="Foundation-track-description">Our SalesForce Admin course syllabus covers specialisations that help you become a nice SalesForce professional.</p>
+          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialization</span> Track</h2>
+          <p className="Foundation-track-description">Our SalesForce Admin course syllabus covers specializations that help you become a nice SalesForce professional.</p>
           <CourseList tabData={specialisationTrack}/>
         </div>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
-          <p className="Foundation-track-description">Our SalesForce Admin course syllabus covers specialisations that help you become a nice SalesForce professional.</p>
+          <p className="Foundation-track-description">Our SalesForce Admin course syllabus covers specializations that help you become a nice SalesForce professional.</p>
           <CourseList tabData={careerTrack}/>
         </div>
         <div>

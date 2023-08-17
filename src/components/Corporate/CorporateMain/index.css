@@ -1,4 +1,7 @@
 /* Default styles */
+*{
+  font-family:"Roboto";
+}
 .enterprise-banner-section {
     display: flex;
     width: 100%;
@@ -26,11 +29,13 @@
   
   .enterprise-banner-section-title {
     color: black;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 60px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: .25px;
+    font-family:"Roboto";
+    font-weight:600;
   }
   
   .enterprise-banner-section-subtitle {
@@ -42,10 +47,10 @@
   }
   
   .enterprise-banner-section-button {
-    padding: 16px 95px;
+    padding: 16px 24px;
     background-color: #196ae5;
     color: #fff;
-    width: 300px;
+    width:300px;
     text-transform: uppercase;
     border-radius: 4px;
     font-size: 16px;
@@ -77,10 +82,16 @@
     }
 
     .enterprise-banner-section-title {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 40px;
     }
-  
+    .enterprise-banner-section-change-text{
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: .15px;
+      color: #196ae5;
+      font-weight: 600;
+    }
     .enterprise-banner-section-image {
       width: 100%;
       margin-bottom: 20px;
@@ -88,7 +99,7 @@
   
     .enterprise-banner-section-button {
      width: 100%;
-     padding: 5px 10px;
+     padding: 8px 16px;
      font-size: 15px;
     }
   }
@@ -168,17 +179,17 @@
 
   .enterprise-partners-section-title{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 60px;
     margin-top: 10px;
     margin-bottom: 15px;
     letter-spacing: .25px;
+    font-weight:600;
   }
   .enterprise-partners-section-conatiner-subtitle{
     margin-bottom: 8px;
     color: #196ae5;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px;
     letter-spacing: .15px;
     margin-bottom: 8px;
@@ -240,7 +251,7 @@
 @media (max-width: 768px) {
   /* Adjust the styles to fit smaller screens */
   .enterprise-partners-section-title {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 40px;
   }
   
@@ -357,11 +368,12 @@
 
 .enterprise-partnership-section-conatiner-title{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 60px;
     margin-top: 10px;
     margin-bottom: 5px;
     letter-spacing: .25px;
+    font-weight:600;
 }
 
 .enterprise-partnership-section-image-conatiner{
@@ -467,6 +479,7 @@
   .enterprise-business-section-title {
     font-size: 28px;
     line-height: 40px;
+    font-weight:600;
   }
 
   .enterprise-business-section-pargargh {

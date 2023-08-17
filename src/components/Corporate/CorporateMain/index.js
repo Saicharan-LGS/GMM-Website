@@ -188,7 +188,7 @@ export default function Corporate() {
             <Header />
             <div className='enterprise-banner-section'>
                 <div className='enterprise-banner-section-conatiner'>
-                    <h1 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h1>
+                    <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>
                     <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
                     <button className='enterprise-banner-section-button'>Learn More</button>

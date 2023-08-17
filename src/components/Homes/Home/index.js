@@ -240,13 +240,13 @@ const Home  =()=>{
             </div>
           </div>
           <div className="world-container">
-            <p>Providing online education for</p>
-            <h1>Learners across 170+ countries</h1>
+            <p className="world-container-title">Providing online education for</p>
+            <h3 className="home-section-service-heading">Learners across 170+ countries</h3>
             <img className="world-image" src={world}  alt=""/>
           </div>
           <div className="home-section-explore-courses-section">
             <div className="home-section-explore-courses-section1">
-              <h1 className="home-section-explore-courses-heading">Explore courses</h1>
+              <h3 className="home-section-service-heading">Explore courses</h3>
               <p className="home-section-explore-courses-text">1000+ Free Courses, Live Sessions by Experts, and Job Opportunities from 2800+ Companies. Join 1 Crore+ learners to build your dream career now!</p>
               <button className="home-section-explore-courses-button">Explore Now</button>
             </div>
@@ -256,8 +256,8 @@ const Home  =()=>{
           </div>
           <div className="home-section-success-stories-container">
             <p className="home-section-success-stories-text">Inspiring everyone to learn with</p>
-            <h1 className="home-section-sucesss-stories-heading">Multiple stories of growth</h1>
-            <p className="home-section-success-stories-description">Find out how our Learners transformed their careers after learning with us.</p>
+            <h1 className="home-section-service-heading">Multiple stories of growth</h1>
+            <p className="home-section-explore-courses-text">Find out how our Learners transformed their careers after learning with us.</p>
             <button className="home-section-explore-courses-button">Get Inspired</button>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >

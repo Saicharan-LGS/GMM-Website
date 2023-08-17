@@ -18,7 +18,7 @@ const CourseJobReady = () => {
       ,
     {
       title: "Gamified Experiment",
-      description:"learn complex concepts through games & experiments at AlamBetter Labs",
+      description:"learn complex concepts through games & experiments at GloriousMindMine Labs",
       images: "https://raccoongang.com/wp-content/uploads/2021/09/Gamification_in_Education_and_Its_Examples.png"
     }
     

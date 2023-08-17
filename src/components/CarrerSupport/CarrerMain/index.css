@@ -19,7 +19,7 @@
     margin-bottom: 15px;
     font-family:"Roboto";
     font-size:28px;
-    font-weight:700;
+    font-weight:600;
     color:#222;
 }
 .careerSupportIntoductionText{
@@ -155,6 +155,11 @@
 .careerHiringMainContainer{
     padding:30px 80px 30px 80px;
 }
+.careerHiringMainHeading{
+    font-size: 32px;
+    font-weight: 600;
+    font-family:"Roboto";
+}  
 @media (max-width:992px){
     .carrerSupportIntoductionContainer{
         background-color: #e6f0ff;
