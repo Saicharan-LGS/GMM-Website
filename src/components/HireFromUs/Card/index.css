@@ -15,10 +15,13 @@
     width:130px;
 }
 .HirefromusCard1Name{
+    margin-top: 10px;
     font-weight: 600px;
     font-size: 16px;
+    margin-bottom: 5px;
 }
 .HirefromusCard1Text{
     font-weight: 600px;
     font-size: 18px;
+    margin-top: 0px;
 }
