@@ -2,7 +2,7 @@ import {Component} from 'react'
 import { BannerLeft } from "../BannerLeft";
 import {BannerRight} from "../BannerRight"
 import DoubtItem from '../DoubtItem' 
-import  ReviewCard from "../ReviewCard"
+import ReviewCard from "../ReviewCard"
 import FlexibleProgram from "../FlexibleProgram"
 import WhyGloriousMindMineCard from '../WhyGMMCard';
 import {SiGoogleclassroom} from "react-icons/si"

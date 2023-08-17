@@ -35,45 +35,43 @@ class Header extends Component {
                 <li className="Mobile-explore-items-list">
                   <MobileViewCourseList/>
                 </li>
-                </ul>
-            </div>
-            <Link to="/career" className="nav-link">
-                <li className="nav-menu-item">Career Support</li>
-              </Link>
-              <Link
-                to="/success"
-                className="nav-link"
-              >
-                <li className="nav-menu-item">Success Stories</li>
-              </Link>
-              <Link
-                to="/corporate"
-                className="nav-link">
-                <li className="nav-menu-item">Corporate</li>
-              </Link>
+              </ul>
+          </div>
+          <Link to="/career" className="nav-link">
+              <li className="nav-menu-item">Career Support</li>
+          </Link>
+          <Link
+            to="/success"
+            className="nav-link">
+            <li className="nav-menu-item">Success Stories</li>
+          </Link>
+          <Link
+            to="/corporate"
+            className="nav-link">
+            <li className="nav-menu-item">Corporate</li>
+          </Link>
               {/* <Link
                 to="/studyabroad"
                 className="nav-link">
                 <li className="nav-menu-item">Study Abroad</li>
               </Link> */}
-              <Link
-                to="/Hirefromus"
-                className="nav-link">
-                <li className="nav-menu-item">Hire From Us</li>
-              </Link>
-              <Link
-                to="/aboutus"
-                className="nav-link">
-                <li className="nav-menu-item">About Us</li>
-              </Link>
-              <li>
-                <Link to="/registration"><button
-                  type="button"
-                  className="logout-desktop-btn"
-                >
-                  Contact Us
-                </button></Link>
-              </li>
+          <Link
+            to="/Hirefromus"
+            className="nav-link">
+            <li className="nav-menu-item">Hire From Us</li>
+          </Link>
+          <Link
+            to="/aboutus"
+            className="nav-link">
+            <li className="nav-menu-item">About Us</li>
+          </Link>
+          <li>
+          <Link to="/registration"><button
+            type="button"
+            className="logout-desktop-btn">
+            Contact Us
+            </button></Link>
+          </li>
       </ul>
       {/*<button
         type="button"

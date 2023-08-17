@@ -260,5 +260,13 @@
 @media (max-width:768px){
     .courseTransformingcarrercarouselcontainer{
         max-width:90%;
+    }.courseWhyGloriousMindMineSideImageContainer{
+        max-width:90%;
+        display:flex;
+        align-items:center;
+    }
+    .courseWhyGloriousMindMineSideImage{
+        width:80%;
+        object-fit: cover;
     }
 }
