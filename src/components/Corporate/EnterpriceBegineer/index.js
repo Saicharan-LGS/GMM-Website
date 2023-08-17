@@ -148,7 +148,7 @@ function EnterpriseBeginner(){
                 </div>
                 <div className="Enterprise-review-of-partner">
                     <p className="Enterprise-review-of-partner-heading">We highly recommend Great Learning for Business as a learning partner.</p>
-                    <p className="Enterprise-review-of-partner-description">“Their attention to detail, innovative ideas, rigorous curricula, and commitment to delivering the highest quality of learning programs have been very impressive.”</p>
+                    <p className="Enterprise-review-of-partner-description">“Their attention to detail, innovative ideas, rigorous curriculam, and commitment to delivering the highest quality of learning programs have been very impressive.”</p>
                     <p className="Enterprise-review-of-partner-analytics">VP,Analytics</p>
                 </div>
             </div>

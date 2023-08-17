@@ -3,7 +3,7 @@ import CourseList from '../../DataScience/CourseList'
 import "../../DataScience/FullStack/index.css"
 
 const foundation = [
-    { title: 'Mastering English Communcation', content:[
+    { title: 'Mastering English Communication', content:[
             '6 Action Items to improve your Communication Skills',
             '10 Daily Rituals – Habits that Can Change you.',
             '4 Pillars of Communication: Reading, Writing, Listening & Speaking',
@@ -12,7 +12,7 @@ const foundation = [
             'Grammar from Beginner to Intermediate level.',
             'Pronunciation and Correct form of Pronouncing words.',
       ]  },
-    { title: 'Effective Communcation And Personal Developemnt', content:  [
+    { title: 'Effective Communication And Personal Development', content:  [
             'Voice Modulation & Pitch Pattern',
             'Body language – Present yourself appropriately',
             'How to remove hesitation & speak with Confidence?',
@@ -23,7 +23,7 @@ const foundation = [
             'Voice and accent and how to overcome mother tongue influence.',
       ] },
       {
-        title: "Mastering Confident Communcation",
+        title: "Mastering Confident Communication",
         content: [
             'How to give your introduction with Confidence?',
             'Free Speech pattern – What is it and why is it so important in Communication Skills',
@@ -77,7 +77,7 @@ const FullStack=()=> {
         <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> GloriousMindMine</span></h2>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">WHAT ALL WILL </span> YOU  LEARN</h2>
-          <p className="Foundation-track-description">Speak English Fluently Without Banging Your Head On English Grammar and spending Hours & Hours.</p>
+          <p className="Foundation-track-description">Speak English Fluently Without Banging Your Head On English Grammar And Spending Hours & Hours.</p>
           <CourseList tabData={foundation}/>
         </div>
         {/* <div>
@@ -87,7 +87,7 @@ const FullStack=()=> {
         </div> */}
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
-          <p className="Foundation-track-description">Our English Communication Blue print course syllabus covers specialisations that help you become a Good English speaker.</p>
+          <p className="Foundation-track-description">Our English Communication Blue print course syllabus covers specializations that help you become a Good English speaker.</p>
           <CourseList tabData={careerTrack}/>
         </div>
         <div>

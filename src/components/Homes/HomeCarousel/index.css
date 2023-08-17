@@ -13,12 +13,12 @@
 
 .carousel-slider-home{
     margin-bottom:50px;
-    width:80vw;
+    width:85vw;
     margin-left:7.5%;
     margin-right: 7.5%;
 }
 @media (max-width:972px){
   .carousel-slider-home{
-    margin-left:20px;
+    width: 80vw;
   }
 }

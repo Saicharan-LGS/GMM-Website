@@ -1,9 +1,12 @@
 import  { Component } from "react";
 import './index.css'
-
+import Header from '../Homes/Headers'
+import Footer from '../Homes/Footer'
 class Terms extends Component {
     render(){
   return (
+    <>
+    <Header />
     <div className="Terms_container">
         <h1 className="Terms_heading_background">Terms of Use</h1>
         <div>
@@ -237,9 +240,10 @@ class Terms extends Component {
 
         </div>
     </div>
-
+    <Footer />
+    </>
   )
-    }
+}
 }
 
 export default Terms

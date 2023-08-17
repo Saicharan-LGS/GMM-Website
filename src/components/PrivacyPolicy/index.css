@@ -1,0 +1,69 @@
+.privacy-heading-container{
+    background: linear-gradient(to right, rgba(13,53,115, .99) 0%, rgba(13,53,115, 0.95) 100%);
+    text-align: center;
+}
+
+.privacy-heading-container-heading{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5em;
+    color: #fff;
+    padding: 15px;
+}
+
+.privacy-content-container{
+    padding: 8px 40px;
+}
+
+.privacy-content-container-para{
+    color: #00000099;
+    font-size: 15px;
+    line-height: 1.69;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.privacy-content-container-sub{
+    color: rgba(0,0,0,0.87);
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.privacy-content-container-ul{
+    padding-left: 25px;
+}
+
+
+.privacy-content-container-cookies-titles{
+    color: #000000ce;
+    font-size: 16px;
+    line-height: 1.69;
+    font-weight: 400;
+}
+
+.privacy-table-border-style1{
+    border: 1px solid #ddd;;
+    padding: 8px;
+    width:400px;
+}
+
+.privacy-table-border-style2{
+    border: 1px solid #ddd;;
+    padding: 8px;
+    width: 100%;
+}
+
+.privacy-table-title{
+    color: #150303c1;
+    font-size: 16px;
+    line-height: 1.69;
+    font-weight: 600;
+}
+
+.privacy-table-sub-title{
+    color: #00000099;
+    font-size: 15px;
+    line-height: 1.69;
+    font-weight: normal;
+}

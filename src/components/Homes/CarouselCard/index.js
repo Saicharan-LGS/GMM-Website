@@ -14,7 +14,7 @@ class CarouselCard extends Component{
                     <p className="Carousel-card-left-desc">{description}</p>
                     <Link to={link} style={{textDecoration:"none"}}><button className="Carousel-card-left-button">Explore Now</button></Link>
                 </div>
-                    <img src={Image} alt="" className="Carousel-card-right-image"/>
+                <img src={Image} alt="" className="Carousel-card-right-image"/>
             </div>
         )
     }
