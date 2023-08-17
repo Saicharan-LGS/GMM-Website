@@ -73,9 +73,9 @@ const foundation = [
         "FMC -Post-save & Pre-save scripts, real-time with examples",
         "Declaring a macro",
         "Defining a macro",
-        "Calling a macr",
+        "Calling a macro",
         "Sample live reports using OTB widgets",
-        "Live reports using polarion API's",
+        "Live reports using Polarion API's",
         "Live reports/pages using other technologies"
               ]
     },
@@ -135,7 +135,7 @@ const foundation = [
           ]
     },
     {
-      title: "Coding and Techanical Revision",
+      title: "Coding and Technical Revision",
       content: [
         "20+ Coding Challenges",
         "50+ Assignments",
@@ -158,13 +158,13 @@ const FullStack=()=> {
           <CourseList tabData={foundation}/>
         </div>
         <div>
-          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialisation</span> Track</h2>
-          <p className="Foundation-track-description">Our Polarion course syllabus covers specialisations that help you become a niche Polarion Professional.</p>
+          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialization</span> Track</h2>
+          <p className="Foundation-track-description">Our Polarion course syllabus covers specializations that help you become a niche Polarion Professional.</p>
           <CourseList tabData={specialisationTrack}/>
         </div>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
-          <p className="Foundation-track-description">Our Polarion course syllabus covers specialisations that help you become a niche Polarion professional.</p>
+          <p className="Foundation-track-description">Our Polarion course syllabus covers specializations that help you become a niche Polarion professional.</p>
           <CourseList tabData={careerTrack}/>
         </div>
         <div>

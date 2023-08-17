@@ -201,13 +201,13 @@ const FullStack=()=> {
           <CourseList tabData={foundation}/>
         </div>
         <div>
-          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialisation</span> Track</h2>
-          <p className="Foundation-track-description">Our Mendix course syllabus covers specialisations that help you become a niche Mendix professional.</p>
+          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Specialization</span> Track</h2>
+          <p className="Foundation-track-description">Our Mendix course syllabus covers specializations that help you become a niche Mendix professional.</p>
           <CourseList tabData={specialisationTrack}/>
         </div>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
-          <p className="Foundation-track-description">Our Mendix course syllabus covers specialisations that help you become a niche Mendix professional.</p>
+          <p className="Foundation-track-description">Our Mendix course syllabus covers specializations that help you become a niche Mendix professional.</p>
           <CourseList tabData={careerTrack}/>
         </div>
         <div>
