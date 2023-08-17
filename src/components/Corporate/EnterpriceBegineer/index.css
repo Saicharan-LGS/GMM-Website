@@ -8,17 +8,18 @@
     height:max-content;
 }
 .Enterprise-card-beginner-main-heading{
-    font-family:"Poppins",sans-serif;
+    font-family:"Roboto";
     font-size: 16px;
     margin-top:40px;
     color:#196AE5;
     display:block;
 }
 .Enterprise-card-beginner-sub-heading{
-    font-family:"Poppins",sans-serif;
-    font-size: 40px; 
+    font-family:"Roboto";
+    font-size: 32px; 
     margin:0px;
     color:#000000DE;
+    font-weight:600;
 }
 .Enterprise-beginner-slider-container{
     margin:0px;

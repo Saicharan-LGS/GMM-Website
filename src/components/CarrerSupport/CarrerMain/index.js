@@ -85,7 +85,7 @@ class CareerSupport extends Component{
            <Header/>
             <div className="carrerSupportMain-home-container">
                 <div className="carrerSupportIntoductionContainer">
-                    <h1 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h1>
+                    <h3 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h3>
                     <div className="carrerSupportIntroductionSubContainer">
                         <div className="careerSupportIntoductionContainer1">
                             <span className="careerSupportIntoductionText">Career Fairs</span>
@@ -157,7 +157,7 @@ class CareerSupport extends Component{
                 </div>
                 {careerPrepList.map(each=>(<CarrerPrep key={each} details={each} />))}
                 <div className="careerHiringMainContainer">
-                    <h1 className="careerHiringMainHeading">Our Hiring Partners</h1>
+                    <h3 className="careerHiringMainHeading">Our Hiring Partners</h3>
                     <BannerLeft images={ScrolllingImages1} speed={5000} />
                 </div>
             </div>

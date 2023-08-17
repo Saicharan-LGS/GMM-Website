@@ -86,6 +86,8 @@
       flex-grow: 1;
       margin-right: 0;
       margin-bottom: 5px;
+      padding: 20px 20px !important;
+      
     }
   
     .courseReady-content-display {
@@ -94,7 +96,6 @@
     .courseReady-accordion{
         display:flex;
         flex-direction: column;
-        
     }
     .courseReady-accordion .course-accordion-header{
         cursor: pointer;
@@ -107,6 +108,7 @@
         border-radius:5px;
         margin-bottom:10px;
         text-transform: uppercase;
+        
     }
     .courseReady-accordion-header:hover{
         color:#196AE5 !important;
@@ -125,13 +127,13 @@
 .courseReady-accordion-content{
     padding: 20px;
     flex-grow: 1;
-    margin-bottom:10px;
-}.courseReady-accordion-header{
-  background-color:#e6f0ff; 
-  margin-bottom: 20px;
-}
-
+    background-color: #fff !important;
 }
 .courseReady-accordion-header{
-  background-color:#e6f0ff; 
+  margin-bottom: 20px;
+  margin-top:10px;
+  padding:10px;
+  border-radius:5px;
+}
+
 }

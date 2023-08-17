@@ -17,6 +17,11 @@
   width:100%;
   height:100%
 }
+@media (max-width:912px){
+  .home-section-service-image{
+    margin-bottom:24px;
+  }
+}
 .home-section-service-container{
   margin:15px 50px 15px 50px;
   display:flex;
@@ -30,12 +35,13 @@
   display:flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center;
 }
 .home-section-service-heading{
     color:#000000;
-    font-size:34px;
+    font-size:32px;
     font-family:"Roboto";
-    margin:32px 0px 0px;
+    margin:0px;
     font-weight:600;
 }
 .home-section-service-description{
@@ -43,6 +49,11 @@
     font-size:24px;
     font-family:"Roboto";
     margin:24px 0px 0px;
+}
+@media (max-width:912px){
+  .home-section-service-description{
+    font-size:18px;
+  }
 }
 .home-section-service-stats-container{
   display:flex;
@@ -87,6 +98,11 @@
   flex-direction: row-reverse;
   margin-bottom:30px;
 }
+.world-container-title{
+  color:#0F4089;
+  font-size:16px;
+  font-family:"Roboto";
+}
 @media (max-width:800px){
   .home-section-service-container{
     display:flex;
@@ -106,7 +122,7 @@
   }.home-section-service-description{
     font-size: 14px;
   }.home-section-service-heading{
-    font-size: 18px;
+    font-size: 24px;
   }.home-section-right-side-container{
     width:100%;
     padding: 0px;
@@ -183,6 +199,10 @@
 }
 .home-section-transformed-careers-heading{
   color: #fff;
+  font-size:34px;
+  font-family:"Roboto";
+  margin:0px 0px 5px;
+  font-weight:600;
 }
 .home-section-transformed-careers-text{
   color:#bfbfbf;
@@ -192,10 +212,13 @@
   border: none;
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
+  font-family:"Roboto";
+  font-weight:600;
 }
 .home-section-transformed-carrers-text1{
-  font-size: 14px;
-  color:#bfbfbf;
+  font-size: 16px;
+  color:#fff;
+  font-family:"Roboto";
 }
 
 @media (max-width:768px){
@@ -248,6 +271,11 @@
 .home-section-explore-courses-section2{
   width: 40%;
 }
+.home-section-explore-courses-text{
+  font-family:"Roboto";
+  font-size:16px;
+  color:#00000099;
+}
 .home-section-explore-courses-button{
   background-color: #196ae5;
   color: #fff;
@@ -283,11 +311,13 @@
     flex-direction: column;
     align-items: center;
   }
+ 
   .home-section-explore-courses-button{
-    background-color: #196ae5;
+    background-color: #196AE5;
     color: #fff;
     border: none;
     padding: 50px 15x 10px 15px;
+    font-family:"Roboto";
   }
   .home-section-explore-courses-image{
     width:100%;
