@@ -98,3 +98,8 @@ p {
     line-height:15px;
   }
 }
+.privacy-text{
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}

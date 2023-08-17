@@ -110,8 +110,8 @@ const Footer = () => {
             <div className="d-flex flex-column justify-content-center align-items-center">
                 
                 <div className="d-flex flex-row gap-4">
-                  <p><Link to="/privacy-policy" >Privacy Policy</Link></p>
-                  <p><Link to="/terms-and-conditions" >Terms & Conditions</Link></p>
+                  <p className="privacy-text"><Link to="/privacy-policy" >Privacy Policy</Link></p>
+                  <p className="privacy-text"><Link to="/terms-and-conditions" >Terms & Conditions</Link></p>
                 </div>
                 <div className="ml-2 mt-1">
                     <h1 className="Ecommerce-Website-Footer-Section-address">Copyright @2023 By Glorious Mindmine</h1>
