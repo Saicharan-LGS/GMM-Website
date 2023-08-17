@@ -3,6 +3,7 @@
 .Fullstack-main-container{
     padding:30px;
     width:100%;
+    padding-bottom:0px;
 }
 .Fullstack-journey-heading{
     font-family: "Roboto";
@@ -32,6 +33,7 @@
     font-weight:600;
     margin-top:20px;
 }
+
 .Foundation-track-heading-underline{
     position: relative;
 }
@@ -58,4 +60,13 @@
 .Fullstack-company-image{
     width:100%;
     object-fit:cover;
+}
+@media (max-width:768px){
+    .Fullstack-journey-heading{
+        font-size:16px;
+    }
+    .Foundation-track-heading{
+        font-size:14px;
+    }
+    
 }

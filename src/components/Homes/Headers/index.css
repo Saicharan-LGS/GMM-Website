@@ -160,15 +160,15 @@
     .nav-menu-item:hover{
       color:#196AE5;
     }
-    @media (max-width:1000px){
+    @media (max-width:1200px){
       .nav-menu-item{
-        font-size:10px;
+        font-size:12px;
         flex-shrink: 1;
         width:max-content;
         margin-right: 0px;
       }
     }
-      @media (min-width:1000px){
+      @media (min-width:1200px){
         .nav-menu-item{
           font-size:14px;
           flex-shrink: 1;
@@ -205,12 +205,12 @@
       width:max-content;
       margin-left: 40px;
     }
-    @media (max-width:1000px){
+    @media (max-width:1200px){
       .logout-desktop-btn{
         font-size:10px;
         padding: 4px 16px;
-        margin-top:20%;
-        margin-left:10px;
+        margin-top:22%;
+        margin-left:8px;
       }
     }
     
@@ -317,9 +317,9 @@
 .NavcoursesBasicDoubtsTabsListItemButton:hover{
   color:#196AE5;
 }
-@media (max-width:900px){
+@media (max-width:1000px){
   .display-content{
-    margin-left:100%;
+    margin-left:60vw;
   }
 }
 .Mobile-explore-items-list{

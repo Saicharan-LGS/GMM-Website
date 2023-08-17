@@ -23,7 +23,23 @@
     display:flex;
     gap:15px;  
 }
-@media(max-width:767px){
+@media(max-width:1200px){
+    .courseWhyGloriousMindMineSubContainer{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .courseWhyGloriousMindMineList{
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+        justify-content:center;
+    }
+}
+@media(max-width:768px){
     .courseWhyGloriousMindMineSubContainer{
         display:flex;
         flex-direction: column-reverse;
@@ -36,14 +52,24 @@
         padding-left: 0%;
         padding-right: 0%;
     }
+    .courseWhyGloriousMindMineMainHeading{
+        font-size:14px;
+    }
 }
 .courseWhyGloriousMindMineList{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width:60%;
+    width:80%;
+    gap:10px;
     padding-left: 0px;
     padding-bottom: 0px;
+}
+@media (max-width:768px){
+    .courseWhyGloriousMindMineList{
+        display:flex;
+        justify-content: center;
+    }
 }
 .courseWhyGloriousMindMineSideImageContainer{
     max-width:35%;
@@ -56,14 +82,19 @@
 }
 
 .courseFlexibleProgramContainer{
-    padding:30px;
-    padding-top:0px;
+    padding:0px 30px;
+    
 }
 .courseFlexibleProgramMainHeading{
     font-family: "Roboto";
     font-size:24px;
     font-weight:600;
     margin-bottom:16px;
+}
+@media (max-width:768px){
+    .courseFlexibleProgramMainHeading{
+        font-size:14px;
+    }
 }
 .courseFlexibleProgramList{
     display: flex;
@@ -131,6 +162,12 @@
 }
 .EnrollNowButton1:hover{
     opacity:0.9;
+}
+@media (max-width:768px){
+    .EnrollNowButton1{
+        border-radius:8px;
+        width:100%;
+    }
 }
 .DownloadBroucherButton1{
     width:50%;

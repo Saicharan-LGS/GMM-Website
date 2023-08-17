@@ -27,3 +27,14 @@
     color: #222;
     font-family:"Roboto"
 }
+@media(max-width:768px){
+    .courseFlexibleProgramCard{
+        height:250px;
+    }
+    .courseFlexibleProgramQuestion{
+        font-size:12px;
+    }
+    .courseFlexibleProgramAnswer{
+        font-size:12px;
+    }
+}
