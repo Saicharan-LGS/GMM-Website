@@ -186,10 +186,10 @@ const careerTrack=[
 const FullStack=()=> {
   return (
     <div className="Fullstack-main-container">
-        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> AlmaBetter</span></h2>
+        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> Glorious Minemine</span></h2>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Foundation</span> Track </h2>
-          <p className="Foundation-track-description">AlmaBetter's Full Stack Data Science course begins by cementing your foundation in Data Science concepts.</p>
+          <p className="Foundation-track-description">Glorious Mindmine's Full Stack Data Science course begins by cementing your foundation in Data Science concepts.</p>
           <CourseList tabData={foundation}/>
         </div>
         <div>
@@ -198,7 +198,7 @@ const FullStack=()=> {
           <CourseList tabData={specialisationTrack}/>
         </div>
         <div>
-          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track-Almax</h2>
+          <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
           <p className="Foundation-track-description">Our Full Stack Data Science course syllabus covers specialisations that help you become a niche Data Science and Analytics professional.</p>
           <CourseList tabData={careerTrack}/>
         </div>
