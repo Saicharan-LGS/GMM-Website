@@ -63,10 +63,13 @@
 }
 @media (max-width:768px){
     .Fullstack-journey-heading{
-        font-size:16px;
+        font-size:18px;
     }
     .Foundation-track-heading{
-        font-size:14px;
+        font-size:16px;
+    }
+    .Foundation-track-description{
+        font-size:12px;
     }
     
 }

@@ -43,7 +43,7 @@ const CourseList = (props) => {
                   <div className="course-accordion-content">
                     <ul>
                     {tab.content.map((item,index)=>(
-                        <li key={index}>
+                        <li key={index} className="course-Content-list-item">
                             {item}
                         </li>
                     ))}
