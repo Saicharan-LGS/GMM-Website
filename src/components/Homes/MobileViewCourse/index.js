@@ -14,10 +14,9 @@ function MobileCourseList(){
         <div>
             <ul className='MobileViewCourseList'>
                 {MobileCourseList.map(each=>{
-                
                 return(
-                    <Link to={each.link}><li className= {`MobileViewCourseItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton`} value={each.id}>{each.tab}</button></li></Link>
-                    )})}
+                    <Link style={{textDecoration:"none"}} key={each.id} to={each.link}><li className= {`MobileViewCourseItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton`} value={each.id}>{each.tab}</button></li></Link>
+                )})}
             </ul>
         </div>
     )

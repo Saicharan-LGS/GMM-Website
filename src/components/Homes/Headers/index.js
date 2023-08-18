@@ -20,60 +20,63 @@ const NavbarCourseList=[
 
 
 class Header extends Component {
-  state = {tab:NavbarCourseList[0].id }
+  state = {tab:NavbarCourseList[0].id,showNavMobileItems:false }
 
   toggleShowNavItems = () => {
     this.setState(prevState => ({showNavItems: !prevState.showNavItems}))
   }
+  toggleMobileitems=()=>{
+    this.setState(prevState=>({showNavMobileItems: !prevState.showNavMobileItems}))
+  }
 
-  renderNavItems = () => (
+  renderNavItems = () => {
+    const {showNavMobileItems}=this.state
+    return(
     <div className="nav-items-container">
       <ul className="nav-menu-mobile">
           <div className="Mobile-explore-container">
               <ul className="Mobile-explore-sub-container">
-                <li className="nav-menu-item">Explore Programs</li>
+                <li className="nav-menu-item" onClick={this.toggleMobileitems}>Explore Programs</li>
                 <li className="Mobile-explore-items-list">
-                  <MobileViewCourseList/>
+                  {showNavMobileItems && <MobileViewCourseList/> }
                 </li>
-                </ul>
-            </div>
-            <Link to="/career" className="nav-link">
-                <li className="nav-menu-item">Career Support</li>
-              </Link>
-              <Link
-                to="/success"
-                className="nav-link"
-              >
-                <li className="nav-menu-item">Success Stories</li>
-              </Link>
-              <Link
-                to="/corporate"
-                className="nav-link">
-                <li className="nav-menu-item">Corporate</li>
-              </Link>
+              </ul>
+          </div>
+          <Link to="/career" className="nav-link">
+              <li className="nav-menu-item">Career Support</li>
+          </Link>
+          <Link
+            to="/success"
+            className="nav-link">
+            <li className="nav-menu-item">Success Stories</li>
+          </Link>
+          <Link
+            to="/corporate"
+            className="nav-link">
+            <li className="nav-menu-item">Corporate</li>
+          </Link>
               {/* <Link
                 to="/studyabroad"
                 className="nav-link">
                 <li className="nav-menu-item">Study Abroad</li>
               </Link> */}
-              <Link
-                to="/Hirefromus"
-                className="nav-link">
-                <li className="nav-menu-item">Hire From Us</li>
-              </Link>
-              <Link
-                to="/aboutus"
-                className="nav-link">
-                <li className="nav-menu-item">About Us</li>
-              </Link>
-              <li>
-                <Link to="/registration"><button
-                  type="button"
-                  className="logout-desktop-btn"
-                >
-                  Contact Us
-                </button></Link>
-              </li>
+          <Link
+            to="/Hirefromus"
+            className="nav-link">
+            <li className="nav-menu-item">Hire From Us</li>
+          </Link>
+          <Link
+            to="/aboutus"
+            className="nav-link">
+            <li className="nav-menu-item">About Us</li>
+          </Link>
+          <li>
+          <Link to="/registration"><button
+            type="button"
+            className="logout-desktop-btn">
+            Contact Us
+            </button></Link>
+          </li>
       </ul>
       {/*<button
         type="button"
@@ -84,6 +87,7 @@ class Header extends Component {
   </button>*/}
     </div>
   )
+}
   changeNavTabId = event => {
     this.setState({tab: event.target.value})
   }
@@ -118,13 +122,13 @@ class Header extends Component {
               />
             </Link>
             <ul className="Explore-program">
-                    <Link to="/" className="nav-link">
-                      <li className="nav-menu-item explore-program-item">Explore Programs</li>
-                    </Link> 
-                    <div className="display-content">
-                        <div className="explore-program-main-container">
-                        <ul className='NavcoursesBasicDoubtsTabsList'>
-                        {NavbarCourseList.map(each=>{
+            <Link to="/" className="nav-link">
+              <li className="nav-menu-item explore-program-item">Explore Programs</li>
+            </Link> 
+            <div className="display-content">
+              <div className="explore-program-main-container">
+                <ul className='NavcoursesBasicDoubtsTabsList'>
+                  {NavbarCourseList.map(each=>{
                             const activeTab=each.id===tab ? "NavcourseBasicDoubtActiveTab" : ""
                             return(
                             <div  key={each.id} className='NavcourseslistContainer'>

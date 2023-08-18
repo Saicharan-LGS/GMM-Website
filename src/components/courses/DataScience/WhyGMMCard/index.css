@@ -12,10 +12,6 @@
     max-height:max-content;
     
 }
-.courseWhyGloriousMindMineCard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
 
 .courseWhyGloriousMindMineImage{
     font-size:70px;
@@ -27,6 +23,7 @@
     height:30%;
     color: #222;
 }
+
 @media (max-width:768px){
     .courseWhyGloriousMindMineCard{
         max-width:150px;

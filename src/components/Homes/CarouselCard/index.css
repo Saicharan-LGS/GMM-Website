@@ -6,6 +6,7 @@
     align-items:center;
     margin-top:25px;
     margin-bottom: 0px;
+    width:100%;
 }
 .Carousel-card-left-container{
     display:flex;
@@ -63,10 +64,10 @@
             font-size:16px;
         }
         .Carousel-card-left-desc{
-            font-size:14px;
+            font-size:10px;
         }
         .Carousel-card-left-text{
-            font-size:10px;
+            font-size:14px;
         }
         .Carousel-card-right-image{
             width:50px;
