@@ -3,7 +3,7 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
 import {Link} from 'react-router-dom'
-import profile from "../../../Images/umar.jpg"
+import profile from "../../../Images/umar.png"
 class Intro extends Component{
     render(){
         return(
