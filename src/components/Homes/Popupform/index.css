@@ -72,7 +72,8 @@
   
   .ppr-callback-logo {
     width: 100%;
-    align-self: center;
+    object-fit: cover;
+    align-self: stretch;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }

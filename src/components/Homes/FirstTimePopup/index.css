@@ -1,3 +1,4 @@
+
 .ppr-popup {
   display: flex;
   align-items: center;
@@ -29,16 +30,20 @@
   margin-top: 0;
   color: #196AE5;
 }
-
+.ppr-popup-label-name{
+  flex-shrink: 1;
+}
 .ppr-popup-input {
   padding: 5px;
   margin-bottom: 16px;
   height:30px;
   border-radius:5px;
   border:none;
+  flex-shrink: 1;
 }
 
 .ppr-popup button {
+  flex-shrink: 1;
   padding: 8px 16px;
   background-color: #196AE5;
   color: #fff;
@@ -46,6 +51,7 @@
   border-radius: 5px;
   cursor: pointer;
   align-self: center;
+  margin-bottom: 10px;
 }
 
 .ppr-close {
@@ -71,15 +77,19 @@
 }
 
 .ppr-callback-logo {
-  width: 100%;
-  align-self: center;
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+  min-width: 100%;
+  align-self: stretch;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 912px) {
   .ppr-popup-content {
-    width: 100%;
+    min-width: 90vw;
+    margin: 0 5vw 0 5vw;
   }
 }
 
@@ -90,14 +100,17 @@
 .ppr-error-message {
   color: red;
 }
-
+.ppr-request-call-back{
+  flex-shrink: 1;
+}
 .ppr-pop-content-image-container {
-  justify-self: center;
-  align-self: center;
-  width: 100%;
+  height:550px;
+  min-width:300px;
+  padding: 0px;
+  margin: 0px;
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 912px) {
   .ppr-pop-content-image-container {
     display: none;
   }
@@ -106,9 +119,12 @@
 .ppr-pop-content-content-container {
   justify-self: center;
   align-self: center;
-  width: 100%;
   padding-right: 60px;
   padding-left: 60px;
+  min-width:350px;
   display: flex;
+  padding: 10px;
   flex-direction: column;
+  justify-content: space-between;
+  height:550px;
 }

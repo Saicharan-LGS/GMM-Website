@@ -62,7 +62,7 @@ const FirstTimePopup = () => {
       {showPopup && (
          <div className="ppr-popup">
          <form className="ppr-popup-content">
-           <div className='ppr-pop-content-image-container'>
+           <div className='ppr-pop-content-image-container' >
              <img src={image1} alt="" className='ppr-callback-logo' />
            </div>
            <div className='ppr-pop-content-content-container'>
