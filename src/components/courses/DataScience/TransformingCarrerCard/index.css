@@ -93,14 +93,14 @@
     .courseTransformingcard{
         display:block;
         width:300px;
-        overflow:scroll;
+        height:max-content;
     }
 }
 @media (max-width:767px){
     .courseTransformingcard{
         display:block;
-        width:80%;
-        overflow:scroll;
+        width:90%;
+        height:max-content;
     }
     .courseTransformingContainer1{
         max-height:max-content;
@@ -116,8 +116,8 @@
 @media (max-width:300px){
     .courseTransformingcard{
         width:100%;
-        max-height:max-content;
-        overflow:scroll;
+        height:max-content;
+       
     }
     .courseTransformingContainer1{
         max-height:max-content;
