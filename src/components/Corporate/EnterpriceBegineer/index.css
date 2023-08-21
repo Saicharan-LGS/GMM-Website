@@ -54,7 +54,7 @@
 }
 .Enterprise-review-of-recruiters-heading{
     font-family:"Poppins",sans-serif;
-    font-size:34px;
+    font-size:32px;
     font-weight:600;
     margin:0px;
     color:#000000DE;
@@ -144,6 +144,9 @@
     }
     .Enterprise-card-main-beginner-container{
         padding:5%;
+    }
+    .Enterprise-review-of-recruiters-heading{
+        font-size:24px;
     }
 }
 

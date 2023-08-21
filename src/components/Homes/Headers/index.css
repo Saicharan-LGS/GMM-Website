@@ -346,9 +346,11 @@
   padding:8px 10px 8px 10px;
   border-radius:4px;
 }
-@media (min-width:1000px){
+@media (max-width:1200px){
   .explore-program-item{
-    
+     font-size:12px;
+     padding:4px 8px;
+     margin-top:4%;
   }
 }
 .explore-program-item:hover{
@@ -375,3 +377,6 @@
   align-self:center;
 }
 
+.active{
+  color:#196AE5;
+}

@@ -44,7 +44,7 @@ const consultativeCardData = [
         'Recognize target audience and current challenges',
         'Propose the best learning solution for your business',
       ],
-      icon: <BsPuzzle size={45} color="#ffffff" />,
+      icon: <BsPuzzle size={40} color="#ffffff" />,
       backgroundColor: '#651cd5',
     },
     {
@@ -55,7 +55,7 @@ const consultativeCardData = [
           'Recognize target audience and current challenges',
           'Propose the best learning solution for your business',
         ],
-        icon: <CgNotes size={45} color="#ffffff"  />,
+        icon: <CgNotes size={40} color="#ffffff"  />,
         backgroundColor: '#f1644c',
       },
       {
@@ -66,7 +66,7 @@ const consultativeCardData = [
           'Recognize target audience and current challenges',
           'Propose the best learning solution for your business',
         ],
-        icon: <BsFileBarGraph size={45} color="#ffffff"  />,
+        icon: <BsFileBarGraph size={40} color="#ffffff"  />,
         backgroundColor: '#ffcc00',
       },
       {
@@ -77,7 +77,7 @@ const consultativeCardData = [
           'Recognize target audience and current challenges',
           'Propose the best learning solution for your business',
         ],
-        icon: <LuAlarmClock size={45} color="#ffffff"  />,
+        icon: <LuAlarmClock size={40} color="#ffffff"  />,
         backgroundColor: '#0084ff',
       },
     
