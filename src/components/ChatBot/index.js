@@ -35,10 +35,10 @@
 const ChatBot = () => {
   return (
     <df-messenger
-      intent="WELCOME"
-      chat-title="LGSAGENT"
-      agent-id="f7965425-6216-484b-bb02-f97a1e371333"
-      language-code="en"
+    intent="WELCOME"
+    chat-title="GloriousChatAgent"
+    agent-id="a3a73728-59a1-4e8b-be57-03f48c8a0719"
+    language-code="en"
     ></df-messenger>
   );
 };

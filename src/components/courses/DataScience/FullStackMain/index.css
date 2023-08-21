@@ -325,3 +325,8 @@
         object-fit: cover;
     }
 }
+@media (min-width:450px) and (max-width:750px){
+    .courseWhyGloriousMindMineSideImageContainer{
+        width:50%;
+    }
+}

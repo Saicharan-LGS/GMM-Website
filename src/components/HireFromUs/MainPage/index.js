@@ -19,6 +19,7 @@ import venu from '../../Images/venuprofile.jpg'
 import umar from '../../Images/umarprofile.png'
 import chandana from '../../Images/chandana.jpg'
 import prashanth from '../../Images/prashanth.png'
+import courses from "../../Images/courses.png"
 
 const HireFromUsList1=[
     {id:1,Image:saicharan,name:"Saicharan",text:"Software Developer"},
@@ -125,7 +126,7 @@ const HireFromUs=()=>{
             </ul>
         </div>
         <div className="HireFromUsContainer1"> 
-            <img alt="" src="https://www.almabetter.com/assets/images/hire-from-us/Group%201000002260@2x%201@3x.png" className="HireFromUsContainer2Image" />
+            <img alt="" src={courses} className="HireFromUsContainer2Image" />
             <div className="HireFromUsContainer1-1">
                 <h1 className="HireFromUsContainer2Heading">Access top notch Tech Talent</h1>
                 <p className="HireFromUsContainer1Text">Our students are trained in our flagship full-stack Data Science program and would be top fit for a multitude of data-oriented roles.</p>

@@ -50,7 +50,6 @@ const slidesData = [
 //   'Awarded The "Best Corporate training platform,2023"',
 //   "45000+ employed upskilled"
 // ];
-
 // const mediaData=[
 //   {image:"https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/media-partners/healthworld.png",content:"Conversational Wellness Bots: The Future of Mental Health Therapy",date:"14 June 2023"},
 //   {image:"https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/media-partners/investors-observer.png",content:"Wharton Online Kickstarts the First Cohort for Its 12-Week Advanced Digital Marketing and Growth Strategies Program in Collaboration With Great Learning",date:"12 June 2023"},
@@ -97,7 +96,7 @@ text1:"Couple of years ago in Sangareddy, India, there lived a determined and am
 text2:"Through sheer determination and hard work, Mohammed Imran completed the employability skills and IT training courses with flying colors. His passion for learning and his hunger for success set him apart from others.",
 text3:"At Tech Mahindra, Mohammed Imran continued to excel, impressing his superiors with his dedication and passion for his work. He quickly climbed the career ladder, taking on more responsibilities and challenges. His journey from Sangareddy to Hyderabad and eventually to Tech Mahindra was an inspiring tale of resilience, hard work, and determination, proving that with the right mindset and drive, one can conquer any obstacle in their path",
 image:story2},
-{id:2,title:"Do Whatever It Takes To Get The Job Done",
+  {id:2,title:"Do Whatever It Takes To Get The Job Done",
 text1:"Carol Sheeba's success story is an inspiring tale of determination, perseverance, and hard work in the face of adversity. Despite facing financial difficulties and the loss of her father at a young age, Carol remained ambitious and committed to achieving her goals. ",
 text2:"However, Carol was not one to be deterred by the obstacles in her path. She knew that education and improving her communication skills were crucial for her future success. So, she decided to take charge of her destiny and joined Glorious Mindmine, an organization that helped her enhance her communication skills and overall personality.",
 text3:"With her professional growth came financial stability. Carol's determination, coupled with her acquired skills and experience, helped her earn a decent salary, which significantly improved her family's living conditions. She was no longer burdened by financial constraints, and the family could lead a more comfortable life. ",
@@ -258,7 +257,7 @@ const Home  =()=>{
             <p className="home-section-success-stories-text">Inspiring everyone to learn with</p>
             <h1 className="home-section-service-heading">Multiple stories of growth</h1>
             <p className="home-section-explore-courses-text">Find out how our Learners transformed their careers after learning with us.</p>
-            <button className="home-section-explore-courses-button">Get Inspired</button>
+            <button className="home-section-explore-courses-button"><Link style={{textDecoration:"none"}} >Get Inspired </Link></button>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >
             {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}
