@@ -14,9 +14,9 @@ class ReviewCard extends Component{
                     </div>
                     <img className="courseLinkedInImage" alt="linked" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" />
                 </div>
-                <div>
-                    <p>{review}</p>
-                    <p>{time}</p>
+                <div >
+                    <p className="courseReviewDescripation">{review}</p>
+                    <p className="courseReviewTime">{time}</p>
                 </div>
             </div>
         )

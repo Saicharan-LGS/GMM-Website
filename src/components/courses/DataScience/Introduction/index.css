@@ -151,4 +151,22 @@
         justify-content:center;
         align-items:center;
     }
+    .course-Intro-Heading{
+        font-size: 20px;
+    }
+    .course-into-calender-heading{
+        font-size: 14px;
+    }
+    .course-intro-list-text{
+        font-size: 12px;
+    }
+    .course-intro-button1{
+        font-size: 12px;
+    }
+    .course-intro-data-heading{
+        font-size: 20px;
+    }
+    .course-intro-data-text{
+        font-size: 12px;
+    }
 }

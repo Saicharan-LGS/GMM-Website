@@ -17,7 +17,7 @@
   position: relative;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  width: 60%;
+  width: 70%;
   background-color: #fff0e6;
   display: flex;
   flex-direction: row;
@@ -85,12 +85,6 @@
   border-bottom-left-radius: 15px;
 }
 
-@media (max-width: 912px) {
-  .ppr-popup-content {
-    min-width: 90vw;
-    margin: 0 5vw 0 5vw;
-  }
-}
 
 .ppr-success-message {
   color: #195AE5;
@@ -137,4 +131,49 @@
   min-width:100%;
 }
 
+}
+@media (max-width: 912px) {
+  .ppr-popup-content {
+    max-height: 550px;
+    min-width: 90vw;
+    margin: 0 5vw 0 5vw;
+  }.ppr-input {
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    color: #222;
+  }.ppr-popup-input {
+    padding: 5px;
+    margin-bottom: 0px;
+    height:20px;
+    border-radius:5px;
+    border:none;
+    flex-shrink: 1;
+  }.ppr-popup-label-name{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+  }.popup-button{
+    font-size: 12px;
+  }.ppr-popup button{
+    margin-top: 10px;
+  }.ppr-success-message {
+    color: #195AE5;
+    font-size: 12px;
+    margin: 0px;
+  }
+  
+  .ppr-error-message {
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+  }.ppr-select {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
 }

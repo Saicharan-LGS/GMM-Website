@@ -6,7 +6,7 @@ import './index.css';
 import photo4 from "../../Images/5.png"
 import photo3 from "../../Images/6.png"
 import photo1 from "../../Images/7.png"
-import photo5 from "../../Images/umar.jpg"
+import photo5 from "../../Images/umar.png"
 
 import CarouselCard from '../CarouselCard';
 

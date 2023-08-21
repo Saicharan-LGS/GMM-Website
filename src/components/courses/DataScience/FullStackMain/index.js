@@ -183,7 +183,7 @@ class DataScience extends Component{
             slidesToScroll: 1,
             responsive: [
                 {
-                    breakpoint: 1100,
+                    breakpoint: 1400,
                     settings: {
                     slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
                     },
@@ -249,7 +249,7 @@ class DataScience extends Component{
             <div className='courseTutionFeeMainContainer'>
                 <h1 className='courseTutionFeeMainHeading'>What You'll Get</h1>
                 <div className="courseTutionFeeSubContainer">
-                   <ul>
+                   <ul style={{padding:"0px"}}>
                     {tuitionFeeList.map(each=>( 
                         <div key={each} className='courseTutionFeeListItemContainer'>
                             <AiOutlineCheck className='courseTutionFeeIcon' />

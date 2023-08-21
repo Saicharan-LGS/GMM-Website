@@ -53,7 +53,10 @@
         padding-right: 0%;
     }
     .courseWhyGloriousMindMineMainHeading{
-        font-size:14px;
+        font-size:18px;
+    }
+    .Transform-career-sub-heading{
+        font-size: 14px;
     }
 }
 .courseWhyGloriousMindMineList{
@@ -93,7 +96,7 @@
 }
 @media (max-width:768px){
     .courseFlexibleProgramMainHeading{
-        font-size:14px;
+        font-size:18px;
     }
 }
 .courseFlexibleProgramList{
@@ -110,7 +113,7 @@
 }
 .courseCompaniesHiringHeading{
     font-family: "Roboto";
-    font-size:24px;
+    font-size: 18px;
     font-weight:600;
     margin-bottom:16px;
 }
@@ -120,7 +123,7 @@
 }
 .courseTutionFeeMainHeading{
     font-family: "Roboto";
-    font-size:24px;
+    font-size:18px;
     font-weight:600;
     margin-bottom:16px;
 }
@@ -166,7 +169,10 @@
 @media (max-width:768px){
     .EnrollNowButton1{
         border-radius:8px;
-        width:100%;
+        padding: 8px;
+    }
+    .courseTutionList{
+        font-size: 12px;
     }
 }
 .DownloadBroucherButton1{
@@ -223,6 +229,7 @@
     margin-bottom: 10px;
     font-family:"Roboto";
     margin-left: 0px;
+    font-size: 20px;
 }
 .courseBasicDoubtActiveTab1{
     background-color: #196AE5;
@@ -267,8 +274,19 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .courseReviewMainHeading{
+        font-size: 18px;
+    }
+    .coursesBasicDoubtsTabsListItemButton1{
+        padding:10px 20px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
     .slider-container .slick-slide {
       display: block;
+    }
+    .coursesBasicDoubtsMainHeading{
+        font-size: 18px;
     }
   }
 @media screen and (max-width: 768px) {

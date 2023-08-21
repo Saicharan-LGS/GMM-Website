@@ -22,13 +22,35 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 500;
+    font-size: 16px;
 }
 .courseReviewDesignation{
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .courseLinkedInImage{
     width:30px;
     height:30px;
     align-self: start;
+}
+.courseReviewDescripation{
+    font-size: 14px;
+}
+.courseReviewTime{
+    font-size: 14px;
+}
+
+@media (max-width:767px){
+    .courseReviewName{
+        font-size: 16px;
+    }
+    .courseReviewDesignation{
+        font-size: 14px;
+    }
+    .courseReviewDescripation{
+        font-size: 12px;
+    }
+    .courseReviewTime{
+        font-size: 12px;
+    }
 }

@@ -57,7 +57,7 @@
 }
 @media (max-width:972px){
         .Carousel-card-left-container{
-            width:40%;
+            width:55%;
             gap:0px;
         }
         .Carousel-card-left-heading{
@@ -81,7 +81,7 @@
 }
 @media (max-width:500px){
     .Carousel-card-left-container{
-        width:40%;
+        width:55%;
         gap:0px;
     }
     .Carousel-card-left-heading{

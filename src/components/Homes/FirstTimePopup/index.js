@@ -123,7 +123,7 @@ const FirstTimePopup = () => {
              />
              <p className='ppr-success-message'>{successMsg}</p>
              <p className='ppr-error-message'>{errorMsg}</p>
-             <button type="submit" onClick={handleSubmit}>Submit</button>
+             <button type="submit" className='popup-button' onClick={handleSubmit}>Submit</button>
              <span className="ppr-close" onClick={closePopup}>
                &times;
              </span>
