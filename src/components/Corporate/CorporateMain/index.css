@@ -16,7 +16,7 @@
   .enterprise-banner-section-conatiner {
     display: flex;
     flex-direction: column;
-    width:60%;
+    width:50%;
     padding: 25px;
     padding-left: 55px;
     justify-content: center;
@@ -25,6 +25,7 @@
   .enterprise-banner-section-image {
     width: 40%;
     margin: auto;
+    padding: 2% 0% 2% 3%;
   }
   
   .enterprise-banner-section-title {
@@ -95,6 +96,7 @@
     .enterprise-banner-section-image {
       width: 100%;
       margin-bottom: 20px;
+      padding: 5%;
     }
   
     .enterprise-banner-section-button {
@@ -256,7 +258,7 @@
   }
   
   .enterprise-partners-section-conatiner-subtitle {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
   
@@ -391,7 +393,9 @@
 
 @media (max-width: 768px) {
   /* Adjust the styles to fit smaller screens */
-
+  .enterprise-consultative-section-conatiner{
+    margin-top: 20px;
+  }
   /* Reduce margin and padding to make the images fit better on small screens */
   .enterprise-partnership-section-image-conatiner {
     padding-left: 10px;
@@ -411,16 +415,13 @@
     line-height: 40px;
   }
 
-  .enterprise-partners-section-conatiner-subtitle {
-    font-size: 14px;
-    line-height: 20px;
-  }
   .enterprise-partners-section-button{
     padding: 5px 10px;
     font-size: 15px;
   }
   .enterprise-consultative-section-card-container-content-title{
-    font-size:24px;
+    font-size:20px;
+    line-height: 32px;
   }
 }
 

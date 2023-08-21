@@ -94,7 +94,6 @@ const ScrolllingImages = [
     "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
     "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
     "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    
     "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
     "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
 ].map((image) => ({
@@ -193,7 +192,7 @@ export default function Corporate() {
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
                     <button className='enterprise-banner-section-button'>Learn More</button>
                 </div>
-                <img className='enterprise-banner-section-image' src={picture1} alt="" />
+                    <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>
             <div className='enterprise-industry-section'> 
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>
@@ -269,7 +268,7 @@ export default function Corporate() {
                     </div>
                 </div>
                 <div className="enterprise-business-section-player-conatiner">
-                    <ReactPlayer url="https://youtu.be/fLOkfDNDZRY" controls  className="enterprise-business-section-video"/>
+                    <ReactPlayer url="https://youtu.be/UfZb7bxm5hA" controls  className="enterprise-business-section-video"/>
                 </div>
             </div>
             {/* <div className='enterprise-media-section-container'>
