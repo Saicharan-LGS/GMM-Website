@@ -9,7 +9,87 @@ export default function About() {
   return (
     <>
     <Header/>
-    <div className="about-container m-5">
+    <div className="About-us-main-container">
+
+    
+    <div class="flip-card" tabIndex="0">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h3 className="About-page-why-choose-us-heading">Why Choose us?</h3>
+          <div>
+            <img src="https://freepngimg.com/thumb/facebook/72547-thinking-photography-question-mark-man-stock.png" alt="" className="Aboutus-question-image"/>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <li className="about-item-description">
+            We bring more than 11 years of collective experience and ready access to our knowledge base.
+          </li>
+          <li className="about-item-description">
+            We believe that Glorious Mindmine is there for business and organizational success.
+            Therefore, we focus more on understanding the business of our clients and aligning our
+            services accordingly through effective communication and soft skills.
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" tabIndex="0">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h3 className="About-page-why-choose-us-heading">Wide Range of Courses</h3>
+          <div>
+            <img src="https://jobstraining.es/wp-content/uploads/2020/06/curso.png" alt="" className="Aboutus-question-image"/>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <li className="about-item">Full Stack Development</li>
+          <li className="about-item">Data Science</li>
+          <li className="about-item">Sales Force Admin</li>
+          <li className="about-item">Mendix</li>
+          <li className="about-item">Polarion</li>
+          <li className="about-item">Digital Marketing</li>
+          <li className="about-item">English Communication</li>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    <div className='about-us-founder-section'>
+        <h1 className='about-us-founder-section-heading about-journey-heading-underline m-3'>Founder</h1>
+        <img src="https://gloriousmindmine.com/wp-content/uploads/2022/02/IMG_1745-2048x1365.jpg" alt="" className='founder-image' />
+        <ul className='about-us-founder-section-list'>
+            <li className='about-us-founder-section-content'>It was the year 2011 when I resigned from Tech Mahindra and set the foundation elements of Glorious Mindmine.</li>
+            <li className='about-us-founder-section-content'>It’s been more than 10 years on this Entrepreneurial Journey, I have personally trained over 80,000 Individuals Which Includes Job Seekers, Chartered Accountants, Corporate Professionals, ISRO Scientists, Indian Army Officers, Doctors, Teachers and Directors of Big Multinational Companies.</li>
+            <li className='about-us-founder-section-content'>In last 10 years, I have realized one skill that can shape your future is “Communication” because the moment you open your moth to share your ideas, thoughts and opinions – The world would get to know what kind of a person you are….</li>
+            <li className='about-us-founder-section-content'>More than 17 years of corporate experience, 10 years of practical exposure and more than 2 years of research has led to this Dynamic Course – “English Communication Blueprint”. This course has everything starting from the basic level to intermediate and then to expert level.</li>
+            <li className='about-us-founder-section-content'>Anyone who can read English Fluently can do this course and master the art of communication in less than 150 Days.</li>
+            <li className='about-us-founder-section-content'>This is a 45 Days Full-fledged course with 100 Days Challenge To Make You A Fluent English Speaker. We are on a mission to empower One Million People with the power of communication skills. Let’s take India’s Talent Global By Learning This Global Language.</li>
+            <li className='about-us-founder-section-content'>There are thousands of Success Stories Of Glorious Mindmine. People from Non-English Medium Background After Taking This Course Have Experienced A Significant Amount of Change within 45 Days and Then 100 Days challenge has helped them to become Effective English Communicators.</li>
+            <li className='about-us-founder-section-content'>After completing the course people have got the JOBS, they started doing there JOB WELL, Started Growing Professionally, Were able to Expand Their Business and Most Important Of All They Were able to Express Their Ideas In the Way They Want It To be Understood.</li>
+            <li className='about-us-founder-section-content'>The Essence of Communication is not only to learn Grammar, Vocabulary And Flow Of Sentences But It Is To Connect With People. Imagine if we are able to express our ideas, opinions and thoughts in the way that we want it to be understood then there would be no confusion. There will be clarity in our communication. Clarity will lead us to VICTORY.</li>
+            <li className='about-us-founder-section-content'>My Dynamic Methods & Techniques Will Help You To Speak English Fluently With Confidence.</li>
+            <li className='about-us-founder-section-content'>Few Of My Past Students Have Started To See Incredible Growth In Their Professional Career.</li>
+            <li className='about-us-founder-section-content'>See, The Truth Is, You Could Be That Someone Who Can Inspire People & Influence With The Power Of Your Communication Skills. </li>
+            <li className='about-us-founder-section-content' style={{textAlign:"center"}}><span className='about-us-content-span'>“The People Who Can Take Actions Are The Ones Who Get Results”</span> – Zeeshaan Mehdi</li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {/*<div className="about-container m-5">
       <div className="about-section card shadow">
         <h1 className="about-heading">Why Choose us?</h1>
         <ul className="about-list">
@@ -56,7 +136,7 @@ export default function About() {
             <li className='about-us-founder-section-content' style={{textAlign:"center"}}><span className='about-us-content-span'>“The People Who Can Take Actions Are The Ones Who Get Results”</span> – Zeeshaan Mehdi</li>
         </ul>
       </div>
-    </div>
+  </div>*/}
     <Footer/>
     </>
   );
