@@ -32,7 +32,7 @@ const ourPatners=[
     {"title":"Anton Punith" , "subTitle":"Founder & Director Ozzitech Innovations","imageSrc":punith},
     {"title":"Mani Kumar" , "subTitle":"Founder, Director & CEO Innospire Group","imageSrc":mani},
     {"title":"Syed Rizwan" , "subTitle":"Founder & Director SRM 360 Degree Consulting","imageSrc":syed},
-    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.. Partner Terra Liva Estates LLP","imageSrc":reddy}
+    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.","imageSrc":reddy}
 ]
 
 const consultativeCardData = [
@@ -148,6 +148,7 @@ export default function Corporate() {
 
 // const cardsPerPage = 5; // Number of cards to display per page
 
+
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerRender.length);
@@ -191,7 +192,7 @@ export default function Corporate() {
                     <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>
                     <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
-                    <button className='enterprise-banner-section-button'>Learn More</button>
+                    <button className='enterprise-banner-section-button' >Learn More</button>
                 </div>
                 <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>
