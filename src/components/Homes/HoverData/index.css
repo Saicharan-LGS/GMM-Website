@@ -54,22 +54,49 @@
     gap:50px;
 }
 .NavExploreCourseButton{
-    border:none;
-    background-color: #196AE5;
+    border: none;
+    background: linear-gradient(45deg, #0076E3, #FF1E54);
     border-radius:5px;
-    padding:10px 20px 10px 20px;
+    padding:12px 20px 12px 20px;
     color:#fff;
     cursor:pointer;
-    font-family:"Roboto";
     font-weight:bold;
 }
+.NavExploreCourseButton:hover {
+    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: none;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0s;
+  
+  }
 .NavRegisterNowButton{
-    border:1px solid #196AE5;
-    color:#222;
     border-radius:5px;
     padding:10px 20px 10px 20px;
     cursor:pointer;
-    font-family:"Roboto";
     font-weight:bold;
     background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
+
 }
+
+.NavRegisterNowButton:hover {
+    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: 3px solid transparent;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0s;
+  
+  }
