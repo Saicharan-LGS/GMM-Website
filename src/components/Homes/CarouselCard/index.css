@@ -41,20 +41,35 @@
     margin:8px 0px 8px;
 }
 .Carousel-card-left-button{
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    border-radius: 10px;
+    background-color:transparent;
     font-size: 14px;
     line-height: 20px;
+    font-weight: 600;
     letter-spacing: 1.25px;
-    color: #fff;
-    background-color: #196AE5;
-    border-radius: 8px;
+    color: #222;
     padding: 16px 24px;
     display: inline-block;
     text-align: center;
-    font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
-    border:none;
 }
+.Carousel-card-left-button:hover {
+    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: 3px solid transparent;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0s;
+  
+  }
 @media (max-width:972px){
         .Carousel-card-left-container{
             width:55%;

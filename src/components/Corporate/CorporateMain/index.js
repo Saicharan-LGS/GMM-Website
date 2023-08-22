@@ -191,7 +191,9 @@ export default function Corporate() {
                     <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>
                     <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
+                    
                         <a href="https://api.whatsapp.com/send?phone=917799554668" rel="noreferrer" target="_blank"><button className='enterprise-banner-section-button' >Learn More</button></a>
+                  
                 </div>
                     <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>

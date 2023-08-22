@@ -149,19 +149,33 @@
   font-size: 22px;
 }
 .home-section-explore-courses-button{
+  display: inline-block;
+  cursor: pointer;
+  background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+  transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1.25px;
-  color: #fff;
-  background-color: #196AE5;
   border-radius: 8px;
   padding: 16px 24px;
   display: inline-block;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
-  border:none;
+}
+.home-section-explore-courses-button:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: 3px solid transparent;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0s;
 }
 
 @media (max-width:768px){
@@ -210,11 +224,28 @@
   font-size: 18px;
 }
 .home-section-transformed-careers-buttton{
-  border: none;
   padding: 10px 15px 10px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family:"Roboto";
   font-weight:600;
+  display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
+}
+.home-section-transformed-careers-buttton:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #FFF;
+  transition: all .1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay:0s;
+
 }
 .home-section-transformed-carrers-text1{
   font-size: 16px;
@@ -276,12 +307,7 @@
   font-size:16px;
   color:#00000099;
 }
-.home-section-explore-courses-button{
-  background-color: #196ae5;
-  color: #fff;
-  border: none;
-  padding: 50px 15x 10px 15px;
-}
+
 .home-section-explore-courses-image{
   width:100%
 }
@@ -313,10 +339,6 @@
   }
  
   .home-section-explore-courses-button{
-    background-color: #196AE5;
-    color: #fff;
-    border: none;
-    padding: 50px 15x 10px 15px;
     font-family:"Roboto";
     font-size: 12px;
   }

@@ -46,18 +46,32 @@
     margin-top: 16px;
     font-weight: 400;
   }
-  
-  .enterprise-banner-section-button {
-    padding: 16px 24px;
-    background: linear-gradient(45deg, #0076E3, #FF1E54);
-    color: #fff;
-    width: 300px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
+ 
+
+.enterprise-banner-section-button {
+  display: inline-block;
+  cursor: pointer;
+  background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+  transition: all .5s ease;
+  border: 2.5px solid transparent;
+  color: #000;
+  background-color:transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 7px 22px;
+}
+
+.enterprise-banner-section-button:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #FFF;
+  transition: all .1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay:0s;
+/* Apply the same border-radius on hover */
 }
 
 
@@ -351,21 +365,35 @@
 }
 
 .enterprise-partners-section-button{
-  color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
     font-size: 18px;
     letter-spacing: 1.25px;
     line-height: 16px;
-    padding: 20px 104px;
+    padding: 20px 40px;
     text-transform: uppercase;
-    background-color: #196ae5;
     border-radius: 4px;
     text-align: center;
     margin-top: 25px;
-    border: none;
     font-weight: 600;
     width:max-content;
 }
-
+.enterprise-partners-section-button:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #FFF;
+  transition: all .1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay:0s;
+/* Apply the same border-radius on hover */
+}
 .enterprise-partnership-section-container{
   width: 100%;
   margin-top: 40px;

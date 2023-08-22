@@ -258,7 +258,7 @@ const Home  =()=>{
             <p className="home-section-success-stories-text">Inspiring everyone to learn with</p>
             <h1 className="home-section-service-heading">Multiple stories of growth</h1>
             <p className="home-section-explore-courses-text">Find out how our Learners transformed their careers after learning with us.</p>
-            <button className="home-section-explore-courses-button"><Link style={{textDecoration:"none"}} >Get Inspired </Link></button>
+           <Link style={{textDecoration:"none"}}><button className="home-section-explore-courses-button">Get Inspired</button></Link>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >
             {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}
@@ -269,7 +269,7 @@ const Home  =()=>{
                 <p className="home-section-transformed-careers-text">There is no lack of jobs but lack of Employability Skills</p>
             </div>
             <div>
-              <button className="home-section-transformed-careers-buttton"><Link to="/registration" style={{textDecoration:"none"}}>Register Now</Link></button>
+            <Link to="/registration" style={{textDecoration:"none"}}><button className="home-section-transformed-careers-buttton">Register Now</button></Link>
             </div>
           </div>
           {/* <div className='enterprise-media-section-container'>
@@ -330,7 +330,7 @@ const Home  =()=>{
                 <p className="home-section-transformed-careers-text">A program advisor will get in touch with you shortly.</p>
             </div>
             <div>
-              <button className="home-section-transformed-careers-buttton"><Link to="/registration" style={{textDecoration:"none"}}>Contact Us</Link></button>
+            <Link to="/registration" style={{textDecoration:"none"}}><button className="home-section-transformed-careers-buttton">Contact Us</button></Link>
             </div>
           </div>
         </div>

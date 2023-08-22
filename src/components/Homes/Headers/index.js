@@ -130,7 +130,7 @@ class Header extends Component {
                         const activeTab=each.id===tab ? "NavcourseBasicDoubtActiveTab" : ""
                           return(
                           <div key={each.id} className='NavcourseslistContainer'>
-                            <li className= {`NavcoursesBasicDoubtsTabsListItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.id} onMouseOver={this.changeNavTabId}>{each.tab}</button></li>
+                            <li className= {`NavcoursesBasicDoubtsTabsListItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.id} onClick={this.changeNavTabId}  onMouseOver={this.changeNavTabId}>{each.tab}</button></li>
                               <AiOutlineArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
                           </div>
                       )})}
@@ -166,14 +166,12 @@ class Header extends Component {
                 <li className="nav-menu-item"><NavLink
                 to="/aboutus"
                 className="nav-link nav-menu-item" activeclassname="active">About Us </NavLink></li>
-             
               </ul>
             </div>
             <li style={{listStyleType:"none"}}>
                 <Link to="/registration"><button
                   type="button"
-                  className="logout-desktop-btn"
-                  onClick={this.onClickLogout}>
+                  className="logout-desktop-btn">
                   Contact Us
                 </button></Link>
             </li>
