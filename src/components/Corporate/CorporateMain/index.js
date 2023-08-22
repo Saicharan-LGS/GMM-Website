@@ -32,7 +32,7 @@ const ourPatners=[
     {"title":"Anton Punith" , "subTitle":"Founder & Director Ozzitech Innovations","imageSrc":punith},
     {"title":"Mani Kumar" , "subTitle":"Founder, Director & CEO Innospire Group","imageSrc":mani},
     {"title":"Syed Rizwan" , "subTitle":"Founder & Director SRM 360 Degree Consulting","imageSrc":syed},
-    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.. Partner Terra Liva Estates LLP","imageSrc":reddy}
+    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.","imageSrc":reddy}
 ]
 
 const consultativeCardData = [
@@ -147,6 +147,7 @@ export default function Corporate() {
 
 // const cardsPerPage = 5; // Number of cards to display per page
 
+
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerRender.length);
@@ -190,7 +191,7 @@ export default function Corporate() {
                     <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>
                     <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
-                    <button className='enterprise-banner-section-button'>Learn More</button>
+                        <a href="https://api.whatsapp.com/send?phone=917799554668" rel="noreferrer" target="_blank"><button className='enterprise-banner-section-button' >Learn More</button></a>
                 </div>
                     <img className='enterprise-banner-section-image' src={picture1} alt="" />
             </div>
@@ -246,7 +247,7 @@ export default function Corporate() {
                     </div>
                 ))}
                 </div>
-                <button className='enterprise-partners-section-button'>TALK TO US</button>
+                <a href="https://api.whatsapp.com/send?phone=917799554668" rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
             </div>
             <EnterpriseBeginner />
             <div className='enterprise-partnership-section-container'>
@@ -264,7 +265,7 @@ export default function Corporate() {
                     <h1 className='enterprise-business-section-title'>Glorious for Business</h1>
                     <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how Great Learning for Business can power your Enterprise Learning.</p>
                     <div>
-                    <button className='enterprise-partners-section-button'>TALK TO US</button>
+                    <a href="https://api.whatsapp.com/send?phone=917799554668" rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
                     </div>
                 </div>
                 <div className="enterprise-business-section-player-conatiner">

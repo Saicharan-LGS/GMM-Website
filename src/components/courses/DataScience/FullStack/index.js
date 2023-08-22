@@ -1,5 +1,6 @@
 import React from 'react'
 import CourseList from '../CourseList'
+import companies from "../../../Images/companieslogo.png"
 import './index.css'
 const foundation = [
   { title: 'Introduction to Computer Programming', content:[
@@ -205,7 +206,7 @@ const FullStack=()=> {
         <div>
             <h2 className="Foundation-track-heading">Congratulations! You are now placed at one of the tech companies as a Web Development Professional</h2>
             <div className="Fullstack-company-image-container">
-                <img src="https://www.almabetter.com/assets/courses/companies.png" alt="" className="Fullstack-company-image"/>
+                <img src={companies} alt="" className="Fullstack-company-image"/>
             </div>
        </div>
         
