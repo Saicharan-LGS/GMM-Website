@@ -185,7 +185,8 @@
 }
 
 .home-section-transformed-careers-container{
-  background-color: #701bef;
+  background-image: url("../../Images/banner1.png");
+  background-size: cover;
   display: flex;
   margin: 0px 10% 0px 10%;
   border-radius: 15px;
@@ -223,7 +224,6 @@
 
 @media (max-width:768px){
   .home-section-transformed-careers-container{
-    background-color: #701bef;
     display: flex;
     margin: 0px 3% 0px 3%;
     border-radius: 15px;
