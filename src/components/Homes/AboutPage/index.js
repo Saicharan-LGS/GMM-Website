@@ -1,6 +1,5 @@
 import React from 'react';
 import "./index.css"
-import {AiOutlineArrowRight} from "react-icons/ai"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
@@ -10,8 +9,6 @@ export default function About() {
     <>
     <Header/>
     <div className="About-us-main-container">
-
-    
     <div class="flip-card" tabIndex="0">
       <div class="flip-card-inner">
         <div class="flip-card-front">

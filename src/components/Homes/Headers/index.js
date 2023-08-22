@@ -4,9 +4,9 @@ import {Component} from 'react'
 import {AiOutlineArrowRight} from "react-icons/ai"
 //import {AiFillCloseCircle} from 'react-icons/ai'
 import './index.css'
-import Mendix from "../Text"
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
+import HoverData from '../HoverData'
 const NavbarCourseList=[
   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
   {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
@@ -136,7 +136,7 @@ class Header extends Component {
                       )})}
                     </ul>
                     <div className='NavcoursesBasicDoubtsTabsDetailsContainer'>
-                      <Mendix details={NavbarCourseList[tab]} />
+                      <HoverData details={NavbarCourseList[tab]} />
                     </div>                                        
                   </div>                        
                 </div>
@@ -144,17 +144,12 @@ class Header extends Component {
             </div>
             <div style={{display:"flex",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
               <ul className="nav-menu">
-                
                 <li className="nav-menu-item"><NavLink
                 to="/career"
                 className="nav-link nav-menu-item" activeclassname="active">Career Support </NavLink></li>
-             
-              
                 <li className="nav-menu-item"><NavLink
                 to="/success"
                 className="nav-link nav-menu-item"activeclassname="active" >Success Stories</NavLink></li>
-              
-              
                 <li className="nav-menu-item"><NavLink 
                 to="/corporate"
                 className="nav-link nav-menu-item" activeclassname="active">Corporate</NavLink></li>
@@ -167,10 +162,7 @@ class Header extends Component {
               
                 <li className="nav-menu-item"><NavLink
                 to="/Hirefromus"
-                className="nav-link nav-menu-item" activeclassname="active">Hire From Us</NavLink></li>
-              
-              
-                  
+                className="nav-link nav-menu-item" activeclassname="active">Hire From Us</NavLink></li>    
                 <li className="nav-menu-item"><NavLink
                 to="/aboutus"
                 className="nav-link nav-menu-item" activeclassname="active">About Us </NavLink></li>

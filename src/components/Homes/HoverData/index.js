@@ -2,7 +2,7 @@ import './index.css'
 import { IoMdCheckmarkCircle } from 'react-icons/io';
 import {Link} from 'react-router-dom'
 
-function Mendix(props){
+function HoverData(props){
     const {details}=props
     const{item1,item2,item3,item4,link}=details
     return (
@@ -35,4 +35,4 @@ function Mendix(props){
     )
 }
 
-export default Mendix
+export default HoverData

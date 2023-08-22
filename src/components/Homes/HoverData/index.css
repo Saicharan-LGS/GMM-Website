@@ -18,12 +18,12 @@
 }
 .navEachCourseHeading{
     font-family:"Roboto";
-    font-size:20px;
+    font-size:22px;
     font-weight:600;
 }
 .navEachCourseDescription{
     font-family:"Roboto";
-    font-size:16px;
+    font-size:18px;
 }
 .Navcourse-intro-list-container{
     display:flex;

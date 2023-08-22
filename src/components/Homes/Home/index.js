@@ -104,6 +104,7 @@ image:story3}
 ]
 const Home  =()=>{
 
+  
 //   const [currentIndex, setCurrentIndex] = useState(0);
 //   // State to keep track of the current page index
 // const [currentPage, setCurrentPage] = useState(0);
