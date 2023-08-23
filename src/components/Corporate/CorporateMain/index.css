@@ -58,8 +58,8 @@
   background-color:transparent;
   border-radius: 5px;
   font-weight: 600;
-  font-size: 14px;
-  padding: 7px 22px;
+  font-size: 18px;
+  padding: 8px 22px;
 }
 
 .enterprise-banner-section-button:hover {
@@ -116,8 +116,8 @@
     }
   
     .enterprise-banner-section-button {
-     width: 100%;
-     padding: 8px 16px;
+     width: 140px;
+     padding: 6px 12px;
      font-size: 15px;
     }
   }
@@ -133,7 +133,7 @@
   }
 
   .enterprise-industry-section-certificate-conatiner{
-    background-color: #f8f2f2;
+    background-color: #f2f2f3;
     display: flex;
     margin: 30px;
   }
@@ -449,8 +449,10 @@
   }
 
   .enterprise-partners-section-button{
-    padding: 5px 10px;
-    font-size: 15px;
+    padding: 6px 12px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
   }
   .enterprise-consultative-section-card-container-content-title{
     font-size:20px;
