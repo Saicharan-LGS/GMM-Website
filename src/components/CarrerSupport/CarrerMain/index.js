@@ -11,7 +11,7 @@ import Footer from "../../Homes/Footer";
 import pic1 from "../../Images/Interview1.jpg"
 import pic2 from "../../Images/careermen.png"
 import pic3 from "../../Images/linked.jpg"
-
+import carrer from "../../Images/carrerimage.png"
 import roy from '../../Images/roy.png'
 import Akhila from '../../Images/Akhila.png'
 import saicharan from '../../Images/saicharan.jpg'
@@ -85,10 +85,10 @@ class CareerSupport extends Component{
            <Header/>
             <div className="carrerSupportMain-home-container">
                 <div className="carrerSupportIntoductionContainer">
-                    <h3 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h3>
+                    {/* <h3 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h3> */}
                     <div className="carrerSupportIntroductionSubContainer">
                         <div className="careerSupportIntoductionContainer1">
-                            <span className="careerSupportIntoductionText">Career Fairs</span>
+                            {/* <span className="careerSupportIntoductionText">Career Fairs</span>
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
                             <span className="careerSupportIntoductionText">Job Boards</span>
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
@@ -98,7 +98,8 @@ class CareerSupport extends Component{
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
                             <span className="careerSupportIntoductionText">Hackathons Sessions</span>
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
-                            <span className="careerSupportIntoductionText">Your Dream Job</span>
+                            <span className="careerSupportIntoductionText">Your Dream Job</span> */}
+                            <img src={carrer} alt="" />
                         </div>
                         {/*<div>
                             <img src={careerImage} alt="" className="careerSupportIntroImage"/>
