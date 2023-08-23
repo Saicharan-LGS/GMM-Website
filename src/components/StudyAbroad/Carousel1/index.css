@@ -1,0 +1,58 @@
+.curriculum_heading{
+    font-family: Poppins,sans-serif;
+    font-weight:bold;
+    font-size: 38px;
+    padding: 0 10 10 10px;
+    margin: 10 0 10 0px;
+}
+
+.study_abroad_paragraph_carousal{
+    font-size: 15px;    
+    position: relative;  
+    padding: 10px 10px 10px 10px;
+    font-family: Poppins,sans-serif;
+    color: #52606d;
+    margin: 10 0 10 0px;
+}
+.slider_container_carousal{
+    width: 100%;
+    border: 1px solid #ccc;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;        
+      
+  }
+  .slider_container:hover {
+      box-shadow: 4px 3px 6px 4px rgba(0,0,0,.23), 0 3px 6px 0 rgba(0,0,0,.16);
+  }
+  
+  .curriculum_heading_second{
+    font-family: Poppins,sans-serif;
+    font-weight:600;
+    font-size: 22px;
+    padding: 0 10 10 10px;
+    margin: 10 0 10 0px;
+        
+}
+.study_abroad_carousal_list{
+   
+}
+.Carousel-card-left-container{
+    width: 100%;
+    text-align: center;
+}
+
+@media  (min-width: 320px) and (max-width:400px) {
+    .slider_container_carousal{
+        width: 100%;
+        border: 1px solid #ccc;
+        display: block;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        overflow: hidden; 
+}
+}

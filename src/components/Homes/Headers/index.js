@@ -54,11 +54,11 @@ class Header extends Component {
           className="nav-link">
           <li className="nav-menu-item">Corporate</li>
         </NavLink>
-              {/* <Link
-                to="/studyabroad"
-                className="nav-link">
-                <li className="nav-menu-item">Study Abroad</li>
-              </Link> */}
+        <NavLink
+          to="/studyabroad"
+          className="nav-link">
+          <li className="nav-menu-item">Study Abroad</li>
+        </NavLink>
         <NavLink
           to="/Hirefromus"
           className="nav-link">
@@ -154,13 +154,9 @@ class Header extends Component {
                 <li className="nav-menu-item"><NavLink 
                 to="/corporate"
                 className="nav-link nav-menu-item" activeclassname="active">Corporate</NavLink></li>
-              
-              {/* <Link
+                <li className="nav-menu-item"><NavLink 
                 to="/studyabroad"
-                className="nav-link">
-                <li className="nav-menu-item">Study Abroad</li>
-              </Link> */}
-              
+                className="nav-link nav-menu-item" activeclassname="active">Study Abroad</NavLink></li>  
                 <li className="nav-menu-item"><NavLink
                 to="/Hirefromus"
                 className="nav-link nav-menu-item" activeclassname="active">Hire From Us</NavLink></li>    

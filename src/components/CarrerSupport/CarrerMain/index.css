@@ -3,16 +3,19 @@
 .carrerSupportIntoductionContainer{
     background-color: #e6f0ff;
     width:100%;
-    padding:30px 80px 30px 80px;
+    padding:30px 3% 30px 3%;
 }
 .carrerSupportIntroductionSubContainer{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .careerSupportIntoductionContainer1{
-    width:40%;
+    width:70%;
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap:10px;
 }
 .careerSupportHeading{
@@ -161,6 +164,9 @@
     font-family:"Roboto";
 }  
 @media (max-width:992px){
+    .careerSupportIntoductionContainer1{
+        width:75%;
+    }
     .carrerSupportIntoductionContainer{
         background-color: #e6f0ff;
         width:100%;
@@ -239,4 +245,10 @@
 }
 .carrerSupportMain-home-container{
     max-width: 100%;
+}
+
+@media (max-width:768px){
+    .careerSupportIntoductionContainer1{
+        width:100%;
+    }
 }

@@ -1,0 +1,960 @@
+
+ .study_abroad_curriculum{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.curriculum_button{
+  padding: 15px 38px;
+  background-color: #196ae5;
+  color: #fff;
+  font-size: 17px;
+  margin: 10px ;
+  transition: all .3s;
+  border-width: 0px;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.study_container_main{
+  margin: 10px;
+}
+
+.study_abroad_curriculum_heading_high{
+  font-family: Poppins,sans-serif;
+  font-weight:bold;
+  font-size: 38px;
+  padding: 0 10 10 10px;
+  margin: 30 0 20 0px;
+}
+
+.study_abroad_paragraph{
+  font-size: 18px;
+  width: 77%;
+  position: relative;  
+  padding: 0 10 10 10px;
+  font-family: Poppins,sans-serif;
+  color: #52606d;
+  margin: 10 0 10 0px;
+}
+
+.faq-item {
+  width: 100%;
+  border: 1px solid #d7dae6;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  color: #52606d;
+  font-family:  Poppins,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .question {
+    font-size: 24px;
+  }
+}
+
+.answer {
+  color: #9aa5b1;
+  font-family:  Poppins,sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .answer {
+    font-size: 12px;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .image {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.horizontal-line {
+  border: 1px solid #e4e7eb;
+}
+.faqs-list{
+  list-style-type: none;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+}
+
+
+.curriculum_heading_second_study_abroad{
+  font-family: Poppins,sans-serif;
+  font-weight:600;
+  font-size: 22px;
+  padding: 0 10 10 10px;
+  margin: 10 0 10 0px;
+    
+}
+
+.Tools_image{
+  width: 80%;
+  height: auto;
+}
+
+.multiple_container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.many_more{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.slider_container{
+width: 100%;
+border: 1px solid #ccc;
+display: block;
+text-align: center;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+overflow: hidden; 
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center;
+height: 250px;
+
+
+}
+
+/* vv*/
+
+.slider_container:hover {
+  box-shadow: 4px 3px 6px 4px rgba(0,0,0,.23), 0 3px 6px 0 rgba(0,0,0,.16);
+}
+
+.faculty_image{
+ height: 100px;
+ width: 100px;
+ border-radius: 50px;
+ margin: auto;
+padding: 10px;
+
+}
+.doubt-image{
+  font-size:40px;
+  color:#196ae5;
+  }
+
+  .study_abroad_paragraph_advantage{
+    font-size: 18px;
+    width: 100%;
+    position: relative;  
+    padding: 0 10 10 10px;
+    font-family: Poppins,sans-serif;
+    color: #52606d;
+    margin: 10 0 10 0px;
+  }
+
+
+/*nn*/
+.study_abroad_advantage_division{
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+
+}
+
+.curriculum_heading_second_advantage{
+font-family: Poppins,sans-serif;
+font-weight:600;
+font-size: 22px;
+padding: 15px;
+margin: 15px;
+  
+}
+
+.study_abroad_paragraph_advantage1{
+font-size: 18px;
+width: 100%;
+position: relative;  
+padding: 5px 10px 5px 10px;
+font-family: Poppins,sans-serif;
+color: #52606d;
+margin: 10px 10px 5px 10px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+li{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* vvv*/
+.study_abroad_carousal_list{
+height: 500px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.study_abroad_application_process{
+border: 1px solid #ccc;
+display: block;
+text-align: center;
+border-radius: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+overflow: hidden;   
+height: 250px;
+width: 300px;
+background-color: white;
+margin: 10px;
+padding: 20px;
+}
+
+.study_abroad_application_background{
+  background-color: rgba(244,237,229,.8);
+  display: flex;    
+  border-radius: 10px;
+  box-shadow: 4px 4px 24px 0 rgba(0,0,0,.1);
+  padding: 20px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  }
+  
+  .study_abroad_curriculum_heading_application{
+  font-family: Poppins,sans-serif;
+  font-weight:bold;
+  font-size: 38px;
+  padding: 10 10 10 10px;
+  margin: 20 0 20 0px;
+  text-align: center;
+  }
+  
+  .study_abroad_program_boxes{
+  display: flex;
+  flex-direction: row;
+  }
+  .study_abroad_program_card{  
+  border: 1px solid #ccc;  
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+    height: 550px;
+  margin: 30px;
+  width: 380px;
+  }
+  
+  .study_abroad_program_image{
+  width: 400px;
+  height: 50%;
+  }
+  
+  .study_abroad_program_para{
+  padding:15px;
+  }
+  
+  .study_abroad_program_boxes_query{
+  display: flex;
+  flex-direction: row; 
+  height: 450px;
+  }
+  
+  .study_abroad_query_box{
+  width: 400px;
+  margin: 30px;
+  padding: 20px;
+  }
+  
+  .study_abroad_input_label{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  }
+  
+  .study_abroad_input_elements_padding{
+  padding: 5px;
+  margin: 5px;
+  }
+  
+  .study_abroad_whole_card_query{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  .query_button_study_abroad{
+  background-color: #196ae5;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  margin: auto;
+  }
+  
+  .study_abroad_conditions{
+  margin: auto;
+  font-size: 13px;
+  margin-bottom: 20px;
+  }
+  
+  .study_abroad_query_sub{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  }
+  
+  .study_abroad_curriculum_heading_high_query{
+  font-family: Poppins,sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  padding: 0 10 10 10px;
+  margin: 20 0 20 0px;
+  }
+  
+  .study_abroad_paragraph_query{
+  font-size: 17px;
+  width: 100%;
+  position: relative;    
+  font-family: Poppins,sans-serif;
+  color: #52606d;
+  }
+  
+  .study_abroad_color{
+  background-color: #edf4ff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  }
+  .box{
+  display: none;
+  }
+  
+  @media screen and (max-width: 480px){
+  .study_abroad_curriculum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .curriculum_button{  
+  background-color: #196ae5;
+  color: #fff;
+  font-size: 12px;
+  width: fit-content;
+  margin: auto;  
+  height: 40px;
+  border-radius: 10px;
+  }
+  
+  .study_abroad_curriculum_heading_high{
+  font-family: Poppins,sans-serif;
+  font-weight:bold;
+  font-size: 18px;
+  padding: 0 10 10 10px;
+  margin: 20 0 20 0px;
+  }
+  
+  .study_abroad_paragraph{
+  font-size: 12px;
+  width: 100%;
+  position: relative;    
+  font-family: Poppins,sans-serif;
+  color: #52606d;
+  }
+  
+  .curriculum_heading_second_study_abroad{
+  font-family: Poppins,sans-serif;
+  font-weight:600;
+  font-size: 18px;
+  /* padding: 0 10 10 10px;
+  margin: 10 0 10 0px;  */
+  }
+  .Tools_image{
+  width: 80%;
+  height: auto;
+  }
+  
+  .study_abroad_advantage_division{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  }
+  
+  .study_abroad_paragraph_advantage1{
+  font-size: 12px; 
+  }
+  
+  .curriculum_heading_second_advantage{
+  font-family: Poppins,sans-serif;
+  font-weight:600;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+    }
+  
+  .study_abroad_application_background{  
+  display: flex;  
+  flex-direction: column;   
+  margin: 10px 0px 10px 0px;
+  padding: 20px;
+  width: 100%;
+  
+  }
+  
+  .study_abroad_application_process{      
+   margin: 10px 0px 10px 0px;
+  width: 100%;  
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .study_abroad_curriculum_heading_application{
+    font-size: 18px;
+  }
+  
+  .study_abroad_program_boxes{
+  display: flex;
+  flex-direction: column;  
+  width: 100%;
+  }
+  
+  .study_abroad_program_card{  
+    display: flex;
+  flex-direction: column;   
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  height: 350px;
+  
+  }
+  
+  .study_abroad_program_boxes_query{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+     }
+  
+  .study_abroad_query_sub{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 40px 10px;
+        
+  }
+  .study_abroad_program_boxes_query{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+     
+        
+    }
+    .study_abroad_input_label{
+      height: 30px;
+      width: 90%;
+      border-radius: 5px;
+      margin: 0px;
+    }
+    
+    .study_abroad_input_elements_padding{
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .study_abroad_query_box{
+      width: 100%;
+      margin: 0px;
+      padding: 10px;
+          }
+  
+    .study_abroad_curriculum_heading_high_query{
+      
+      font-size: 18px;
+      margin: 0px;
+      padding: 0px;
+          }
+    
+          .study_abroad_paragraph_query{      
+            width: 100%;
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px;
+                      }
+          .query_button_study_abroad{     
+            height: 40px;
+            width: 60%; 
+            margin: 30px 0px 10px 0px;
+            padding: 0px;
+            font-size: 12px;
+            display: none;
+               
+          }
+          .study_abroad_program_image{
+            width:100%;
+            /* height: 50%; */
+          }
+          
+          .study_abroad_program_para{
+            padding:0px;
+          }
+          .study_abroad_paragraph_advantage{
+            font-size: 12px;
+            width: 100%;       
+            padding: 0 px;      
+            margin: 0px;
+        }
+        .many_more{
+          
+          font-size: 12px;
+        }
+        
+        .study_abroad_conditions{
+        display: none;
+        }
+        
+        .box{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px 20px 0px;
+        
+        }
+        .doubt-image{
+        font-size:20px;
+        color:#196ae5;
+        }
+        }
+        
+        @media (min-width: 481px) and (max-width: 767px){
+        .study_abroad_curriculum{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        
+        .curriculum_button{  
+        background-color: #196ae5;
+        color: #fff;
+        font-size: 12px;
+        width: fit-content;
+        margin: auto;  
+        height: 40px;
+        border-radius: 10px;
+        }
+        
+        .study_abroad_curriculum_heading_high{
+        font-family: Poppins,sans-serif;
+        font-weight:bold;
+        font-size: 18px;
+        padding: 0 10 10 10px;
+        margin: 20 0 20 0px;
+        }
+        
+        .study_abroad_paragraph{
+        font-size: 12px;
+        width: 100%;
+        position: relative;    
+        font-family: Poppins,sans-serif;
+        color: #52606d;
+        
+        }
+        
+        .curriculum_heading_second_study_abroad{
+        font-family: Poppins,sans-serif;
+        font-weight:600;
+        font-size: 18px;
+        
+        }
+        .Tools_image{
+        width: 80%;
+        height: auto;
+        }
+        
+        .study_abroad_advantage_division{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        }
+        
+        .study_abroad_paragraph_advantage1{
+        font-size: 12px; 
+        }
+        
+        .curriculum_heading_second_advantage{
+        font-family: Poppins,sans-serif;
+        font-weight:600;
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px;
+        
+        
+        }
+        
+        .study_abroad_application_background{  
+        display: flex;  
+        flex-direction: column;   
+        margin: 10px 0px 10px 0px;
+        padding: 20px;
+        width: 100%;
+        }
+        
+        .study_abroad_application_process{      
+           
+        margin: 10px 0px 10px 0px;
+        width: 100%;  
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .study_abroad_curriculum_heading_application{
+        
+        font-size: 18px;
+        }
+        .study_abroad_program_boxes{
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        }
+        
+        .study_abroad_program_card{  
+        display: flex;
+        flex-direction: column;   
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        height: 350px;
+        
+        }
+        
+        .study_abroad_program_boxes_query{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+         
+        }
+        .study_abroad_query_sub{
+          display: flex;
+          flex-direction: column;
+          margin: 0px 10px 40px 10px;
+         
+         
+        }
+        .study_abroad_program_boxes_query{
+          display: flex;
+          flex-direction: column;
+          margin: 0px;
+                  
+          }
+          .study_abroad_input_label{
+            height: 30px;
+            width: 90%;
+            border-radius: 5px;
+            margin: 0px;
+          }
+          
+          .study_abroad_input_elements_padding{
+            padding: 0px;
+            margin: 0px;
+          }
+        
+          .study_abroad_query_box{
+            width: 100%;
+            margin: 0px;
+            padding: 10px;
+                }
+        
+          .study_abroad_curriculum_heading_high_query{
+            font-size: 18px;
+            margin: 0px;
+            padding: 0px;
+            
+          }
+          
+          .study_abroad_paragraph_query{      
+            width: 100%;
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px;
+                  
+          }
+          .query_button_study_abroad{     
+            height: 40px;
+            width: 60%; 
+            margin: 30px 0px 10px 0px;
+            padding: 0px;
+            font-size: 12px;
+            display: none;
+                
+          }
+          .study_abroad_program_image{
+            width:100%;
+            /* height: 50%; */
+          }
+          
+          .study_abroad_program_para{
+            padding:0px;
+          }
+          .study_abroad_paragraph_advantage{
+            font-size: 12px;
+            width: 100%;       
+            padding: 0 px;      
+            margin: 0px;
+        }
+        .many_more{
+          
+          font-size: 12px;
+        }
+        
+        .study_abroad_conditions{
+        display: none;
+        }
+        
+        .box{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px 20px 0px;
+        
+        }
+        .doubt-image{
+        font-size:20px;
+        color:#196ae5;
+        }
+        }
+        
+        @media (min-width: 768px) and (max-width: 1000px){
+          .study_abroad_curriculum{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          
+          .curriculum_button{  
+          background-color: #196ae5;
+          color: #fff;
+          font-size: 15px;
+          width: fit-content;
+          margin: auto;  
+          height: 40px;
+          border-radius: 10px;
+          }
+          
+          .study_abroad_curriculum_heading_high{
+          font-family: Poppins,sans-serif;
+          font-weight:bold;
+          font-size: 20px;
+          padding: 0 10 10 10px;
+          margin: 20 0 20 0px;
+          }
+          
+          .study_abroad_paragraph{
+          font-size: 15px;
+          width: 100%;
+          position: relative;    
+          font-family: Poppins,sans-serif;
+          color: #52606d;
+          
+          }
+          
+    .curriculum_heading_second_study_abroad{
+    font-family: Poppins,sans-serif;
+    font-weight:600;
+    font-size: 20px;
+    
+    
+    }
+    .Tools_image{
+    width: 80%;
+    height: auto;
+    }
+    
+    .study_abroad_advantage_division{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    }
+    
+    .study_abroad_paragraph_advantage1{
+    font-size: 15px; 
+    }
+    
+    .curriculum_heading_second_advantage{
+    font-family: Poppins,sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+      
+    }
+    
+    .study_abroad_application_background{  
+    display: flex;  
+    flex-direction: row;   
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    width: 100%;
+    
+    }
+    
+    .study_abroad_application_process{      
+     
+    margin: 10px 10px 10px 0px;
+    width: 100%;  
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .study_abroad_curriculum_heading_application{
+      font-size: 18px;
+    }
+    
+    .study_abroad_program_boxes{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    }
+    
+    .study_abroad_program_card{  
+     display: flex;
+    flex-direction: column;   
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 350px;
+    
+    }
+    
+    .study_abroad_program_boxes_query{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+     
+    }
+    
+    .study_abroad_query_sub{
+      display: flex;
+      flex-direction: column;
+      margin: 0px 10px 40px 10px;
+          
+    }
+    .study_abroad_program_boxes_query{
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+        
+          
+      }
+      .study_abroad_input_label{
+        height: 30px;
+        width: 90%;
+        border-radius: 5px;
+        margin: 0px;
+      }
+      
+      .study_abroad_input_elements_padding{
+        padding: 0px;
+        margin: 0px;
+      }
+    
+      .study_abroad_query_box{
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+       
+      }
+    
+      .study_abroad_curriculum_heading_high_query{
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      
+      .study_abroad_paragraph_query{      
+        width: 100%;
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+              
+      }
+      .query_button_study_abroad{     
+        height: 40px;
+        width: 60%; 
+        margin: 30px 0px 10px 0px;
+        padding: 0px;
+        font-size: 15px;
+        display: none;
+            
+      }
+      .study_abroad_program_image{
+        width:100%;
+        
+      }
+      
+      .study_abroad_program_para{
+        padding:0px;
+      }
+      .study_abroad_paragraph_advantage{
+        font-size: 15px;
+        width: 100%;       
+        padding: 0 px;      
+        margin: 0px;
+    }
+    .many_more{
+          font-size: 15px;
+    }
+    
+    .study_abroad_conditions{
+    display: none;
+    }
+    
+    .box{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 20px 0px;
+    
+    }
+    .doubt-image{
+    font-size:20px;
+    color:#196ae5;
+      }
+    }
+    
+    .abroadmaincontainer{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .study_abroad_carousal_list{
+      max-height: 300px;
+    }
