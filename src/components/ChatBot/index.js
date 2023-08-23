@@ -32,20 +32,39 @@
 
 // export default ChatBot;
 
-const ChatBot = () => {
-  return (
-    <df-messenger
-    intent="WELCOME"
-    chat-title="GloriousChatAgent"
-    agent-id="a3a73728-59a1-4e8b-be57-03f48c8a0719"
-    language-code="en"
-    ></df-messenger>
-  );
-};
+// const ChatBot = () => {
+//   return (
+//     <df-messenger
+//     intent="WELCOME"
+//     chat-title="GloriousChatAgent"
+//     agent-id="a3a73728-59a1-4e8b-be57-03f48c8a0719"
+//     language-code="en"
+//     ></df-messenger>
+//   );
+// };
 
  
+// export default ChatBot;
 
-export default ChatBot;
+import { useEffect } from "react";
+const ChatBot =()=>{
+useEffect(() => {
+  var Tawk_API = Tawk_API || {};
+  var Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script");
+    var s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/64e5bbb4cc26a871b030d8c9/1h8gmaf3q';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+}, []); // Empty dependency array to ensure this effect runs only once
+return <div></div>;
+}
+
+export default ChatBot
 
  
 

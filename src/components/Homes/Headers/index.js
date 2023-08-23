@@ -1,12 +1,13 @@
 import {NavLink,Link} from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Component} from 'react'
-import {AiOutlineArrowRight} from "react-icons/ai"
+//import {AiOutlineArrowRight} from "react-icons/ai"
 //import {AiFillCloseCircle} from 'react-icons/ai'
 import './index.css'
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
 import HoverData from '../HoverData'
+import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
 const NavbarCourseList=[
   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
   {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
@@ -18,7 +19,7 @@ const NavbarCourseList=[
 ]
 
 class Header extends Component {
-  state = {tab:NavbarCourseList[0].id,showNavMobileItems:false }
+  state = {tab:NavbarCourseList[0].id,showNavMobileItems:false,showNavItems:false }
 
   toggleShowNavItems = () => {
     this.setState(prevState => ({showNavItems: !prevState.showNavItems}))
@@ -131,7 +132,7 @@ class Header extends Component {
                           return(
                           <div key={each.id} className='NavcourseslistContainer'>
                             <li className= {`NavcoursesBasicDoubtsTabsListItem`} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton ${activeTab}`} value={each.id} onClick={this.changeNavTabId}  onMouseOver={this.changeNavTabId}>{each.tab}</button></li>
-                              <AiOutlineArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
+                            <MdOutlineKeyboardDoubleArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
                           </div>
                       )})}
                     </ul>

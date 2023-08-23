@@ -43,7 +43,7 @@
 .Carousel-card-left-button{
     display: inline-block;
     cursor: pointer;
-    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9) border-box;
     transition: all .5s ease;
     border: 2.5px solid transparent;
     border-radius: 10px;
@@ -90,7 +90,7 @@
 }
 @media (max-width:768px){
     .Carousel-card-left-button{
-        padding:8px 16px;
+        padding:8px 12px;
         font-size:12px;
     }
 }

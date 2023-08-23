@@ -38,12 +38,18 @@
   
   .ppr-popup button {
     padding: 8px 16px;
-    background-color: #196AE5;
-    color: #fff;
+    color: #222;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     align-self: center;
+    display: inline-block;
+  cursor: pointer;
+  background:linear-gradient(#e6e6ff, #e6e6ff) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9 ) border-box;
+  transition: all .5s ease;
+  border: 2.5px solid transparent;
+  color: #000;
+  background-color:transparent;
   }
   
   .ppr-close {

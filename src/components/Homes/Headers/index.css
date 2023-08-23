@@ -219,6 +219,8 @@
     
     @media (max-width: 767px) {
       .nav-items-container {
+        transition-delay: 1s;
+        transition: top 2s ease-in-out;
         margin-top: 70px;
         display: flex;
         justify-content: space-between;
@@ -306,7 +308,7 @@
         list-style-type: none;
         width:400px;
         border-radius:5px; 
-        background-color:#196AE5;
+        background-image: linear-gradient(30deg,#0e39a9,#1c74d4,#7cb4e4 );
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
 }
 .NavcoursesBasicDoubtsTabsListItemButton {
@@ -326,8 +328,13 @@
   font-size: 15px;
 }
 .NavcourseslistContainer:hover{
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width:max-content;
+  padding-right: 10px;
+  transition: 0.5s;
 }
 /* .NavcoursesBasicDoubtsTabsListItemButton:hover{
   color:#fff;

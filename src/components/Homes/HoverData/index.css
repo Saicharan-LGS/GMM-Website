@@ -36,7 +36,7 @@
     padding-left: 0px;
 }
 .course-intro-list-icon{
-    color: rgb(127, 255, 161);
+    color: rgba(5, 245, 69, 0.925);
     font-size: 18px;
     margin-right: 20px;
     display:flex;
@@ -55,7 +55,7 @@
 }
 .NavExploreCourseButton{
     border: none;
-    background: linear-gradient(45deg, #0076E3, #FF1E54);
+    background: linear-gradient(to right,#0e39a9,  #1c74d4, #7cb4e4);
     border-radius:5px;
     padding:12px 20px 12px 20px;
     color:#fff;
@@ -70,7 +70,7 @@
     transition-property: all;
     transition-duration: 0.1s;
     transition-timing-function: ease;
-    transition-delay:0s;
+    transition-delay:0.5s;
   
   }
 .NavRegisterNowButton{
@@ -81,7 +81,7 @@
     background-color: #fff;
     display: inline-block;
     cursor: pointer;
-    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9 ) border-box;
     transition: all .5s ease;
     border: 2.5px solid transparent;
     color: #000;
@@ -98,5 +98,4 @@
     transition-duration: 0.1s;
     transition-timing-function: ease;
     transition-delay:0s;
-  
   }

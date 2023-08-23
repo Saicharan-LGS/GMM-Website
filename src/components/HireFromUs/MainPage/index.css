@@ -56,7 +56,7 @@
     margin-top: 15px;
     display: inline-block;
     cursor: pointer;
-    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9 ) border-box;
     transition: all .5s ease;
     border: 2.5px solid transparent;
     color: #000;
@@ -192,7 +192,7 @@
     margin: 10px;
     display: inline-block;
     cursor: pointer;
-    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right, #196ae5, red 100%) border-box;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9 ) border-box;
     transition: all .5s ease;
     border: 2.5px solid transparent;
     color: #000;
