@@ -275,9 +275,9 @@
       list-style-type:none;
       visibility: hidden;
       display:flex;
-      justify-content:center;
+      justify-content:flex-start;
       top:20px;
-      padding-top:35px;
+      padding-top:33px;
       margin-left:40vw;
       height:max-content;
       width:max-content;
@@ -305,15 +305,16 @@
         flex-direction:column;
         justify-content: flex-start;
         padding-top:40px;
+        padding-bottom:40px;
         list-style-type: none;
-        width:400px;
+        width:300px;
         border-radius:5px; 
         background-image: linear-gradient(30deg,#0e39a9,#1c74d4,#7cb4e4 );
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
 }
 .NavcoursesBasicDoubtsTabsListItemButton {
     border:none;
-    width:300px;
+    width:200px;
     padding:10px;
     background-color: transparent;
     font-family:"Roboto";
@@ -340,9 +341,15 @@
   color:#fff;
   font-size: 16px;
 } */
-@media (max-width:1000px){
+
+@media (max-width:1200px){
   .display-content{
-    margin-left:60vw;
+    margin-left:45vw;
+  }
+}
+@media (max-width:912px){
+  .display-content{
+    margin-left:50vw;
   }
 }
 .Mobile-explore-items-list{
