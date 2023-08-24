@@ -6,21 +6,21 @@ import {Component} from 'react'
 import './index.css'
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
-import HoverData from '../HoverData'
+// import HoverData from '../HoverData'
 import NavExploreCourse from '../NavExploreCourse'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
-const NavbarCourseList=[
-  {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:2, tab:"Full Stack Developer",link:"/FullStackCourse",item1:"Certification in Fullstack development", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:3, tab:"Mendix Developer",link:"/Mendix",item1:"Certification in Mendix", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:4, tab:"Polarion Expert",link:"/Polarian",item1:"Certification in Polarion", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:5, tab:"Digital Marketing Expert",link:"/DigitalMarkting",item1:"Certification in Digital Marketing", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:6, tab:"Salesforce",link:"/salesforce",item1:"Certification in Salesforce", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-]
+// const NavbarCourseList=[
+//   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:2, tab:"Full Stack Developer",link:"/FullStackCourse",item1:"Certification in Fullstack development", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:3, tab:"Mendix Developer",link:"/Mendix",item1:"Certification in Mendix", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:4, tab:"Polarion Expert",link:"/Polarian",item1:"Certification in Polarion", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:5, tab:"Digital Marketing Expert",link:"/DigitalMarkting",item1:"Certification in Digital Marketing", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:6, tab:"Salesforce",link:"/salesforce",item1:"Certification in Salesforce", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+// ]
 
 const NavContainerList=[
-  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   {id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS",link:"",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   {id:2,item:"Soft Skills", detail:[{id:0,course:"English Communication",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   
