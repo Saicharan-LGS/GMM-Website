@@ -2,49 +2,72 @@ import {NavLink,Link} from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Component} from 'react'
 //import {AiOutlineArrowRight} from "react-icons/ai"
-//import {AiFillCloseCircle} from 'react-icons/ai'
+import {AiFillCloseCircle} from 'react-icons/ai'
 import './index.css'
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
-import HoverData from '../HoverData'
+// import HoverData from '../HoverData'
 import NavExploreCourse from '../NavExploreCourse'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
-const NavbarCourseList=[
-  {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:2, tab:"Full Stack Developer",link:"/FullStackCourse",item1:"Certification in Fullstack development", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:3, tab:"Mendix Developer",link:"/Mendix",item1:"Certification in Mendix", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:4, tab:"Polarion Expert",link:"/Polarian",item1:"Certification in Polarion", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:5, tab:"Digital Marketing Expert",link:"/DigitalMarkting",item1:"Certification in Digital Marketing", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-  {id:6, tab:"Salesforce",link:"/salesforce",item1:"Certification in Salesforce", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
-]
+import {TfiTimer} from 'react-icons/tfi'
+import {VscBook} from 'react-icons/vsc'
+
+// const NavbarCourseList=[
+//   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:2, tab:"Full Stack Developer",link:"/FullStackCourse",item1:"Certification in Fullstack development", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:3, tab:"Mendix Developer",link:"/Mendix",item1:"Certification in Mendix", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:4, tab:"Polarion Expert",link:"/Polarian",item1:"Certification in Polarion", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:5, tab:"Digital Marketing Expert",link:"/DigitalMarkting",item1:"Certification in Digital Marketing", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+//   {id:6, tab:"Salesforce",link:"/salesforce",item1:"Certification in Salesforce", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
+// ]
 
 const NavContainerList=[
-  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
-  {id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS",link:"",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
-  {id:2,item:"Soft Skills", detail:[{id:0,course:"English Communication",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS Cloud Technology",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce Admin",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS Cloud Technolgy",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:2,item:"Soft Skills", detail:[{id:0,course:"English Communication Blue Print",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication (Corporate)",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   
 ]
 class Header extends Component {
-  state = {tab:NavContainerList[0].id,showNavMobileItems:false,showNavItems:false }
+  state = {tab:NavContainerList[0].id,showNavMobileItems:false,showNavItems:false,mobileCourseItems:0,showCourses:false }
 
   toggleShowNavItems = () => {
-    this.setState(prevState => ({showNavItems: !prevState.showNavItems}))
+    this.setState(prevState => ({showNavItems: !prevState.showNavItems,showCourses:false}))
   }
   toggleMobileitems=()=>{
     this.setState(prevState=>({showNavMobileItems: !prevState.showNavMobileItems}))
   }
+  toggleShowCourses=()=>{
+    this.setState({showCourses: true})
+  }
+  toggleShowCoursesFalse=()=>{
+    this.setState({showCourses: false})
+  }
+  toggleMobileCourseItems=(value)=>{
+    this.setState({mobileCourseItems: value})
+  }
+  
 
   renderNavItems = () => {
-    const {showNavMobileItems}=this.state
+    const {showNavMobileItems,mobileCourseItems,showCourses}=this.state
+    console.log(mobileCourseItems.detail)
+    const detail = mobileCourseItems.detail
     return(
     <div className="nav-items-container">
+      <div className="nav-explore-course-main-container1">
+        {showCourses && 
+        <ul className='nav-expolre-list-1'>
+          {detail.map((eachItem)=>(
+                <li><Link to={eachItem.link} class="nav-explore-course-main-container-item1">{eachItem.course}</Link></li>
+              ))}
+        </ul> }
+        </div>
       <ul className="nav-menu-mobile">
         <div className="Mobile-explore-container">
           <ul className="Mobile-explore-sub-container">
             <li className="nav-menu-item" onClick={this.toggleMobileitems}>Explore Programs</li>
             <li className="Mobile-explore-items-list">
-                {showNavMobileItems && <MobileViewCourseList/> }
+                {showNavMobileItems && <MobileViewCourseList toggleShowCourses={this.toggleShowCourses} toggleMobileCourseItems={this.toggleMobileCourseItems}/> }
             </li>
           </ul>
         </div>
@@ -84,13 +107,13 @@ class Header extends Component {
             </button></NavLink>
         </li>
       </ul>
-      {/*<button
+      {/* <button
         type="button"
         onClick={this.toggleShowNavItems}
         className="nav-mobile-close-button"
       >
         <AiFillCloseCircle />
-  </button>*/}
+  </button> */}
     </div>
   )
 }
@@ -142,7 +165,6 @@ class Header extends Component {
                             <MdOutlineKeyboardDoubleArrowRight className="NavcoursesBasicDoubtsTabsListItemArrow"/>
                           </div>
                       )})}
-                      
                     </ul>
                     <div className='NavcoursesBasicDoubtsTabsDetailsContainer'>
                       <NavExploreCourse details={NavContainerList[tab]} />

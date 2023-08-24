@@ -10,20 +10,17 @@ function NavExploreCourse(props){
     return(
         <ul className="nav-explore-course-main-container">
             {detail.map((eachItem)=>(
-                
                 <div class="nav-explore-course-main-item-container">
                     <div className="nav-explore-course-left-item-container">
                         <li><Link to={eachItem.link} class="nav-explore-course-main-container-item">{eachItem.course}</Link></li>
                         <p className="nav-explore-status-text">{eachItem.status}</p>
                     </div>
-                    <p className="nav-explore-duration">Duration : <span> <TfiTimer className="nav-explore-timer-icon"/> {eachItem.duration}</span> | Case Studies <span><VscBook className="nav-explore-timer-icon"/> {eachItem.casestudy}</span></p>
+                    <p className="nav-explore-duration">Duration : <span> <TfiTimer className="nav-explore-timer-icon"/> {eachItem.duration}</span><span style={{margin:"5px"}}>|</span>Case Studies <span><VscBook className="nav-explore-timer-icon"/> {eachItem.casestudy}</span></p>
                 </div>
             )
             )
             }
         </ul>
        ) 
-
-    
 }
 export default NavExploreCourse

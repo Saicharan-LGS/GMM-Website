@@ -3,21 +3,23 @@
 
 .courseTransformingcard{
     width:400px;
-    height:320px;
+    height:max-content;
     border:1px solid lightgrey;
     border-radius:10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 auto;
-    
 }
 
 .courseTransformingContainer1{
     background-color:#e6f0ff;
-    min-height:110px;
+    min-height:120px;
     max-height:110px;
     font-style:oblique;
-    padding: 25px;
+    padding: 10px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .courseTransformingDescription{
     font-size: 14px;
@@ -31,6 +33,7 @@
     padding:20px;
     padding-bottom:0px;
     color:#222;
+    height: max-content;
 }
 .courseTransormingContainer2-1{
     display: flex;

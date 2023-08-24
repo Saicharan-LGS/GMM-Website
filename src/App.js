@@ -21,15 +21,15 @@ import Whatsapp from './components/Whatsapp'
 import Corporate from './components/Corporate/CorporateMain'
 import Terms from "./components/TermsAndConditions"
 import Privacy from './components/PrivacyPolicy'
-import Studyabroad from './components/StudyAbroad/studyabroad'
+//import Studyabroad from './components/StudyAbroad/studyabroad'
+import AWS from "./components/courses/AWS/FullStackMain"
 //<Route exact path="/studyabroad" element={<Studyabroad />} />
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
-    <Route exact path="/studyabroad" element={<Studyabroad />} />
-
+        <Route exact path="/AWS" element={<AWS />} />
         <Route exact path="/privacy-policy" element={<Privacy />}/>
         <Route exact path="/terms-and-conditions" element={<Terms />}/>
         <Route exact path="/corporate" element={<Corporate />} />

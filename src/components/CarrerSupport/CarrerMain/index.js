@@ -1,5 +1,5 @@
 import { Component } from "react";
-import {AiOutlineArrowDown} from "react-icons/ai"
+// import {AiOutlineArrowDown} from "react-icons/ai"
 import Slider from 'react-slick'
 import TransformingCard from "../../courses/DataScience/TransformingCarrerCard"
 import CarrerPrep from "../CarrerPrep"
@@ -87,7 +87,6 @@ class CareerSupport extends Component{
                 <div className="carrerSupportIntoductionContainer">
                     {/* <h3 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h3> */}
                     <div className="carrerSupportIntroductionSubContainer">
-                        <div className="careerSupportIntoductionContainer1">
                             {/* <span className="careerSupportIntoductionText">Career Fairs</span>
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
                             <span className="careerSupportIntoductionText">Job Boards</span>
@@ -99,8 +98,7 @@ class CareerSupport extends Component{
                             <span className="careerSupportIntoductionText">Hackathons Sessions</span>
                             <AiOutlineArrowDown className="careerSupportIntoductionIcon"/>
                             <span className="careerSupportIntoductionText">Your Dream Job</span> */}
-                            <img src={carrer} alt="" />
-                        </div>
+                            <img src={carrer} alt="" className="careerSupportIntoductionContainer1"  />
                         {/*<div>
                             <img src={careerImage} alt="" className="careerSupportIntroImage"/>
                     </div>*/}
