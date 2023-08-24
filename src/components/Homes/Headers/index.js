@@ -9,9 +9,6 @@ import gmmlogo from "../../Images/GMM logo.png"
 // import HoverData from '../HoverData'
 import NavExploreCourse from '../NavExploreCourse'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
-import {TfiTimer} from 'react-icons/tfi'
-import {VscBook} from 'react-icons/vsc'
-
 // const NavbarCourseList=[
 //   {id:0, tab:"English Communication",link:"/english",item1:"Certification in English Communication BluePrint", item2:"45 days online classes",item3:"No English Speaking experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},
 //   {id:1, tab:"Data Science Engineer",link:"/DataScience",item1:"Certification in Data Science", item2:"6 months part-time program with live online classes",item3:"No coding experience required",item4:"Re-engineered curriculum for post Chat-Gpt era"},

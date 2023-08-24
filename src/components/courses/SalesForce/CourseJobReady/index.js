@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import projectsImage from "../../../Images/projects.png"
+import mockImage from "../../../Images/interview.png"
+import gameImage  from "../../../Images/game.png"
 import "../../DataScience/CourseJobReady/index.css"
 
 const CourseJobReady = () => {
@@ -8,18 +11,18 @@ const CourseJobReady = () => {
     {
         title: "Capstone Projects",
         description:"Undertake industry level capstone projects in teams.",
-        images: "https://res.cloudinary.com/dhqtirwdn/image/upload/v1689830788/lu0xj2wxccgehihfrhj6.png"
+        images: projectsImage 
     },
     {
         title: "Mock Interviews",
         description:"Interview prep through 20+ live mock interviews with real time feedback evaluation",
-        images: "https://www.almabetter.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmock-interview.a9b5d677.webp&w=1920&q=75"
+        images:mockImage 
       }
       ,
     {
       title: "Gamified Experiment",
       description:"learn complex concepts through games & experiments at GloriousMindMine Labs",
-      images: "https://raccoongang.com/wp-content/uploads/2021/09/Gamification_in_Education_and_Its_Examples.png"
+      images: gameImage
     }
     
   
