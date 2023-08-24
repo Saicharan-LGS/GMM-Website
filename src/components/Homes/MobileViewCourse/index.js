@@ -26,14 +26,12 @@ function MobileCourseList (props){
         toggleMobileCourseItems(MobileCourseList1[event.target.value])
     }
     return(
-        <div>
             <ul className='MobileViewCourseList'>
                 {MobileCourseList1.map(each=>{
                 return(
                     <Link style={{textDecoration:"none"}} value={each.id} key={each.id} to={each.link}><li className= {`MobileViewCourseItem`} onClick={toggleCourseItems} key={each.id}><button className={`NavcoursesBasicDoubtsTabsListItemButton1`} style={{fontSize:"12px",color:"black"}} value={each.id}>{each.item}</button></li></Link>
                 )})}
             </ul>
-        </div>
     )
 }
 export default MobileCourseList

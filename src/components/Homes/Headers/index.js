@@ -2,7 +2,7 @@ import {NavLink,Link} from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {Component} from 'react'
 //import {AiOutlineArrowRight} from "react-icons/ai"
-import {AiFillCloseCircle} from 'react-icons/ai'
+//import {AiFillCloseCircle} from 'react-icons/ai'
 import './index.css'
 import MobileViewCourseList from '../MobileViewCourse'
 import gmmlogo from "../../Images/GMM logo.png"
@@ -32,7 +32,7 @@ class Header extends Component {
     this.setState(prevState => ({showNavItems: !prevState.showNavItems,showCourses:false}))
   }
   toggleMobileitems=()=>{
-    this.setState(prevState=>({showNavMobileItems: !prevState.showNavMobileItems}))
+    this.setState(prevState=>({showNavMobileItems: !prevState.showNavMobileItems,showCourses:false}))
   }
   toggleShowCourses=()=>{
     this.setState({showCourses: true})
@@ -55,7 +55,7 @@ class Header extends Component {
         {showCourses && 
         <ul className='nav-expolre-list-1'>
           {detail.map((eachItem)=>(
-                <li><Link to={eachItem.link} class="nav-explore-course-main-container-item1">{eachItem.course}</Link></li>
+                <li className='nav-explore-course-main-container-item2'><Link to={eachItem.link} class="nav-explore-course-main-container-item1">{eachItem.course}</Link></li>
               ))}
         </ul> }
         </div>

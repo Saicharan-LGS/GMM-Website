@@ -6,6 +6,7 @@
     background-color:#fff;
     margin-top:10px;
     gap:10px;
+    padding-left: 0px;
 }
 @media (min-width:767px){
     .MobileViewCourseList{

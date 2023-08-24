@@ -137,7 +137,8 @@
       list-style-type: none;
       gap:20px;
       padding-top:20px;
-      max-width:50%;
+      max-width:max-content;
+      padding-left: 0px;
     }
     
     @media (min-width:800px){
@@ -234,7 +235,6 @@
         background-color: #fff;
         display: flex;
         justify-content: space-between;
-        align-items: center;
       }
       .nav-menu {
         padding-left: 0px;
@@ -379,7 +379,7 @@
 .explore-program-item:hover{
   border:2px solid #196AE5;
   background-color: #fff;
-  color:#196AE5;
+  pxcolor:#196AE5;
 }
 
 .NavcourseslistContainer{
@@ -404,16 +404,28 @@
 .active{
   color:#196AE5 !important;
 }
+
 .nav-explore-course-main-container1{
- max-width:50%;
+ max-width:max-content;
+ padding-top:20px;
 }
 .nav-expolre-list-1{
   list-style-type: none;
-  gap:25px;
+  padding-left: 0px;
 }
 .nav-explore-course-main-container-item1{
   text-decoration: none;
+}
+.nav-explore-course-main-container-item2{
   color:#222;
   list-style-type: none;
   font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 25px;
 }
+@media (min-width:797px){
+  .nav-explore-course-main-container1{
+    display: none;
+  }
+  }
