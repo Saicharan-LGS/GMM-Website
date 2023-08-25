@@ -220,7 +220,7 @@ const letUsGuide = [
       },
       {
         image:"https://images.collegedunia.com/public/asset/img/studyabroad/counselors/rohit-soni.jpeg?h=262&w=262&mode=strech",
-        iamgeDesc:"Rohit is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Rohit possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey of over 2500 students to study overseas.",
+        iamgeDesc:"Rohit is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Rohit possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey.",
         heading:"Rohit Soni",
         desc:"Senior Counsellor,3+ Years of Experience, United Kingdom",
         button:"Fix an Appoinment"
