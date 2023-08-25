@@ -50,7 +50,7 @@ class DoubtItem extends Component {
 
     return (
       <li className="faq-item">
-        <div className="question-container">
+        <div className="question-container" onClick={this.onToggleIsActive}>
           <h1 className="question">{question}</h1>
           {this.renderActiveImage()}
         </div>

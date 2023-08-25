@@ -23,11 +23,13 @@ import Terms from "./components/TermsAndConditions"
 import Privacy from './components/PrivacyPolicy'
 import Studyabroad from './components/StudyAbroad/studyabroad'
 import AWS from "./components/courses/AWS/FullStackMain"
+import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
+        <Route eaxct path="/studypopup" element={<StudyAbroadPopUp />} />
         <Route exact path="/studyabroad" element={<Studyabroad />} />
         <Route exact path="/AWS" element={<AWS />} />
         <Route exact path="/privacy-policy" element={<Privacy />}/>

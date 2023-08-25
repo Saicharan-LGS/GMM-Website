@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { useNavigate } from 'react-router-dom';
-import './index.css'
+import '../FirstTimePopup/index.css'
 import image1 from "../../Images/signupimage.jpeg";
 
 const PopupForm = ({ onSubmit }) => {
@@ -53,75 +53,81 @@ const PopupForm = ({ onSubmit }) => {
     }
   };
 
-  return (
-    <div className="ppr-popup">
-      <form className="ppr-popup-content">
-        <div className='ppr-pop-content-image-container'>
-          <img src={image1} alt="" className='ppr-callback-logo' />
+  return ( 
+    <div className="ppr-popup1">
+    <form className="ppr-popup-content1">
+      <div className='ppr-pop-content-image-container1' >
+        <img src={image1} alt="" className='ppr-callback-logo1' />
+      </div>
+      <div className='ppr-pop-content-content-container1'>
+       <div style={{display:"flex",justifyContent:"space-between",alignContent:"center"}}>
+        <h2 className="ppr-request-call-back1">Request a Callback!</h2>
+        <span className="ppr-close1" onClick={closePopup}>
+          &times;
+        </span>
+       </div>
+       <div className='popup-inputcontainer'>
+        <label className="ppr-popup-label-name1" htmlFor="name">Name *</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="ppr-popup-input1"
+          required
+        />
+        <label htmlFor="email" className="ppr-popup-label-name1">Email Address *</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="ppr-popup-input1"
+          required
+        />
+        <label htmlFor="course" className="ppr-popup-label-name1">Select Course *</label>
+        <select
+          id="course"
+          value={course}
+          onChange={(e) => setCourse(e.target.value)}
+          className="ppr-popup-input1 ppr-popup-select1"
+          required>
+          <option value="English Communication Blue Print" >English Communication Blue Print</option>
+          <option value="Full Stack Developer" >Full Stack Developer</option>
+          <option value="Data Science" >Data Science</option>
+          <option value="Sales Force Admin" >Sales Force Admin</option>
+          <option value="Mendix" >Mendix</option>
+          <option value="Polarion">Polarion</option>
+          <option value="Digital Marketing Expert">Digital Marketing Expert</option>
+        </select>
+        <label htmlFor="phoneNumber" className="ppr-popup-label-name1">Phone Number * </label>
+        <input
+          type="number"
+          id="phoneNumber"
+          placeholder="Enter your phone number"
+          value={phoneNumber}
+          onChange={(e) => setPhoneNumber(e.target.value)}
+          className="ppr-popup-input1"
+          required
+        />
+        <label htmlFor="comment" className="ppr-popup-label-name1">Comment</label>
+        <input
+          type="text"
+          id="comment"
+          placeholder="Enter your Comment"
+          value={comment}
+          onChange={(e) => setComment(e.target.value)}
+          className="ppr-popup-input1"
+        />
+        <p className='ppr-success-message1'>{successMsg}</p>
+        <p className='ppr-error-message1'>{errorMsg}</p>
+        <button type="submit" className='popup-button1' onClick={handleSubmit}>Submit</button>
         </div>
-        <div className='ppr-pop-content-content-container'>
-          <h2 className="ppr-request-call-back">Request a Callback!</h2>
-          <label className="ppr-popup-label-name" htmlFor="name">Name *</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Enter your name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="ppr-popup-input"
-            required
-          />
-          <label htmlFor="email" className="ppr-popup-label-name">Email Address *</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Enter your email address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="ppr-popup-input"
-            required
-          />
-          <label htmlFor="course" className="ppr-popup-label-name">Select Course *</label>
-          <select
-            id="course"
-            value={course}
-            onChange={(e) => setCourse(e.target.value)}
-            className="ppr-popup-input ppr-popup-select"
-            required>
-            <option value="English Communication Blue Print" >English Communication Blue Print</option>
-            <option value="Full Stack Developer" >Full Stack Developer</option>
-            <option value="Data Science" >Data Science</option>
-            <option value="Sales Force Admin" >Sales Force Admin</option>
-            <option value="Mendix" >Mendix</option>
-            <option value="Polarion">Polarion</option>
-            <option value="Digital Marketing Expert">Digital Marketing Expert</option>
-          </select>
-          <label htmlFor="phoneNumber" className="ppr-popup-label-name">Phone Number * </label>
-          <input
-            type="number"
-            id="phoneNumber"
-            placeholder="Enter your phone number"
-            value={phoneNumber}
-            onChange={(e) => setPhoneNumber(e.target.value)}
-            className="ppr-popup-input"
-            required/>
-          <label htmlFor="comment" className="ppr-popup-label-name">Comment</label>
-          <input
-            type="text"
-            id="comment"
-            placeholder="Enter your Comment"
-            value={comment}
-            onChange={(e) => setComment(e.target.value)}
-            className="ppr-popup-input"/>
-          <p className='ppr-success-message'>{successMsg}</p>
-          <p className='ppr-error-message'>{errorMsg}</p>
-          <button type="submit" onClick={handleSubmit}>Submit</button>
-          <span className="ppr-close" onClick={closePopup}>
-            &times;
-          </span>
-        </div>
-      </form>
-    </div>
+      </div>
+    </form>
+  </div>
   );
 };
 
