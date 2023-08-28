@@ -15,6 +15,11 @@ import {GoLaw} from "react-icons/go"
 import {LuShoppingCart} from "react-icons/lu"
 import {PiHandshakeFill} from "react-icons/pi"
 import America from "../../Images/America.png"
+import uk from "../../Images/uk.jpg"
+import australia from "../../Images/australia.jpg"
+import canada from "../../Images/canada.jpg"
+import newzealand from "../../Images/newzealand.jpg"
+import germany from "../../Images/germany.jpg"
 //{id:0,Icon:,title:"",text:"COLLEGES"},
 
 import ReactPlayer from 'react-player'
@@ -38,7 +43,6 @@ import {FaUniversity} from "react-icons/fa";
 import {AiOutlineFolder} from "react-icons/ai";
 import {AiOutlineArrowRight} from "react-icons/ai";
 import {SiReacthookform } from "react-icons/si";
-
     
 
 const StudentReviewVideoList = [
@@ -100,11 +104,11 @@ const studyAbroadAboutList=[{id:0,Icon:FaSchool,title:"3400+",text:"Universities
 
 const studyAbroadDestination=[
     {id:0,text:"Study in USA",image:America,colleges:"932",study:"27.8 L/Yr",living:"31.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 80%",fact2:"62% of students get a job after completing degree",fact3:"1.08 Million International Students study in US",fact4:"Intake Seasons- Fall & Spring",},
-    {id:1,text:"Study in CANADA",image:America,colleges:"175",study:"13.9 L/Yr",living:"20.3 L/Yr",fact1:"622,000 International Students study in Canada",fact2:"35% of total international applicants are Indian",fact3:"27% South Asian Students Study in Canada",fact4:"Intake Seasons- Fall, Winter, & Summer",},
-    {id:2,text:"Study in UK",image:America,colleges:"154",study:"21.4 L/Yr",living:"15.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 85%",fact2:"458,520 International Students studying in the UK",fact3:"54% International Freshman Enrolments",fact4:"Intake Seasons- October & January"},
-    {id:3,text:"Study in AUSTRALIA",image:America,colleges:"65",study:"18.2 L/Yr",living:"21.4 L/Yr",fact1:"Visa Acceptance Rate for Student Visa in 90-95%",fact2:"79% students get a job after degree completion",fact3:"Numerous scholarships for international students",fact4:"Intake Seasons- February & July",},
-    {id:4,text:"Study in NEW ZEALAND",image:America,colleges:"9",study:"18.3 L/Yr",living:"15.5 L/Yr",fact1:"68% students get a job after completing their degree",fact2:"7 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $870M spent on research annually",fact4:"niversities ranked in the top 3% in the world",},
-    {id:5,text:"Study in GERMANY",image:America,colleges:"131",study:"4.3 L/Yr",living:"14.4 L/Yr",fact1:"Acceptance Rate in Germany is 92%",fact2:"2.3% of students are unemployed after degree completion",fact3:"No Tuition Fee",fact4:"Intake Seasons- Summer & Winter",}
+    {id:1,text:"Study in CANADA",image:canada,colleges:"175",study:"13.9 L/Yr",living:"20.3 L/Yr",fact1:"622,000 International Students study in Canada",fact2:"35% of total international applicants are Indian",fact3:"27% South Asian Students Study in Canada",fact4:"Intake Seasons- Fall, Winter, & Summer",},
+    {id:2,text:"Study in UK",image:uk,colleges:"154",study:"21.4 L/Yr",living:"15.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 85%",fact2:"458,520 International Students studying in the UK",fact3:"54% International Freshman Enrolments",fact4:"Intake Seasons- October & January"},
+    {id:3,text:"Study in AUSTRALIA",image:australia,colleges:"65",study:"18.2 L/Yr",living:"21.4 L/Yr",fact1:"Visa Acceptance Rate for Student Visa in 90-95%",fact2:"79% students get a job after degree completion",fact3:"Numerous scholarships for international students",fact4:"Intake Seasons- February & July",},
+    {id:4,text:"Study in NEW ZEALAND",image:newzealand,colleges:"9",study:"18.3 L/Yr",living:"15.5 L/Yr",fact1:"68% students get a job after completing their degree",fact2:"7 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $870M spent on research annually",fact4:"niversities ranked in the top 3% in the world",},
+    {id:5,text:"Study in GERMANY",image:germany,colleges:"131",study:"4.3 L/Yr",living:"14.4 L/Yr",fact1:"Acceptance Rate in Germany is 92%",fact2:"2.3% of students are unemployed after degree completion",fact3:"No Tuition Fee",fact4:"Intake Seasons- Summer & Winter",}
     ]
 
     
