@@ -26,6 +26,7 @@ import AWS from "./components/courses/AWS/FullStackMain"
 import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
 import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain"
 import Leadership from './components/courses/LeaderShip/FullStackMain'
+import EnglishOfflineCourse from './components/Homes/EnglishOfflineCourse'
 const App = () => (
     <>
     <Whatsapp />
@@ -55,6 +56,7 @@ const App = () => (
         <Route exact path="/aboutus" element={<About />} />
         <Route exact path="/success" element={<SuccessStory />} />
         <Route exact path="/career" element={<CareerSupport />} />
+        <Route exact path="/englishselection" element={<EnglishOfflineCourse />} />
         <Route path="*" element={<NotFound/>}/>
     </Routes>
     </>
