@@ -28,6 +28,7 @@ class DoubtItem extends Component {
   }
 
   onToggleIsActive = () => {
+    console.log("called")
     this.setState(prevState => ({
       isActive: !prevState.isActive,
     }))
@@ -50,8 +51,10 @@ class DoubtItem extends Component {
 
     return (
       <li className="faq-item">
-        <div className="question-container" onClick={this.onToggleIsActive}>
-          <h1 className="question">{question}</h1>
+        <div className="question-container">
+          <div style={{width:"100%",cursor:"pointer"}}>
+            <h1 className="question" onClick={this.onToggleIsActive}>{question}</h1>
+          </div>
           {this.renderActiveImage()}
         </div>
         {this.renderAnswer()}

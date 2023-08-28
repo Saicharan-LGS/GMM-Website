@@ -1,16 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import image1 from "../../Images/signupimage.jpeg"
+import { BiCategory } from 'react-icons/bi';
+
+const SelectCourseList=[
+  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS Cloud Technology",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce Admin",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS Cloud Technolgy",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  {id:2,item:"Soft Skills", detail:[{id:0,course:"English Communication Blue Print",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication (Corporate)",link:"/businesscorporate",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/leadership",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]}, 
+  {id:3,item:"Study Abroad",detail:[{id:0,course:"canada"},{id:1,course:"uk"}]}
+]
 
 const FirstTimePopup = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
+  const [Category,setCategory]=useState("100% Job Guarantee");
   const [course, setCourse] = useState('English Communication Blue Print');
   const [phoneNumber, setPhoneNumber] = useState("");
   const [comment, setComment] = useState('');
   const [successMsg, setSuccessMsg] = useState("");
+  const [labelName,setLabelName]=useState("course");
   const [errorMsg, setErrorMsg] = useState("");
+  const [Id,setId]=useState(0);
+
+  useEffect(()=>{
+    if(Category==="100% Job Guarantee"){
+      setId(0)
+      setLabelName("course")
+    }else if (Category==="Soft Skills"){
+      setId(2)
+      setLabelName("course")
+    }else if (Category==="IT"){
+      setId(1)
+      setLabelName("course")
+    }
+    else{
+      setId(3)
+      setLabelName("country")
+    }
+  })
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -49,12 +77,10 @@ const FirstTimePopup = () => {
         setErrorMsg("");
       } else {
         const data = await response.json();
-        console.log(data.error);
-        setErrorMsg(data.error);
+
         setSuccessMsg("");
       }
     } catch (error) {
-      console.error(error);
     }
   };
   return (
@@ -93,20 +119,27 @@ const FirstTimePopup = () => {
                className="ppr-popup-input1"
                required
              />
-             <label htmlFor="course" className="ppr-popup-label-name1">Select Course *</label>
+             <label htmlFor="course" className="ppr-popup-label-name1">Select Category *</label>
+             <select
+               id="course"
+               value={Category}
+               onChange={(e) => setCategory(e.target.value)}
+               className="ppr-popup-input1 ppr-popup-select1"
+               required>
+              {SelectCourseList.map(each=>(
+                <option>{each.item}</option>
+              ))}
+             </select>
+             <label htmlFor="course" className="ppr-popup-label-name1">{`Select ${labelName} *`}</label>
              <select
                id="course"
                value={course}
                onChange={(e) => setCourse(e.target.value)}
                className="ppr-popup-input1 ppr-popup-select1"
                required>
-               <option value="English Communication Blue Print" >English Communication Blue Print</option>
-               <option value="Full Stack Developer" >Full Stack Developer</option>
-               <option value="Data Science" >Data Science</option>
-               <option value="Sales Force Admin" >Sales Force Admin</option>
-               <option value="Mendix" >Mendix</option>
-               <option value="Polarion">Polarion</option>
-               <option value="Digital Marketing Expert">Digital Marketing Expert</option>
+                {SelectCourseList[Id].detail.map((each)=>(
+                <option>{each.course}</option>
+              ))}
              </select>
              <label htmlFor="phoneNumber" className="ppr-popup-label-name1">Phone Number * </label>
              <input
