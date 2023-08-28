@@ -1,0 +1,26 @@
+.english-course-selection-main-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+.english-course-selection-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.english-course-selection-sub-conatiner-heading{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.english-course-selection-sub-conatiner{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+

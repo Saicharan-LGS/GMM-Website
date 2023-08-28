@@ -28,7 +28,7 @@ class Intro extends Component{
                         <span>No coding experience required</span>
                     </div>
                     <div className='course-intro-button-container'>
-                        <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLE NOW</button></Link>
+                        <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLL NOW</button></Link>
                     </div>
                     <div className='course-intro-data-main-container'>
                         <div className='course-intro-data-sub-container'>
