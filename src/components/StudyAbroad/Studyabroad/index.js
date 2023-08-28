@@ -5,7 +5,7 @@ import Footer from "../../Homes/Footer"
 import {FaSchool,FaGraduationCap,FaWpforms,FaBusinessTime,FaCalculator,FaHistory,} from "react-icons/fa"
 import {MdScience,MdEngineering,MdDraw,MdOutlinePsychologyAlt,MdCastForEducation,MdBiotech,MdFlight,MdLocalPharmacy,MdAgriculture,MdArchitecture,MdOutlineColorLens,MdOutlineTour} from "react-icons/md"
 import {SiGooglescholar} from "react-icons/si"
-import {GiWatch,GiMaterialsScience,GiMicrophone,GiNurseFemale,GiPoloShirt,GiWorld,GiTShirt,GiChemicalDrop} from "react-icons/gi"
+import {GiWatch,GiMaterialsScience,GiMicrophone,GiNurseFemale,GiPoloShirt,GiWorld,GiTShirt,GiChemicalDrop,GiWallet} from "react-icons/gi"
 import {BiLeaf} from "react-icons/bi"
 import {CgProfile} from "react-icons/cg"
 import {BsGraphUp} from "react-icons/bs"
@@ -15,6 +15,8 @@ import {GoLaw} from "react-icons/go"
 import {LuShoppingCart} from "react-icons/lu"
 import {PiHandshakeFill} from "react-icons/pi"
 import America from "../../Images/America.png"
+import { useNavigate } from 'react-router-dom';
+
 //{id:0,Icon:,title:"",text:"COLLEGES"},
 
 import ReactPlayer from 'react-player'
@@ -33,11 +35,13 @@ import {TfiWrite} from 'react-icons/tfi';
 import {GrContactInfo} from 'react-icons/gr';
 import {TbMessageDots} from "react-icons/tb";
 import {GoChecklist} from "react-icons/go";
-import {AiOutlineArrowLeft} from "react-icons/ai";
-import {FaUniversity} from "react-icons/fa";
+import {AiOutlineArrowLeft,AiOutlineIdcard} from "react-icons/ai";
+import {FaUniversity,FaAddressCard} from "react-icons/fa";
 import {AiOutlineFolder} from "react-icons/ai";
 import {AiOutlineArrowRight} from "react-icons/ai";
 import {SiReacthookform } from "react-icons/si";
+import {MdFlightTakeoff} from "react-icons/md"
+import {FiPhoneCall} from "react-icons/fi"
 
     
 
@@ -192,22 +196,34 @@ const letUsGuide = [
       },
       {
           id:5,
-          heading:"Documentation",
-          icon:AiOutlineFolder,
-          desc:"We will help you in preparing documents for the application like SOPs, LOR, Essays, Resume Scholarship Essay etc."
+          heading:"Applications",
+          icon:AiOutlineIdcard,
+          desc:"Application to the colleges, online or offline will be guided by our team"
       },
       {
           id:6,
-          heading:"Documentation",
-          icon:AiOutlineFolder,
-          desc:"We will help you in preparing documents for the application like SOPs, LOR, Essays, Resume Scholarship Essay etc."
+          heading:"Financial Documentation",
+          icon:GiWallet,
+          desc:"Talk to our counsellors and know which country, course and college is better for you"
       },
       {   
           id:7,
-          heading:"Documentation",
-          icon:AiOutlineFolder,
-          desc:"We will help you in preparing documents for the application like SOPs, LOR, Essays, Resume Scholarship Essay etc."
+          heading:"VISA Application",
+          icon:FaAddressCard,
+          desc:"We help in VISA application form filling and interviews if needed"
       },
+      {
+        id:8,
+        heading:"Post Visa",
+        icon:MdFlightTakeoff,
+        desc:"We even help you in getting accommodation, mentorship for jobs, flight booking, forex, connect to the existing students"
+    },
+    {   
+        id:9,
+        heading:"Talk to Counselor",
+        icon:FiPhoneCall,
+        button:"Talk to Counselor"
+    },
   ]
   
     const meetOur=[
@@ -245,6 +261,7 @@ const letUsGuide = [
 const Studyabroad=()=>{
     
   const [currentPage, setCurrentPage] = useState(0);
+  const navigate = useNavigate();
   const cardsPerPage = 4; // Number of cards to display per page
 
   const handleNextClick = () => {
@@ -259,6 +276,11 @@ const Studyabroad=()=>{
         const prevPage = Math.max(currentPage - 1, 0);
         setCurrentPage(prevPage);
       };
+
+      const showStudyabroadPopup=()=>{
+        navigate("/studypopup");
+      }
+
 return(
     <>
     <Header />
@@ -295,7 +317,7 @@ return(
               <p className='study-abroad-let-us-guide-card-conatiner-subtitle'>
                 {guide.desc}
               </p>
-              <button className='study-abroad-let-us-guide-card-conatiner-button'>
+              <button className='study-abroad-let-us-guide-card-conatiner-button' onClick={showStudyabroadPopup}>
                 {guide.button}
               </button>
             </div>
@@ -315,10 +337,10 @@ return(
             <h1 className='study-abroad-how-do-we-work-cards-heading'>
                 {step.heading}
             </h1>
-            {step.id === 0 ? ( // Only show button for the first card
+            {step.id === 0 || step.id===9 ? ( // Only show button for the first card
                   <>
                   <step.icon className="study-abroad-how-do-we-work-cards-container-icon"/>
-                  <button className='study-abroad-let-us-guide-card-conatiner-button'>
+                  <button className='study-abroad-let-us-guide-card-conatiner-button' onClick={showStudyabroadPopup}>
                     {step.button}
                   </button>
                   </>
@@ -358,7 +380,7 @@ return(
               <div className='study-abroad-meet-our-card-content-container'>
                 <h1 className='study-abroad-meet-our-card-content-container-heading'>{counselor.heading}</h1>
                 <p className='study-abroad-meet-our-card-content-container-desc'>{counselor.desc}</p>
-                <button className='study-abroad-let-us-guide-card-conatiner-button'>{counselor.button}</button>
+                <button className='study-abroad-let-us-guide-card-conatiner-button' onClick={showStudyabroadPopup}>{counselor.button}</button>
               </div>
             </div>
           ))}
@@ -372,7 +394,7 @@ return(
 
 
     <div className="study-abroad-aboutus-container">
-        <h1 className="study-abroad-aboutus-main-heading">Few Facts About Us</h1>
+        <h1 className="study-abroad-aboutus-main-heading ">Few Facts About Us</h1>
         <ul className="study-abroad-aboutus-list">
         {studyAbroadAboutList.map(each=>(
             <div className="study-abroad-aboutus-card">
@@ -405,7 +427,7 @@ return(
 
 
     <div className="study-abroad-destination-container">
-        <h1>Choose Your Study Destination</h1>
+        <h1 className="student-review-video-main-heading">Choose Your Study Destination</h1>
         <ul className="study-abroad-destination-list">
             {studyAbroadDestination.map(each=>(
                 <div className="study-abroad-destination-card">
@@ -449,7 +471,7 @@ return(
                             <p className="study-abroad-destination-key-facts-text">{each.fact4}</p>
                         </div>
                     </div>
-                    <button class="study-abroad-destination-card-button">Get Counselling</button>
+                    <button class="study-abroad-destination-card-button" onClick={showStudyabroadPopup}>Get Counselling</button>
                 </div>
             ))}
         </ul>
