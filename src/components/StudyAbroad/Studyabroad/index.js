@@ -262,7 +262,7 @@ const Studyabroad=()=>{
 return(
     <>
     <Header />
-
+    <div className='studyaboard-entire-conatiner'>
     <div className='studyaboard-main-conatiner'>
       <div className='study-abroad-let-us-guide-container'>
         <h1 className='study-abroad-let-us-guide-title'>
@@ -287,10 +287,10 @@ return(
                     {guide.spainHeading}
                   </span>
                 </h1>
-                {React.createElement(guide.icon, {
-                  size: 55,
-                  style: { color: '#196AE5' },
-                })}
+                <guide.icon className="study-abroad-let-us-guide-card-conatiner-icon"
+                />
+              
+                
               </div>
               <p className='study-abroad-let-us-guide-card-conatiner-subtitle'>
                 {guide.desc}
@@ -306,7 +306,7 @@ return(
       <h1 className='study-abroad-let-us-guide-title'>How Do We Work</h1>
       <div className='study-abroad-how-do-we-work-button-container'>
         <div className='study-abroad-how-do-we-work-button-container-button'>{currentPage > 0 && (
-              <AiOutlineArrowLeft color='blue'  size={30} onClick={handlePrevClick}/>
+              <AiOutlineArrowLeft color='blue'  className="study-abroad-how-do-we-work-button-arrow" onClick={handlePrevClick}/>
           )}</div>
           
           <div className='study-abroad-how-do-we-work-cards-container'>
@@ -317,20 +317,14 @@ return(
             </h1>
             {step.id === 0 ? ( // Only show button for the first card
                   <>
-                  {React.createElement(step.icon, {
-                      size: 55,
-                      style: { color: '#196AE5' },
-                    })}
+                  <step.icon className="study-abroad-how-do-we-work-cards-container-icon"/>
                   <button className='study-abroad-let-us-guide-card-conatiner-button'>
                     {step.button}
                   </button>
                   </>
                 ) : (
                   <>
-                    {React.createElement(step.icon, {
-                      size: 55,
-                      style: { color: '#196AE5' },
-                    })}
+                    <step.icon className="study-abroad-how-do-we-work-cards-container-icon"/>
                     <p className='study-abroad-how-do-we-work-cards-subtitle'>
                       {step.desc}
                     </p>
@@ -341,7 +335,7 @@ return(
         </div>
         <div className='study-abroad-how-do-we-work-button-container-button'>
         {currentPage < Math.ceil(howDoWeWork.length / cardsPerPage) - 1 && (
-              <AiOutlineArrowRight color='blue' size={30} onClick={handleNextClick}/>
+              <AiOutlineArrowRight color='blue' className="study-abroad-how-do-we-work-button-arrow" onClick={handleNextClick}/>
           )}
         </div>
           
@@ -349,13 +343,13 @@ return(
       </div>
       <div className='study-abroad-meet-our-container'>
         <h1 className='study-abroad-let-us-guide-title'>Meet Our Counsellors</h1>
-        <div className='study-abroad-meet-our-cards-container'>
+        
         <div className='study-abroad-meet-our-cards-container'>
           {meetOur.map((counselor, index) => (
             <div className='study-abroad-meet-our-card-container' key={index}>
               <div className='study-abroad-meet-our-card'>
-                <div className='study-abroad-meet-our-card-image'>
-                  <img src={counselor.image} alt={counselor.heading} />
+                <div className='study-abroad-meet-our-card-image-container'>
+                  <img src={counselor.image} alt={counselor.heading} className='study-abroad-meet-our-card-image'/>
                 </div>
                 <div className='study-abroad-meet-our-card-content'>
                   <p className='study-abroad-meet-our-card-content-desc'>{counselor.iamgeDesc}</p>
@@ -369,7 +363,7 @@ return(
             </div>
           ))}
         </div>
-        </div>
+        
     </div>
     </div>
 
@@ -528,6 +522,7 @@ return(
                 ))}
             </ul>
         </div>
+    </div>
     </div>
     <Footer />
     </>
