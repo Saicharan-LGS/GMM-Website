@@ -8,9 +8,22 @@
 
 
 
-
+.study-abroad-popup-main-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 .study-abroad-popup-container{
+    position: relative;
     background-color: #e6e6ff;
     width:800px;
     height:500px;
@@ -92,3 +105,13 @@ height: max-content;
     margin-top: 20px;
 }
 }
+
+.study-abroad-popup-close-button {
+    align-self: flex-end;
+    font-size: 34px;
+    cursor: pointer;
+    color: #196AE5;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+  }

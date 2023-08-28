@@ -10,13 +10,12 @@ const StudyAbroadPopUp=()=>{
         const [comment, setComment] = useState('');
         const [successMsg, setSuccessMsg] = useState('');
         const [errorMsg, setErrorMsg] = useState('');
-        const [showPopup, setShowPopup] = useState(true);
+        
         const navigate = useNavigate();
-        const closePopup = () => {
-          setShowPopup(false);
-          navigate("/");
+        const closePopupPage = () => {
+          navigate("/studyabroad");
         };
-        console.log(showPopup)
+        
         const handleSubmit = async (event) => {
           event.preventDefault();
           try {
@@ -52,7 +51,11 @@ const StudyAbroadPopUp=()=>{
         };
 
     return(
+      <div className="study-abroad-popup-main-container">
         <div className="study-abroad-popup-container">
+        <span className="study-abroad-popup-close-button" onClick={closePopupPage}>
+               &times;
+             </span>
             <div className="study-abroad-popup-container1">
                 <div className="study-abroad-popup-icon-container">
                     <AiOutlineForm className="study-abroad-popup-icon" />
@@ -122,6 +125,7 @@ const StudyAbroadPopUp=()=>{
                     className="study-ppr-popup-input"/>
             </div>
             <button type="submit" className="study-abroad-popup-button" onClick={handleSubmit}>Submit</button>
+        </div>
         </div>
     )
 }
