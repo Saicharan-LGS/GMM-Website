@@ -2,6 +2,14 @@ import "./index.css"
 import React, { useState } from 'react';
 import {AiOutlineForm} from "react-icons/ai"
 import { useNavigate } from 'react-router-dom';
+
+import {BiSolidUser} from 'react-icons/bi'
+import {MdEmail} from 'react-icons/md'
+import {MdLocationPin} from 'react-icons/md'
+import {BiSolidPhoneCall} from 'react-icons/bi'
+import {FaCommentDots} from 'react-icons/fa'
+
+
 const StudyAbroadPopUp=()=>{
         const [email, setEmail] = useState('');
         const [name, setName] = useState('');
@@ -67,6 +75,8 @@ const StudyAbroadPopUp=()=>{
             </div>
             <hr />
             <div className="study-abroad-popup-inputs-container">
+                <div className="study-abroad-popup-inputs-icon-container">
+                  <BiSolidUser className="study-abroad-popup-input-icon"/>
                 <input
                     type="text"
                     id="name"
@@ -76,6 +86,9 @@ const StudyAbroadPopUp=()=>{
                     className="study-ppr-popup-input"
                     required
                 />
+                </div>
+                <div className="study-abroad-popup-inputs-icon-container">
+                  <MdEmail className="study-abroad-popup-input-icon"/>
                 <input
                     type="email"
                     id="email"
@@ -85,12 +98,14 @@ const StudyAbroadPopUp=()=>{
                     className="study-ppr-popup-input"
                     required
                 />
+                </div>
                 <select
                     id="course"
                     value={course}
                     onChange={(e) => setCourse(e.target.value)}
                     className="study-ppr-popup-input study-ppr-popup-select"
-                    required>
+                    required
+                    isSearchable>
                     <option value="English Communication Blue Print" >English Communication Blue Print</option>
                     <option value="Full Stack Developer" >Full Stack Developer</option>
                     <option value="Data Science" >Data Science</option>
@@ -99,23 +114,31 @@ const StudyAbroadPopUp=()=>{
                     <option value="Polarion">Polarion</option>
                     <option value="Digital Marketing Expert">Digital Marketing Expert</option>
                 </select>
+                <div className="study-abroad-popup-inputs-icon-container">
+                  <MdLocationPin className="study-abroad-popup-input-icon"/>
                 <input
-                    type="number"
-                    id="phoneNumber"
-                    placeholder="Country"
+                    type="text"
+                    id="city"
+                    placeholder="City"
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     className="study-ppr-popup-input"
                     required/>
+                  </div>
+                  <div className="study-abroad-popup-inputs-icon-container">
+                  <BiSolidPhoneCall className="study-abroad-popup-input-icon"/>
                 <input
-                    type="text"
-                    id="name"
-                    placeholder="Enter your name"
+                    type="number"
+                    id="phonenumber"
+                    placeholder="Mobile Number"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="study-ppr-popup-input"
                     required
                 />
+                </div>
+                <div className="study-abroad-popup-inputs-icon-container">
+                  <FaCommentDots className="study-abroad-popup-input-icon"/>
                 <input
                     type="text"
                     id="comment"
@@ -123,6 +146,9 @@ const StudyAbroadPopUp=()=>{
                     value={comment}
                     onChange={(e) => setComment(e.target.value)}
                     className="study-ppr-popup-input"/>
+                  </div>
+            
+
             </div>
             <button type="submit" className="study-abroad-popup-button" onClick={handleSubmit}>Submit</button>
         </div>
