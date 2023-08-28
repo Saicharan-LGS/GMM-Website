@@ -26,12 +26,13 @@ import AWS from "./components/courses/AWS/FullStackMain"
 import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
 import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain"
 import Leadership from './components/courses/LeaderShip/FullStackMain'
+import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain"
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
-        
+        <Route exact path="/team-building" element={<TeamBuilding/>} />
         <Route exact path="/leadership" element={<Leadership />} />
         <Route exact path="/businesscorporate" element={<BusinessCorporate />} />
         <Route exact path="/studypopup" element={<StudyAbroadPopUp />} />

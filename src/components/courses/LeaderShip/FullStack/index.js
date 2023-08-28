@@ -4,72 +4,110 @@ import "../../DataScience/FullStack/index.css"
 import companies from "../../../Images/companieslogo.png"
 
 const foundation = [
-    { title: 'Mastering English Communication', content:[
-            '6 Action Items to improve your Communication Skills',
-            '10 Daily Rituals – Habits that Can Change you.',
-            '4 Pillars of Communication: Reading, Writing, Listening & Speaking',
-            'Conversational Vocabulary.',
-            'Power of Tenses – Learn different tenses and their usage',
-            'Grammar from Beginner to Intermediate level.',
-            'Pronunciation and Correct form of Pronouncing words.',
-      ]  },
-    { title: 'Effective Communication And Personal Development', content:  [
-            'Voice Modulation & Pitch Pattern',
-            'Body language – Present yourself appropriately',
-            'How to remove hesitation & speak with Confidence?',
-            'How you can improve your Listening Skills?',
-            'How to improve your speaking skills with examples and exercises.',
-            'How to improve your Vocabulary?',
-            'How to use vocabulary in your daily life/small talks?',
-            'Voice and accent and how to overcome mother tongue influence.',
-      ] },
-      {
-        title: "Mastering Confident Communication",
-        content: [
-            'How to give your introduction with Confidence?',
-            'Free Speech pattern – What is it and why is it so important in Communication Skills',
-            '10 Storytelling and why stories are so important?',
-            '10 Presentations to work on Memory - Deliver - Connection',
-            'Assessment with every lesson',
-            'Minimum 3 Practical Live Delivery Sessions for Real-time exposure'
-           ]
-      },
-  ];
-
-
-  const careerTrack=[
-    {
-      title: "Business Communication",
+  {
+      title: 'Effective Leadership Communication',
       content: [
-            "7 Cs of Business Communication",
-            "Grammar: Tenses, Adjectives, and Verbs",
-            "Body Language & Modals",
-            "Ace your Business Presentations",
-            "Email Writing",
-            "Telephonic Communication and Business Vocab",
-            "Networking and building Interpersonal Skills"
+          'Clearly communicate your vision and goals to your team.',
+          'Use simple and relatable language to ensure everyone understands.',
+          'Avoid overly technical or complex terms that might alienate team members.',
+          'Stay focused on the main message and avoid going off-topic.',
+          'Listen actively to your team members’ ideas and concerns.',
+          'Ask open-ended questions to encourage thoughtful discussions.',
+          'Acknowledge and validate the contributions and opinions of your team.',
+          'Give your team members the space to express themselves.'
+      ]
+  },
+  {
+      title: 'Leading with Empathy & Emotional Intelligence',
+      content: [
+          'Show empathy towards your team members’ challenges and experiences.',
+          'Understand the emotions and motivations behind their actions.',
+          'Communicate with empathy, taking into account their feelings and perspectives.',
+          'Use emotional intelligence to manage conflicts and build positive relationships.',
+          'Lead by example, demonstrating emotional regulation and self-awareness.',
+          'Provide support and encouragement during challenging times.'
+      ]
+  },
+  {
+      title: 'Influential Presentations and Storytelling',
+      content: [
+          'Craft compelling stories that illustrate your points and engage your team.',
+          'Use narratives to convey complex ideas in an accessible manner.',
+          'Connect with your team emotionally through storytelling.',
+          'Deliver presentations with confidence and enthusiasm.',
+          'Use persuasive techniques to inspire action and commitment.',
+          'Incorporate data and evidence to strengthen your arguments.'
+      ]
+  },
+  {
+      title: 'Feedback and Growth-Oriented Leadership',
+      content: [
+          'Foster a culture of feedback where open communication is encouraged.',
+          'Provide constructive feedback to help team members improve.',
+          'Acknowledge achievements and celebrate successes publicly.',
+          'Encourage a growth mindset by focusing on learning and development.',
+          'Set clear expectations and provide guidance for improvement.',
+          'Lead regular performance reviews to track progress and growth.'
+      ]
+  },
+  {
+      title: 'Navigating Difficult Conversations',
+      content: [
+          'Approach challenging conversations with a calm and composed demeanor.',
+          'Prepare ahead of time to ensure the conversation remains focused.',
+          'Listen actively and demonstrate that you value the other person’s perspective.',
+          'Address sensitive topics with sensitivity and respect.',
+          'Find common ground and work towards mutually beneficial solutions.',
+          'Keep the lines of communication open for ongoing dialogue.'
+      ]
+  },
+  {
+      title: 'Adaptive Leadership in Change Management',
+      content: [
+          'Communicate clearly about changes and the reasons behind them.',
+          'Acknowledge the challenges and uncertainties associated with change.',
+          'Provide a roadmap for how the team will navigate through changes.',
+          'Be open to feedback and address concerns related to change.',
+          'Lead by example in adapting to new situations.',
+          'Empower your team to embrace change and contribute ideas.'
+      ]
+  }
+];
+
+
+  // const careerTrack=[
+  //   {
+  //     title: "Business Communication",
+  //     content: [
+  //           "7 Cs of Business Communication",
+  //           "Grammar: Tenses, Adjectives, and Verbs",
+  //           "Body Language & Modals",
+  //           "Ace your Business Presentations",
+  //           "Email Writing",
+  //           "Telephonic Communication and Business Vocab",
+  //           "Networking and building Interpersonal Skills"
   
-          ]
-    },
-    {
-      title: "Profile and Resume Building",
-      content: [
-            "Build highly optimized Resumes and Cover Letters",
-            "Build your LinkedIn Profile",
-            "Build your GitHub Portfolio",
-            "Build your own website"
-          ]
-    },
-    {
-      title: "Interview Prep and Mock Interview",
-      content: [
-            "Interview Best Practices",
-            "10+ Mock Analytics Interviews",
-            "10+ Mock Communication Interviews",
-            "Company-wise Interview Guides"
-          ]
-    }
-  ]
+  //         ]
+  //   },
+  //   {
+  //     title: "Profile and Resume Building",
+  //     content: [
+  //           "Build highly optimized Resumes and Cover Letters",
+  //           "Build your LinkedIn Profile",
+  //           "Build your GitHub Portfolio",
+  //           "Build your own website"
+  //         ]
+  //   },
+  //   {
+  //     title: "Interview Prep and Mock Interview",
+  //     content: [
+  //           "Interview Best Practices",
+  //           "10+ Mock Analytics Interviews",
+  //           "10+ Mock Communication Interviews",
+  //           "Company-wise Interview Guides"
+  //         ]
+  //   }
+  // ]
 
   
 const FullStack=()=> {
@@ -86,7 +124,7 @@ const FullStack=()=> {
           <p className="Foundation-track-description">Our Full Stack Data Science course syllabus covers specialisations that help you become a niche Data Science and Analytics professional.</p>
           <CourseList tabData={specialisationTrack}/>
         </div> */}
-        <div>
+        {/* <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Career</span> Track</h2>
           <p className="Foundation-track-description">Our English Communication Blue print course syllabus covers specializations that help you become a Good English speaker.</p>
           <CourseList tabData={careerTrack}/>
@@ -96,7 +134,7 @@ const FullStack=()=> {
             <div className="Fullstack-company-image-container">
                 <img src={companies} alt="" className="Fullstack-company-image"/>
             </div>
-  </div>
+      </div> */}
         
     </div>
  )

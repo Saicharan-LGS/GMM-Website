@@ -4,11 +4,15 @@ import image1 from "../../Images/signupimage.jpeg"
 import { BiCategory } from 'react-icons/bi';
 
 const SelectCourseList=[
-  {id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS Cloud Technology",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
-  {id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce Admin",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS Cloud Technolgy",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
-  {id:2,item:"Soft Skills", detail:[{id:0,course:"English Communication Blue Print",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication (Corporate)",link:"/businesscorporate",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/leadership",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]}, 
-  {id:3,item:"Study Abroad",detail:[{id:0,course:"canada"},{id:1,course:"uk"}]}
-]
+  {id:0,item:"100% Job Guarantee"},{id:1,item:"IT"},{id:2,item:"Soft Skills"},{id:3,item:"Study Abroad"}]
+
+
+const SelectCourseList1={
+  "100% Job Guarantee":{id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS Cloud Technology",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  "IT":{id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce Admin",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS Cloud Technolgy",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
+  "Soft Skills":{id:2,item:"Soft SkillsSoft Skills", detail:[{id:0,course:"English Communication Blue Print",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication (Corporate)",link:"/businesscorporate",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/leadership",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]}, 
+  "Study Abroad":{id:3,item:"Study Abroad",detail:[{id:0,course:"canada"},{id:1,course:"uk"}]}
+}
 
 const FirstTimePopup = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -21,22 +25,12 @@ const FirstTimePopup = () => {
   const [successMsg, setSuccessMsg] = useState("");
   const [labelName,setLabelName]=useState("course");
   const [errorMsg, setErrorMsg] = useState("");
-  const [Id,setId]=useState(0);
 
   useEffect(()=>{
-    if(Category==="100% Job Guarantee"){
-      setId(0)
-      setLabelName("course")
-    }else if (Category==="Soft Skills"){
-      setId(2)
-      setLabelName("course")
-    }else if (Category==="IT"){
-      setId(1)
-      setLabelName("course")
-    }
-    else{
-      setId(3)
-      setLabelName("country")
+    if(Category==="Study Abroad"){
+     setLabelName("Country")
+    }else{
+      setLabelName("Course")
     }
   })
 
@@ -137,7 +131,7 @@ const FirstTimePopup = () => {
                onChange={(e) => setCourse(e.target.value)}
                className="ppr-popup-input1 ppr-popup-select1"
                required>
-                {SelectCourseList[Id].detail.map((each)=>(
+                {SelectCourseList1[Category].detail.map((each)=>(
                 <option>{each.course}</option>
               ))}
              </select>
