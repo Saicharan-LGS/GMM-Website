@@ -139,7 +139,7 @@ class Header extends Component {
             </button>
           </div>
           <div className="nav-bar-large-container">
-            <div style={{display:"flex",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
+            <div style={{display:"flex",justifyContent:"space-between",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
             <Link to="/" className="nav-link">
               <img
                 className="nav-website-logo"
@@ -149,7 +149,7 @@ class Header extends Component {
             </Link>
             <ul className="Explore-program">
               <NavLink to="/" className="nav-link">
-                <li className="nav-menu-item explore-program-item">Explore Programs</li>
+                <li className="explore-program-item">Explore Programs</li>
               </NavLink> 
                 <div className="display-content">
                   <div className="explore-program-main-container">
@@ -170,7 +170,7 @@ class Header extends Component {
                 </div>
               </ul>
             </div>
-            <div style={{display:"flex",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
+            <div style={{display:"flex",justifyContent:"space-between",marginLeft:"20px",alignItems:"center", gap:"10px",alignSelf:"center"}}>
               <ul className="nav-menu">
                 <li className="nav-menu-item"><NavLink
                 to="/career"

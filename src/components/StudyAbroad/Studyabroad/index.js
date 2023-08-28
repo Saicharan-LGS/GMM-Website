@@ -365,7 +365,6 @@ return(
       </div>
       <div className='study-abroad-meet-our-container'>
         <h1 className='study-abroad-let-us-guide-title'>Meet Our Counsellors</h1>
-        
         <div className='study-abroad-meet-our-cards-container'>
           {meetOur.map((counselor, index) => (
             <div className='study-abroad-meet-our-card-container' key={index}>
@@ -487,9 +486,7 @@ return(
             </div>
             <ul className="study-abraod-article-section-list-container">
                 {ArticleSectionList.map((eachArticle)=>(
-                    
                     <li className="study-abraod-article-section-list-container-item">
-                        
                         <hr className="study-abraod-article-section-list-line-icon"/>
                         <div className="study-abraod-article-section-list-logo-main-container">
                         <div className="study-abraod-article-section-list-logo-container">
