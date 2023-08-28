@@ -24,7 +24,7 @@
       box-shadow: 0px 10px 10px -15px #111; 
       flex-shrink:1; 
     }
-    @media (max-width: 767px) {
+  @media (max-width: 767px) {
       .nav-content {
         padding-left: 5%;
         padding-right: 5%;
@@ -90,6 +90,7 @@
     .nav-website-logo {
       width: 140px;
       margin-top: 0px;
+      padding:20px 0px 20px 0px;
     }
     @media (max-width: 1000px) {
       .nav-website-logo {
@@ -118,13 +119,13 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-self: center;
       flex: 1;
       list-style-type: none;
-      gap:20px;
       align-self: center;
       margin-bottom: 0px;
+      gap:5px;
     }
     .nav-menu-mobile{
       flex-shrink: 1;
@@ -167,6 +168,8 @@
         flex-shrink: 1;
         width:max-content;
         margin-right: 0px;
+      }.nav-menu{
+        gap:7px;
       }
     }
       @media (min-width:1200px){
@@ -204,7 +207,7 @@
       font-family: "Poppins";
       padding: 8px 10px;
     }
-    @media (max-width:1000px){
+    @media (max-width:912px){
       .logout-desktop-btn{
         font-size:12px;
         padding:4px 10px 4px 10px;
@@ -268,8 +271,9 @@
       justify-content: flex-start; 
       align-items: center;
       margin-top:4%;
+      padding-left: 0px;
     }    
-    @media (min-width:1000px){
+    @media (min-width:1100px){
       .Explore-program{
         margin-left:20px;
       }
@@ -375,11 +379,13 @@
   font-weight:600;
   padding:8px 10px 8px 10px;
   border-radius:4px;
+  font-size: 14px;
+  margin-top: 6px;
 }
 .explore-program-item:hover{
   border:2px solid #196AE5;
   background-color: #fff;
-  pxcolor:#196AE5;
+  color:#196AE5;
 }
 
 .NavcourseslistContainer{
@@ -429,3 +435,27 @@
     display: none;
   }
   }
+
+  @media (max-width:1100px){
+    .explore-program-item{
+      margin-top: 8px;
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:912px){
+    .nav-content {
+      padding-left: 0%;
+      padding-right: 0%;
+    }.explore-program-item{
+      margin-top: 8px;
+      padding: 3px;
+      font-size: 10px;
+    }.nav-menu-item{
+      font-size: 10px;
+    }.logout-desktop-btn{
+      font-size: 10px;
+      padding:4px;
+}
+}

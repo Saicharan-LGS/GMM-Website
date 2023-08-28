@@ -1,5 +1,5 @@
 .studyaboard-entire-conatiner{
-    padding:5% 10%;
+    padding:1% 5% 2% 5%;
 }
 
 
@@ -24,9 +24,10 @@
     font-family:"Roboto";
 }
 .study-abroad-let-us-guide-cards-conatiner{
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap:20px;
 }
 
@@ -138,6 +139,7 @@
   .study-abroad-how-do-we-work-cards-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     gap:20px;
   }
@@ -226,7 +228,7 @@
 
   .study-abroad-meet-our-cards-container{
     display: flex;
-    
+    justify-content: space-between;
     flex-wrap: wrap;
     gap:20px;
   }
@@ -353,7 +355,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 2% 5% 2% 5%;
 }
 .study-abroad-aboutus-card{
     margin-top: 20px;
@@ -402,6 +404,7 @@
 }
 .student-review-video-player-list-container{
     display:flex;
+    justify-content: space-between;
     gap:10px;
     list-style-type: none;
 }
@@ -589,7 +592,7 @@
 .study-abraod-article-section-list-container{
     display:flex;
     list-style-type:none;
-   justify-content: center;
+
    align-items: center;
    padding-left:5px;
    flex-wrap:wrap;
@@ -690,6 +693,7 @@
 
 .study-abroad-country-list-container{
     display:flex;
+    justify-content: space-between;
     gap:10px;
     padding:0px;
     flex-wrap:wrap;
@@ -752,6 +756,7 @@
 }
 .study-aboad-exam-list-container{
     display:flex;
+    justify-content: space-between;
     flex-wrap:wrap;
     gap:10px;
     list-style-type:none;
@@ -841,4 +846,41 @@
 .study-abroad-choose-card-text{
     margin-top: 0px;
     font-size: 14px;
+}
+@media (max-width:967px){
+    .study-abroad-choose-card{
+        margin-top: 25px;
+        max-width:150px;
+        min-height: 100px;
+        max-height: 140px;
+    }
+    .study-abroad-choose-card-icon{
+        font-size: 40px;
+    }
+    .study-abroad-choose-card-title{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .study-abroad-choose-card-text{
+        font-size: 12px;
+    }
+}
+@media (max-width:567px){
+    .study-abroad-choose-card{
+        margin-top: 20px;
+        max-width:150px;
+        min-height: 100px;
+        max-height: 140px;
+    }
+    .study-abroad-choose-card-icon{
+        font-size: 35px;
+    }
+    .study-abroad-choose-card-title{
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .study-abroad-choose-card-text{
+        font-size: 10px;
+    }
 }
