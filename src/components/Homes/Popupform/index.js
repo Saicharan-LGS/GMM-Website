@@ -4,6 +4,12 @@ import { useNavigate } from 'react-router-dom';
 import '../FirstTimePopup/index.css'
 import image1 from "../../Images/signupimage.jpeg";
 
+import {BiSolidUser} from 'react-icons/bi'
+import {MdEmail} from 'react-icons/md'
+import {BiSolidCategory} from 'react-icons/bi'
+import {PiCertificateFill} from 'react-icons/pi'
+import {BiSolidPhoneCall} from 'react-icons/bi'
+import {FaCommentDots} from 'react-icons/fa'
 
 const SelectCourseList=[
   {item:"100% Job Guarantee"},{item:"IT"},{item:"Soft Skills"},{item:"Study Abroad"}]
@@ -13,7 +19,7 @@ const SelectCourseList1={
   "100% Job Guarantee":{item:"100% Job Guarantee",detail:[{course:"Data Science Engineer"},{course:"Full Stack Developer",},{course:"AWS Cloud Technology"}]},
   "IT":{item:"IT",detail:[{course:"Data Science Engineer" },{course:"Full Stack Developer"},{course:"Digital Marketing Expert"},{course:"Salesforce Admin"},{course:"AWS Cloud Technolgy"}]},
   "Soft Skills":{item:"Soft SkillsSoft Skills", detail:[{course:"English Communication Blue Print"},{course:"Business Communication (Corporate)"},{course:"Leadership Skills"},{course:"Team Building"},{course:"IELTS"}]}, 
-  "Study Abroad":{item:"Study Abroad",detail:[{course:"canada"},{course:"uk"}]}
+  "Study Abroad":{id:3,item:"Study Abroad",detail:[{id:0,course:"America"},{course:"Australia"},{course:"Canada"},{course:"Germany"},{course:"NewZealand"},{id:1,course:"Uk"},]}
 }
 
 const PopupForm = ({ onSubmit }) => {
@@ -94,6 +100,8 @@ const PopupForm = ({ onSubmit }) => {
             </div>
             <div className='popup-inputcontainer'>
              <label className="ppr-popup-label-name1" htmlFor="name">Name *</label>
+             <div className="ppr-popup-input1-container">
+              <BiSolidUser className="ppr-popup-input1-icon"/>
              <input
                type="text"
                id="name"
@@ -103,7 +111,10 @@ const PopupForm = ({ onSubmit }) => {
                className="ppr-popup-input1"
                required
              />
+             </div>
              <label htmlFor="email" className="ppr-popup-label-name1">Email Address *</label>
+             <div className="ppr-popup-input1-container">
+              <MdEmail className="ppr-popup-input1-icon"/>
              <input
                type="email"
                id="email"
@@ -113,7 +124,11 @@ const PopupForm = ({ onSubmit }) => {
                className="ppr-popup-input1"
                required
              />
+             </div>
+             
              <label htmlFor="course" className="ppr-popup-label-name1">Select Category *</label>
+             <div className="ppr-popup-input1-container">
+              <BiSolidCategory className="ppr-popup-input1-icon"/>         
              <select
                id="course"
                value={Category}
@@ -124,7 +139,10 @@ const PopupForm = ({ onSubmit }) => {
                 <option>{each.item}</option>
               ))}
              </select>
+             </div>
              <label htmlFor="course" className="ppr-popup-label-name1">{`Select ${labelName} *`}</label>
+             <div className="ppr-popup-input1-container">
+              <PiCertificateFill className="ppr-popup-input1-icon"/>   
              <select
                id="course"
                value={course}
@@ -135,7 +153,10 @@ const PopupForm = ({ onSubmit }) => {
                 <option>{each.course}</option>
               ))}
              </select>
+             </div>
              <label htmlFor="phoneNumber" className="ppr-popup-label-name1">Phone Number * </label>
+             <div className="ppr-popup-input1-container">
+              <BiSolidPhoneCall className="ppr-popup-input1-icon"/> 
              <input
                type="number"
                id="phoneNumber"
@@ -145,7 +166,10 @@ const PopupForm = ({ onSubmit }) => {
                className="ppr-popup-input1"
                required
              />
+             </div>
              <label htmlFor="comment" className="ppr-popup-label-name1">Comment</label>
+             <div className="ppr-popup-input1-container">
+              <FaCommentDots className="ppr-popup-input1-icon"/> 
              <input
                type="text"
                id="comment"
@@ -154,8 +178,8 @@ const PopupForm = ({ onSubmit }) => {
                onChange={(e) => setComment(e.target.value)}
                className="ppr-popup-input1"
              />
-             <p className='ppr-success-message1'>{successMsg}</p>
-             <p className='ppr-error-message1'>{errorMsg}</p>
+             </div>
+             <p className='ppr-message1'>{successMsg}{errorMsg}</p>
              <button type="submit" className='popup-button1' onClick={handleSubmit}>Submit</button>
              </div>
            </div>

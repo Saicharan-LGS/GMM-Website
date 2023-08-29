@@ -24,7 +24,7 @@
 }
 .ppr-pop-content-image-container1{
   height:550px;
-  width: 350px;
+  width: 380px;
   padding: 0px;
   margin: 0px;
 }
@@ -56,7 +56,7 @@
   margin-right: 10px;
 }
 .ppr-request-call-back1{
-  margin: 15px;
+  margin: 15px 0px 0px 15px;
   margin-left: 10%;
   font-size: 26px;
 }
@@ -65,37 +65,41 @@
   gap:4px;
   flex-direction: column;
   padding: 0 10% 0 10%;
+  width:100%;
 }
 .ppr-popup-label-name1{
   margin-top: 10px;
   flex-shrink: 1;
   margin-bottom: 0px;
+  font-size: 14px;
 }
 .ppr-popup-input1-container{
   margin-top: 0px;
   display: flex;
+  justify-content: start;
   align-items:center;
-  font-size:16px;
-  width: 100%;
+  font-size:14px;
   border-radius: 5px;
-  height: 35px;
+  height: 30px;
   border: none;
   color: #222;
   background-color:#fff;
-  padding:3px 10px;
+  padding:3px 3px 3px 10px;
   gap:10px;
+  width:100%;
 } 
 .ppr-popup-input1-icon{
   color:#196AE5;
 }
 .ppr-popup-input1 {
   border:none;
-  font-size:14px;
   font-family:"Roboto";
   outline:none;
+  width: 100%;
+  justify-self: self-end;
 }
 .ppr-popup-select1{
-  width:80%;
+  width:100%;
 }
 .popup-button1{
   align-self: flex-end;

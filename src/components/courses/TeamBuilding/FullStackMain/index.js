@@ -32,6 +32,11 @@ import nagesh from '../../../Images/nagesh.jpg'
 import chandana from '../../../Images/chandana.jpg'
 import prashanth from '../../../Images/prashanth.png'
 
+import syedp from "../../../Images/syedprofile.jpeg"
+import reddyp from "../../../Images/reddyprofile.png"
+import punithp from "../../../Images/punithprofile.jpg"
+import manip from "../../../Images/maniprofile.jpg"
+
 const learnersReviews=[
 {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
 {id:2,image:Akhila,name:"Akhila",designation:"Data Analyst At TCS",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analyst At TCS! Thanks to GloriousMindMine team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
@@ -43,14 +48,12 @@ const learnersReviews=[
 {id:8,image:chandana,name:"Chandana",designation:"Software Developer At EXL",review:"Happy to share that, recently I have joined #EXL #Services as a #Softwaredeveloper. Special Thanks to my mentor Nayan Dharamshi and all my friends from #GloriousMindMine for their support and guidance. Thank you #EXL for such a warm welcome. Glad to be a part of the EXL Family. Looking forward to being full of new learnings and a wonderful journey at EXL.",time:"11:45 AM, 13th Jan"},
 {id:9,image:prashanth,name:"Prashanth",designation:"Software Engineer at IBM",review:"Hello family!! I'm excited to announce that I have joined as Software Engineer at IBM .I am excited to learn and grow In this role .I like to thank Ajit Kumar Sahu for smooth recruiting and onboarding process ,also thank you my friend Ankit S. for always supporting and motiving me. I couldn't be more excited to start this next chapter of my career. Special thanks to Sagnik Ganguly and to one of the best data science learning platform GloriousMimdMine",time:"10:30 AM, 16th Dec"},
 ]
-
 const basicDoubtsTabsList = [
     {tabId: 'Admissions', displayText: 'Admissions'},
     {tabId: 'Learning', displayText: 'Learning'},
     {tabId: 'PayAfterPlacement', displayText: 'Pay After Placement'},
     {tabId: 'Placements', displayText: 'Placements'},
   ]
-
   const basicDoubtsQuestionAnswerList=[
     {id:1,question:"Who can enrol in Glorious's courses?",answer:"Glorious's courses are open to anyone willing to learn Data Science or Web Development. There is no limitation with respect to your educational background or stage of study. The courses are especially beneficial for people who have jobs or other commitments and therefore want to learn Data Science or Web Development from scratch at their own pace. Also, if you have already done some courses and want our placement services, you can enrol in any of the two courses and be eligible for placements just after clearing the competency tests. To summarise, the courses are suitable for everyone, whether you are a beginner with no coding background or you have done some courses in either Data Science or Web Development.",category:"Admissions"},
     {id:2,question:"What is a Cohort?",answer:"A cohort is just another term used for a batch.",category:"Admissions"},
@@ -144,14 +147,11 @@ const whyGloriousMindMineList=[
 //   }));
 //   // eslint-disable-next-line
 
-   const TransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at Glorious Mindmine was fabulous, and I’ll always be thankful to the entire Glorious Mindmine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
+const TransformingCarrerList=[
+    {id:1, image:manip,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Mani Kumar",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
+    {id:2, image:reddyp, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Allipuram Rajasekhar Reddy",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
+    {id:3, image:syedp,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Syed Rizwan",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
+    {id:4, image:punithp, description:"A structured curriculum with quality content makes this program stand out.",name:"Anton Punith",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
 ]
   const tuitionFeeList=["100+ Live Classes REcordings and real time doubt resolution",
     "4 Accountability Sessions","1:1 Mentorship and dedicated career coach","Daily Action Item For Results",

@@ -18,7 +18,7 @@ const SelectCourseList1={
   "100% Job Guarantee":{id:0,item:"100% Job Guarantee",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"AWS Cloud Technology",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   "IT":{id:1,item:"IT",detail:[{id:0,course:"Data Science Engineer",link:"/DataScience",status:"#RightChoice",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Full Stack Developer",link:"/FullStackCourse",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Digital Marketing Expert",link:"/DigitalMarkting",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Salesforce Admin",link:"/salesforce",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"AWS Cloud Technolgy",link:"/AWS",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]},
   "Soft Skills":{id:2,item:"Soft SkillsSoft Skills", detail:[{id:0,course:"English Communication Blue Print",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:1,course:"Business Communication (Corporate)",link:"/businesscorporate",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:2,course:"Leadership Skills",link:"/leadership",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:3,course:"Team Building",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"},{id:4,course:"IELTS",link:"/english",status:"#Trending",duration:"Job Ready in 6 Month",casestudy:"15"}]}, 
-  "Study Abroad":{id:3,item:"Study Abroad",detail:[{id:0,course:"canada"},{id:1,course:"uk"}]}
+  "Study Abroad":{id:3,item:"Study Abroad",detail:[{id:0,course:"America"},{course:"Australia"},{course:"Canada"},{course:"Germany"},{course:"NewZealand"},{id:1,course:"Uk"},]}
 }
 
 const FirstTimePopup = () => {
@@ -103,15 +103,15 @@ const FirstTimePopup = () => {
              <label className="ppr-popup-label-name1" htmlFor="name">Name *</label>
              <div className="ppr-popup-input1-container">
               <BiSolidUser className="ppr-popup-input1-icon"/>
-             <input
-               type="text"
-               id="name"
-               placeholder="Enter your name"
-               value={name}
-               onChange={(e) => setName(e.target.value)}
-               className="ppr-popup-input1"
-               required
-             />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="ppr-popup-input1"
+                required
+              />
              </div>
              <label htmlFor="email" className="ppr-popup-label-name1">Email Address *</label>
              <div className="ppr-popup-input1-container">
@@ -180,8 +180,7 @@ const FirstTimePopup = () => {
                className="ppr-popup-input1"
              />
              </div>
-             <p className='ppr-success-message1'>{successMsg}</p>
-             <p className='ppr-error-message1'>{errorMsg}</p>
+             <p className='ppr-message1'>{successMsg}{errorMsg}</p>
              <button type="submit" className='popup-button1' onClick={handleSubmit}>Submit</button>
              </div>
            </div>
