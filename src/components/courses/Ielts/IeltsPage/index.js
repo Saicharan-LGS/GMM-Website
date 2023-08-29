@@ -34,11 +34,12 @@ import Footer from "../../../Homes/Footer"
   };
 
   const CarouselList=[
-    {id:1,head:"IELTS official practice test",text:"IELTS Progress Check is an official online practice test marked by IELTS experts ",description:"Purchase IELTS Progress Check today",Image:ieltspic1},
-    {id:2,head:"New Milestone for world-leading English test",text:"IELTS trusted by more than 11,000 organisations across the globe",description:"Find out more information",Image:ieltspic2},
-    {id:3,head:"USA says yes to IELTS",text:"IELTS is accepted by over 3,400 institutions in the USA",description:"Find out more about IELTS in the USA",Image:ieltspic3},
-   
-]
+    {id:1,head:"Expert Guidance and Comprehensive Training",text:"Trained educators who understand the IELTS exam format, requirements, and effective strategies.",Image:ieltspic1},
+    {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ieltspic2},
+    {id:3,head:"Holistic Approach to Language Development",text:"Enhance language skills through varied exercises, text analysis, and targeted lessons for improved comprehension and communication.",Image:ieltspic3},
+    {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ieltspic3},
+    {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ieltspic3}
+  ]
 
 const Ielts = () => {
 
@@ -51,8 +52,8 @@ const Ielts = () => {
           </Slider>
           <div className='ielts-grey-part-container'>
             <div className="grey-first-part">
-                    <ReactPlayer className="vedio" url="https://www.youtube.com/watch?v=vWEbQaoRepo" controls />
-                    <ReactPlayer className ="vediosmall" url ="https://www.youtube.com/watch?v=vWEbQaoRepo" controls width="1000" height="400"/>
+                    <ReactPlayer width="100%" height="100%" url="https://www.youtube.com/watch?v=vWEbQaoRepo" controls />
+                   
             </div>
             <div className='grey-second-half'>
               <h1 className='Carousal-card-heading-first-ielts-grey'>What is IELTS?</h1>
@@ -81,21 +82,21 @@ const Ielts = () => {
               <p className='ielts-third-para'>Organisations around the world rely on IELTS to help them select the right people.</p>
             </div>
           </div>
-          <div className='ielts-card-third-section'>
+          <div className='ielts-card-fourth-section'>
             <div className='ielts-fourth-section-card'>
-              <img src={ieltspic8} alt=""/>
+              <img src={ieltspic8} alt="" className="ielts-fourth-image"/>
               <p className='ielts-fourth-heading'>CONSULTATION & ASSESSMENT</p>
               <p className='ielts-fourth-heading-sub'>Are you looking to broaden your horizons and explore international academic or career opportunities? The International English Language Testing System (IELTS) is your passport to success. At Glorious Mindmine, we offer comprehensive IELTS consultation services to guide you on your journey to achieving exceptional scores. </p>
               {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
             </div>
             <div className='ielts-fourth-section-card'>
-              <img src={ieltspic9} alt=""/>
+              <img src={ieltspic9} alt="" className="ielts-fourth-image"/>
               <p className='ielts-fourth-heading'>ADMISSION & TRAINING</p>
               <p className='ielts-fourth-heading-sub'>Once you have gone through assessment, Our team will reach out to you for a consultation. This conversation allows us to discuss your objectives, address any questions you have, and provide you with insights into our program. </p>
               {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
             </div>
             <div className='ielts-fourth-section-card'>
-              <img src={ieltspic10} alt=""/>
+              <img src={ieltspic10} alt=""className="ielts-fourth-image"/>
               <p className='ielts-fourth-heading'>EXAMINATION</p>
               <p className='ielts-fourth-heading-sub'>Make your payment for the test . You have the option to pay for the test using our online registration system with a bank card, or you can choose to pay through a bank transfer. </p>
               {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
@@ -139,7 +140,7 @@ const Ielts = () => {
           <div className='ielts-card-last-section'>
             <div className='ielts-card-last-section-sub'>
               <h1 className='ielts-third-heading-last-section'>IELTS is No.1 For Language Skills Verfication</h1>
-              <button className='Carousal-card-button-ielts-grey-white'>Why accept IELTS scores ?</button>
+              <button className='Carousal-card-button-ielts-grey-white-score'>Why accept IELTS scores ?</button>
             </div>
             <img  className="last-section-ielts" src={lastsection} alt=""/>
 

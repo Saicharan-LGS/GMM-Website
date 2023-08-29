@@ -1,0 +1,5 @@
+.Carousel-card-left-container{
+    display:flex;
+    flex-direction:column;
+    gap:10px !important;
+}

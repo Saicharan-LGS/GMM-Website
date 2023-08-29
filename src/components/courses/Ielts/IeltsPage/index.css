@@ -1,42 +1,50 @@
 
      .ielts-grey-part-container{
-       background-color: rgba(45,45,45,.15);    
-       width: 100%;    
+       background-color: #e6e6ef;    
+       width: 90%;    
        display: flex;
        flex-direction: row;
        justify-content: space-around;
        margin-top: 50px;
+       margin:5%;
        
      }
-     .vediosmall{
-       display: none;
-     }
      .ielts-card-third-sub-section{
-       width: 350px;
+       width: 30%;
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       text-align:center;
+       gap:5px;
      }
      .ielts-card-third-section{
        display: flex;
        flex-direction: row;
-       justify-content: space-around;
-       margin-top: 50px;
-       margin-bottom: 50px;
+       justify-content: space-between;
+       margin:2% 5%;
+       
+     }
+     .ielts-card-fourth-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin:2% 5%;
+      gap:10px;
      }
      .ielts-fourth-heading{
        font-family: 'Roboto';
-     font-size: 22px;
-     color: #2d2d2d;
-     font-weight: 600;
+     font-size: 24px;
+     color: #222;
+     font-weight: 500;
+     margin:0px;
      }
      .ielts-fourth-heading-sub{
        font-family: 'Roboto';
-     font-size: 20px;
-     color: #2d2d2d;
+     font-size: 16px;
+     color: #222;
      font-weight: 400;
-     text-align: center;
+     margin:3px 0px;
    
      }
      .ielts-fourth-heading-sub-red{
@@ -55,7 +63,7 @@
        }
      .Carousal-card-heading-fifth-ielts{
      font-family: 'Roboto';
-     font-size: 40px;
+     font-size: 32px;
      color: black;
      font-weight: 600;
      text-align: center;
@@ -67,10 +75,14 @@
        width: 30%;
        display: flex;
        flex-direction: column;
-       justify-content: center;
-       align-items: center;
        border-radius: 10px;
        padding: 10px;
+       gap:8px;
+       border:1px solid #196AE5;
+       max-height:max-content;
+     }
+     .ielts-fourth-image{
+      width:100%;
      }
      .ielts-two-circle-images{
        display: flex;
@@ -105,6 +117,7 @@
        display: flex;
        flex-direction: column;
        justify-content: center;
+       gap:40px;
      }
      .ielts-Carousel-card-right-image1{
        width: 450px; /* Set the width of the container */
@@ -134,14 +147,14 @@
    }
    .ielts-third-heading{
      font-family: 'Roboto';
-     font-size: 26px;
-     color: #2d2d2d;
+     font-size: 24px;
+     color: #222;
      font-weight: 600; 
      }
    .ielts-third-heading-last-section{
        font-family: 'Roboto';
-       font-size: 45px;
-       color: #2d2d2d;
+       font-size: 32px;
+       color: #222;
        font-weight: 600; 
      }
    .ielts-circle-heading{
@@ -173,8 +186,8 @@
    
    .ielts-third-para{
      font-family: 'Roboto';
-     font-size: 18px;
-     color: #2d2d2d;    
+     font-size: 16px;
+     color: #222;    
      }
    
      .ielts-pic-size{
@@ -188,8 +201,6 @@
    
      .Carousal-card-button-ielts-grey{
       background: linear-gradient(to right, #196ae5, #196ae5) border-box;
-       height: 60px;
-       width: 300px;
        color: white;
        display: flex;
        justify-content: center;
@@ -197,9 +208,9 @@
        border-width: 0px;
        border-radius: 7px;
        font-family: 'Roboto';
-       font-size: 20px;
+       font-size: 16px;
        font-weight: 500;
-       padding: 10px;
+       padding:  10px 16px;
        
    
    }
@@ -209,23 +220,28 @@
      margin-top: 20px;
    }
    .grey-second-half{
-     width: 40%;
-     margin: 50px 0px 50px 0px;
+     width: 50%;
+     margin: 20px 0px 20px 0px;
+     display:flex;
+     flex-direction: column;
+     gap:10px;
    }
    .grey-first-part{
-     width: 30%;
-     margin:50px 0px 50px 0px;
+     width: 40%;
+     margin:20px 0px 20px 0px;
+     height:250px;
    }
    .Carousal-card-heading-first-ielts-grey{
      font-family: 'Roboto';
-     font-size: 72px;
-     font-weight: bold;
+     font-size: 32px;
+     font-weight: 600;
+     text-align:center;
    
    }
    .grey-card-second-part-para{
      font-family: 'Roboto';
      font-size: 18px;
-     color: #2d2d2d;
+     color: #222;
    }
    .Carousal-card-button-ielts-grey-white{
     display:inline-flexbox;
@@ -235,10 +251,10 @@
     border: 2.5px solid transparent;
     color: #000;
     background-color:transparent;
-    padding: 5px 12px;
+    padding: 10px 16px;
     border-radius: 8px;
     font-family:"Roboto";
-    font-size:18px;
+    font-size:16px;
 }
 
 .Carousal-card-button-ielts-grey-white:hover {
@@ -252,11 +268,38 @@
   transition-delay:0s;
 
 }
+.Carousal-card-button-ielts-grey-white-score{
+  display:inline;
+  cursor: pointer;
+  background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9) border-box;
+  transition: all .5s ease;
+  border: 2.5px solid transparent;
+  color: #000;
+  background-color:transparent;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-family:"Roboto";
+  font-size:16px;
+  width:max-content;
+}
 
+.Carousal-card-button-ielts-grey-white-score:hover {
+background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+border: 3px solid transparent;
+color: #FFF;
+transition: all .1s ease;
+transition-property: all;
+transition-duration: 0.1s;
+transition-timing-function: ease;
+transition-delay:0s;
+
+}
    .grey-container-for-buttons{
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     flex-wrap:wrap;
+     gap:20px;
+     justify-content: center;
    }
      .carousel-slider-home{
          /* margin-bottom:50px; */
@@ -272,9 +315,9 @@
      
    
    /* Extra Small screens (up to 576px wide) */
-   @media (min-width:320px) and (max-width: 576px) {
+   @media (max-width: 576px) {
      .ielts-grey-part-container{       
-       width: 100%;    
+       width: 90%;    
        display: flex;
        flex-direction: column; 
        justify-content: center;   
@@ -283,11 +326,12 @@
      }
      .grey-second-half{
        width: 90%;
-       margin: 50px 0px 50px 0px;
+       margin: 20px 0px 20px 0px;
      }
      .grey-first-part{
        width: 90%;
-       margin:0px;
+       height:200px;
+       margin:25px 0px 0px  0px;
      }
      .Carousal-card-heading-first-ielts-grey{    
        font-size: 22px; 
@@ -302,32 +346,18 @@
      justify-content: center;   
      align-items: center;
      }
-     .Carousal-card-button-ielts-grey-white{
-       height: 40px;
-       width: 180px;         
-       font-size: 10px; 
-       margin: 10px 0px 10px 0px;   
-     
-     }
+    
      .grey-container-for-buttons{
        display: flex;
-       flex-direction: column;
+       flex-wrap:wrap;
+       gap:10px;
        justify-content: center;   
        align-items: center;    
      }
-     .Carousal-card-button-ielts-grey{    
-     height: 40px;
-     width: 180px;    
-     font-size: 12px;
-     display: flex;  
-     justify-content: center;   
-     align-items: center;  
-       
-   }
    .ielts-card-third-section{
      display: flex;
      flex-direction: column; 
-     width: 100%; 
+     width: 90%; 
      justify-content: center;   
      align-items: center; 
    }
@@ -358,9 +388,12 @@
    justify-content: center;   
    align-items: center;
    }
-   
+   .ielts-card-fourth-section{
+    flex-direction:column;
+    gap:20px;
+   }
    .ielts-fourth-section-card{      
-     width: 80%;             
+     width: 100%;             
      margin: 10px 0px 10px 0px;
    }
        .ielts-fourth-heading{     
@@ -377,7 +410,7 @@
          font-size: 20px;     
        }
        .Carousal-card-heading-fifth-ielts{      
-         font-size: 20px;     
+         font-size: 16px;     
        }
        .vedio{
          display: none;
@@ -422,10 +455,10 @@
        flex-direction: column; 
        justify-content: center;   
        align-items: center;
-       width: 100%;
-       height: 700px;
-       margin: 20px 0px 10px 0px;
-       padding: 0px;
+       width: 90%;
+       
+       padding: 20px 10px 20px 10px;
+       margin:2% 5%;
        
         }
      .ielts-card-last-section-sub{
@@ -449,7 +482,7 @@
    /* Small screens (577px to 767px wide) */
    @media (min-width: 577px) and (max-width: 767px) {
      .ielts-grey-part-container{       
-       width: 100%;    
+       width: 90%;    
        display: flex;
        flex-direction: column; 
        justify-content: center;   
@@ -458,35 +491,32 @@
      }
      .grey-second-half{
        width: 90%;
-       margin: 50px 0px 50px 0px;
+       margin: 20px 0px 20px 0px;
      }
      .grey-first-part{
        width: 90%;
-       margin:0px;
+       margin:25px 0px 0px 0px;
      }
      .Carousal-card-heading-first-ielts-grey{    
-       font-size: 22px; 
+       font-size: 24px; 
        display: flex; 
      justify-content: center;   
      align-items: center;  
      
      }
      .grey-card-second-part-para{   
-       font-size: 12px;    
+       font-size: 14px;    
        display: flex;  
      justify-content: center;   
      align-items: center;
      }
      .Carousal-card-button-ielts-grey-white{
-       height: 40px;
-       width: 180px;         
-       font-size: 10px; 
-       margin: 10px 0px 10px 0px;   
+       font-size:14px; 
      
      }
      .grey-container-for-buttons{
        display: flex;
-       flex-direction: column;
+        flex-wrap:wrap;
        justify-content: center;   
        align-items: center;    
      }
@@ -502,7 +532,7 @@
    .ielts-card-third-section{
      display: flex;
      flex-direction: column; 
-     width: 100%; 
+     width: 90%; 
      justify-content: center;   
      align-items: center; 
    }
@@ -534,8 +564,12 @@
    align-items: center;
    }
    
+   .ielts-card-fourth-section{
+    flex-direction:column;
+    gap:20px;
+   }
    .ielts-fourth-section-card{      
-     width: 80%;             
+     width: 100%;             
      margin: 10px 0px 10px 0px;
    }
        .ielts-fourth-heading{     
@@ -551,8 +585,12 @@
        .ielts-fourth-heading-sub-red-last{      
          font-size: 20px;     
        }
+       .ielts-fourth-image{
+        height:300px;
+        object-fit:fill;
+       }
        .Carousal-card-heading-fifth-ielts{      
-         font-size: 20px;     
+         font-size: 16px;     
        }
        .vedio{
          display: none;
@@ -597,10 +635,10 @@
        flex-direction: column; 
        justify-content: center;   
        align-items: center;
-       width: 100%;
-       height: 700px;
-       margin: 20px 0px 10px 0px;
-       padding: 0px;
+       width: 90%;
+       
+       padding: 20px 0px 20px 0px;
+       margin:2% 5%;
        
         }
      .ielts-card-last-section-sub{
@@ -611,7 +649,7 @@
      align-items: center;
      }
      .ielts-third-heading-last-section{   
-     font-size: 20px;
+     font-size: 16px;
      display: flex;   
      flex-direction: column;
      justify-content: center;   
@@ -623,7 +661,7 @@
    /* Medium screens (768px to 991px wide) */
    @media (min-width: 767px) and (max-width: 991px) {
      .ielts-grey-part-container{       
-       width: 100%;    
+       width: 90%;    
        display: flex;
        flex-direction: column; 
        justify-content: center;   
@@ -632,56 +670,55 @@
      }
      .grey-second-half{
        width: 90%;
-       margin: 50px 0px 50px 0px;
+       margin: 20px 0px 20px 0px;
      }
      .grey-first-part{
-       width: 90%;
-       margin:0px;
+       width: 80%;
+       height:300px;
+       margin:25px 0px 0px 0px;
+       display:flex;
+       justify-content: center;
      }
      .Carousal-card-heading-first-ielts-grey{    
-       font-size: 22px; 
+       font-size: 24px; 
        display: flex; 
      justify-content: center;   
      align-items: center;  
      
      }
      .grey-card-second-part-para{   
-       font-size: 12px;    
+       font-size: 16px;    
        display: flex;  
-     justify-content: center;   
-     align-items: center;
+      justify-content: center;   
+      align-items: center;
      }
      .Carousal-card-button-ielts-grey-white{
-       height: 40px;
-       width: 180px;         
-       font-size: 10px; 
-       margin: 10px 0px 10px 0px;   
+       font-size:16px;
      
      }
      .grey-container-for-buttons{
        display: flex;
-       flex-direction: column;
+       flex-wrap:wrap;
        justify-content: center;   
        align-items: center;    
      }
      .Carousal-card-button-ielts-grey{    
-     height: 40px;
-     width: 180px;    
-     font-size: 12px;
-     display: flex;  
-     justify-content: center;   
-     align-items: center;  
-       
+       font-size:16px;
+   }
+   .ielts-card-fourth-section{
+    display:flex;
+    width:90%;
    }
    .ielts-card-third-section{
      display: flex;
-     flex-direction: column; 
-     width: 100%; 
+     
+     width: 90%; 
      justify-content: center;   
      align-items: center; 
+     gap:10px;
    }
    .ielts-card-third-sub-section{
-     width: 90%;
+     width: 100%;
      display: flex;
      flex-direction: column;
      justify-content: center;   
@@ -709,7 +746,7 @@
    }
    
    .ielts-fourth-section-card{      
-     width: 80%;             
+     width: 30%;             
      margin: 10px 0px 10px 0px;
    }
        .ielts-fourth-heading{     
@@ -762,9 +799,9 @@
        width: 100px;   
      }
      .last-section-ielts{
-       width: 300px; 
-       height: 300px; 
-       border-radius: 60%;     
+       width: 250px; 
+       height: 250px; 
+       border-radius: 50%;     
      }
      .ielts-card-last-section{
        display: flex;
@@ -772,9 +809,9 @@
        justify-content: center;   
        align-items: center;
        width: 100%;
-       height: 700px;
-       margin: 20px 0px 10px 0px;
-       padding: 0px;
+       
+       margin:2% 5%;
+       padding:20px 0px 20px 0px;
        
         }
      .ielts-card-last-section-sub{
