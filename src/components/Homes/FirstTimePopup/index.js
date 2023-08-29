@@ -130,13 +130,13 @@ const FirstTimePopup = () => {
              <div className="ppr-popup-input1-container">
               <BiSolidCategory className="ppr-popup-input1-icon"/>         
              <select
-               id="course"
+               id="category"
                value={Category}
                onChange={(e) => setCategory(e.target.value)}
                className="ppr-popup-input1 ppr-popup-select1"
                required>
               {SelectCourseList.map(each=>(
-                <option>{each.item}</option>
+                <option key={each.item}>{each.item}</option>
               ))}
              </select>
              </div>
@@ -150,7 +150,7 @@ const FirstTimePopup = () => {
                className="ppr-popup-input1 ppr-popup-select1"
                required>
                 {SelectCourseList1[Category].detail.map((each)=>(
-                <option>{each.course}</option>
+                <option key={each.course}>{each.course}</option>
               ))}
              </select>
              </div>

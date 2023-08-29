@@ -47,7 +47,6 @@ class Header extends Component {
 
   renderNavItems = () => {
     const {showNavMobileItems,mobileCourseItems,showCourses}=this.state
-    console.log(mobileCourseItems.detail)
     const detail = mobileCourseItems.detail
     return(
     <div className="nav-items-container">

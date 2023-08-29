@@ -9,7 +9,7 @@ class Intro extends Component{
         return(
             <div className="course-intro-main-container">
                 <div className="course-intro-sub-container">
-                    <h1 className="course-Intro-Heading">Certification Leader Ship Skills</h1>
+                    <h1 className="course-Intro-Heading">Certification Leadership Skills</h1>
                     <div className="course-intro-batch-container">
                         <CgCalendarDates className='course-intro-calender-icon'/>
                         <span className='course-into-calender-heading'>Cohort Lima Starts On 18th Sep</span>

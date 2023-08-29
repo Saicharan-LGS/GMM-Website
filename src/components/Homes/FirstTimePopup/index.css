@@ -76,7 +76,7 @@
 .ppr-popup-input1-container{
   margin-top: 0px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items:center;
   font-size:14px;
   border-radius: 5px;

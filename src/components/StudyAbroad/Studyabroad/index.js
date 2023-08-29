@@ -53,7 +53,7 @@ import uk1 from "../../Images/ukbanner.jpg"
 import newzealand1 from "../../Images/newzealandbanner.jpg"
 import australia1 from "../../Images/australiabanner.jpg"
 const StudentReviewVideoList = [
-    {id:0,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
+    {id:0,video:"https://www.youtube.com/embed/watch?v=GzKs-rtLoiY",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
     {id:1,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Nidhi Mittal , Studying in University of Melbourne, Australia",description:"Getting a detailed profile evaluation by a team of counsellors at Collegedunia ensured my safe transition to the University of Melbourne, says Nidhi Mittal."},
     {id:2,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Srishti Das , Studying in Columbia University, USA",description:"All-time support from counsellors through emails, calls or texts made my process to study abroad much easier than I imagined, says Srishti Das."}
 ]
@@ -402,7 +402,7 @@ return(
         <h1 className="study-abroad-aboutus-main-heading ">Few Facts About Us</h1>
         <ul className="study-abroad-aboutus-list">
         {studyAbroadAboutList.map(each=>(
-            <div className="study-abroad-aboutus-card">
+            <div key={each.id} className="study-abroad-aboutus-card">
                 <each.Icon className="study-abroad-aboutus-icon" />
                 <h1 className="study-abroad-aboutus-title">{each.title}</h1>
                 <h6 className="study-abroad-aboutus-text">{each.text}</h6>
@@ -476,7 +476,7 @@ return(
                             <p className="study-abroad-destination-key-facts-text">{each.fact4}</p>
                         </div>
                     </div>
-                    <button class="study-abroad-destination-card-button" onClick={showStudyabroadPopup}>Get Counselling</button>
+                    <button className="study-abroad-destination-card-button" onClick={showStudyabroadPopup}>Get Counselling</button>
                 </div>
             ))}
         </ul>
@@ -507,7 +507,7 @@ return(
         <div className="study-abroad-country-list-main-container">
             <ul className="study-abroad-country-list-container">
                 {StudyAbroadCountryList.map((eachCountry)=>(
-                    <li className="study-abroad-country-list-container-item">
+                    <li key={eachCountry.id} className="study-abroad-country-list-container-item">
                         <img src={eachCountry.image} alt="" className="study-abroad-country-list-container-item-image"/>
                         <div className="study-abroad-country-list-container-item-description-container">
                             <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
@@ -521,7 +521,7 @@ return(
             <h3 className="study-aboad-exam-main-heading">Study Abroad Exams</h3>
             <ul className="study-aboad-exam-list-container">
                 {StudyAbroadExamsList.map((eachExam)=>(
-                    <li className="study-aboad-exam-list-container-item">
+                    <li key={eachExam.id} className="study-aboad-exam-list-container-item">
                         <h1 className="study-aboad-exam-list-container-item-heading">{eachExam.Exam}</h1>
                         <p className="study-aboad-exam-list-container-item-description">{eachExam.Description}</p>
                         <p className="study-aboad-exam-list-container-item-register">{eachExam.register}</p>
@@ -537,7 +537,7 @@ return(
         <div className="study-abroad-choose-cards-container">
             <ul className="study-abroad-choose-cards-list">
                 {StudyAbroadChooseList.map(each=>(
-                    <div className="study-abroad-choose-card">
+                    <div key={each.id} className="study-abroad-choose-card">
                         <each.Icon className="study-abroad-choose-card-icon" />
                         <p className="study-abroad-choose-card-title">{each.title}</p>
                         <p className="study-abroad-choose-card-text">{each.text}</p>

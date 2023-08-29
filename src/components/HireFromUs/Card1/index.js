@@ -6,7 +6,6 @@ class card2 extends Component{
     render(){
         const {details}=this.props
         const {Image,answer,question}=details
-        console.log(Image)
         return(
             <div className="kcourseFlexibleProgramCard">
                 <Image className="kcourseFlexibleProgramImage" />

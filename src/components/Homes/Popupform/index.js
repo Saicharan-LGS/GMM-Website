@@ -24,7 +24,6 @@ const SelectCourseList1={
 
 const PopupForm = ({ onSubmit }) => {
 
-  const [showPopup, setShowPopup] = useState(false);
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [Category,setCategory]=useState("100% Job Guarantee");
@@ -38,7 +37,6 @@ const PopupForm = ({ onSubmit }) => {
 
   const navigate = useNavigate();
   const closePopup = () => {
-    setShowPopup(false);
     navigate("/");
   };
   useEffect(()=>{
@@ -47,10 +45,9 @@ const PopupForm = ({ onSubmit }) => {
     }else{
       setLabelName("Course")
     }
-  })
+  },[Category])
 
 
-  console.log(showPopup)
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
@@ -76,12 +73,13 @@ const PopupForm = ({ onSubmit }) => {
         setErrorMsg('');
       } else {
         const data = await response.json();
-        console.log(data.error);
+        
         setErrorMsg(data.error);
         setSuccessMsg('');
       }
     } catch (error) {
-      console.error(error);
+      setErrorMsg(error);
+        setSuccessMsg('');
     }
   };
 
@@ -136,7 +134,7 @@ const PopupForm = ({ onSubmit }) => {
                className="ppr-popup-input1 ppr-popup-select1"
                required>
               {SelectCourseList.map(each=>(
-                <option>{each.item}</option>
+                <option key={each.item}>{each.item}</option>
               ))}
              </select>
              </div>
@@ -150,7 +148,7 @@ const PopupForm = ({ onSubmit }) => {
                className="ppr-popup-input1 ppr-popup-select1"
                required>
                 {SelectCourseList1[Category].detail.map((each)=>(
-                <option>{each.course}</option>
+                <option key={each.course}>{each.course}</option>
               ))}
              </select>
              </div>
