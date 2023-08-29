@@ -103,7 +103,7 @@ class CareerSupport extends Component{
                             <img src={careerImage} alt="" className="careerSupportIntroImage"/>
                     </div>*/}
                         <div className="video-container">
-                            <ReactPlayer url='https://youtu.be/1-EA7bhFWt4' className="video-container1" controls />
+                            <ReactPlayer width="100%" height="100%" url='https://youtu.be/1-EA7bhFWt4' className="video-container1" controls />
                         </div>
                     </div>
                 </div>
