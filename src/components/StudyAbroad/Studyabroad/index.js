@@ -14,7 +14,7 @@ import {TbMedicineSyrup,TbArrowBadgeRightFilled,TbMedicalCrossFilled,TbCoinRupee
 import {GoLaw} from "react-icons/go"
 import {LuShoppingCart} from "react-icons/lu"
 import {PiHandshakeFill} from "react-icons/pi"
-import America from "../../Images/America.png"
+//import America from "../../Images/America.png"
 import { useNavigate } from 'react-router-dom';
 
 import uk from "../../Images/uk.jpg"
@@ -435,7 +435,7 @@ return(
         <h1 className="student-review-video-main-heading">Choose Your Study Destination</h1>
         <ul className="study-abroad-destination-list">
             {studyAbroadDestination.map(each=>(
-                <div className="study-abroad-destination-card">
+                <div key={each.image} className="study-abroad-destination-card">
                     <div className="study-abroad-destination-card1">
                         <p className="study-abroad-destination-card-text">{each.text}</p>
                         <img alt="" src={each.image} className="study-abroad-destination-card-image"/>
@@ -481,8 +481,6 @@ return(
             ))}
         </ul>
     </div>
-
-
     <div>
             <h3 className="study-abroad-article-section-main-heading">Articles Section</h3>
             <div className="study-abroad-article-section-main-container">
@@ -492,7 +490,7 @@ return(
             </div>
             <ul className="study-abraod-article-section-list-container">
                 {ArticleSectionList.map((eachArticle)=>(
-                    <li className="study-abraod-article-section-list-container-item">
+                    <li key={eachArticle.Image} className="study-abraod-article-section-list-container-item">
                         <hr className="study-abraod-article-section-list-line-icon"/>
                         <div className="study-abraod-article-section-list-logo-main-container">
                         <div className="study-abraod-article-section-list-logo-container">

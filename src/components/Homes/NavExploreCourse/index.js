@@ -10,8 +10,7 @@ function NavExploreCourse(props){
     return(
         <ul className="nav-explore-course-main-container">
             {detail.map((eachItem)=>(
-                
-                <Link to={eachItem.link} style={{textDecoration:"none"}}><div class="nav-explore-course-main-item-container">
+                <Link to={eachItem.link} key={eachItem.id} style={{textDecoration:"none"}}><div class="nav-explore-course-main-item-container">
                     <div className="nav-explore-course-left-item-container">
                         <li className="nav-explore-course-main-container-item">{eachItem.course}</li>
                         <p className="nav-explore-status-text">{eachItem.status}</p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import CourseList from '../../DataScience/CourseList'
 import "../../DataScience/FullStack/index.css"
-import companies from "../../../Images/companieslogo.png"
+//import companies from "../../../Images/companieslogo.png"
 
 const foundation = [
   {
