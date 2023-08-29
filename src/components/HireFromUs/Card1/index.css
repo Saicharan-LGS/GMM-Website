@@ -5,6 +5,7 @@
     align-items: center;
     width:200px;
     height:250px;
+    margin: 10px;
     box-shadow: #bfbfbf 4px 4px 4px 4px;
     margin-bottom: 30px;
     padding: 30px;
@@ -28,4 +29,32 @@
 .kcourseFlexibleProgramAnswer{
     font-size: 20px;
     font-family:"Roboto"
+}
+
+@media (min-width:797px) and (max-width:1100px){
+    .kcourseFlexibleProgramCard{
+        margin: 0px;
+        width:130px;
+        height: max-content;
+        margin-bottom: 10px;
+        height:170px;
+        padding: 20px;
+    }.kcourseFlexibleProgramImage{
+        font-size: 40px;
+    }.kcourseFlexibleProgramQuestion{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }.kcourseFlexibleProgramAnswer{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:1100px) and (max-width:1200px){
+    .kcourseFlexibleProgramCard{
+        width:180px;
+        margin:5px;
+        height: 200px;
+        padding: 20px;
+    }
 }

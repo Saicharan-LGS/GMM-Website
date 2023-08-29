@@ -5,12 +5,14 @@
     align-items: center;
     width:250px;
     height:300px;
+    margin: 10px;
     box-shadow: #bfbfbf 4px 4px 4px 4px;
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     background-color: #ffffff;    
+    
 }
 .scourseFlexibleProgramCard:hover{
     -webkit-transform: scale(0.9);
