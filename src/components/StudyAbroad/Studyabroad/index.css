@@ -824,8 +824,9 @@
 
 
 
-
-
+.study-abroad-choose-container{
+    text-align: center;
+}
 
 .study-abroad-choose-cards-list{
     display: flex;
@@ -892,4 +893,8 @@
     .study-abroad-choose-card-text{
         font-size: 10px;
     }
+}
+
+.study-abroad-choose-main-text{
+    color: #333;
 }

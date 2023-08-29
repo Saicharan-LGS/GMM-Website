@@ -14,7 +14,7 @@ import {TbMedicineSyrup,TbArrowBadgeRightFilled,TbMedicalCrossFilled,TbCoinRupee
 import {GoLaw} from "react-icons/go"
 import {LuShoppingCart} from "react-icons/lu"
 import {PiHandshakeFill} from "react-icons/pi"
-import America from "../../Images/America.png"
+//import America from "../../Images/America.png"
 import { useNavigate } from 'react-router-dom';
 
 import uk from "../../Images/uk.jpg"
@@ -46,9 +46,12 @@ import {AiOutlineArrowRight} from "react-icons/ai";
 import {SiReacthookform } from "react-icons/si";
 import {MdFlightTakeoff} from "react-icons/md"
 import {FiPhoneCall} from "react-icons/fi"
-
-    
-
+import germany1 from "../../Images/germanybanner.jpg"
+import america1 from "../../Images/americabanner.jpg" 
+import canada1 from "../../Images/canadabanner.jpeg"
+import uk1 from "../../Images/ukbanner.jpg"
+import newzealand1 from "../../Images/newzealandbanner.jpg"
+import australia1 from "../../Images/australiabanner.jpg"
 const StudentReviewVideoList = [
     {id:0,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
     {id:1,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Nidhi Mittal , Studying in University of Melbourne, Australia",description:"Getting a detailed profile evaluation by a team of counsellors at Collegedunia ensured my safe transition to the University of Melbourne, says Nidhi Mittal."},
@@ -65,13 +68,12 @@ const ArticleSectionList=[
     {id:6,Image:PiCertificate,Name:"POST DEGREE"}
 ]
 const StudyAbroadCountryList=[
-    {id:0,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-    {id:1,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-    {id:2,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-    {id:3,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-    {id:4,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-    {id:5,image:"https://static.javatpoint.com/tourist-places/images/tourist-places-in-canada1.png",heading:"Canada Still is Top Destination Amongst Prospective Immigrants",description:"According to a recent poll performed by World Education Services, Canada continues to be the #1 destination for immigrants. Since the epidemic occurred two years ago, the organization has been performing the same poll, analyzing the effects of the pandemic on immigration plans to Canada."},
-]
+    {id:0,image:america1,heading:"Education Excellence in America: Diverse Universities, Global Opportunities",description:"America is often considered a prime study destination due to its diverse and world-renowned universities, offering a wide range of programs. It provides ample research opportunities, a multicultural environment, and access to global job markets, enhancing students' academic and career prospects."},
+    {id:1,image:canada1,heading:"Pursue Excellence: Studying in Canada's Inclusive Academic Haven",description:"Canada is an excellent study destination due to its high-quality education, diverse multicultural environment, and welcoming policies for international students. Its renowned universities, research opportunities, and post-graduation work options make it an attractive choice for those seeking a well-rounded educational experience."},
+    {id:2,image:germany1,heading:"Germany: A Premier Study Destination",description:"Germany is an excellent choice for studying due to its renowned quality of education, affordability with tuition-free or low-cost programs, diverse range of English-taught courses, strong economy fostering job opportunities, leadership in research and innovation, and rich cultural experiences."},
+    {id:3,image:uk1,heading:"Prime Destination for Academic Excellence: Studying in the UK",description:"The UK is often preferred for its prestigious universities, offering world-class education and a diverse range of programs. It provides a conducive environment for academic growth, cultural exposure, and extensive networking opportunities. The English language instruction, historical significance, and strong emphasis on research contribute to its appeal as a top study destination."},
+    {id:4,image:newzealand1,heading:"Studying in New Zealand: A Blend of Education, Nature, and Diversity",description:"New Zealand is an excellent study destination due to its world-class education system, breathtaking natural landscapes, and welcoming multicultural environment. Its universities offer high-quality education, and the country's emphasis on research and innovation adds to its appeal. Additionally, students can enjoy a safe and inclusive society while exploring the stunning beauty of its diverse geography."},
+    {id:5,image:australia1,heading:"Studying in Australia: A Destination of Excellence, Diversity, and Opportunity",description:"Australia is often considered a prime destination for studying due to its exceptional education system, diverse and welcoming society, stunning natural landscapes, and vibrant cities. Renowned for its high-quality universities and research opportunities, Australia offers a wide array of programs catering to various interests."}]
 
 const StudyAbroadExamsList=[
     {id:0,Exam:"International English Language Testing System [IELTS]",Description:"IELTS is an English language proficiency test that is widely accepted by over 3000 universities worldwide for the purpose of migration or higher education in countries like UK, USA, Canada, New Zealand, and Australia. It is available in two formats: IELTS Academic and IELTS General. To register for IELTS, candidates need to select a suitable test center and date. The exam fee for pen and paper based IELTS is INR 16,250. The total duration of the test is 2 hours and 45 minutes. Candidates can take the test up to four times a month. The IELTS score is usually available within 2-5 days after the test.",register:"IELTS REGISTRATION",link:""},
@@ -107,11 +109,11 @@ const StudyAbroadChooseList=[{id:0,Icon:FaBusinessTime,title:"BUSINESS",text:"14
 const studyAbroadAboutList=[{id:0,Icon:FaSchool,title:"3400+",text:"Universities"},{id:1,Icon:FaGraduationCap,title:"150K+",text:"Courses"},{id:2,Icon:FaWpforms,title:"800+",text:"Applications Made"},{id:3,Icon:SiGooglescholar,title:"$2.1",text:"Million Scholarships"}]
 
 const studyAbroadDestination=[
-    {id:0,text:"Study in USA",image:America,colleges:"932",study:"27.8 L/Yr",living:"31.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 80%",fact2:"62% of students get a job after completing degree",fact3:"1.08 Million International Students study in US",fact4:"Intake Seasons- Fall & Spring",},
+    {id:0,text:"Study in USA",image:america1,colleges:"932",study:"27.8 L/Yr",living:"31.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 80%",fact2:"62% of students get a job after completing degree",fact3:"1.08 Million International Students study in US",fact4:"Intake Seasons- Fall & Spring",},
     {id:1,text:"Study in CANADA",image:canada,colleges:"175",study:"13.9 L/Yr",living:"20.3 L/Yr",fact1:"622,000 International Students study in Canada",fact2:"35% of total international applicants are Indian",fact3:"27% South Asian Students Study in Canada",fact4:"Intake Seasons- Fall, Winter, & Summer",},
     {id:2,text:"Study in UK",image:uk,colleges:"154",study:"21.4 L/Yr",living:"15.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 85%",fact2:"458,520 International Students studying in the UK",fact3:"54% International Freshman Enrolments",fact4:"Intake Seasons- October & January"},
     {id:3,text:"Study in AUSTRALIA",image:australia,colleges:"65",study:"18.2 L/Yr",living:"21.4 L/Yr",fact1:"Visa Acceptance Rate for Student Visa in 90-95%",fact2:"79% students get a job after degree completion",fact3:"Numerous scholarships for international students",fact4:"Intake Seasons- February & July",},
-    {id:4,text:"Study in NEW ZEALAND",image:newzealand,colleges:"9",study:"18.3 L/Yr",living:"15.5 L/Yr",fact1:"68% students get a job after completing their degree",fact2:"7 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $870M spent on research annually",fact4:"niversities ranked in the top 3% in the world",},
+    {id:4,text:"Study in NEW ZEALAND",image:newzealand,colleges:"9",study:"18.3 L/Yr",living:"15.5 L/Yr",fact1:"68% students get a job after completing their degree",fact2:"7 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $870M spent on research annually",fact4:"Universities ranked in the top 3% in the world",},
     {id:5,text:"Study in GERMANY",image:germany,colleges:"131",study:"4.3 L/Yr",living:"14.4 L/Yr",fact1:"Acceptance Rate in Germany is 92%",fact2:"2.3% of students are unemployed after degree completion",fact3:"No Tuition Fee",fact4:"Intake Seasons- Summer & Winter",}
     ]
 
@@ -433,7 +435,7 @@ return(
         <h1 className="student-review-video-main-heading">Choose Your Study Destination</h1>
         <ul className="study-abroad-destination-list">
             {studyAbroadDestination.map(each=>(
-                <div className="study-abroad-destination-card">
+                <div key={each.image} className="study-abroad-destination-card">
                     <div className="study-abroad-destination-card1">
                         <p className="study-abroad-destination-card-text">{each.text}</p>
                         <img alt="" src={each.image} className="study-abroad-destination-card-image"/>
@@ -479,8 +481,6 @@ return(
             ))}
         </ul>
     </div>
-
-
     <div>
             <h3 className="study-abroad-article-section-main-heading">Articles Section</h3>
             <div className="study-abroad-article-section-main-container">
@@ -490,7 +490,7 @@ return(
             </div>
             <ul className="study-abraod-article-section-list-container">
                 {ArticleSectionList.map((eachArticle)=>(
-                    <li className="study-abraod-article-section-list-container-item">
+                    <li key={eachArticle.Image} className="study-abraod-article-section-list-container-item">
                         <hr className="study-abraod-article-section-list-line-icon"/>
                         <div className="study-abraod-article-section-list-logo-main-container">
                         <div className="study-abraod-article-section-list-logo-container">
@@ -532,7 +532,7 @@ return(
 
 
     <div className="study-abroad-choose-container">
-        <h1 className="study-abroad-choose-main-heading">Choose Your Future</h1>
+        <h1 className="study-abroad-let-us-guide-title">Choose Your Future</h1>
         <p className="study-abroad-choose-main-text">Glorious Mimdmine is an extensive search engine for the students, parents,and education industry players who are seeking information</p>
         <div className="study-abroad-choose-cards-container">
             <ul className="study-abroad-choose-cards-list">

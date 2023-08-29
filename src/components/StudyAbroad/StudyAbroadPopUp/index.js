@@ -1,6 +1,5 @@
 import "./index.css"
 import React, { useState } from 'react';
-import Select from 'react-select'
 
 import {AiOutlineForm} from "react-icons/ai"
 import { useNavigate } from 'react-router-dom';
@@ -1265,8 +1264,6 @@ const StudyAbroadPopUp=()=>{
           }
         };
 
-        
-
     return(
       <div className="study-abroad-popup-main-container">
         <div className="study-abroad-popup-container">
@@ -1322,17 +1319,14 @@ const StudyAbroadPopUp=()=>{
                 </div>
                 <div className="study-abroad-popup-inputs-icon-container">
                 <BiSolidCategory className="study-abroad-popup-input-icon"/>
-                
                 <select
-          
                value={category}
                onChange={(e) => setCategory(e.target.value)}
                className="study-ppr-popup-input study-ppr-popup-select"
                required>
                {SelectCourseList.map(each=>(
-                <option className="study-ppr-popup-select-option" >{each.item}</option>
+                <option key={each.item} className="study-ppr-popup-select-option" >{each.item}</option>
               ))}
-             
                </select>
              </div>
              <div className="study-abroad-popup-inputs-icon-container">
@@ -1344,12 +1338,10 @@ const StudyAbroadPopUp=()=>{
                className="study-ppr-popup-input study-ppr-popup-select"
                required>
                 {SelectCourseList1[category].detail.map((each)=>(
-                  
-                <option className="study-ppr-popup-select-option">{each.course}</option>
+                <option key={each.course} className="study-ppr-popup-select-option">{each.course}</option>
               ))}
              </select>
              </div>
-                    
                 <div className="study-abroad-popup-inputs-icon-container">
                   <MdLocationPin className="study-abroad-popup-input-icon"/>
                 <input
@@ -1372,9 +1364,6 @@ const StudyAbroadPopUp=()=>{
                     onChange={(e) => setComment(e.target.value)}
                     className="study-ppr-popup-input"/>
                   </div>
-
-        
-
             </div>
             <button type="submit" className="study-abroad-popup-button" onClick={handleSubmit}>Submit</button>
         </div>
