@@ -1,0 +1,815 @@
+
+     .ielts-grey-part-container{
+       background-color: rgba(45,45,45,.15);    
+       width: 100%;    
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-top: 50px;
+       
+     }
+     .vediosmall{
+       display: none;
+     }
+     .ielts-card-third-sub-section{
+       width: 350px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .ielts-card-third-section{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-top: 50px;
+       margin-bottom: 50px;
+     }
+     .ielts-fourth-heading{
+       font-family: 'Roboto';
+     font-size: 22px;
+     color: #2d2d2d;
+     font-weight: 600;
+     }
+     .ielts-fourth-heading-sub{
+       font-family: 'Roboto';
+     font-size: 20px;
+     color: #2d2d2d;
+     font-weight: 400;
+     text-align: center;
+   
+     }
+     .ielts-fourth-heading-sub-red{
+     font-family: 'Roboto';
+     font-size: 20px;
+     color:#196ae5;
+     font-weight: 600;
+     
+     }
+     .ielts-fourth-heading-sub-red-last{
+       font-family: 'Roboto';
+       font-size: 45px;
+       color:#196ae5;
+       font-weight: 600;
+       
+       }
+     .Carousal-card-heading-fifth-ielts{
+     font-family: 'Roboto';
+     font-size: 40px;
+     color: black;
+     font-weight: 600;
+     text-align: center;
+     margin-top: 30px;
+     }
+     .ielts-fourth-section-card{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+       background-color: white;
+       width: 30%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border-radius: 10px;
+       padding: 10px;
+     }
+     .ielts-two-circle-images{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+     }
+     .last-section-ielts{
+       width: 300px; /* Set the width of the container */
+       height: 300px; /* Set the height of the container */
+       border-radius: 60%; /* This creates a circular shape */
+       overflow: hidden; 
+        margin-top: 20px;
+     }
+     .ielts-card-last-section{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: white;
+       /* Individual box shadows for all sides */
+       /* box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3), 0px 5px 5px rgba(0, 0, 0, 0.3), -5px 0px 5px rgba(0, 0, 0, 0.3), 0px -5px 5px rgba(0, 0, 0, 0.3); */
+       box-shadow: 0 5px 25px 5px rgba(0,0,0,.1);
+       width: 90%;
+       height: 400px;
+       margin-top: 50px;
+       margin-left: 60px;
+       margin-bottom: 20px;
+       padding: 10px;
+       
+     }
+     .ielts-card-last-section-sub{
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+     }
+     .ielts-Carousel-card-right-image1{
+       width: 450px; /* Set the width of the container */
+       height: 450px; /* Set the height of the container */
+       border-radius: 60%; /* This creates a circular shape */
+       overflow: hidden; 
+        margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-image: url('https://www.ielts.org/-/media/tra-nguyen-tvsrwmnw8us-unsplash-1.ashx?iar=0&hash=815DD1B208DC95545058CB5219A6EFEC');
+       background-size: cover;
+     }
+   .ielts-Carousel-card-right-image2{
+     width: 450px; /* Set the width of the container */
+     height: 450px; /* Set the height of the container */
+     border-radius: 60%; /* This creates a circular shape */
+     overflow: hidden; 
+      margin-top: 20px; 
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-image: url('https://www.ielts.org/-/media/corona2.ashx?iar=0&hash=C7DEDB9D98D3AD1D5097429365B6B3ED');
+   }
+   .ielts-third-heading{
+     font-family: 'Roboto';
+     font-size: 26px;
+     color: #2d2d2d;
+     font-weight: 600; 
+     }
+   .ielts-third-heading-last-section{
+       font-family: 'Roboto';
+       font-size: 45px;
+       color: #2d2d2d;
+       font-weight: 600; 
+     }
+   .ielts-circle-heading{
+     font-family: 'Roboto';
+     font-size: 58px;
+     color: white;
+     font-weight: 600; 
+     text-align: center;
+   }
+   .ielts-circle-paragraph{
+     font-family: 'Roboto';
+     font-size: 28px;
+     color: white;
+     font-weight: 400; 
+     text-align: center;
+   }
+   
+   .ielts-button-circle{
+     background-color: white;
+     color:#196ae5;
+     font-family: 'Roboto';
+     font-size: 20px;
+     height: 60px;
+     width: 150px;
+     border-width: 0px;
+     border-radius: 10px;
+   
+   }
+   
+   .ielts-third-para{
+     font-family: 'Roboto';
+     font-size: 18px;
+     color: #2d2d2d;    
+     }
+   
+     .ielts-pic-size{
+       height: 60px;
+       width: 60px;    
+     }
+     .ielts-pic-size-states{
+       height: 80px;
+       width: 80px;    
+     }
+   
+     .Carousal-card-button-ielts-grey{
+      background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+       height: 60px;
+       width: 300px;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-width: 0px;
+       border-radius: 7px;
+       font-family: 'Roboto';
+       font-size: 20px;
+       font-weight: 500;
+       padding: 10px;
+       
+   
+   }
+   .vedio{
+     width: 300px;
+     height: 300px;
+     margin-top: 20px;
+   }
+   .grey-second-half{
+     width: 40%;
+     margin: 50px 0px 50px 0px;
+   }
+   .grey-first-part{
+     width: 30%;
+     margin:50px 0px 50px 0px;
+   }
+   .Carousal-card-heading-first-ielts-grey{
+     font-family: 'Roboto';
+     font-size: 72px;
+     font-weight: bold;
+   
+   }
+   .grey-card-second-part-para{
+     font-family: 'Roboto';
+     font-size: 18px;
+     color: #2d2d2d;
+   }
+   .Carousal-card-button-ielts-grey-white{
+    display:inline-flexbox;
+    cursor: pointer;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-family:"Roboto";
+    font-size:18px;
+}
+
+.Carousal-card-button-ielts-grey-white:hover {
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #FFF;
+  transition: all .1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay:0s;
+
+}
+
+   .grey-container-for-buttons{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+     .carousel-slider-home{
+         /* margin-bottom:50px; */
+         width:85vw;
+         margin-left:7.5%;
+         margin-right: 7.5%;
+     }
+     @media (max-width:972px){
+       .carousel-slider-home{
+         width: 80vw;
+       }
+     }
+     
+   
+   /* Extra Small screens (up to 576px wide) */
+   @media (min-width:320px) and (max-width: 576px) {
+     .ielts-grey-part-container{       
+       width: 100%;    
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;  
+       margin-top: 50px;    
+     }
+     .grey-second-half{
+       width: 90%;
+       margin: 50px 0px 50px 0px;
+     }
+     .grey-first-part{
+       width: 90%;
+       margin:0px;
+     }
+     .Carousal-card-heading-first-ielts-grey{    
+       font-size: 22px; 
+       display: flex; 
+     justify-content: center;   
+     align-items: center;  
+     
+     }
+     .grey-card-second-part-para{   
+       font-size: 12px;    
+       display: flex;  
+     justify-content: center;   
+     align-items: center;
+     }
+     .Carousal-card-button-ielts-grey-white{
+       height: 40px;
+       width: 180px;         
+       font-size: 10px; 
+       margin: 10px 0px 10px 0px;   
+     
+     }
+     .grey-container-for-buttons{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;   
+       align-items: center;    
+     }
+     .Carousal-card-button-ielts-grey{    
+     height: 40px;
+     width: 180px;    
+     font-size: 12px;
+     display: flex;  
+     justify-content: center;   
+     align-items: center;  
+       
+   }
+   .ielts-card-third-section{
+     display: flex;
+     flex-direction: column; 
+     width: 100%; 
+     justify-content: center;   
+     align-items: center; 
+   }
+   .ielts-card-third-sub-section{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     
+   }
+   .ielts-third-para{  
+     font-size: 12px; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;  
+     }
+   
+     .ielts-pic-size{
+       height: 30px;
+       width: 30px;    
+     }
+   .ielts-third-heading{    
+   font-size: 16px;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+   align-items: center;
+   }
+   
+   .ielts-fourth-section-card{      
+     width: 80%;             
+     margin: 10px 0px 10px 0px;
+   }
+       .ielts-fourth-heading{     
+       font-size: 13px;    
+       }
+       .ielts-fourth-heading-sub{     
+       font-size: 12px;    
+     
+       }
+       .ielts-fourth-heading-sub-red{    
+       font-size: 12px;   
+       }
+       .ielts-fourth-heading-sub-red-last{      
+         font-size: 20px;     
+       }
+       .Carousal-card-heading-fifth-ielts{      
+         font-size: 20px;     
+       }
+       .vedio{
+         display: none;
+       }
+       .vediosmall{
+         display: block;
+       }
+       .ielts-two-circle-images{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;   
+         align-items: center;      
+       }
+       .ielts-Carousel-card-right-image1{
+         width: 350px; 
+         height: 350px; 
+         border-radius: 60%;
+       }
+     .ielts-Carousel-card-right-image2{
+       width: 350px; 
+       height: 350px; 
+       border-radius: 60%;    
+     }
+     .ielts-circle-heading{    
+       font-size: 28px;    
+     }
+     .ielts-circle-paragraph{    
+       font-size: 15px;    
+     }  
+     .ielts-button-circle{    
+       font-size: 12px;
+       height: 30px;
+       width: 100px;   
+     }
+     .last-section-ielts{
+       width: 300px; 
+       height: 300px; 
+       border-radius: 60%;     
+     }
+     .ielts-card-last-section{
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;
+       width: 100%;
+       height: 700px;
+       margin: 20px 0px 10px 0px;
+       padding: 0px;
+       
+        }
+     .ielts-card-last-section-sub{
+     width: 90%;
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     }
+     .ielts-third-heading-last-section{   
+     font-size: 20px;
+     display: flex;   
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;    
+     }
+     
+   }
+   
+   
+   /* Small screens (577px to 767px wide) */
+   @media (min-width: 577px) and (max-width: 767px) {
+     .ielts-grey-part-container{       
+       width: 100%;    
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;  
+       margin-top: 50px;    
+     }
+     .grey-second-half{
+       width: 90%;
+       margin: 50px 0px 50px 0px;
+     }
+     .grey-first-part{
+       width: 90%;
+       margin:0px;
+     }
+     .Carousal-card-heading-first-ielts-grey{    
+       font-size: 22px; 
+       display: flex; 
+     justify-content: center;   
+     align-items: center;  
+     
+     }
+     .grey-card-second-part-para{   
+       font-size: 12px;    
+       display: flex;  
+     justify-content: center;   
+     align-items: center;
+     }
+     .Carousal-card-button-ielts-grey-white{
+       height: 40px;
+       width: 180px;         
+       font-size: 10px; 
+       margin: 10px 0px 10px 0px;   
+     
+     }
+     .grey-container-for-buttons{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;   
+       align-items: center;    
+     }
+     .Carousal-card-button-ielts-grey{    
+     height: 40px;
+     width: 180px;    
+     font-size: 12px;
+     display: flex;  
+     justify-content: center;   
+     align-items: center;  
+       
+   }
+   .ielts-card-third-section{
+     display: flex;
+     flex-direction: column; 
+     width: 100%; 
+     justify-content: center;   
+     align-items: center; 
+   }
+   .ielts-card-third-sub-section{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     
+   }
+   .ielts-third-para{  
+     font-size: 12px; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;  
+     }
+   
+     .ielts-pic-size{
+       height: 30px;
+       width: 30px;    
+     }
+   .ielts-third-heading{    
+   font-size: 16px;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+   align-items: center;
+   }
+   
+   .ielts-fourth-section-card{      
+     width: 80%;             
+     margin: 10px 0px 10px 0px;
+   }
+       .ielts-fourth-heading{     
+       font-size: 13px;    
+       }
+       .ielts-fourth-heading-sub{     
+       font-size: 12px;    
+     
+       }
+       .ielts-fourth-heading-sub-red{    
+       font-size: 12px;   
+       }
+       .ielts-fourth-heading-sub-red-last{      
+         font-size: 20px;     
+       }
+       .Carousal-card-heading-fifth-ielts{      
+         font-size: 20px;     
+       }
+       .vedio{
+         display: none;
+       }
+       .vediosmall{
+         display: block;
+       }
+       .ielts-two-circle-images{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;   
+         align-items: center;      
+       }
+       .ielts-Carousel-card-right-image1{
+         width: 350px; 
+         height: 350px; 
+         border-radius: 60%;
+       }
+     .ielts-Carousel-card-right-image2{
+       width: 350px; 
+       height: 350px; 
+       border-radius: 60%;    
+     }
+     .ielts-circle-heading{    
+       font-size: 28px;    
+     }
+     .ielts-circle-paragraph{    
+       font-size: 15px;    
+     }  
+     .ielts-button-circle{    
+       font-size: 12px;
+       height: 30px;
+       width: 100px;   
+     }
+     .last-section-ielts{
+       width: 300px; 
+       height: 300px; 
+       border-radius: 60%;     
+     }
+     .ielts-card-last-section{
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;
+       width: 100%;
+       height: 700px;
+       margin: 20px 0px 10px 0px;
+       padding: 0px;
+       
+        }
+     .ielts-card-last-section-sub{
+     width: 90%;
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     }
+     .ielts-third-heading-last-section{   
+     font-size: 20px;
+     display: flex;   
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;    
+     }
+   }
+   
+   
+   /* Medium screens (768px to 991px wide) */
+   @media (min-width: 767px) and (max-width: 991px) {
+     .ielts-grey-part-container{       
+       width: 100%;    
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;  
+       margin-top: 50px;    
+     }
+     .grey-second-half{
+       width: 90%;
+       margin: 50px 0px 50px 0px;
+     }
+     .grey-first-part{
+       width: 90%;
+       margin:0px;
+     }
+     .Carousal-card-heading-first-ielts-grey{    
+       font-size: 22px; 
+       display: flex; 
+     justify-content: center;   
+     align-items: center;  
+     
+     }
+     .grey-card-second-part-para{   
+       font-size: 12px;    
+       display: flex;  
+     justify-content: center;   
+     align-items: center;
+     }
+     .Carousal-card-button-ielts-grey-white{
+       height: 40px;
+       width: 180px;         
+       font-size: 10px; 
+       margin: 10px 0px 10px 0px;   
+     
+     }
+     .grey-container-for-buttons{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;   
+       align-items: center;    
+     }
+     .Carousal-card-button-ielts-grey{    
+     height: 40px;
+     width: 180px;    
+     font-size: 12px;
+     display: flex;  
+     justify-content: center;   
+     align-items: center;  
+       
+   }
+   .ielts-card-third-section{
+     display: flex;
+     flex-direction: column; 
+     width: 100%; 
+     justify-content: center;   
+     align-items: center; 
+   }
+   .ielts-card-third-sub-section{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     
+   }
+   .ielts-third-para{  
+     font-size: 12px; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;  
+     }
+   
+     .ielts-pic-size{
+       height: 30px;
+       width: 30px;    
+     }
+   .ielts-third-heading{    
+   font-size: 16px;   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;   
+   align-items: center;
+   }
+   
+   .ielts-fourth-section-card{      
+     width: 80%;             
+     margin: 10px 0px 10px 0px;
+   }
+       .ielts-fourth-heading{     
+       font-size: 13px;    
+       }
+       .ielts-fourth-heading-sub{     
+       font-size: 12px;    
+     
+       }
+       .ielts-fourth-heading-sub-red{    
+       font-size: 12px;   
+       }
+       .ielts-fourth-heading-sub-red-last{      
+         font-size: 20px;     
+       }
+       .Carousal-card-heading-fifth-ielts{      
+         font-size: 20px;     
+       }
+       .vedio{
+         display: none;
+       }
+       .vediosmall{
+         display: block;
+       }
+       .ielts-two-circle-images{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;   
+         align-items: center;      
+       }
+       .ielts-Carousel-card-right-image1{
+         width: 350px; 
+         height: 350px; 
+         border-radius: 60%;
+       }
+     .ielts-Carousel-card-right-image2{
+       width: 350px; 
+       height: 350px; 
+       border-radius: 60%;    
+     }
+     .ielts-circle-heading{    
+       font-size: 28px;    
+     }
+     .ielts-circle-paragraph{    
+       font-size: 15px;    
+     }  
+     .ielts-button-circle{    
+       font-size: 12px;
+       height: 30px;
+       width: 100px;   
+     }
+     .last-section-ielts{
+       width: 300px; 
+       height: 300px; 
+       border-radius: 60%;     
+     }
+     .ielts-card-last-section{
+       display: flex;
+       flex-direction: column; 
+       justify-content: center;   
+       align-items: center;
+       width: 100%;
+       height: 700px;
+       margin: 20px 0px 10px 0px;
+       padding: 0px;
+       
+        }
+     .ielts-card-last-section-sub{
+     width: 90%;
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;
+     }
+     .ielts-third-heading-last-section{   
+     font-size: 20px;
+     display: flex;   
+     flex-direction: column;
+     justify-content: center;   
+     align-items: center;    
+     }
+   }
+   
+   /* Large screens (992px to 1199px wide) */
+   @media (min-width: 992px) and (max-width: 1199px) {
+     /* Styles for large screens */
+     .vedio{
+       display: none;
+     }
+     .vediosmall{
+       display: block;
+       height: 500px !important;
+       width: 400px;
+     }
+   }
+   
+   
+   /* Extra Large screens (1200px and wider) */
+   @media (min-width: 1200px) {
+     /* Styles for extra large screens */
+     
+     
+   }

@@ -21,18 +21,20 @@ import Whatsapp from './components/Whatsapp'
 import Corporate from './components/Corporate/CorporateMain'
 import Terms from "./components/TermsAndConditions"
 import Privacy from './components/PrivacyPolicy'
-import Studyabroad from './components/StudyAbroad/Studyabroad'
+import Studyabroad from './components/StudyAbroad/studyabroad'
 import AWS from "./components/courses/AWS/FullStackMain"
 import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
 import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain"
 import Leadership from './components/courses/LeaderShip/FullStackMain'
 import EnglishOfflineCourse from './components/Homes/EnglishOfflineCourse'
 import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain"
+import Ielts from './components/courses/Ielts/IeltsPage'
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
+        <Route exact path="/ielts" element={<Ielts/>} />
         <Route exact path="/team-building" element={<TeamBuilding/>} />
         <Route exact path="/leadership" element={<Leadership />} />
         <Route exact path="/businesscorporate" element={<BusinessCorporate />} />
