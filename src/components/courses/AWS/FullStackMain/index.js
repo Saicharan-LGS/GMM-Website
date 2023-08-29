@@ -88,11 +88,11 @@ const flexibleProgramList=[
 
 const whyGloriousMindMineList=[
     {id:0,Image:AiOutlineFileAdd,description:"Intensive curriculum covering basic to advance concepts"},
-    {id:0,Image:AiOutlineVideoCamera,description:"100+ Live Classes. 8 PM to 10:30 PM. Lifetime access to data science class recordings"},
-    {id:0,Image:AiOutlineProject,description:"20+ capstone projects & 1000+ coding problems and assessments"},
-    {id:0,Image:AiOutlineMessage,description:"Weekly Doubt Resolution sessions"},
-    {id:0,Image:CgProfile,description:"50+ mock interviews with dedicated Career Coaches"},
-    {id:0,Image:BiTargetLock,description:"100% job assurance with our 500+ hiring partners"},
+    {id:1,Image:AiOutlineVideoCamera,description:"100+ Live Classes. 8 PM to 10:30 PM. Lifetime access to data science class recordings"},
+    {id:2,Image:AiOutlineProject,description:"20+ capstone projects & 1000+ coding problems and assessments"},
+    {id:3,Image:AiOutlineMessage,description:"Weekly Doubt Resolution sessions"},
+    {id:4,Image:CgProfile,description:"50+ mock interviews with dedicated Career Coaches"},
+    {id:5,Image:BiTargetLock,description:"100% job assurance with our 500+ hiring partners"},
 ]
 
 const ScrolllingImages1 = [
@@ -251,7 +251,7 @@ class AWS extends Component{
                 <div className="courseTutionFeeSubContainer">
                    <ul>
                     {tuitionFeeList.map(each=>(
-                        <div className='courseTutionFeeListItemContainer'>
+                        <div key={each} className='courseTutionFeeListItemContainer'>
                             <AiOutlineCheck className='courseTutionFeeIcon' />
                             <span className="courseTutionList">{each}</span>
                         </div>

@@ -9,15 +9,15 @@ export default function About() {
     <>
     <Header/>
     <div className="About-us-main-container">
-    <div class="flip-card" tabIndex="0">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
+    <div className="flip-card" tabIndex="0">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
           <h3 className="About-page-why-choose-us-heading">Why Choose us?</h3>
           <div>
             <img src="https://freepngimg.com/thumb/facebook/72547-thinking-photography-question-mark-man-stock.png" alt="" className="Aboutus-question-image"/>
           </div>
         </div>
-        <div class="flip-card-back">
+        <div className="flip-card-back">
           <li className="about-item-description">
             We bring more than 11 years of collective experience and ready access to our knowledge base.
           </li>
@@ -29,15 +29,15 @@ export default function About() {
         </div>
       </div>
     </div>
-    <div class="flip-card" tabIndex="0">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
+    <div className="flip-card" tabIndex="0">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
           <h3 className="About-page-why-choose-us-heading">Wide Range of Courses</h3>
           <div>
             <img src="https://jobstraining.es/wp-content/uploads/2020/06/curso.png" alt="" className="Aboutus-question-image"/>
           </div>
         </div>
-        <div class="flip-card-back">
+        <div className="flip-card-back">
           <li className="about-item">Full Stack Development</li>
           <li className="about-item">Data Science</li>
           <li className="about-item">Sales Force Admin</li>

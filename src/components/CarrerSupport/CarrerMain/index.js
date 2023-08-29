@@ -154,7 +154,7 @@ class CareerSupport extends Component{
                         </div>
                     </div>
                 </div>
-                {careerPrepList.map(each=>(<CarrerPrep key={each} details={each} />))}
+                {careerPrepList.map(each=>(<CarrerPrep key={each.id} details={each} />))}
                 <div className="careerHiringMainContainer">
                     <h3 className="careerHiringMainHeading">Our Hiring Partners</h3>
                     <BannerLeft images={ScrolllingImages1} speed={5000} />

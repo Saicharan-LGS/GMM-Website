@@ -3,7 +3,6 @@ import "./index.css"
 
 
 const CarrerPrep=(props)=>{
-    console.log(props.details)
     const {details}=props
     const {heading,list,imageurl}=details
     return(

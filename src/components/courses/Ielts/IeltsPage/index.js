@@ -51,8 +51,8 @@ const Ielts = () => {
           </Slider>
           <div className='ielts-grey-part-container'>
             <div className="grey-first-part">
-                    <ReactPlayer className="vedio" url="https://www.youtube.com/watch?v=vWEbQaoRepo" controls />
-                    <ReactPlayer className ="vediosmall" url ="https://www.youtube.com/watch?v=vWEbQaoRepo" controls width="1000" height="400"/>
+                    <ReactPlayer className="vedio" url="https://www.youtube.com/embed/vWEbQaoRepo" controls />
+                    <ReactPlayer className ="vediosmall" url ="https://www.youtube.com/embed/vWEbQaoRepo" controls width="1000" height="400"/>
             </div>
             <div className='grey-second-half'>
               <h1 className='Carousal-card-heading-first-ielts-grey'>What is IELTS?</h1>

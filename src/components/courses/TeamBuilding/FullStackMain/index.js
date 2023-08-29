@@ -252,7 +252,7 @@ class TeamBuilding extends Component{
                 <div className="courseTutionFeeSubContainer">
                    <ul>
                     {tuitionFeeList.map(each=>(
-                        <div className='courseTutionFeeListItemContainer'>
+                        <div key={each} className='courseTutionFeeListItemContainer'>
                             <AiOutlineCheck className='courseTutionFeeIcon' />
                             <span className="courseTutionList">{each}</span>
                         </div>
