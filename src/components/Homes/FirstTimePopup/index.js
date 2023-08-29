@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import image1 from "../../Images/signupimage.jpeg"
-import { BiCategory } from 'react-icons/bi';
 
 import {BiSolidUser} from 'react-icons/bi'
 import {MdEmail} from 'react-icons/md'
@@ -39,7 +38,7 @@ const FirstTimePopup = () => {
     }else{
       setLabelName("Course")
     }
-  })
+  },[Category])
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -78,7 +77,7 @@ const FirstTimePopup = () => {
         setErrorMsg("");
       } else {
         const data = await response.json();
-
+        setErrorMsg(data.error)
         setSuccessMsg("");
       }
     } catch (error) {

@@ -14,8 +14,8 @@ import ieltspic8 from '../../../Images/ieltspic8.png';
 import ieltspic9 from '../../../Images/ieltspic9.png';
 import ieltspic10 from '../../../Images/ieltspic10.png';
 import ReactPlayer from 'react-player';
-import australia from '../../../Images/australia.png';
-import canada from '../../../Images/canada.png';
+import australia from '../../../Images/australia2.png';
+import canada from '../../../Images/canada2.png';
 import usa from '../../../Images/usa.png';
 import united from '../../../Images/united.png';
 import newzee from '../../../Images/newzee.png';
@@ -56,7 +56,7 @@ const Ielts = () => {
             </div>
             <div className='grey-second-half'>
               <h1 className='Carousal-card-heading-first-ielts-grey'>What is IELTS?</h1>
-              <p className='grey-card-second-part-para'>IELTS is an English language test for study, migration or work. Over three million people take our test every year. IELTS is accepted by more than 11,000 employers, universities, schools and immigration bodies around the world.</p>
+              <p className='grey-card-second-part-para'>The International English Language Testing System (IELTS) is a mandatory examination for university admission in numerous countries such as Australia, Canada, New Zealand, the UK, and the USA. </p>
               <div className='grey-container-for-buttons'>
                 <button className='Carousal-card-button-ielts-grey-white'>Learn more about the test</button>
                 <button className='Carousal-card-button-ielts-grey'>Who accepts IELTS scores?</button>
@@ -84,21 +84,21 @@ const Ielts = () => {
           <div className='ielts-card-third-section'>
             <div className='ielts-fourth-section-card'>
               <img src={ieltspic8} alt=""/>
-              <p className='ielts-fourth-heading'>Ensuring quality and fairness</p>
-              <p className='ielts-fourth-heading-sub'>An overview of some of the key features of IELTS and how they contribute to reliable, relevant and fair language assessment.</p>
-              <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p>
+              <p className='ielts-fourth-heading'>CONSULTATION & ASSESSMENT</p>
+              <p className='ielts-fourth-heading-sub'>Are you looking to broaden your horizons and explore international academic or career opportunities? The International English Language Testing System (IELTS) is your passport to success. At Glorious Mindmine, we offer comprehensive IELTS consultation services to guide you on your journey to achieving exceptional scores. </p>
+              {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
             </div>
             <div className='ielts-fourth-section-card'>
               <img src={ieltspic9} alt=""/>
-              <p className='ielts-fourth-heading'>Ensuring quality and fairness</p>
-              <p className='ielts-fourth-heading-sub'>An overview of some of the key features of IELTS and how they contribute to reliable, relevant and fair language assessment.</p>
-              <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p>
+              <p className='ielts-fourth-heading'>ADMISSION & TRAINING</p>
+              <p className='ielts-fourth-heading-sub'>Once you have gone through assessment, Our team will reach out to you for a consultation. This conversation allows us to discuss your objectives, address any questions you have, and provide you with insights into our program. </p>
+              {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
             </div>
             <div className='ielts-fourth-section-card'>
               <img src={ieltspic10} alt=""/>
-              <p className='ielts-fourth-heading'>Ensuring quality and fairness</p>
-              <p className='ielts-fourth-heading-sub'>An overview of some of the key features of IELTS and how they contribute to reliable, relevant and fair language assessment.</p>
-              <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p>
+              <p className='ielts-fourth-heading'>EXAMINATION</p>
+              <p className='ielts-fourth-heading-sub'>Make your payment for the test . You have the option to pay for the test using our online registration system with a bank card, or you can choose to pay through a bank transfer. </p>
+              {/* <p className='ielts-fourth-heading-sub-red'>Ensuring quality and fairness</p> */}
             </div>
           </div>
           <h1 className='Carousal-card-heading-fifth-ielts'>Where can IELTS take you</h1>
@@ -124,7 +124,7 @@ const Ielts = () => {
               <p className='ielts-fourth-heading'>United States</p>
             </div>
           </div> 
-          <div className='ielts-two-circle-images'>
+          {/* <div className='ielts-two-circle-images'>
             <div className='ielts-Carousel-card-right-image1'>
               <h1 className='ielts-circle-heading'>Are you a teacher?</h1>
               <p className='ielts-circle-paragraph'>We have resources for you!</p>
@@ -135,11 +135,11 @@ const Ielts = () => {
               <p className='ielts-circle-paragraph'>Check out our research reports!</p>
               <button className='ielts-button-circle'>Learn more</button>
             </div>
-          </div>
+          </div> */}
           <div className='ielts-card-last-section'>
             <div className='ielts-card-last-section-sub'>
-              <h1 className='ielts-third-heading-last-section'><span className='ielts-fourth-heading-sub-red-last'>Over 11,000 organisations</span> have chosen IELTS for language skills verification!</h1>
-              <button className='Carousal-card-button-ielts-grey-white'>Why accept IELTS scores?</button>
+              <h1 className='ielts-third-heading-last-section'>IELTS is No.1 For Language Skills Verfication</h1>
+              <button className='Carousal-card-button-ielts-grey-white'>Why accept IELTS scores ?</button>
             </div>
             <img  className="last-section-ielts" src={lastsection} alt=""/>
 
