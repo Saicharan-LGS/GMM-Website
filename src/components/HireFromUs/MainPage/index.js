@@ -102,12 +102,12 @@ const HireFromUs=()=>{
                 });
               } else {
                 const data = await response.json();
-                console.log(data.error);
-                setErrorMsg(data.error);
+                setErrorMsg(data.message);
                 setSuccessMsg("");
               }
             } catch (error) {
-              console.error(error);
+                setErrorMsg(error);
+                setSuccessMsg("");
             }
         };
     return(

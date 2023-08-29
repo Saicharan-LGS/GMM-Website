@@ -6,7 +6,6 @@ class FlexibleProgram extends Component{
     render(){
         const {programDetails}=this.props
         const {Image,answer,question}=programDetails
-        console.log(Image)
         return(
             <div className="courseFlexibleProgramCard">
                 <Image className="courseFlexibleProgramImage" />

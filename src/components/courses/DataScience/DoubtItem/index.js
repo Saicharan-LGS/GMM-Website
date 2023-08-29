@@ -28,7 +28,6 @@ class DoubtItem extends Component {
   }
 
   onToggleIsActive = () => {
-    console.log("called")
     this.setState(prevState => ({
       isActive: !prevState.isActive,
     }))

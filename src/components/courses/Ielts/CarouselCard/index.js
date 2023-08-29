@@ -1,6 +1,5 @@
 import { Component } from "react";
-import "./index.css"
-
+import "../../../Homes/CarouselCard/index.css"
 
 class CarouselCard extends Component{
     render(){
