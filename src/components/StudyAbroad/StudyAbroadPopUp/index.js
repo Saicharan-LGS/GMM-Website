@@ -12,12 +12,6 @@ import {FaCommentDots} from 'react-icons/fa'
 import {BiSolidCategory} from 'react-icons/bi'
 import {PiCertificateFill} from 'react-icons/pi'
 
-const options = [
-  { value: 'option1', label: 'Option 1' },
-  { value: 'option2', label: 'Option 2' },
-  // Add more options here
-];
-
 const SelectCourseList=[
   {id:0,item:"Bachelors"},{id:1,item:"MBA/PGDM-Masters"},{id:2,item:"MS/M.Sc-Masters"},{id:3,item:"Masters"},{id:4,item:"Doctorate/Ph.D"},{id:5,item:"Certificate"},{id:6,item:"Grad Certificate"},{id:7,item:"Diploma"},{id:8,item:"PG Diploma"}]
 
@@ -1214,8 +1208,9 @@ const SelectCourseList1={
 const StudyAbroadPopUp=()=>{
         const [email, setEmail] = useState('');
         const [name, setName] = useState('');
-        const [course, setCourse] = useState('');
-        const [phoneNumber, setPhoneNumber] = useState(null);
+        const [city, setCity] = useState('');
+        const [course, setCourse] = useState('Sciences');
+        const [phoneNumber, setPhoneNumber] = useState("");
         const [comment, setComment] = useState('');
         const [successMsg, setSuccessMsg] = useState('');
         const [errorMsg, setErrorMsg] = useState('');
@@ -1223,7 +1218,6 @@ const StudyAbroadPopUp=()=>{
         
   
         const navigate = useNavigate();
-        const [selectedOption, setSelectedOption] = useState(null);
 
   
         const closePopupPage = () => {
@@ -1234,7 +1228,7 @@ const StudyAbroadPopUp=()=>{
           event.preventDefault();
           try {
             const response = await fetch(
-              "http://localhost:3005/register",
+              "http://localhost:3005/studyabroad",
               {
                 method: "POST",
                 headers: {
@@ -1244,7 +1238,9 @@ const StudyAbroadPopUp=()=>{
                   name,
                   email,
                   course,
+                  category,
                   phoneNumber,
+                  city,
                   comment
                 })
               }
@@ -1255,7 +1251,6 @@ const StudyAbroadPopUp=()=>{
               setErrorMsg('');
             } else {
               const data = await response.json();
-              console.log(data.error);
               setErrorMsg(data.error);
               setSuccessMsg('');
             }
@@ -1311,8 +1306,8 @@ const StudyAbroadPopUp=()=>{
                     type="number"
                     id="phonenumber"
                     placeholder="Mobile Number"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    value={phoneNumber}
+                    onChange={(e) => setPhoneNumber(e.target.value)}
                     className="study-ppr-popup-input"
                     required
                 />
@@ -1348,8 +1343,8 @@ const StudyAbroadPopUp=()=>{
                     type="text"
                     id="city"
                     placeholder="City"
-                    value={phoneNumber}
-                    onChange={(e) => setPhoneNumber(e.target.value)}
+                    value={city}
+                    onChange={(e) => setCity(e.target.value)}
                     className="study-ppr-popup-input"
                     required/>
                   </div>
@@ -1364,6 +1359,7 @@ const StudyAbroadPopUp=()=>{
                     className="study-ppr-popup-input"/>
                   </div>
             </div>
+            <p className="studyabordpopup-response">{successMsg}{errorMsg}</p>
             <button type="submit" className="study-abroad-popup-button" onClick={handleSubmit}>Submit</button>
         </div>
         </div>

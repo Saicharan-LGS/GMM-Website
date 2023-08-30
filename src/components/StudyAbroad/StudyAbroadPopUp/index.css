@@ -125,7 +125,7 @@
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top:20px;
+    margin-top:10px;
 }
 .study-abroad-popup-button:hover {
     background: linear-gradient(to right, #196ae5, #196ae5) border-box;
@@ -180,4 +180,9 @@ height: max-content;
     margin: 0px;
     padding: 0px;
     margin-right: 10px;
+  }
+
+  .studyabordpopup-response{
+    font-size: 14;
+    margin: 10px;
   }

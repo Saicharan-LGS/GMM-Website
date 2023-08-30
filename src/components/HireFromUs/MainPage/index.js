@@ -73,7 +73,7 @@ const HireFromUs=()=>{
                     
               const {name,email,mobileNumber,designation,companyName}=formData
               const response = await fetch(
-                "http://localhost:3005/interview",
+                "http://localhost:3005/placement",
                 {
                   method: "POST",
                   headers: {
@@ -94,11 +94,11 @@ const HireFromUs=()=>{
                 setSuccessMsg(data.success);
                 setErrorMsg("");
                 setFormData({
-                  name: '',
-                  email: '',
-                  phoneNumber: '',
-                  course: '',
-                  comment: '',
+                    name: '',
+                    email:'',
+                    companyName: '',
+                    mobileNumber: '',
+                    designation: '',
                 });
               } else {
                 const data = await response.json();
