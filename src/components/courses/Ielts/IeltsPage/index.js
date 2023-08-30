@@ -17,7 +17,7 @@ import canada from '../../../Images/canada2.png';
 import usa from '../../../Images/usa.png';
 import united from '../../../Images/united.png';
 import newzee from '../../../Images/newzee.png';
-import lastsection from '../../../Images/lastsection.png';
+//import lastsection from '../../../Images/lastsection.png';
 import Header from "../../../Homes/Headers"
 import Footer from "../../../Homes/Footer"
 
@@ -39,9 +39,9 @@ import ielts4 from "../../../Images/ielts4.png"
 
   const CarouselList=[
     {id:1,head:"Expert Guidance and Comprehensive Training",text:"Trained educators who understand the IELTS exam format, requirements, and effective strategies.",Image:ielts1},
-    {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ielts2},
+    {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ielts4},
     {id:3,head:"Holistic Approach to Language Development",text:"Enhance language skills through varied exercises, text analysis, and targeted lessons for improved comprehension and communication.",Image:ielts3},
-    {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ielts4},
+    {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ielts1},
     {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ielts2}
   ]
 
@@ -146,7 +146,7 @@ const Ielts = () => {
               <h1 className='ielts-third-heading-last-section'>IELTS is No.1 For Language Skills Verfication</h1>
               <Link style={{textDecoration:"none"}} to="/ielts-score"><button className='Carousal-card-button-ielts-grey-white-score'>Why accept IELTS scores ?</button></Link>
             </div>
-            <img  className="last-section-ielts" src={lastsection} alt=""/>
+            <img  className="last-section-ielts" src={ielts3} alt=""/>
 
           </div>
       </div>

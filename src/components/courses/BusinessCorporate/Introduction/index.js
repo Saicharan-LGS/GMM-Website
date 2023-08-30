@@ -3,11 +3,11 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
 import {Link} from 'react-router-dom'
-import profile from "../../../Images/saicharan.jpg"
+//import profile from "../../../Images/saicharan.jpg"
 class Intro extends Component{
     render(){
         return(
-            <div className="course-intro-main-container">
+            <div className="course-intro-main-container" style={{justifyContent:"flex-start"}}>
                 <div className="course-intro-sub-container">
                     <h1 className="course-Intro-Heading">Business Communication (Corporates)</h1>
                     <div className="course-intro-batch-container">
@@ -44,7 +44,7 @@ class Intro extends Component{
                         </div>
         </div> */}
                 </div>
-                <div className="course-side-image-main-container">
+                {/* <div className="course-side-image-main-container">
                     <img src={profile} alt="" className="course-intro-side-image"/>
                     <p className="course-intro-data-analyst">Vashini Roy</p>
                     <div className="course-intro-side-image-desc">
@@ -58,7 +58,7 @@ class Intro extends Component{
                         
                         <p className="course-intro-data-analyst">Senior Developer</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         ) 
     }
