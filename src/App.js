@@ -29,12 +29,16 @@ import Leadership from './components/courses/LeaderShip/FullStackMain'
 import EnglishOfflineCourse from './components/Homes/EnglishOfflineCourse'
 import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain"
 import Ielts from './components/courses/Ielts/IeltsPage'
+import WhatIsIelts from './components/courses/Ielts/whatisIelts'
+import Ieltsscore from './components/courses/Ielts/IeltsScores'
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
-        <Route exact path="/ielts" element={<Ielts/>} />
+        <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />
+        <Route exact path="ielts-score" element={<Ieltsscore />} />
+        <Route exact path="/ielts" element={<Ielts />} />
         <Route exact path="/team-building" element={<TeamBuilding/>} />
         <Route exact path="/leadership" element={<Leadership />} />
         <Route exact path="/businesscorporate" element={<BusinessCorporate />} />

@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './index.css';
+import {Link} from "react-router-dom"
 import CarouselCard from "../CarouselCard"
 import ieltspic5 from '../../../Images/ieltspic5.png';
 import ieltspic6 from '../../../Images/ieltspic6.png';
@@ -41,7 +42,7 @@ import ielts4 from "../../../Images/ielts4.png"
     {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ielts2},
     {id:3,head:"Holistic Approach to Language Development",text:"Enhance language skills through varied exercises, text analysis, and targeted lessons for improved comprehension and communication.",Image:ielts3},
     {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ielts4},
-    {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ielts1}
+    {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ielts2}
   ]
 
 const Ielts = () => {
@@ -62,7 +63,7 @@ const Ielts = () => {
               <h1 className='Carousal-card-heading-first-ielts-grey'>What is IELTS?</h1>
               <p className='grey-card-second-part-para'>The International English Language Testing System (IELTS) is a mandatory examination for university admission in numerous countries such as Australia, Canada, New Zealand, the UK, and the USA. </p>
               <div className='grey-container-for-buttons'>
-                <button className='Carousal-card-button-ielts-grey-white'>Learn more about the test</button>
+                <Link to="/what-is-ielts"><button className='Carousal-card-button-ielts-grey-white'>Learn more about the test</button> </Link>
                 <button className='Carousal-card-button-ielts-grey'>Who accepts IELTS scores?</button>
               </div>
             </div>
@@ -143,7 +144,7 @@ const Ielts = () => {
           <div className='ielts-card-last-section'>
             <div className='ielts-card-last-section-sub'>
               <h1 className='ielts-third-heading-last-section'>IELTS is No.1 For Language Skills Verfication</h1>
-              <button className='Carousal-card-button-ielts-grey-white-score'>Why accept IELTS scores ?</button>
+              <Link style={{textDecoration:"none"}} to="/ielts-score"><button className='Carousal-card-button-ielts-grey-white-score'>Why accept IELTS scores ?</button></Link>
             </div>
             <img  className="last-section-ielts" src={lastsection} alt=""/>
 

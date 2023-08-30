@@ -28,7 +28,7 @@
 }
 .course-intro-batch-container{
     background-color: #e6f0ff;
-    width:270px;
+    width:max-content;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -44,6 +44,7 @@
 .course-intro-calender-heading{
     color: #196AE5;
     font-weight:700;
+    margin-left: 10px;
 }
 .course-intro-list-container{
     display: flex;

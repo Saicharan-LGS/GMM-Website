@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.ielts-second-page-what-is-ielts-score{
+    color: #196AE5;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ielts-second-page-paragraph-body-score{    
+    font-family: "Roboto";
+    font-size: 16px;      
+    color: #333;   
+}
+
+.ielts-second-page-second-heading-score{
+    color: #196AE5;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ielts-margin-score{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ielts-margin-score-button{
+    font-size: 14px;    
+    color: #fff;
+    background-color: #196AE5;
+    border-radius: 8px;
+    padding: 16px 24px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border:none;
+
+
+}
+
+.ielts-second-page-second-heading-score-second-head{
+    color:  #333;
+    font-family: "Roboto";
+    font-size: 16px;
+    
+}
+.ielts-score-line{
+    color: #333;    
+    height: 2px;
+    background-color: #333;
+}
+
+.ielts-score-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.ielts-margin-container{
+    margin-top: 30px;
+    margin-bottom:30px;
+}

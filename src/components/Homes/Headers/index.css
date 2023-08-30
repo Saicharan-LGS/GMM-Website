@@ -325,7 +325,7 @@
         list-style-type: none;
         width:300px;
         border-radius:5px; 
-        background-image: linear-gradient(30deg,#0e39a9,#1c74d4,#7cb4e4 );
+        background-image: linear-gradient(30deg,#0e39a9,#1c74d4);
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
 }
 .NavcoursesBasicDoubtsTabsListItemButton {
