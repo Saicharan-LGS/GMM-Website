@@ -9,6 +9,13 @@ import {AiOutlineSchedule,AiOutlineCheck,AiOutlineMessage,AiOutlineProject,AiOut
 import {MdOutlineAccessAlarms} from "react-icons/md"
 import {CgProfile} from "react-icons/cg"
 import {BiTargetLock} from "react-icons/bi"
+import {AiOutlineFieldTime} from 'react-icons/ai'
+import {HiOutlinePresentationChartLine} from 'react-icons/hi'
+import {SiAmazongames} from 'react-icons/si'
+import {SiSimpleanalytics} from 'react-icons/si'
+import {RiArticleLine} from 'react-icons/ri'
+import {MdOutlineFeedback} from 'react-icons/md'
+
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -98,12 +105,12 @@ const flexibleProgramList=[
 ]
 
 const whyGloriousMindMineList=[
-    {id:0,Image:AiOutlineFileAdd,description:"45 Days Full-fledged Course"},
-    {id:1,Image:AiOutlineVideoCamera,description:"365 Days Access Licence: Recoreded Videos"},
-    {id:2,Image:AiOutlineProject,description:"Assessments & Exercises"},
-    {id:3,Image:AiOutlineMessage,description:"45 days Whatsapp Support"},
-    {id:4,Image:CgProfile,description:"Mock interviews with dedicated Mentors "},
-    {id:5,Image:BiTargetLock,description:"Course Would Unlocked On a daily basis"},
+    {id:0,Image:AiOutlineFieldTime,description:"16 Hours Full-fledged Course"},
+    {id:1,Image:HiOutlinePresentationChartLine,description:"PowerPoint Presentations"},
+    {id:2,Image:SiAmazongames,description:"Games and Group Activities"},
+    {id:3,Image:SiSimpleanalytics,description:"Interpersonal, Group skill Analysis"},
+    {id:4,Image:RiArticleLine,description:"Case Studies, Role play with real-life scenarios"},
+    {id:5,Image:MdOutlineFeedback,description:"Immediate Feedback after every activity"},
 ]
 
 // const ScrolllingImages1 = [
