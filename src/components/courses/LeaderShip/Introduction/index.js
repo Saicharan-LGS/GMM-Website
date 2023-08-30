@@ -3,28 +3,28 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
 import {Link} from 'react-router-dom'
-import profile from "../../../Images/roy.png"
+//import profile from "../../../Images/roy.png"
 class Intro extends Component{
     render(){
         return(
-            <div className="course-intro-main-container">
+            <div className="course-intro-main-container" style={{justifyContent:"flex-start"}}>
                 <div className="course-intro-sub-container">
-                    <h1 className="course-Intro-Heading">Certification Leadership Skills</h1>
+                    <h1 className="course-Intro-Heading">Certification In Leadership Skills</h1>
                     <div className="course-intro-batch-container">
                         <CgCalendarDates className='course-intro-calender-icon'/>
-                        <span className='course-into-calender-heading'>Cohort Lima Starts On 18th Sep</span>
+                        <span className='course-into-calender-heading'>Cohort Lima Starts On Every Monday</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <span className='course-intro-list-text'>45 days Full-fledged online classes</span>
+                        <span className='course-intro-list-text'>The duration of the training program will be 16 hours</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon'/>
-                        <span className='course-intro-list-text'>Daily Action Item For Results</span>
+                        <span className='course-intro-list-text'>Action Item For Results</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <span>No English Speaking experience required</span>
+                        <span>Effective Feedback</span>
                     </div>
                     <div className='course-intro-button-container'>
                         <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLE NOW</button></Link>
@@ -44,7 +44,7 @@ class Intro extends Component{
                         </div>
         </div> */}
                 </div>
-                <div className="course-side-image-main-container">
+                {/* <div className="course-side-image-main-container">
                     <img src={profile} alt="" className="course-intro-side-image"/>
                     <p className="course-intro-data-analyst">Vashini Roy</p>
                     <div className="course-intro-side-image-desc">
@@ -58,7 +58,7 @@ class Intro extends Component{
                         
                         <p className="course-intro-data-analyst">Senior Developer</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         ) 
     }

@@ -177,8 +177,6 @@
         flex-shrink: 1;
         width:max-content;
         margin-right: 0px;
-      }.nav-menu{
-        gap:10px;
       }
     }
       @media (min-width:1200px){
@@ -186,7 +184,8 @@
           font-size:14px;
           flex-shrink: 1;
           width:max-content;
-          margin-right: 14px;
+        }.nav-menu{
+          gap:10px
         }
     }
     .nav-link {
@@ -325,7 +324,7 @@
         list-style-type: none;
         width:300px;
         border-radius:5px; 
-        background-image: linear-gradient(30deg,#0e39a9,#1c74d4,#7cb4e4 );
+        background-image: linear-gradient(30deg,#0e39a9,#1c74d4);
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
 }
 .NavcoursesBasicDoubtsTabsListItemButton {
@@ -451,13 +450,13 @@
     }
   }
 
-  @media (min-width:767px) and (max-width:912px){
+  @media (min-width:767px) and (max-width:930px){
     .nav-content {
       padding-left: 0%;
       padding-right: 0%;
     }.explore-program-item{
       margin-top: 8px;
-      padding: 3px;
+      padding: 4px;
       font-size: 10px;
     }.nav-menu-item{
       font-size: 10px;
@@ -478,12 +477,27 @@
     gap:15px;
   }
 }
+@media (min-width:767px){
+  .nav-menu{
+    gap:5px;
+  }
+}
+@media (min-width:820px){
+  .nav-menu{
+    gap:10px;
+  }
+}
+@media (min-width:930px){
+  .nav-menu{
+    gap:12px;
+  }
+}
 @media (min-width:1200px){
   .containernavbar{
      gap:15px;
      margin-left: 30px;
    }.nav-menu{
-     gap:10px;
+     gap:8px;
    }
   }
 @media (min-width:1300px){
