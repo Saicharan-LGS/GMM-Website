@@ -1,0 +1,101 @@
+
+
+/* Add these styles to your TextOverImageCarousel.css file */
+/* Customize the color of the dots */
+/* Add these styles to your TextOverImageCarousel.css file */
+/* Customize the color of the dots */
+.carousel .carousel .carousel .control-dots .dot {
+    background-color: blue; /* Change to the desired color */
+  }
+  
+  /* Customize the color of the active dot */
+  .carousel .carousel .carousel .control-dots .dot.selected,
+  .carousel .carousel .carousel .control-dots .dot:hover {
+    background-color: lightblue; /* Change to the desired color */
+  }
+  
+  .study-abroad-carousel-main-container{
+    padding:2% 5%;
+    
+  }
+.study-abroad-carousel-slide {
+    position: relative;
+  }
+  
+  .study-abroad-carousel-slide .study-abroad-carousel-image {
+    max-width: 100%;
+    height:450px;
+    
+  }
+  
+  .study-abroad-carousel-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    width:80%;
+    max-width:max-content;
+  }
+  .study-abroad-carousel-heading{
+    font-family:"Roboto";
+    font-size:24px;
+    color:#222;
+    font-weight:600;
+  }
+  .study-abroad-carousel-sub-heading{
+    font-family:"Roboto";
+    font-size:14px;
+    color:#222;
+  }
+  @media (max-width:912px){
+    .study-abroad-carousel-text{
+        top:70%;
+    }
+    .study-abroad-carousel-slide .study-abroad-carousel-image{
+        height:350px;
+    }
+  }
+  @media (max-width:768px){
+    .study-abroad-carousel-text{
+        top:70%;
+    }
+    .study-abroad-carousel-slide .study-abroad-carousel-image{
+        height:300px;
+    }
+    .study-abroad-carousel-heading{
+        
+        font-size:12px;
+        
+      }
+      .study-abroad-carousel-sub-heading{
+       
+        font-size:10px;
+        
+      }
+  }
+  @media (max-width:512px){
+    .study-abroad-carousel-text{
+        top:70%;
+    }
+    .study-abroad-carousel-slide .study-abroad-carousel-image{
+        height:260px;
+    }
+    .study-abroad-carousel-heading{
+        
+        font-size:12px;
+        
+      }
+      .study-abroad-carousel-sub-heading{
+       
+        font-size:10px;
+        
+      }
+      .study-abroad-carousel-text{
+        width:90%;
+      }
+  }
