@@ -1353,7 +1353,6 @@ const StudyAbroadPopUp=()=>{
                     className="study-ppr-popup-input"
                     required/>
                   </div>
-                  
                 <div className="study-abroad-popup-inputs-icon-container">
                   <FaCommentDots className="study-abroad-popup-input-icon"/>
                 <input

@@ -55,40 +55,46 @@ import uk1 from "../../Images/ukbanner.jpg"
 import newzealand1 from "../../Images/newzealandbanner.jpg"
 import australia1 from "../../Images/australiabanner.jpg"
 
+import study1 from "../../Images/studyaustralia.jpg"
+import study2 from "../../Images/studyamerica.jpg"
+import study3 from "../../Images/studycanada.jpg"
+import study4 from "../../Images/studyuk.jpg"
+import study5 from "../../Images/studygermany.jpg"
+import study6 from "../../Images/studynewzealand.jpg"
 const slides = [
   {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    image: study5, 
+    Heading: "Germany's Delights: Where Historic Heritage Meets Modern Excellence",
+    Subheading: "Explore the Heart of Europe – Rich History, Artistic Treasures, and Culinary Delicacies"
+    
+  },
+  {
+    image: study4, 
     Heading:"Exploring the Enchanting UK: A Journey Through History and Culture",
     Subheading: "Discover the Charm of England, Scotland, Wales, and Northern Ireland",
   },
   {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    image: study1, 
     Heading: "Captivating Australia: Sun, Sand, and Adventure Down Under",
     Subheading: "From Iconic Landscapes to Thriving Cities – Experience the Best of Australia"
     
   },
   {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    image: study2, 
     Heading: "The USA Unveiled: Diversity, Landscapes, and the American Dream",
     Subheading: "Travel Across 50 States for a Taste of Everything – Natural Wonders to Urban Marvels"
     
   },
   {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    image: study6, 
     Heading: "New Zealand: Nature's Wonderland in the Southern Hemisphere",
     Subheading: "Immerse Yourself in Breathtaking Landscapes, Maori Culture, and Epic Adventures"
     
   },
   {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    image: study3 , 
     Heading: "Canada's Splendor: A Tapestry of Wilderness and Urban Allure",
     Subheading: "From the Rockies to the Maple Syrup Trails – Embrace the Vastness of Canada"
-    
-  },
-  {
-    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
-    Heading: "Germany's Delights: Where Historic Heritage Meets Modern Excellence",
-    Subheading: "Explore the Heart of Europe – Rich History, Artistic Treasures, and Culinary Delicacies"
     
   },
   // Add more slides as needed
