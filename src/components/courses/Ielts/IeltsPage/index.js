@@ -3,10 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './index.css';
-import ieltspic1 from '../../../Images/ieltspic1.png'
 import CarouselCard from "../CarouselCard"
-import ieltspic2 from '../../../Images/ieltspic2.png'
-import ieltspic3 from '../../../Images/ieltspic3.jpg'
 import ieltspic5 from '../../../Images/ieltspic5.png';
 import ieltspic6 from '../../../Images/ieltspic6.png';
 import ieltspic7 from '../../../Images/ieltspic7.png';
@@ -23,6 +20,11 @@ import lastsection from '../../../Images/lastsection.png';
 import Header from "../../../Homes/Headers"
 import Footer from "../../../Homes/Footer"
 
+import ielts1 from "../../../Images/ielts1.png"
+import ielts2 from "../../../Images/ielts2.png"
+import ielts3 from "../../../Images/ielts3.png"
+import ielts4 from "../../../Images/ielts4.png"
+
   const settings = {
     dots: true,
     infinite: true,
@@ -33,12 +35,13 @@ import Footer from "../../../Homes/Footer"
     autoplay:true
   };
 
+
   const CarouselList=[
-    {id:1,head:"Expert Guidance and Comprehensive Training",text:"Trained educators who understand the IELTS exam format, requirements, and effective strategies.",Image:ieltspic1},
-    {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ieltspic2},
-    {id:3,head:"Holistic Approach to Language Development",text:"Enhance language skills through varied exercises, text analysis, and targeted lessons for improved comprehension and communication.",Image:ieltspic3},
-    {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ieltspic3},
-    {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ieltspic3}
+    {id:1,head:"Expert Guidance and Comprehensive Training",text:"Trained educators who understand the IELTS exam format, requirements, and effective strategies.",Image:ielts1},
+    {id:2,head:"Proven Track Record of Success",text:"High Success Rate: Showcase impressive past results, with students achieving their target scores.",Image:ielts2},
+    {id:3,head:"Holistic Approach to Language Development",text:"Enhance language skills through varied exercises, text analysis, and targeted lessons for improved comprehension and communication.",Image:ielts3},
+    {id:4,head:"Personalized Attention and Support",text:"Specific feedback on strengths and areas needing improvement to foster continuous growth.",Image:ielts4},
+    {id:5,head:"Comprehensive Resource Materials",text:"Provide a wide range of resources including practice tests, sample essays, vocabulary lists, and more.",Image:ielts1}
   ]
 
 const Ielts = () => {
