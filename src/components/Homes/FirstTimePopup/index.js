@@ -67,7 +67,8 @@ const FirstTimePopup = () => {
             email,
             course,
             phoneNumber,
-            comment
+            comment,
+            Category
           })
         }
       );
@@ -75,6 +76,12 @@ const FirstTimePopup = () => {
         const data = await response.json();
         setSuccessMsg(data.success);
         setErrorMsg("");
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setCategory("100% Job Guarantee");
+        setCourse("English Communication Blue Print");
+        setComment("");
       } else {
         const data = await response.json();
         setErrorMsg(data.error)

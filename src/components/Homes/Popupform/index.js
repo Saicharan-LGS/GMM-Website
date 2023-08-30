@@ -63,6 +63,7 @@ const PopupForm = ({ onSubmit }) => {
             email,
             course,
             phoneNumber,
+            Category,
             comment
           })
         }
@@ -71,6 +72,12 @@ const PopupForm = ({ onSubmit }) => {
         const data = await response.json();
         setSuccessMsg(data.success);
         setErrorMsg('');
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setCategory("100% Job Guarantee");
+        setCourse("English Communication Blue Print");
+        setComment("");
       } else {
         const data = await response.json();
         
@@ -128,7 +135,7 @@ const PopupForm = ({ onSubmit }) => {
              <div className="ppr-popup-input1-container">
               <BiSolidCategory className="ppr-popup-input1-icon"/>         
              <select
-               id="course"
+               id="category"
                value={Category}
                onChange={(e) => setCategory(e.target.value)}
                className="ppr-popup-input1 ppr-popup-select1"
