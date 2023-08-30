@@ -2,6 +2,8 @@ import "./index.css"
 import React ,{useState}from 'react';
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
+import StudyabroadCarousel from "../StudyabroadCarousel";
+
 import {FaSchool,FaGraduationCap,FaWpforms,FaBusinessTime,FaCalculator,FaHistory,} from "react-icons/fa"
 import {MdScience,MdEngineering,MdDraw,MdOutlinePsychologyAlt,MdCastForEducation,MdBiotech,MdFlight,MdLocalPharmacy,MdAgriculture,MdArchitecture,MdOutlineColorLens,MdOutlineTour} from "react-icons/md"
 import {SiGooglescholar} from "react-icons/si"
@@ -52,6 +54,46 @@ import canada1 from "../../Images/canadabanner.jpeg"
 import uk1 from "../../Images/ukbanner.jpg"
 import newzealand1 from "../../Images/newzealandbanner.jpg"
 import australia1 from "../../Images/australiabanner.jpg"
+
+const slides = [
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading:"Exploring the Enchanting UK: A Journey Through History and Culture",
+    Subheading: "Discover the Charm of England, Scotland, Wales, and Northern Ireland",
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading: "Captivating Australia: Sun, Sand, and Adventure Down Under",
+    Subheading: "From Iconic Landscapes to Thriving Cities – Experience the Best of Australia"
+    
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading: "The USA Unveiled: Diversity, Landscapes, and the American Dream",
+    Subheading: "Travel Across 50 States for a Taste of Everything – Natural Wonders to Urban Marvels"
+    
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading: "New Zealand: Nature's Wonderland in the Southern Hemisphere",
+    Subheading: "Immerse Yourself in Breathtaking Landscapes, Maori Culture, and Epic Adventures"
+    
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading: "Canada's Splendor: A Tapestry of Wilderness and Urban Allure",
+    Subheading: "From the Rockies to the Maple Syrup Trails – Embrace the Vastness of Canada"
+    
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/022/448/292/small/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg', // Replace with actual image path
+    Heading: "Germany's Delights: Where Historic Heritage Meets Modern Excellence",
+    Subheading: "Explore the Heart of Europe – Rich History, Artistic Treasures, and Culinary Delicacies"
+    
+  },
+  // Add more slides as needed
+];
+
 const StudentReviewVideoList = [
     {id:0,video:"https://www.youtube.com/embed/watch?v=GzKs-rtLoiY",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
     {id:1,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Nidhi Mittal , Studying in University of Melbourne, Australia",description:"Getting a detailed profile evaluation by a team of counsellors at Collegedunia ensured my safe transition to the University of Melbourne, says Nidhi Mittal."},
@@ -290,6 +332,7 @@ const Studyabroad=()=>{
 return(
     <>
     <Header />
+    <StudyabroadCarousel slides={slides}/>
     <div className='studyaboard-entire-conatiner'>
     <div className='studyaboard-main-conatiner'>
       <div className='study-abroad-let-us-guide-container'>
