@@ -1,80 +1,26 @@
+
+
 import { Component } from "react";
-// import {AiOutlineArrowDown} from "react-icons/ai"
 import Slider from 'react-slick'
-import TransformingCard from "../../courses/DataScience/TransformingCarrerCard"
-import CarrerPrep from "../CarrerPrep"
-import { BannerLeft } from "../../courses/DataScience/BannerLeft";
-import './index.css'
 import ReactPlayer from 'react-player'
+import './index.css'
+
+//Components
 import Header from "../../Homes/Headers";
 import Footer from "../../Homes/Footer";
-import pic1 from "../../Images/Interview1.jpg"
-import pic2 from "../../Images/careermen.png"
-import pic3 from "../../Images/linked.jpg"
+import CarrerPrep from "../CarrerPrep"
 import carrer from "../../Images/carrerimage.png"
-import roy from '../../Images/roy.png'
-import Akhila from '../../Images/Akhila.png'
-import saicharan from '../../Images/saicharan.jpg'
-import triveni from '../../Images/triveni.jpg'
-import venu from '../../Images/venuprofile.jpg'
-import umar from '../../Images/umarprofile.png'
-import nagesh from '../../Images/nagesh.jpg'
+import TransformingCard from "../../courses/DataScience/TransformingCarrerCard"
+import { BannerLeft } from "../../courses/DataScience/BannerLeft";
 
-const TransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which GloriousMindMine stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at GloriousMindMine was fabulous, and I’ll always be thankful to the entire GloriousMindMine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
-]
+//importing from ListData.js
+import { CareerSupportTransformingCarrerList } from "../../Constant/ListData";
+import { CareerSupportcrolllingImages1 } from "../../Constant/ListData";
+import { CareerSupportPrepList } from "../../Constant/ListData";
+import { Allsettings } from "../../Constant/ListData";
 
-const ScrolllingImages1 = [
-    "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg",
-    "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg",
-    "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png",
-    "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
-    "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
-    "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png",
-    "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
-    "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
-  ].map((image) => ({
-    image
-  }));
 
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,// Show 3 slides in large devices
-    slidesToScroll: 1,
-    slidesToShow: 3,
-    responsive: [
-        {
-            breakpoint: 1400,
-            settings: {
-            slidesToShow: 2,
-           // Show 1 slide in small devices (e.g., tablets and mobiles)
-            },
-        },
-        {
-            breakpoint: 768,
-            settings: {
-            slidesToShow: 1,
-             // Show 1 slide in small devices (e.g., tablets and mobiles)
-            },
-        },
-    ],
-  }
-
-  const careerPrepList=[
-  {id:0,imageurl:pic2,heading:"Career mentoring",list:["LIVE online sessions with experienced industry professionals","Expert mentors guide you on the career path that’s right for you","Suggestions on setting your short term and long term career goals","Mentors from various domains help you gain valuable industry insights"]},
-  {id:1,imageurl:pic1,heading:"CV/Linkedin Review",list:["Feedback from experts to make your resume and LinkedIn profiles stand out from the crowd","Personalized and detailed suggestions to improve the content and format of your CV","Tips on customizing your resume for the job profile you are applying to"]},
-  {id:2,imageurl:pic3,heading:"Interview Preparation Session",list:["mock interviews with industry experts to help you land your dream job","Guidance from our alumni currently in roles you aspire for","Develop industry context with case studies and learn answers to common technical and HR questions"]}
-]
+  
 
 class CareerSupport extends Component{
 
@@ -132,8 +78,8 @@ class CareerSupport extends Component{
                 <div className="carrerTransitionsMainContainer">
                     <h1 className="carrerTransitionsMainHeading">Successful Career Transitions To Inspire You</h1>
                     <div className="careersupportslider">
-                        <Slider {...settings}>
-                            {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
+                        <Slider {...Allsettings}>
+                            {CareerSupportTransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                         </Slider>
                     </div>
                 </div>
@@ -153,10 +99,10 @@ class CareerSupport extends Component{
                         </div>
                     </div>
                 </div>
-                {careerPrepList.map(each=>(<CarrerPrep key={each.id} details={each} />))}
+                {CareerSupportPrepList.map(each=>(<CarrerPrep key={each.id} details={each} />))}
                 <div className="careerHiringMainContainer">
                     <h3 className="careerHiringMainHeading">Our Hiring Partners</h3>
-                    <BannerLeft images={ScrolllingImages1} speed={5000} />
+                    <BannerLeft images={CareerSupportcrolllingImages1} speed={5000} />
                 </div>
             </div>
         <Footer/>

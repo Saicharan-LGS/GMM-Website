@@ -6,52 +6,10 @@ import 'slick-carousel/slick/slick-theme.css'
 
 import EnterpriseCard from '../EnterpriseCard'
 
-import {LiaBullhornSolid} from 'react-icons/lia'
-import {MdWorkOutline} from 'react-icons/md'
-import {MdOutlineHealthAndSafety} from 'react-icons/md'
-import {HiOutlineUsers} from 'react-icons/hi'
-import {PiSimCard} from 'react-icons/pi'
-import {GrFormCheckmark} from 'react-icons/gr'
-const Enterprisebeginner = [
-    {id:1,EnterpriseIcon:LiaBullhornSolid,enterpriseHeading:"Drive Culture Of Learning",enterpriseDesc:"Video content of 1,000+ hours across 700+ courses in emerging technologies",color:"#651CD5"},
-    {id:2,EnterpriseIcon:MdWorkOutline,enterpriseHeading:"Empower Your Workforce",enterpriseDesc:"80+ curated career path-based courses to help employees upskill.",color:"#F1644C"},
-    {id:3,EnterpriseIcon:MdOutlineHealthAndSafety,enterpriseHeading:"Measure Organization Learning Health",enterpriseDesc:"Actionable insights via dashboards & learner metrics to identify HIPOs and key successors.",color:"#FFCC00"},
-    {id:4,EnterpriseIcon:HiOutlineUsers,enterpriseHeading:"Learn From Industry Experts",enterpriseDesc:"Access to webinars & masterclasses with Industry leaders.",color:"#0084FF"},
-    {id:5,EnterpriseIcon:PiSimCard,enterpriseHeading:"Courses Designed by Experts",enterpriseDesc:"Content created by world class Ivy faculty & industry experts.",color:"#D64B9E"},
-    {id:6,EnterpriseIcon:GrFormCheckmark,enterpriseHeading:"Personalized Learning Experience",enterpriseDesc:"Co-branded LMS & certificates to reward employees with R&R Policy.",color:"#2FA75F"}
-
-]
-
-const EnterpriseGraduate = [
-    {id:1,EnterpriseIcon:LiaBullhornSolid,enterpriseHeading:"Culture Of Learning",enterpriseDesc:"Video content of 1,000+ hours across 700+ courses in emerging technologies",color:"#651CD5"},
-    {id:2,EnterpriseIcon:MdWorkOutline,enterpriseHeading:"Empower Your Workforce",enterpriseDesc:"80+ curated career path-based courses to help employees upskill.",color:"#F1644C"},
-    {id:3,EnterpriseIcon:MdOutlineHealthAndSafety,enterpriseHeading:"Measure Organization Learning Health",enterpriseDesc:"Actionable insights via dashboards & learner metrics to identify HIPOs and key successors.",color:"#FFCC00"},
-    {id:4,EnterpriseIcon:HiOutlineUsers,enterpriseHeading:"Learn From Industry Experts",enterpriseDesc:"Access to webinars & masterclasses with Industry leaders.",color:"#0084FF"},
-    {id:5,EnterpriseIcon:PiSimCard,enterpriseHeading:"Courses Designed by Experts",enterpriseDesc:"Content created by world class Ivy faculty & industry experts.",color:"#D64B9E"},
-    {id:6,EnterpriseIcon:GrFormCheckmark,enterpriseHeading:"Personalized Learning Experience",enterpriseDesc:"Co-branded LMS & certificates to reward employees with R&R Policy.",color:"#2FA75F"}
-
-]
-
-
-const EnterpriseEmployees = [
-    {id:1,EnterpriseIcon:LiaBullhornSolid,enterpriseHeading:"Culture Of Learning",enterpriseDesc:"Video content of 1,000+ hours across 700+ courses in emerging technologies",color:"#651CD5"},
-    {id:2,EnterpriseIcon:MdWorkOutline,enterpriseHeading:"Empower Your Workforce",enterpriseDesc:"80+ curated career path-based courses to help employees upskill.",color:"#F1644C"},
-    {id:3,EnterpriseIcon:MdOutlineHealthAndSafety,enterpriseHeading:"Measure Organization Learning Health",enterpriseDesc:"Actionable insights via dashboards & learner metrics to identify HIPOs and key successors.",color:"#FFCC00"},
-    {id:4,EnterpriseIcon:HiOutlineUsers,enterpriseHeading:"Learn From Industry Experts",enterpriseDesc:"Access to webinars & masterclasses with Industry leaders.",color:"#0084FF"},
-    {id:5,EnterpriseIcon:PiSimCard,enterpriseHeading:"Courses Designed by Experts",enterpriseDesc:"Content created by world class Ivy faculty & industry experts.",color:"#D64B9E"},
-    {id:6,EnterpriseIcon:GrFormCheckmark,enterpriseHeading:"Personalized Learning Experience",enterpriseDesc:"Co-branded LMS & certificates to reward employees with R&R Policy.",color:"#2FA75F"}
-
-]
-
-const EnterpriseContinuousLearners = [
-    {id:1,EnterpriseIcon:LiaBullhornSolid,enterpriseHeading:"Culture Of Learning",enterpriseDesc:"Video content of 1,000+ hours across 700+ courses in emerging technologies",color:"#651CD5"},
-    {id:2,EnterpriseIcon:MdWorkOutline,enterpriseHeading:"Empower Your Workforce",enterpriseDesc:"80+ curated career path-based courses to help employees upskill.",color:"#F1644C"},
-    {id:3,EnterpriseIcon:MdOutlineHealthAndSafety,enterpriseHeading:"Measure Organization Learning Health",enterpriseDesc:"Actionable insights via dashboards & learner metrics to identify HIPOs and key successors.",color:"#FFCC00"},
-    {id:4,EnterpriseIcon:HiOutlineUsers,enterpriseHeading:"Learn From Industry Experts",enterpriseDesc:"Access to webinars & masterclasses with Industry leaders.",color:"#0084FF"},
-    {id:5,EnterpriseIcon:PiSimCard,enterpriseHeading:"Courses Designed by Experts",enterpriseDesc:"Content created by world class Ivy faculty & industry experts.",color:"#D64B9E"},
-    {id:6,EnterpriseIcon:GrFormCheckmark,enterpriseHeading:"Personalized Learning Experience",enterpriseDesc:"Co-branded LMS & certificates to reward employees with R&R Policy.",color:"#2FA75F"}
-
-]
+import { EnterprisebeginnerList } from '../../Constant/ListData'
+import {EnterpriseGraduateList} from '../../Constant/ListData'
+import {EnterpriseEmployeesList} from '../../Constant/ListData'
+import {EnterpriseContinuousLearnersList} from '../../Constant/ListData'
 
 const Enterprisesettings = {
     dots: true,
@@ -97,7 +55,7 @@ function EnterpriseBeginner(){
                 </div>
                 <div className="Enterprise-beginner-slider-container">
                         <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
-                            {Enterprisebeginner.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
+                            {EnterprisebeginnerList.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
             </div>
@@ -113,7 +71,7 @@ function EnterpriseBeginner(){
                 </div>
                 <div className="Enterprise-beginner-slider-container">
                         <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
-                            {EnterpriseGraduate.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
+                            {EnterpriseGraduateList.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
             </div>
@@ -136,7 +94,7 @@ function EnterpriseBeginner(){
                 </div>
                 <div className="Enterprise-beginner-slider-container">
                         <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
-                            {EnterpriseEmployees.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
+                            {EnterpriseEmployeesList.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                         </Slider>
                 </div>
             </div>
@@ -159,7 +117,7 @@ function EnterpriseBeginner(){
                 </div>
                 <div className="Enterprise-beginner-slider-container">
                     <Slider {...Enterprisesettings} className="Enterprise-beginner-slider">
-                            {EnterpriseContinuousLearners.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
+                            {EnterpriseContinuousLearnersList.map(each=>(<EnterpriseCard key={each.id} cardDetails={each} />))}
                     </Slider>
                 </div>
             </div>
