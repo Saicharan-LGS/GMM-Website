@@ -13,7 +13,8 @@ export default function About() {
   return (
     <>
     <Header/>
-    {/* <div className="About-us-main-container">
+    {/* 
+    <div className="About-us-main-container">
     <div className="flip-card" tabIndex="0">
       <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -137,31 +138,32 @@ export default function About() {
     </div>
     <img className='aboutus-page-banner-container-image' src={aboutus1} alt="" />
     </div>
-    <div className='aboutus-page-banner-container'>
-      <img className='aboutus-page-banner-container-image' src={aboutus2} alt="" />
-      <div className='aboutus-page-banner-content-container'>
+    <div className='aboutus-page-banner-container-2 '>
+      <img className='aboutus-page-banner-container-image-2' src={aboutus2} alt="" />
+      <div className='aboutus-page-banner-content-container-2'>
         <h1 className='aboutus-page-banner-container-heading'> Our Mission:</h1>
         <p className='aboutus-page-banner-container-content'>At Glorious Mindmine, our mission is to provide top-tier coaching that goes beyond conventional education. We aspire to empower students with not only knowledge but also the skills and confidence needed to thrive in an ever-evolving world</p>
         <p className="aboutus-page-banner-container-content">Our aim is to create a learning environment that encourages curiosity, critical thinking, and holistic development.</p>
       </div>
     </div>
   <div>
-    <h1 style={{textAlign:"center"}}>Why Choose Glorious Mindmine?</h1>
-    <p>1.Expert Faculty:  Our team of experienced and knowledgeable educators are experts in their respective fields. They are not only dedicated to teaching but also to mentoring and guiding students throughout their course period of time. </p>
-    <p>2. Comprehensive Programs:  We offer a range of comprehensive programs designed to cater to various academic goals. Whether you're preparing for competitive exams, school/board exams, or seeking to enhance your skills, we have tailored programs to meet your needs. </p>
-    <p>3. Personalized Approach:  We recognize that each student is unique. Our personalized approach to teaching ensures that every student receives the attention and support they require to excel. We identify strengths and areas of improvement, working together to achieve the best results. </p>
-    <p>4. Cutting-Edge Resources:  Our institute is equipped with state-of-the-art facilities and resources that aid effective learning. From modern classrooms to advanced study materials, we provide an environment that promotes effective learning.</p>
-    <p>5. Proven Track Record:  Over the years, we have helped countless students achieve remarkable academic success. Our alumni have gone on to excel in various fields, which stands as a testament to the quality of education we provide.</p>
+    <h1 className="about-us-why-choose-glorious-heading">Why Choose Glorious Mindmine?</h1>
+    <ul className="about-us-why-choose-glorious-description-container">
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Expert Faculty:</span>  Our team of experienced and knowledgeable educators are experts in their respective fields. They are not only dedicated to teaching but also to mentoring and guiding students throughout their course period of time. </li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Comprehensive Programs:</span>  We offer a range of comprehensive programs designed to cater to various academic goals. Whether you're preparing for competitive exams, school/board exams, or seeking to enhance your skills, we have tailored programs to meet your needs. </li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Personalized Approach:</span>  We recognize that each student is unique. Our personalized approach to teaching ensures that every student receives the attention and support they require to excel. We identify strengths and areas of improvement, working together to achieve the best results. </li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Cutting-Edge Resources:</span>  Our institute is equipped with state-of-the-art facilities and resources that aid effective learning. From modern classrooms to advanced study materials, we provide an environment that promotes effective learning.</li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Proven Track Record:</span>  Over the years, we have helped countless students achieve remarkable academic success. Our alumni have gone on to excel in various fields, which stands as a testament to the quality of education we provide.</li>
+    </ul>
   </div>
   <div>
-    <h1>Our Values</h1>
-    <ol>
-      <li>Excellence:  We strive for excellence in all aspects of education and student support. Our commitment to quality is reflected in our results and the success of our students. </li>
-      <li>Integrity:  We uphold the highest standards of integrity, honesty, and ethics in all our interactions. We believe in fostering a culture of trust and respect.</li>
-      <li>Innovation:  Education is a dynamic field, and we continuously innovate our teaching methods and approaches to provide the best learning experience.</li>
-      <li> Empowerment:  Beyond academics, we aim to empower our students with the skills and mindset necessary to overcome challenges and seize opportunities. </li>
-    </ol>
-    
+    <h1 className="about-us-why-choose-glorious-heading">Our Values</h1>
+    <ul className="about-us-why-choose-glorious-description-container">
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Excellence:</span>  We strive for excellence in all aspects of education and student support. Our commitment to quality is reflected in our results and the success of our students. </li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Integrity:</span>  We uphold the highest standards of integrity, honesty, and ethics in all our interactions. We believe in fostering a culture of trust and respect.</li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Innovation:</span>  Education is a dynamic field, and we continuously innovate our teaching methods and approaches to provide the best learning experience.</li>
+      <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Empowerment:</span>   Beyond academics, we aim to empower our students with the skills and mindset necessary to overcome challenges and seize opportunities. </li>
+    </ul>
   </div>
   <div className='aboutus-page-banner-container'>
     <img className='aboutus-page-banner-container-image' src="https://www.poynter.org/wp-content/uploads/2022/04/shutterstock_1283029945.png" alt="" />
@@ -171,7 +173,7 @@ export default function About() {
   
     </div>
   </div>
-  <h5>Feel free to visit us during our office hours to learn more about our programs and how we can help you achieve your academic goals. Your success starts here at Glorious Mindmine. </h5>
+  <h5 className="about-us-last-message">Feel free to visit us during our office hours to learn more about our programs and how we can help you achieve your academic goals. Your success starts here at Glorious Mindmine. </h5>
   </div>
 
 
