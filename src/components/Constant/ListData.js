@@ -10,6 +10,17 @@ import venu from '../Images/venuprofile.jpg'
 import umar from '../Images/umarprofile.png'
 import nagesh from '../Images/nagesh.jpg'
 
+//Corporate Images
+
+import punith from "../Images/punith.jpg"
+import mani from "../Images/mani.jpg"
+import syed from "../Images/syed.jpeg"
+import reddy from "../Images/reddy.png"
+import cor1 from "../Images/corporate1.png"
+import cor2 from "../Images/corporate2.png"
+import cor3 from "../Images/corporate3.png"
+import cor4 from "../Images/corporate4.png"
+
 //ICONS
 import {LiaBullhornSolid} from 'react-icons/lia'
 import {MdWorkOutline} from 'react-icons/md'
@@ -17,6 +28,12 @@ import {MdOutlineHealthAndSafety} from 'react-icons/md'
 import {HiOutlineUsers} from 'react-icons/hi'
 import {PiSimCard} from 'react-icons/pi'
 import {GrFormCheckmark} from 'react-icons/gr'
+
+//Corporate Icons
+import { BsPuzzle,BsFileBarGraph } from 'react-icons/bs';
+import { CgNotes } from 'react-icons/cg';
+
+import { LuAlarmClock } from 'react-icons/lu';
 
 
 //Carousel Settings
@@ -55,21 +72,20 @@ export const CareerSupportTransformingCarrerList=[
     {id:7, image:roy, description:"My experience at GloriousMindMine was fabulous, and I’ll always be thankful to the entire GloriousMindMine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
 ]
 
-export const CareerSupportcrolllingImages1 = [
-    "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg",
-    "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg",
-    "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png",
-    "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
-    "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
-    "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png",
-    "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
-    "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
-  ].map((image) => ({
-    image
-  }));
+export const CareerSupportScrolllingImages1 = [
+    {id: 0, image: "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg"},
+    {id: 1, image: "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg"},
+    {id: 2, image: "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png"},
+    {id: 3, image: "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png"},
+    {id: 4, image: "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png"},
+    {id: 5, image: "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50"},
+    {id: 6, image: "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png"},
+    {id: 7, image: "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg"},
+    {id: 8, image: "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png"},
+    {id: 9, image: "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-"},
+    {id: 10, image: "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg"}
+];
+
 
   export const CareerSupportPrepList=[
     {id:0,imageurl:pic2,heading:"Career mentoring",list:["LIVE online sessions with experienced industry professionals","Expert mentors guide you on the career path that’s right for you","Suggestions on setting your short term and long term career goals","Mentors from various domains help you gain valuable industry insights"]},
@@ -119,3 +135,83 @@ export const EnterpriseContinuousLearnersList = [
     {id:6,EnterpriseIcon:GrFormCheckmark,enterpriseHeading:"Personalized Learning Experience",enterpriseDesc:"Co-branded LMS & certificates to reward employees with R&R Policy.",color:"#2FA75F"}
 
 ]
+
+//Corporate List 
+export const CorporatepartnershipImages=[
+    cor1,cor2,cor3,cor4
+]
+
+export const CorporateBannerRender = [
+    "8.2 Million+ learners globally",
+    'Awarded The "Best Corporate training platform,2023"',
+    "45000+ employed upskilled"
+];
+
+export const CorporateOurPatners=[
+    {"title":"Anton Punith" , "subTitle":"Founder & Director Ozzitech Innovations","imageSrc":punith},
+    {"title":"Mani Kumar" , "subTitle":"Founder, Director & CEO Innospire Group","imageSrc":mani},
+    {"title":"Syed Rizwan" , "subTitle":"Founder & Director SRM 360 Degree Consulting","imageSrc":syed},
+    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.","imageSrc":reddy}
+]
+
+export const CorporateConsultativeCardData = [
+    {
+      title: 'Aligning Learning Outcomes with Business Goals',
+      listHead: 'Our Sales team will:',
+      listItems: [
+        'Understand your business goals',
+        'Recognize target audience and current challenges',
+        'Propose the best learning solution for your business',
+      ],
+      icon: <BsPuzzle size={40} color="#ffffff" />,
+      backgroundColor: '#651cd5',
+    },
+    {
+        title: 'Aligning Learning Outcomes with Business Goals',
+        listHead: 'Our Sales team will:',
+        listItems: [
+          'Understand your business goals',
+          'Recognize target audience and current challenges',
+          'Propose the best learning solution for your business',
+        ],
+        icon: <CgNotes size={40} color="#ffffff"  />,
+        backgroundColor: '#f1644c',
+      },
+      {
+        title: 'Aligning Learning Outcomes with Business Goals',
+        listHead: 'Our Sales team will:',
+        listItems: [
+          'Understand your business goals',
+          'Recognize target audience and current challenges',
+          'Propose the best learning solution for your business',
+        ],
+        icon: <BsFileBarGraph size={40} color="#ffffff"  />,
+        backgroundColor: '#ffcc00',
+      },
+      {
+        title: 'Aligning Learning Outcomes with Business Goals',
+        listHead: 'Our Sales team will:',
+        listItems: [
+          'Understand your business goals',
+          'Recognize target audience and current challenges',
+          'Propose the best learning solution for your business',
+        ],
+        icon: <LuAlarmClock size={40} color="#ffffff"  />,
+        backgroundColor: '#0084ff',
+      },
+    
+];
+
+export const CorporateScrollingImages = [
+    {id: 0, image: "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg"},
+    {id: 1, image: "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg"},
+    {id: 2, image: "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png"},
+    {id: 3, image: "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png"},
+    {id: 4, image: "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png"},
+    {id: 5, image: "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50"},
+    {id: 6, image: "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png"},
+    {id: 7, image: "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg"},
+    {id: 8, image: "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png"},
+    {id: 9, image: "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-"},
+    {id: 10, image: "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg"}
+];
