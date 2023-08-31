@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-
 import EnterpriseCard from '../EnterpriseCard'
 
 import {LiaBullhornSolid} from 'react-icons/lia'

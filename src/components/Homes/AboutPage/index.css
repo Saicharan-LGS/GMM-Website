@@ -1,266 +1,55 @@
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 350px;
-  perspective: 1000px; 
+.aboutus-page-main-container {
+  padding: 0px 5%;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-}
-
-.flip-card:focus {
-    outline: 0;
-}
-
-.flip-card:hover .flip-card-inner,
-.flip-card:focus .flip-card-inner{
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.flip-card-front {
-  background: linear-gradient(to left, #4364f7, #6fb1fc);
-  color: black;
-  z-index: 2;
+.aboutus-page-banner-container {
+  width:100vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding:10px;
-  
 }
 
-.flip-card-back {
-  background: linear-gradient(to right, #4364f7, #6fb1fc);
-  color: white;
-  transform: rotateY(180deg);
-  z-index: 1;
-  display: flex;
-  flex-direction:column;
-  align-items:flex-start;
-  justify-content: space-around;
-  text-align: left;
-  padding:10px;
+.aboutus-page-banner-content-conatiner {
+  width: 45%;
+  padding: 10px;
 }
 
-.About-us-main-container{
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  padding:40px 80px;
-  gap:50px;
-}
-.About-page-why-choose-us-heading{
-  font-family:"Roboto";
-  font-size:32px;
-  font-weight:600;
-  color:#fff;
-}
-.Aboutus-question-image{
-  width:100px;
-  height:100px;
-  object-fit:cover;
-}
-.about-item-description{
-  font-family:"Roboto";
-  font-size:16px;
-  color:#fff;
-}
-.about-us-founder-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  border:5px solid #195AE5;
-  border-radius:25px;
-  background-color:#e6f0ff;
-  margin:10px 80px;
-}
-.about-us-founder-section-heading{
-  align-self: center;
-  font-size: 32px;
-  font-family: "Roboto";
-  font-weight: 600;
-  color: #222;
+.aboutus-page-banner-container-heading {
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-.about-us-founder-section-heading:hover{
-  transform: scale(1.1);
+.aboutus-page-banner-container-content {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 12px;
 }
 
-.founder-image{
-  align-self: center;
-  width: 600px;
-  padding: 20px;
-  border-radius:100px
-}
-@media screen and (max-width:767px){
-  .founder-image{
-    width: 80%;
-    padding: 2px;
-  }
-  .About-us-main-container{
-    flex-direction:column;
-  }
-  .flip-card{
-    width:100%;
-  }
-  .about-item-description{
-    font-size:12px;
-  }
+.aboutus-page-banner-container-image {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.founder-image:hover{
-  transform: scale(1.1);
-  opacity: 1;
-}
-
-.about-us-founder-section-list{
-  list-style-type: none;
-}
-
-.about-us-founder-section-content{
-  font-size: 16px;
-  font-family: "Roboto";
-  font-weight: 400;
- 
-  color: #222;
-  padding: 20px;
-}
-.about-us-content-span{
-  font-weight: bold;
-}
-
-/*.about-container{
-    padding: 10px;
-    border: 1px solid #7c7d80;
-    margin: 20px;
-  }
-  .about-section{
-    margin-top: 5px;
-    background-color: #222;
-    padding: 20px;
-    height: 400px;
-  }
-  
-  .about-heading{
-    font-size: 32px;
-    font-family: "Roboto";
-    color: #196AE5;
-    padding-bottom: 5px;
-    text-align: center;
-  }
-  
-  .about-list{
-    list-style-type: none;
-    display:flex;
+@media (max-width: 768px) {
+  .aboutus-page-banner-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-self:center;
-  
-  }
-  .about-item{
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  font-family: "Roboto";
-  color: #222;
   }
   
-  
-  
-  .about-us-content{
-    font-size: 20px;
-    font-family: "Roboto";
-    font-weight: 500;
-    color: #222;
-  }
-  .about-us-founder-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .about-us-founder-section-heading{
-    align-self: center;
-    font-size: 50px;
-    font-family: "Roboto";
-    font-weight: bold;
-    color: #196AE5;
-  }
-  
-  .about-us-founder-section-heading:hover{
-    transform: scale(1.1);
-  }
-  
-  .founder-image{
-    align-self: center;
-    width: 600px;
-    padding: 20px;
-    border-radius:100px
-  }
-  @media screen and (max-width:767px){
-    .founder-image{
-      width: 80%;
-      padding: 2px;
-    }
-  }
-  
-  .founder-image:hover{
-    transform: scale(1.1);
-    opacity: 1;
-  }
-  
-  .about-us-founder-section-list{
-    list-style-type: none;
-  }
-  
-  .about-us-founder-section-content{
-    font-size: 16px;
-    font-family: "Roboto";
-    font-weight: 400;
-   
-    color: #222;
-    padding: 20px;
-  }
-  .about-us-content-span{
-    font-weight: bold;
-  }
-  
-  .react-icon-ai{
-    color: #ff6600;
-    font-size: 20px;
-    padding-right: 5px;
-  }
-  
-  .about-journey-heading-underline {
-    position: relative;
-    margin-right: 1rem;
-  }
-  .about-journey-heading-underline:after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    height: 7px;
+  .aboutus-page-banner-content-conatiner,
+  .aboutus-page-banner-conatiner-image {
     width: 100%;
-    border: solid 3px #ff6600;
-    border-color: #ff6600 transparent transparent transparent;
-    border-radius: 30%;
-  }*/
+  }
+
+  .aboutus-page-banner-conatiner-heading {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 10px;
+  }
+
+  .aboutus-page-banner-conatiner-content {
+    font-size: 13px;
+    line-height: 26px;
+    margin-top: 8px;
+  }
+}

@@ -1,104 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { BsPuzzle,BsFileBarGraph } from 'react-icons/bs';
-import { CgNotes } from 'react-icons/cg';
-//import { AiOutlineArrowRight,AiOutlineArrowLeft} from 'react-icons/ai';
-import { LuAlarmClock } from 'react-icons/lu';
-import { BannerLeft } from "../../courses/DataScience/BannerLeft"
 import ReactPlayer from 'react-player'
 import "./index.css";
+
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
 import EnterpriseBeginner from "../EnterpriceBegineer"
+import { BannerLeft } from "../../courses/DataScience/BannerLeft"
+
+import { CorporatepartnershipImages } from '../../Constant/ListData'; 
+import { CorporateBannerRender } from '../../Constant/ListData';
+import { CorporateOurPatners } from '../../Constant/ListData';
+import { CorporateConsultativeCardData } from '../../Constant/ListData';
+import { CorporateScrollingImages } from '../../Constant/ListData';
+
 import picture1 from "../../Images/Corporates.jpg"
-import punith from "../../Images/punith.jpg"
-import mani from "../../Images/mani.jpg"
-import syed from "../../Images/syed.jpeg"
-import reddy from "../../Images/reddy.png"
-import cor1 from "../../Images/corporate1.png"
-import cor2 from "../../Images/corporate2.png"
-import cor3 from "../../Images/corporate3.png"
-import cor4 from "../../Images/corporate4.png"
-const partnershipImages=[
-    cor1,cor2,cor3,cor4
-]
-
-const bannerRender = [
-    "8.2 Million+ learners globally",
-    'Awarded The "Best Corporate training platform,2023"',
-    "45000+ employed upskilled"
-];
-
-const ourPatners=[
-    {"title":"Anton Punith" , "subTitle":"Founder & Director Ozzitech Innovations","imageSrc":punith},
-    {"title":"Mani Kumar" , "subTitle":"Founder, Director & CEO Innospire Group","imageSrc":mani},
-    {"title":"Syed Rizwan" , "subTitle":"Founder & Director SRM 360 Degree Consulting","imageSrc":syed},
-    {"title":"Allipuram Rajasekhar Reddy" , "subTitle":"CEO Brio Factors Inc & MD Brio Factors Technologies India Private Limited.","imageSrc":reddy}
-]
-
-const consultativeCardData = [
-    {
-      title: 'Aligning Achievements in Learning with Corporate Objectives',
-      listHead: 'Our Sales team is committed to aligning with your business:',
-      listItems: [
-        'Grasp a deep understanding of your business goals.',
-        'Identify your target audience and prevailing challenges.',
-        'Suggest the most effective learning solution tailored to your business needs.',
-      ],
-      icon: <BsPuzzle size={40} color="#ffffff" />,
-      backgroundColor: '#651cd5',
-    },
-    {
-        title: 'Tailoring a Unique Learning Pathway',
-        listHead: 'Our Solutioning & SME team is here to:',
-        listItems: [
-          'Evaluate your requirements through our exclusive Skills Framework',
-          'Craft a personalized learning journey in consultation with your stakeholders',
-          'Work closely with you to establish clear and agreed-upon learning objectives.',
-        ],
-        icon: <CgNotes size={40} color="#ffffff"  />,
-        backgroundColor: '#f1644c',
-      },
-      {
-        title: 'Boosting Learner Engagement',
-        listHead: 'Our Program Delivery Team is dedicated to:',
-        listItems: [
-          'Guaranteeing active learner involvement and program excellence',
-          'Maintaining an ongoing feedback loop to enhance learner contentment',
-          'Offering around-the-clock support for a frictionless experience.',
-        ],
-        icon: <BsFileBarGraph size={40} color="#ffffff"  />,
-        backgroundColor: '#ffcc00',
-      },
-      {
-        title: 'Securing Program Excellence via Governance',
-        listHead: 'Our Governance Team assists you in:',
-        listItems: [
-          'Gaining insights into learner progress for outcome assessment',
-          'Implementing adaptive adjustments based on feedback for continual improvement',
-          'Delivering regular progress reports to guarantee the triumph of your program.',
-        ],
-        icon: <LuAlarmClock size={40} color="#ffffff"  />,
-        backgroundColor: '#0084ff',
-      },
-    
-];
 
 
 
-const ScrolllingImages = [
-    "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg",
-    "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg",
-    "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png",
-    "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
-    "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
-    "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
-    "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
-].map((image) => ({
-    image
-}));
 
 
 // const mediaData=[
@@ -149,7 +67,7 @@ export default function Corporate() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerRender.length);
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % CorporateBannerRender.length);
         }, 3000);
 
         return () => clearInterval(interval);
@@ -187,9 +105,9 @@ export default function Corporate() {
             <Header />
             <div className='enterprise-banner-section'>
                 <div className='enterprise-banner-section-conatiner'>
-                    <h3 className='enterprise-banner-section-title'>Achieving Educational Objectives for Enterprises.</h3>
-                    <p className='enterprise-banner-section-subtitle'>We serve as a continuous learning ally for corporations, assisting them in developing scalable expertise in cutting-edge technologies.</p>
-                    <p className='enterprise-banner-section-change-text'>{bannerRender[currentIndex]}</p>
+                    <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>
+                    <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
+                    <p className='enterprise-banner-section-change-text'>{CorporateBannerRender[currentIndex]}</p>
                     
                         <a href="https://api.whatsapp.com/send?phone=919866238940" rel="noreferrer" target="_blank"><button className='enterprise-banner-section-button' >Learn More</button></a>
                   
@@ -199,7 +117,7 @@ export default function Corporate() {
             <div className='enterprise-industry-section'> 
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>
                 <h1 className='enterprise-partners-section-title'>Our Corporate Partners</h1>
-                <BannerLeft  images={ScrolllingImages} speed={10000} />
+                <BannerLeft  images={CorporateScrollingImages} speed={10000} />
                 <div className='enterprise-industry-section-certificate-conatiner'>
                     <img className='enterprise-industry-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/iso-logo-1f29cec08343f009564ec969b6e154b1d1175213c214de1f97c02859b055dea8.jpg" alt="" />
                     <div className='enterprise-industry-section-certificate-conatiner-content'>
@@ -212,7 +130,7 @@ export default function Corporate() {
                 <p className='enterprise-partners-section-conatiner-subtitle'>Supporting Our Collaborators</p>
                 <h1 className='enterprise-partners-section-title'>Corporate Empowerment Solutions.</h1>
                 <div className='enterprise-partners-section-cards-conatiner'>
-                    {ourPatners.map((partner, index) => (
+                    {CorporateOurPatners.map((partner, index) => (
                             <div key={index} className='enterprise-partners-section-card-conatiner'> 
                                 <img className='enterprise-partners-section-card-image' src={partner.imageSrc} alt="" />
                                 <div className="enterprise-partners-section-card-content">
@@ -227,7 +145,7 @@ export default function Corporate() {
                 <p className='enterprise-partners-section-conatiner-subtitle'>Advisory Approach</p>
                 <h1 className='enterprise-partners-section-title'>Enabling Business Expansion</h1>
                 <div className='enterprise-consultative-section-cards-container'>
-                    {consultativeCardData.map((card, index) => (
+                    {CorporateConsultativeCardData.map((card, index) => (
                     <div key={index} className='enterprise-consultative-section-card-container'>
                     <div className='enterprise-consultative-section-card-image-container' style={{ backgroundColor: card.backgroundColor }}>
                     {card.icon}
@@ -255,7 +173,7 @@ export default function Corporate() {
                 <p className='enterprise-partners-section-conatiner-subtitle'>In Partnership With</p>
                 <h1 className='enterprise-partnership-section-conatiner-title'>World's Top Corporates</h1>
                 <div className='enterprise-partnership-section-image-conatiner'>
-                    {partnershipImages.map((imageUrl) => (
+                    {CorporatepartnershipImages.map((imageUrl) => (
                         <img key={imageUrl} className='enterprise-partners-section-conatiner-image' src={imageUrl} alt="" />
                     ))}
                 </div>

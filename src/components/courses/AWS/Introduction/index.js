@@ -3,7 +3,7 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
 import {Link} from 'react-router-dom'
-import profile from "../../../Images/triveni.jpg"
+import profile from "../../../Images/prashanth.png"
 class Intro extends Component{
     render(){
         return(
@@ -46,7 +46,7 @@ class Intro extends Component{
                 </div>
                 <div className="course-side-image-main-container">
                     <img src={profile} alt="" className="course-intro-side-image"/>
-                    <p className="course-intro-data-analyst">Triveni</p>
+                    <p className="course-intro-data-analyst">Prashanth</p>
                     <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>
                         <p className="arrow-width">
@@ -55,7 +55,7 @@ class Intro extends Component{
                             <polyline points="30,15 35,20 30,25" fill="#000" />
                         </svg>
                         </p>
-                        <p className="course-intro-data-analyst">Salesforce Admin</p>
+                        <p className="course-intro-data-analyst">Cloud Architect</p>
                     </div>
                 </div>
             </div>

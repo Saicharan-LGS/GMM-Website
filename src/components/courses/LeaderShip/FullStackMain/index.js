@@ -14,10 +14,10 @@ import {SiSimpleanalytics} from 'react-icons/si'
 import {RiArticleLine} from 'react-icons/ri'
 import {MdOutlineFeedback} from 'react-icons/md'
 
-import Slider from 'react-slick'
+//import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import TransformingCard from "../../DataScience/TransformingCarrerCard"
+//import TransformingCard from "../../DataScience/TransformingCarrerCard"
 import FullStack from "../FullStack"
 //import ReviewCard from '../../DataScience/ReviewCard';
 import Intro from '../Introduction'
@@ -37,17 +37,17 @@ import "../../DataScience/FullStackMain/index.css"
 // import chandana from '../../../Images/chandana.jpg'
 // import prashanth from '../../../Images/prashanth.png'
 
-import syedp from "../../../Images/syedprofile.jpeg"
-import reddyp from "../../../Images/reddyprofile.png"
-import punithp from "../../../Images/punithprofile.jpg"
-import manip from "../../../Images/maniprofile.jpg"
+// import syedp from "../../../Images/syedprofile.jpeg"
+// import reddyp from "../../../Images/reddyprofile.png"
+// import punithp from "../../../Images/punithprofile.jpg"
+// import manip from "../../../Images/maniprofile.jpg"
 
-const TransformingCarrerList=[
-    {id:1, image:manip,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Mani Kumar",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:reddyp, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Allipuram Rajasekhar Reddy",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:syedp,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Syed Rizwan",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:punithp, description:"A structured curriculum with quality content makes this program stand out.",name:"Anton Punith",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-]
+// const TransformingCarrerList=[
+//     {id:1, image:manip,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Mani Kumar",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
+//     {id:2, image:reddyp, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Allipuram Rajasekhar Reddy",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
+//     {id:3, image:syedp,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Syed Rizwan",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
+//     {id:4, image:punithp, description:"A structured curriculum with quality content makes this program stand out.",name:"Anton Punith",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
+// ]
 
 // const learnersReviews=[
 // {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
@@ -185,27 +185,27 @@ class Leadership extends Component{
       render() {
         //const {basicDoubtTab}=this.state
         //const lista=this.getTabApps();
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3, // Show 3 slides in large devices
-            slidesToScroll: 1,   
-            responsive: [
-                {
-                    breakpoint: 1400,
-                    settings: {
-                    slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                    slidesToShow: 1, // Show 1 slide in small devices (e.g., tablets and mobiles)
-                    },
-                },
-            ],
-          }
+        // const settings = {
+        //     dots: true,
+        //     infinite: true,
+        //     speed: 500,
+        //     slidesToShow: 3, // Show 3 slides in large devices
+        //     slidesToScroll: 1,   
+        //     responsive: [
+        //         {
+        //             breakpoint: 1400,
+        //             settings: {
+        //             slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
+        //             },
+        //         },
+        //         {
+        //             breakpoint: 768,
+        //             settings: {
+        //             slidesToShow: 1, // Show 1 slide in small devices (e.g., tablets and mobiles)
+        //             },
+        //         },
+        //     ],
+        //   }
         return(
             <>
                 <Header/>
@@ -215,13 +215,13 @@ class Leadership extends Component{
                 <div>
                     <Intro/>
                 </div>
-                <div className='courseTransformingcarrercarouselcontainer'>
+                {/* <div className='courseTransformingcarrercarouselcontainer'>
                     <h1 className="courseWhyGloriousMindMineMainHeading">Transforming careers with guaranteed outcomes</h1>
                     <p className="Transform-career-sub-heading">We don’t just give certification but outcomes!</p>
                     <Slider {...settings}>
                         {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                     </Slider>
-                </div>
+                </div> */}
                 
             </div>
             <FullStack />
