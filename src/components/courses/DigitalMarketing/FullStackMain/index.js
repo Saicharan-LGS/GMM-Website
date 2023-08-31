@@ -176,19 +176,19 @@ class DigitalMarkting extends Component{
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 3, // Show 3 slides in large devices
-            slidesToScroll: 1,   
+            slidesToShow: 3, 
+            slidesToScroll: 1,
             responsive: [
                 {
-                    breakpoint: 1100,
+                    breakpoint: 1400,
                     settings: {
-                    slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    slidesToShow: 2, 
                     },
                 },
                 {
                     breakpoint: 768,
                     settings: {
-                    slidesToShow: 1, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    slidesToShow: 1, 
                     },
                 },
             ],

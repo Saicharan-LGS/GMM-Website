@@ -179,7 +179,7 @@ class English extends Component{
             slidesToScroll: 1,   
             responsive: [
                 {
-                    breakpoint: 1100,
+                    breakpoint: 1400,
                     settings: {
                     slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
                     },
