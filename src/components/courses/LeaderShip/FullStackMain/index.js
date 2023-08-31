@@ -5,10 +5,8 @@ import {Component} from 'react'
 import FlexibleProgram from "../../DataScience/FlexibleProgram"
 import WhyGloriousMindMineCard from '../../DataScience/WhyGMMCard';
 import {SiGoogleclassroom} from "react-icons/si"
-import {AiOutlineSchedule,AiOutlineCheck,AiOutlineMessage,AiOutlineProject,AiOutlineVideoCamera,AiOutlineQuestionCircle,AiOutlineFileAdd} from "react-icons/ai"
+import {AiOutlineSchedule,AiOutlineCheck,AiOutlineQuestionCircle,} from "react-icons/ai"
 import {MdOutlineAccessAlarms} from "react-icons/md"
-import {CgProfile} from "react-icons/cg"
-import {BiTargetLock} from "react-icons/bi"
 import {AiOutlineFieldTime} from 'react-icons/ai'
 import {HiOutlinePresentationChartLine} from 'react-icons/hi'
 import {SiAmazongames} from 'react-icons/si'

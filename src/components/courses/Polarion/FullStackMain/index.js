@@ -107,7 +107,6 @@ const ScrolllingImages1 = [
     "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
     "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
   ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   const ScrolllingImages2 = [
@@ -123,7 +122,6 @@ const ScrolllingImages1 = [
     "https://images-platform.99static.com//cU0qBaO133OuhkyLKG1l25ZX9As=/138x129:869x860/fit-in/590x590/99designs-contests-attachments/84/84068/attachment_84068886",
     "https://static.wixstatic.com/media/72c0b2_555566b6e49a48a09cf53b301fce6769~mv2.jpg/v1/fill/w_640,h_330,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/72c0b2_555566b6e49a48a09cf53b301fce6769~mv2.jpg"
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   const ScrolllingImages3 = [
@@ -139,7 +137,6 @@ const ScrolllingImages1 = [
     "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/google-logo.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/2560px-Tata_Consultancy_Services_Logo.svg.png",
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   // eslint-disable-next-line
