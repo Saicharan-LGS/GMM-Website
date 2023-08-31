@@ -122,14 +122,17 @@ export default function About() {
         </ul>
       </div>
   </div>*/}
-  <div>
-    <div>
-      <h1>About us</h1>
-      <h5>Kinsta was founded in 2013 with a desire to change the status quo. We set out to create the best hosting platform in the world and that’s our mission.
-        We started with managed WordPress Hosting, added Application Hosting and Database Hosting, and are constantly evolving to offer industry-leading tools and services for the modern developer. We’re committed to the best experience for developers and businesses, building for performance and ease of use.
-        Join the growing club of 26400 companies that switched to better, faster hosting.</h5>
+  <div className='aboutus-page-main-container'>
+    <div className='aboutus-page-banner-conatiner'>
+      <div className='aboutus-page-banner-content-conatiner'>
+        <h1 className='aboutus-page-banner-conatiner-heading'>About us</h1>
+        <p className='aboutus-page-banner-conatiner-content'>Welcome to Glorious Mindmine, a leading coaching institute dedicated to exceptional education and personalized guidance. Our mission is to shape futures by nurturing talent, fostering academic excellence, and empowering students to achieve their dreams.</p>
+        <p className='aboutus-page-banner-conatiner-content'>With a decade of experience, we've impacted over 80,000 individuals from diverse backgrounds, including job seekers, professionals, scientists, officers, and leaders. Our comprehensive 45-day course, paired with a 100-day challenge, will transform you into a confident English speaker. Our goal is to empower one million individuals with exceptional communication abilities, elevating India's talent globally.</p>
+        <p className='aboutus-page-banner-conatiner-content'>Glorious Mindmine's success stories speak volumes. Non-English speakers have undergone remarkable transformations in just 45 days, further enhancing their skills through our 100-day challenge. Graduates have secured jobs, excelled in careers, grown businesses, and gained the ability to articulate ideas effectively.</p>
+      </div>
+      <img className='aboutus-page-banner-conatiner-image' src={aboutus1} alt="" />
     </div>
-    <img src={aboutus1} alt="" />
+    
   </div>
 
 
