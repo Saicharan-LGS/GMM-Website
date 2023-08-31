@@ -21,6 +21,8 @@ import chandana from '../../Images/chandana.jpg'
 import prashanth from '../../Images/prashanth.png'
 import courses from "../../Images/courses.png"
 
+const placmentUrl  = process.env.REACT_APP_API_BASE_URL
+
 const HireFromUsList1=[
     {id:1,Image:saicharan,name:"Saicharan",text:"Software Developer"},
     {id:2,Image:venu,name:"venu",text:"Mendix developer"},
@@ -73,7 +75,7 @@ const HireFromUs=()=>{
                     
               const {name,email,mobileNumber,designation,companyName}=formData
               const response = await fetch(
-                "http://localhost:3005/placement",
+                `${placmentUrl}/placement`,
                 {
                   method: "POST",
                   headers: {
