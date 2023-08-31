@@ -43,7 +43,6 @@ const ScrolllingImages1 = [
     "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
     "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
   ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
 
@@ -55,7 +54,7 @@ const settings = {
     slidesToShow: 3,
     responsive: [
         {
-            breakpoint: 1100,
+            breakpoint: 1400,
             settings: {
             slidesToShow: 2,
            // Show 1 slide in small devices (e.g., tablets and mobiles)

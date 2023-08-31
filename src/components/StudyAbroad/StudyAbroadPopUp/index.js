@@ -1262,9 +1262,10 @@ const StudyAbroadPopUp=()=>{
     return(
       <div className="study-abroad-popup-main-container">
         <div className="study-abroad-popup-container">
-        <span className="study-abroad-popup-close-button" onClick={closePopupPage}>
+            <span className="study-abroad-popup-close-button" onClick={closePopupPage}>
                &times;
              </span>
+             <div>
             <div className="study-abroad-popup-container1">
                 <div className="study-abroad-popup-icon-container">
                     <AiOutlineForm className="study-abroad-popup-icon" />
@@ -1274,7 +1275,8 @@ const StudyAbroadPopUp=()=>{
                     <p className="study-abroad-popup-icon-right-container-text">Get details and latest updates</p>
                 </div>
             </div>
-            <hr />
+            <hr className="study-abroad-line1" />
+            </div>
             <div className="study-abroad-popup-inputs-container">
                 <div className="study-abroad-popup-inputs-icon-container">
                   <BiSolidUser className="study-abroad-popup-input-icon"/>

@@ -141,21 +141,18 @@ const ScrolllingImages1 = [
     Deqode,
     HDFC,
   ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   
   const ScrolllingImages2 = [
     adf,wipro,superup,epam,amazon,zingbus,infor,del,blue,rocket,servio,
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
 
   const ScrolllingImages3 = [
     google,Adobe,Mindtree,Mitratech,Uplers,virtusa,godspeed,Verizon,sisco,tcs,HCL,
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   // eslint-disable-next-line
@@ -199,7 +196,7 @@ class Polarian extends Component{
             slidesToScroll: 1,   
             responsive: [
                 {
-                    breakpoint: 1100,
+                    breakpoint: 1400,
                     settings: {
                     slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
                     },

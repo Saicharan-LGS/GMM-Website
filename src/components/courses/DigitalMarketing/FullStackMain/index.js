@@ -142,21 +142,18 @@ const ScrolllingImages1 = [
     Deqode,
     HDFC,
   ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   
   const ScrolllingImages2 = [
     adf,wipro,superup,epam,amazon,zingbus,infor,del,blue,rocket,servio,
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
 
   const ScrolllingImages3 = [
     google,Adobe,Mindtree,Mitratech,Uplers,virtusa,godspeed,Verizon,sisco,tcs,HCL,
 ].map((image) => ({
-    id: crypto.randomUUID(),
     image
   }));
   // eslint-disable-next-line
@@ -195,19 +192,19 @@ class DigitalMarkting extends Component{
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 3, // Show 3 slides in large devices
-            slidesToScroll: 1,   
+            slidesToShow: 3, 
+            slidesToScroll: 1,
             responsive: [
                 {
-                    breakpoint: 1100,
+                    breakpoint: 1400,
                     settings: {
-                    slidesToShow: 2, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    slidesToShow: 2, 
                     },
                 },
                 {
                     breakpoint: 768,
                     settings: {
-                    slidesToShow: 1, // Show 1 slide in small devices (e.g., tablets and mobiles)
+                    slidesToShow: 1, 
                     },
                 },
             ],
