@@ -16,7 +16,7 @@
 .study-abroad-popup-container{
     position: relative;
     background-color: #e6e6ff;
-    min-width:900px;
+    width:900px;
     max-width: 900px;
     max-height:500px;
     border-radius: 10px;
@@ -141,14 +141,14 @@
 
 @media (max-width:992px){
     .study-abroad-popup-container{
-    position: relative;
-    background-color: #e6e6ff;
-    min-width:85vw;
-    max-width: 350px;
-    max-height:640px;
-    border-radius: 10px;
-    padding: 0px;
-}
+        position: relative;
+        background-color: #e6e6ff;
+        width:85vw;
+        max-width: 450px;
+        max-height:640px;
+        border-radius: 10px;
+        padding: 0px;
+    }
 .study-abroad-popup-container1{
     margin-bottom:0px;
     margin: 0px 10px 0px 10px;

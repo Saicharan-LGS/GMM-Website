@@ -63,16 +63,17 @@ p {
 .Footer-courses-list{
   display:flex;
   flex-direction: column;
-  line-height:8px;
+  line-height:16px;
 }
 .Footer-courses-list-2{
   display:flex;
   flex-direction: column;
-  line-height:8px;
+  line-height:16px;
 }
 .Footer-Each-course{
   cursor:pointer;
   text-decoration: none;
+  margin-bottom:8px;
 }
 .Footer-Each-course:hover{
   font-weight:bold;
@@ -86,7 +87,11 @@ p {
 .Ecommerce-Website-Footer-Section-address{
   color: #003380;
 }
-
+.footer-section-row-container{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
 @media (max-width:512px){
   .Footer-courses-list{
     line-height:16px;
