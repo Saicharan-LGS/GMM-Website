@@ -122,13 +122,13 @@ export default function Corporate() {
                     <img className='enterprise-industry-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/iso-logo-1f29cec08343f009564ec969b6e154b1d1175213c214de1f97c02859b055dea8.jpg" alt="" />
                     <div className='enterprise-industry-section-certificate-conatiner-content'>
                         <p className='enterprise-industry-section-certificate-heading'>Glorious Mindmine is ISO 27001 Certified</p>
-                        <p className='enterprise-industry-section-certificate-content'>ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS) and their requirements. We at Great Learning have the industry best Data Privacy & Security practices, and the ISO 27001 certification from ISOQAR of UK is a testament of the same.</p>
+                        <p className='enterprise-industry-section-certificate-content'>ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS) and their requirements. We at GloriousMindMine have the industry best Data Privacy & Security practices, and the ISO 27001 certification from ISOQAR of UK is a testament of the same.</p>
                     </div>
                 </div>
             </div>
             <div className='enterprise-partners-section-conatiner'>
-                <p className='enterprise-partners-section-conatiner-subtitle'>Helping Our Partners</p>
-                <h1 className='enterprise-partners-section-title'>Solutions To Empower Corporates</h1>
+                <p className='enterprise-partners-section-conatiner-subtitle'>Supporting Our Collaborators</p>
+                <h1 className='enterprise-partners-section-title'>Corporate Empowerment Solutions.</h1>
                 <div className='enterprise-partners-section-cards-conatiner'>
                     {CorporateOurPatners.map((partner, index) => (
                             <div key={index} className='enterprise-partners-section-card-conatiner'> 
@@ -142,8 +142,8 @@ export default function Corporate() {
                 </div>
             </div>
             <div className='enterprise-consultative-section-conatiner'>
-                <p className='enterprise-partners-section-conatiner-subtitle'>Consultative Methodology</p>
-                <h1 className='enterprise-partners-section-title'>How We Help Businesses Grow</h1>
+                <p className='enterprise-partners-section-conatiner-subtitle'>Advisory Approach</p>
+                <h1 className='enterprise-partners-section-title'>Enabling Business Expansion</h1>
                 <div className='enterprise-consultative-section-cards-container'>
                     {CorporateConsultativeCardData.map((card, index) => (
                     <div key={index} className='enterprise-consultative-section-card-container'>
@@ -182,7 +182,7 @@ export default function Corporate() {
                 <div className='enterprise-business-section-container-content'>
                     <p className='enterprise-business-section-subtitle'>500+ corporates use </p>
                     <h1 className='enterprise-business-section-title'>Glorious for Business</h1>
-                    <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how Great Learning for Business can power your Enterprise Learning.</p>
+                    <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how GloriousMindMine for Business can power your Enterprise Learning.</p>
                     <div>
                     <a href="https://api.whatsapp.com/send?phone=919866238940" rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
                     </div>
