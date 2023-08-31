@@ -17,6 +17,7 @@ import SuccessCarousel from '../SuccessCarousel';
 import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
+import exploreProgramImage from "../../Images/salesiamge.JPG"
 const settings = {
   dots: true,
   infinite: true,
@@ -251,7 +252,7 @@ const Home  =()=>{
               <button className="home-section-explore-courses-button">Explore Now</button>
             </div>
             <div className="home-section-explore-courses-section2">
-              <img className="home-section-explore-courses-image" alt="" src="https://d1vwxdpzbgdqj.cloudfront.net/assets/home-new-variant/academy-banner-v1-697ad3ee2d4ffaed9372bda882c0e4dccc4dc321e310a02f9f1e1c213b391eb6.png" />
+              <img className="home-section-explore-courses-image" alt="" src={exploreProgramImage} />
             </div>
           </div>
           <div className="home-section-success-stories-container">
