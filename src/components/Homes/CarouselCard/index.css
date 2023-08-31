@@ -76,13 +76,13 @@
             gap:0px;
         }
         .Carousel-card-left-heading{
-            font-size:16px;
+            font-size:14px;
         }
         .Carousel-card-left-desc{
             font-size:10px;
         }
         .Carousel-card-left-text{
-            font-size:14px;
+            font-size:12px;
         }
         .Carousel-card-right-image{
             width:50px;
@@ -90,8 +90,10 @@
 }
 @media (max-width:768px){
     .Carousel-card-left-button{
-        padding:8px 12px;
+        padding:5px 10px;
         font-size:12px;
+        border-radius: 7px;
+        border: 1.5px solid transparent;
     }
 }
 @media (max-width:500px){
@@ -100,7 +102,7 @@
         gap:0px;
     }
     .Carousel-card-left-heading{
-        font-size:14px;
+        font-size:12px;
     }
     .Carousel-card-left-text{
         font-size:10px;
@@ -109,8 +111,8 @@
         font-size:8px;
     }
     .Carousel-card-left-button{
-        padding:4px 10px;
-        font-size:10px;
+        padding:4px 5px;
+        font-size:8px;
     }
     .Carousel-card-right-image{
         width:30%;

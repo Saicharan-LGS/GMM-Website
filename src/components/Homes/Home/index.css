@@ -23,7 +23,7 @@
   }
 }
 .home-section-service-container{
-  margin:15px 50px 15px 50px;
+  margin:15px 5% 15px 5%;
   display:flex;
   margin-bottom:30px;
 }
@@ -93,7 +93,7 @@
   font-size:24px;
 }
 .home-section-service-container-2{
-  margin:15px 50px 15px 50px;
+  margin:15px 5%15px 5%;
   display:flex;
   flex-direction: row-reverse;
   margin-bottom:30px;
