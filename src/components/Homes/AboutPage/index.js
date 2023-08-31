@@ -3,12 +3,13 @@ import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
+import aboutus1 from "../../Images/aboutus1.jpg"
 
 export default function About() {
   return (
     <>
     <Header/>
-    <div className="About-us-main-container">
+    {/* <div className="About-us-main-container">
     <div className="flip-card" tabIndex="0">
       <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -68,20 +69,7 @@ export default function About() {
             <li className='about-us-founder-section-content'>See, The Truth Is, You Could Be That Someone Who Can Inspire People & Influence With The Power Of Your Communication Skills. </li>
             <li className='about-us-founder-section-content' style={{textAlign:"center"}}><span className='about-us-content-span'>“The People Who Can Take Actions Are The Ones Who Get Results”</span> – Zeeshaan Mehdi</li>
         </ul>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div> */}
 
 
 
@@ -134,6 +122,24 @@ export default function About() {
         </ul>
       </div>
   </div>*/}
+  <div className='aboutus-page-main-container'>
+    <div className='aboutus-page-banner-conatiner'>
+      <div className='aboutus-page-banner-content-conatiner'>
+        <h1 className='aboutus-page-banner-conatiner-heading'>About us</h1>
+        <p className='aboutus-page-banner-conatiner-content'>Welcome to Glorious Mindmine, a leading coaching institute dedicated to exceptional education and personalized guidance. Our mission is to shape futures by nurturing talent, fostering academic excellence, and empowering students to achieve their dreams.</p>
+        <p className='aboutus-page-banner-conatiner-content'>With a decade of experience, we've impacted over 80,000 individuals from diverse backgrounds, including job seekers, professionals, scientists, officers, and leaders. Our comprehensive 45-day course, paired with a 100-day challenge, will transform you into a confident English speaker. Our goal is to empower one million individuals with exceptional communication abilities, elevating India's talent globally.</p>
+        <p className='aboutus-page-banner-conatiner-content'>Glorious Mindmine's success stories speak volumes. Non-English speakers have undergone remarkable transformations in just 45 days, further enhancing their skills through our 100-day challenge. Graduates have secured jobs, excelled in careers, grown businesses, and gained the ability to articulate ideas effectively.</p>
+      </div>
+      <img className='aboutus-page-banner-conatiner-image' src={aboutus1} alt="" />
+    </div>
+    
+  </div>
+
+
+
+
+
+
     <Footer/>
     </>
   );

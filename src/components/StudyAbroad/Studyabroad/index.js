@@ -61,6 +61,9 @@ import study3 from "../../Images/studycanada.jpg"
 import study4 from "../../Images/studyuk.jpg"
 import study5 from "../../Images/studygermany.jpg"
 import study6 from "../../Images/studynewzealand.jpg"
+
+import moiz from "../../Images/moiz.JPG"
+
 const slides = [
   {
     image: study5, 
@@ -282,7 +285,7 @@ const letUsGuide = [
   
     const meetOur=[
       {
-        image:"https://images.collegedunia.com/public/asset/img/studyabroad/counselors/himanshi-garg.jpeg?h=262&w=262&mode=strech",
+        image:moiz,
         iamgeDesc:"Himanshi is a competent leader and skilled communicator, dedicated to offering unwavering support to students aspiring to study abroad. With over a decade of experience in the study abroad sector, she strongly focuses on US universities. She has successfully guided more than 3500 students in their search for the perfect academic opportunity.",
         heading:"Himanshi Garg",
         desc:"Senior Counsellor, 10+ Years of Experience, USA",
