@@ -11,6 +11,7 @@ import {MdOutlineHealthAndSafety} from 'react-icons/md'
 import {HiOutlineUsers} from 'react-icons/hi'
 import {PiSimCard} from 'react-icons/pi'
 import {GrFormCheckmark} from 'react-icons/gr'
+
 const Enterprisebeginner = [
     {id:1,EnterpriseIcon:LiaBullhornSolid,enterpriseHeading:"Learning-Centric Culture",enterpriseDesc:"Over 700 courses in emerging technologies, offering more than 1,000 hours of video content.",color:"#651CD5"},
     {id:2,EnterpriseIcon:MdWorkOutline,enterpriseHeading:"Strengthen Your Workforce",enterpriseDesc:"Over 80 meticulously curated courses designed to assist employees in advancing their skills based on career paths.",color:"#F1644C"},
