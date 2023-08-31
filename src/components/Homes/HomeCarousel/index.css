@@ -22,3 +22,12 @@
     width: 80vw;
   }
 }
+@media (max-width:512px){
+  .slick-prev:before, .slick-next:before {
+    color: #196AE5 !important;
+    opacity: 1 !important;
+    font-size: 24px;
+    font-weight:500;
+  }
+  
+}
