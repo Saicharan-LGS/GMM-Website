@@ -3,12 +3,13 @@ import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
+import aboutus1 from "../../Images/aboutus1.jpg"
 
 export default function About() {
   return (
     <>
     <Header/>
-    <div className="About-us-main-container">
+    {/* <div className="About-us-main-container">
     <div className="flip-card" tabIndex="0">
       <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -68,20 +69,7 @@ export default function About() {
             <li className='about-us-founder-section-content'>See, The Truth Is, You Could Be That Someone Who Can Inspire People & Influence With The Power Of Your Communication Skills. </li>
             <li className='about-us-founder-section-content' style={{textAlign:"center"}}><span className='about-us-content-span'>“The People Who Can Take Actions Are The Ones Who Get Results”</span> – Zeeshaan Mehdi</li>
         </ul>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div> */}
 
 
 
@@ -134,6 +122,21 @@ export default function About() {
         </ul>
       </div>
   </div>*/}
+  <div>
+    <div>
+      <h1>About us</h1>
+      <h5>Kinsta was founded in 2013 with a desire to change the status quo. We set out to create the best hosting platform in the world and that’s our mission.
+        We started with managed WordPress Hosting, added Application Hosting and Database Hosting, and are constantly evolving to offer industry-leading tools and services for the modern developer. We’re committed to the best experience for developers and businesses, building for performance and ease of use.
+        Join the growing club of 26400 companies that switched to better, faster hosting.</h5>
+    </div>
+    <img src={aboutus1} alt="" />
+  </div>
+
+
+
+
+
+
     <Footer/>
     </>
   );
