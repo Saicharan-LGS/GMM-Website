@@ -129,33 +129,52 @@ const whyGloriousMindMineList=[
 ]
 
 const ScrolllingImages1 = [
-    Tiger,
-    cognizant,
-    Myntra,
-    HSBC,
-    Capgemini,
-    squarespace,
-    Citibank,
-    Genpact,
-    Tiger,
-    iit,
-    Deqode,
-    HDFC,
-  ].map((image) => ({
-    image
-  }));
-  
-  const ScrolllingImages2 = [
-    adf,wipro,superup,epam,amazon,zingbus,infor,del,blue,rocket,servio,
-].map((image) => ({
-    image
-  }));
+    { id: 0, image: Tiger },
+    { id: 1, image: cognizant },
+    { id: 2, image: Myntra },
+    { id: 3, image: HSBC },
+    { id: 4, image: Capgemini },
+    { id: 5, image: squarespace },
+    { id: 6, image: Citibank },
+    { id: 7, image: Genpact },
+    { id: 8, image: Tiger },
+    { id: 9, image: iit },
+    { id: 10, image: Deqode },
+    { id: 11, image: HDFC }
+];
 
-  const ScrolllingImages3 = [
-    google,Adobe,Mindtree,Mitratech,Uplers,virtusa,godspeed,Verizon,sisco,tcs,HCL,
-].map((image) => ({
-    image
-  }));
+  
+const ScrolllingImages2 = [
+    { id: 0, image: adf },
+    { id: 1, image: wipro },
+    { id: 2, image: superup },
+    { id: 3, image: epam },
+    { id: 4, image: amazon },
+    { id: 5, image: zingbus },
+    { id: 6, image: infor },
+    { id: 7, image: del },
+    { id: 8, image: blue },
+    { id: 9, image: rocket },
+    { id: 10, image: servio }
+];
+
+
+
+const ScrolllingImages3 = [
+    { id: 0, image: google },
+    { id: 1, image: Adobe },
+    { id: 2, image: Mindtree },
+    { id: 3, image: Mitratech },
+    { id: 4, image: Uplers },
+    { id: 5, image: virtusa },
+    { id: 6, image: godspeed },
+    { id: 7, image: Verizon },
+    { id: 8, image: sisco },
+    { id: 9, image: tcs },
+    { id: 10, image: HCL }
+];
+
+
   // eslint-disable-next-line
   const TransformingCarrerList=[
     {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
