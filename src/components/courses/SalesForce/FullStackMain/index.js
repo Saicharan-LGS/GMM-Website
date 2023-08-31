@@ -1,37 +1,37 @@
-import {Component} from 'react'
+import {Component} from 'react';
 import { BannerLeft } from "../../DataScience/BannerLeft";
-import {BannerRight} from "../../DataScience/BannerRight"
+import {BannerRight} from "../../DataScience/BannerRight";
 import DoubtItem from '../../DataScience/DoubtItem';
-import ReviewCard from "../../DataScience/ReviewCard"
-import FlexibleProgram from "../../DataScience/FlexibleProgram"
+import ReviewCard from "../../DataScience/ReviewCard";
+import FlexibleProgram from "../../DataScience/FlexibleProgram";
 import WhyGloriousMindMineCard from '../../DataScience/WhyGMMCard';
-import {SiGoogleclassroom} from "react-icons/si"
+import {SiGoogleclassroom} from "react-icons/si";
 import {AiOutlineSchedule,AiOutlineCheck,AiOutlineMessage,AiOutlineProject,AiOutlineVideoCamera,AiOutlineQuestionCircle,AiOutlineFileAdd} from "react-icons/ai"
-import {MdOutlineAccessAlarms} from "react-icons/md"
-import {CgProfile} from "react-icons/cg"
-import {BiTargetLock} from "react-icons/bi"
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import TransformingCard from "../../DataScience/TransformingCarrerCard"
-import FullStack from "../FullStack"
+import {MdOutlineAccessAlarms} from "react-icons/md";
+import {CgProfile} from "react-icons/cg";
+import {BiTargetLock} from "react-icons/bi";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import TransformingCard from "../../DataScience/TransformingCarrerCard";
+import FullStack from "../FullStack";
 import CourseJobReady from '../CourseJobReady';
-import Intro from '../Introduction'
-import Header from '../../../Homes/Headers'
-import Footer from '../../../Homes/Footer'
-import {Link} from "react-router-dom"
+import Intro from '../Introduction';
+import Header from '../../../Homes/Headers';
+import Footer from '../../../Homes/Footer';
+import {Link} from "react-router-dom";
 import "../../DataScience/FullStackMain/index.css"
 
-import founder from "../../../Images/founder.png"
-import roy from '../../../Images/roy.png'
-import Akhila from '../../../Images/Akhila.png'
-import saicharan from '../../../Images/saicharan.jpg'
-import triveni from '../../../Images/triveni.jpg'
-import venu from '../../../Images/venuprofile.jpg'
-import umar from '../../../Images/umarprofile.png'
-import nagesh from '../../../Images/nagesh.jpg'
-import chandana from '../../../Images/chandana.jpg'
-import prashanth from '../../../Images/prashanth.png'
+import founder from "../../../Images/founder.png";
+import roy from '../../../Images/roy.png';
+import Akhila from '../../../Images/Akhila.png';
+import saicharan from '../../../Images/saicharan.jpg';
+import triveni from '../../../Images/triveni.jpg';
+import venu from '../../../Images/venuprofile.jpg';
+import umar from '../../../Images/umarprofile.png';
+import nagesh from '../../../Images/nagesh.jpg';
+import chandana from '../../../Images/chandana.jpg';
+import prashanth from '../../../Images/prashanth.png';
 import Capgemini from '../../../Images/slider/Capgemini.png';
 import Citibank from '../../../Images/slider/Citibank.png';
 import cognizant from '../../../Images/slider/cognizant.jpg';
@@ -64,7 +64,7 @@ import Mindtree from '../../../Images/slider/Mindtree.jpg';
 import google from '../../../Images/slider/google.png';
 import godspeed from '../../../Images/slider/godspeed.png';
 import Adobe from '../../../Images/slider/Adobe.png';
-import HCL from '../../../Images/slider/HCL.png'
+import HCL from '../../../Images/slider/HCL.png';
 
 const learnersReviews=[
 {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
