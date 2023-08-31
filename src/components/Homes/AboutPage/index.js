@@ -4,6 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
 import aboutus1 from "../../Images/aboutus1.jpg"
+import aboutus2 from "../../Images/aboutus2.jpg"
+
+
+
 
 export default function About() {
   return (
@@ -122,20 +126,53 @@ export default function About() {
         </ul>
       </div>
   </div>*/}
-  <div className='aboutus-page-main-container'>
-    <div className='aboutus-page-banner-conatiner'>
-      <div className='aboutus-page-banner-content-conatiner'>
-        <h1 className='aboutus-page-banner-conatiner-heading'>About us</h1>
-        <p className='aboutus-page-banner-conatiner-content'>Welcome to Glorious Mindmine, a leading coaching institute dedicated to exceptional education and personalized guidance. Our mission is to shape futures by nurturing talent, fostering academic excellence, and empowering students to achieve their dreams.</p>
-        <p className='aboutus-page-banner-conatiner-content'>With a decade of experience, we've impacted over 80,000 individuals from diverse backgrounds, including job seekers, professionals, scientists, officers, and leaders. Our comprehensive 45-day course, paired with a 100-day challenge, will transform you into a confident English speaker. Our goal is to empower one million individuals with exceptional communication abilities, elevating India's talent globally.</p>
-        <p className='aboutus-page-banner-conatiner-content'>Glorious Mindmine's success stories speak volumes. Non-English speakers have undergone remarkable transformations in just 45 days, further enhancing their skills through our 100-day challenge. Graduates have secured jobs, excelled in careers, grown businesses, and gained the ability to articulate ideas effectively.</p>
-      </div>
-      <img className='aboutus-page-banner-conatiner-image' src={aboutus1} alt="" />
+
+  <div className="aboutus-page-main-container">
+    <div className='aboutus-page-banner-container'>
+      <div className='aboutus-page-banner-content-container'>
+        <h1 className='aboutus-page-banner-container-heading'>About us</h1>
+        <p className='aboutus-page-banner-container-content'>Welcome to Glorious Mindmine, a leading coaching institute dedicated to exceptional education and personalized guidance. Our mission is to shape futures by nurturing talent, fostering academic excellence, and empowering students to achieve their dreams.</p>
+        <p className='aboutus-page-banner-container-content'>Our journey in the world of education is a testament to our unwavering passion and commitment to the success of our students.</p>
+        <p className='aboutus-page-banner-container-content'>For over a decade, we've taken part in the growth journeys of over 80,000 individuals. This diverse group encompasses job seekers, chartered accountants, corporate executives, ISRO scientists, Indian Army officers, medical professionals, educators, and top-tier multinational company leaders</p>
     </div>
+    <img className='aboutus-page-banner-container-image' src={aboutus1} alt="" />
+    </div>
+    <div className='aboutus-page-banner-container'>
+      <img className='aboutus-page-banner-container-image' src={aboutus2} alt="" />
+      <div className='aboutus-page-banner-content-container'>
+        <h1 className='aboutus-page-banner-container-heading'> Our Mission:</h1>
+        <p className='aboutus-page-banner-container-content'>At Glorious Mindmine, our mission is to provide top-tier coaching that goes beyond conventional education. We aspire to empower students with not only knowledge but also the skills and confidence needed to thrive in an ever-evolving world</p>
+        <p className="aboutus-page-banner-container-content">Our aim is to create a learning environment that encourages curiosity, critical thinking, and holistic development.</p>
+      </div>
+    </div>
+  <div>
+    <h1 style={{textAlign:"center"}}>Why Choose Glorious Mindmine?</h1>
+    <p>1.Expert Faculty:  Our team of experienced and knowledgeable educators are experts in their respective fields. They are not only dedicated to teaching but also to mentoring and guiding students throughout their course period of time. </p>
+    <p>2. Comprehensive Programs:  We offer a range of comprehensive programs designed to cater to various academic goals. Whether you're preparing for competitive exams, school/board exams, or seeking to enhance your skills, we have tailored programs to meet your needs. </p>
+    <p>3. Personalized Approach:  We recognize that each student is unique. Our personalized approach to teaching ensures that every student receives the attention and support they require to excel. We identify strengths and areas of improvement, working together to achieve the best results. </p>
+    <p>4. Cutting-Edge Resources:  Our institute is equipped with state-of-the-art facilities and resources that aid effective learning. From modern classrooms to advanced study materials, we provide an environment that promotes effective learning.</p>
+    <p>5. Proven Track Record:  Over the years, we have helped countless students achieve remarkable academic success. Our alumni have gone on to excel in various fields, which stands as a testament to the quality of education we provide.</p>
+  </div>
+  <div>
+    <h1>Our Values</h1>
+    <ol>
+      <li>Excellence:  We strive for excellence in all aspects of education and student support. Our commitment to quality is reflected in our results and the success of our students. </li>
+      <li>Integrity:  We uphold the highest standards of integrity, honesty, and ethics in all our interactions. We believe in fostering a culture of trust and respect.</li>
+      <li>Innovation:  Education is a dynamic field, and we continuously innovate our teaching methods and approaches to provide the best learning experience.</li>
+      <li> Empowerment:  Beyond academics, we aim to empower our students with the skills and mindset necessary to overcome challenges and seize opportunities. </li>
+    </ol>
     
   </div>
-
-
+  <div className='aboutus-page-banner-container'>
+    <img className='aboutus-page-banner-container-image' src="https://www.poynter.org/wp-content/uploads/2022/04/shutterstock_1283029945.png" alt="" />
+    <div className='aboutus-page-banner-content-container'>
+    <p className='aboutus-page-banner-container-content'>We believe in giving back to society and nurturing a sense of responsibility among our students. Through various community engagement initiatives, we encourage students to become socially aware and active contributors to their communities. </p>
+        <p className='aboutus-page-banner-container-content'>Join us at Glorious Mindmine and embark on a journey of educational growth, personal development, and unparalleled success. Together, let's create a brighter future! </p>
+  
+    </div>
+  </div>
+  <h5>Feel free to visit us during our office hours to learn more about our programs and how we can help you achieve your academic goals. Your success starts here at Glorious Mindmine. </h5>
+  </div>
 
 
 

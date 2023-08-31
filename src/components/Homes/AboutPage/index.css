@@ -2,36 +2,37 @@
   padding: 0px 5%;
 }
 
-.aboutus-page-banner-conatiner {
+.aboutus-page-banner-container {
+  width:100vw;
   display: flex;
 }
 
-.aboutus-page-banner-content-conatiner {
+.aboutus-page-banner-content-container {
   width: 50%;
   padding: 10px;
 }
 
-.aboutus-page-banner-conatiner-heading {
+.aboutus-page-banner-container-heading {
   font-size: 28px;
   line-height: 40px;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-.aboutus-page-banner-conatiner-content {
+.aboutus-page-banner-container-content {
   font-size: 14px;
   line-height: 28px;
   margin-top: 12px;
 }
 
-.aboutus-page-banner-conatiner-image {
+.aboutus-page-banner-container-image {
   width: 50%;
   padding: 10px;
   border-radius: 20px;
 }
 
 @media (max-width: 768px) {
-  .aboutus-page-banner-conatiner {
+  .aboutus-page-banner-container {
     flex-direction: column;
   }
   
