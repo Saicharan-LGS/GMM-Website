@@ -32,6 +32,39 @@ import umar from '../../../Images/umarprofile.png'
 import nagesh from '../../../Images/nagesh.jpg'
 import chandana from '../../../Images/chandana.jpg'
 import prashanth from '../../../Images/prashanth.png'
+import Capgemini from '../../../Images/slider/Capgemini.png';
+import Citibank from '../../../Images/slider/Citibank.png';
+import cognizant from '../../../Images/slider/cognizant.jpg';
+import Deqode from '../../../Images/slider/Deqode.jpg';
+import Genpact from '../../../Images/slider/Genpact.jpg';
+import HDFC from '../../../Images/slider/HDFC.jpg';
+import HSBC from '../../../Images/slider/HSBC.png';
+import iit from '../../../Images/slider/iit.webp';
+import Myntra from '../../../Images/slider/Myntra.png';
+import squarespace from '../../../Images/slider/squarespaces.webp';
+import Tiger from '../../../Images/slider/Tiger.png';
+import adf from '../../../Images/slider/adf.jpg';
+import amazon from '../../../Images/slider/amazon.png';
+import blue from '../../../Images/slider/blue.png';
+import del from '../../../Images/slider/del.jpg';
+import epam from '../../../Images/slider/epam.png';
+import infor from '../../../Images/slider/infor.png';
+import rocket from '../../../Images/slider/rocket.jpg';
+import servio from '../../../Images/slider/servio.webp';
+import superup from '../../../Images/slider/superup.webp';
+import zingbus from '../../../Images/slider/zingbus.webp';
+import wipro from '../../../Images/slider/wipro.jpg';
+import sisco from '../../../Images/slider/sisco.jpg';
+import Mitratech from '../../../Images/slider/Mitratech.jpg';
+import tcs from '../../../Images/slider/tcs.png';
+import Verizon from '../../../Images/slider/Verizon.png';
+import virtusa from '../../../Images/slider/virtusa.png';
+import Uplers from '../../../Images/slider/Uplers.webp';
+import Mindtree from '../../../Images/slider/Mindtree.jpg';
+import google from '../../../Images/slider/google.png';
+import godspeed from '../../../Images/slider/godspeed.png';
+import Adobe from '../../../Images/slider/Adobe.png';
+import HCL from '../../../Images/slider/HCL.png'
 
 const learnersReviews=[
 {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
@@ -96,49 +129,32 @@ const whyGloriousMindMineList=[
 ]
 
 const ScrolllingImages1 = [
-    "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg",
-    "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg",
-    "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png",
-    "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png",
-    "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50",
-    "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png",
-    "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg",
-    "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png",
-    "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-",
-    "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg",
+    Tiger,
+    cognizant,
+    Myntra,
+    HSBC,
+    Capgemini,
+    squarespace,
+    Citibank,
+    Genpact,
+    Tiger,
+    iit,
+    Deqode,
+    HDFC,
   ].map((image) => ({
     id: crypto.randomUUID(),
     image
   }));
+  
   const ScrolllingImages2 = [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Effective_Programming_for_America_logo.svg/1200px-Effective_Programming_for_America_logo.svg.png",
-    "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158a000002wx2yAAA&oid=00DE0000000c48tMAA",
-    "https://www.wipro.com/content/dam/nexus/en/wipro-logo-new-og-502x263.jpg",
-    "https://d1flzashw70bti.cloudfront.net/next-gen/images/zingbus-name-logo.webp",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
-    "https://t3.ftcdn.net/jpg/05/08/94/32/360_F_508943232_vkwcVPvBPHUPDWLHAZBsSHsTCiXHOHYt.jpg",
-    "https://cdn.icon-icons.com/icons2/2699/PNG/512/infor_logo_icon_167926.png",
-    "https://d3an9kf42ylj3p.cloudfront.net/uploads/2016/11/del.jpg",
-    "https://static.wixstatic.com/media/72c0b2_d120a6e8bf854f9fbcfc44b1856b598e~mv2.jpg/v1/fill/w_640,h_330,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/72c0b2_d120a6e8bf854f9fbcfc44b1856b598e~mv2.jpg",
-    "https://images-platform.99static.com//cU0qBaO133OuhkyLKG1l25ZX9As=/138x129:869x860/fit-in/590x590/99designs-contests-attachments/84/84068/attachment_84068886",
-    "https://static.wixstatic.com/media/72c0b2_555566b6e49a48a09cf53b301fce6769~mv2.jpg/v1/fill/w_640,h_330,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/72c0b2_555566b6e49a48a09cf53b301fce6769~mv2.jpg"
+    adf,wipro,superup,epam,amazon,zingbus,infor,del,blue,rocket,servio,
 ].map((image) => ({
     id: crypto.randomUUID(),
     image
   }));
+
   const ScrolllingImages3 = [
-    "https://1000logos.net/wp-content/uploads/2023/03/HCL-Logo-1976.png",
-    "https://mma.prnewswire.com/media/633364/Mindtree_Logo.jpg?p=facebook",
-    "https://allvectorlogo.com/img/2016/10/virtusa-logo.png",
-    "https://eetdbuyersguide.com/logo_rampq/logo_304_6t91202u70zjgo0.jpg",
-    "https://dcassetcdn.com/design_img/63266/35394/35394_1143276_63266_image.png",
-    "https://mma.prnewswire.com/media/1082756/Mitratech_Logo.jpg?p=facebook",
-    "https://1000logos.net/wp-content/uploads/2021/05/Verizon-logo.png",
-    "https://images.mid-day.com/images/images/2021/jun/Uplers_d.jpg",
-    "https://bcassetcdn.com/public/blog/wp-content/uploads/2022/11/09211217/Adobe-1024x1024.png",
-    "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/google-logo.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/2560px-Tata_Consultancy_Services_Logo.svg.png",
+    google,Adobe,Mindtree,Mitratech,Uplers,virtusa,godspeed,Verizon,sisco,tcs,HCL,
 ].map((image) => ({
     id: crypto.randomUUID(),
     image
