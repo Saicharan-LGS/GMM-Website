@@ -8,6 +8,7 @@ import {BiSolidCategory} from 'react-icons/bi'
 import {PiCertificateFill} from 'react-icons/pi'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 import {FaCommentDots} from 'react-icons/fa'
+import Button from '../../Button';
 
 const firstTimePopupUrl  = process.env.REACT_APP_API_BASE_URL
 
@@ -33,6 +34,7 @@ const FirstTimePopup = () => {
   const [successMsg, setSuccessMsg] = useState("");
   const [labelName,setLabelName]=useState("course");
   const [errorMsg, setErrorMsg] = useState("");
+  const [showLoader, setShowLoader] = useState(false)
 
   useEffect(()=>{
     if(Category==="Study Abroad"){
@@ -56,6 +58,7 @@ const FirstTimePopup = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setShowLoader(true)
     try {
       const response = await fetch(
         `${firstTimePopupUrl}/register`,
@@ -84,10 +87,18 @@ const FirstTimePopup = () => {
         setCategory("100% Job Guarantee");
         setCourse("English Communication Blue Print");
         setComment("");
+        setShowLoader(false);
       } else {
         const data = await response.json();
         setErrorMsg(data.error)
         setSuccessMsg("");
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setCategory("100% Job Guarantee");
+        setCourse("English Communication Blue Print");
+        setComment("");
+        setShowLoader(false);
       }
     } catch (error) {
     }
@@ -189,7 +200,12 @@ const FirstTimePopup = () => {
              />
              </div>
              <p className='ppr-message1'>{successMsg}{errorMsg}</p>
-             <button type="submit" className='popup-button1' onClick={handleSubmit}>Submit</button>
+             <div className='buttton-popupform-conatiner1'>
+             <Button text="Submit"
+                    onSubmit={handleSubmit}
+                    loading={showLoader}
+                    disabled={showLoader}/>
+             </div>
              </div>
            </div>
          </form>

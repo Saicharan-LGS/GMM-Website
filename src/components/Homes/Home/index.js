@@ -158,15 +158,15 @@ const Home  =()=>{
               <img src={image8} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">Get Personalized Guidance</h3>
-              <p className="home-section-service-description">Weekly mentorship sessions with Industry Experts along with Personalized attention in small groups of 5-15 learners. Gain hands-on exposure through industry-relevant projects</p>
+              <h3 className="home-section-service-heading">Receive Tailored Guidance</h3>
+              <p className="home-section-service-description">Participate in weekly mentorship sessions led by industry experts, benefiting from personalized support within small groups of 5-15 learners. Acquire practical experience through industry-related projects, gaining hands-on exposure.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
                     <div className="home-section-service-stats-icon-container">
                       <TiTick className="home-section-service-stats-icon"/>
                     </div>
                     <div>
-                      <p className="home-section-service-stats-title">1,00,000+</p>
+                      <p className="home-section-service-stats-title">2,00,000+</p>
                       <p className="home-section-service-stats-subtitle">Mentorship Sessions Completed</p>
                     </div>
                   </div>
@@ -187,8 +187,8 @@ const Home  =()=>{
               <img src={image2} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">GL Excelerate Dedicated Career Support</h3>
-              <p className="home-section-service-description">We offer mock interviews to prep for your dream job. Participate in hackathons and career fairs to stay ahead of others.</p>
+              <h3 className="home-section-service-heading">GL Excelerate Exclusive Career Assistance</h3>
+              <p className="home-section-service-description">Our services include mock interviews to prepare you for your desired career. Engage in hackathons and career fairs to maintain a competitive edge.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
                     <div className="home-section-service-stats-icon-container">
@@ -216,8 +216,8 @@ const Home  =()=>{
               <img src={image1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">Networking and Program Support</h3>
-              <p className="home-section-service-description">Grow your professional network with peer interactions, sessions with industry leaders, and get access to a dedicated program manager to solve your queries.</p>
+              <h3 className="home-section-service-heading">Enhanced Networking and Program Assistance</h3>
+              <p className="home-section-service-description">Expand your professional network through interactions with peers and industry leaders. You'll also have access to a dedicated program manager to address any questions or concerns you may have.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
                     <div className="home-section-service-stats-icon-container">
@@ -233,7 +233,7 @@ const Home  =()=>{
                       <AiFillStar className="home-section-service-stats-star"/>
                     </div>
                     <div className="home-section-service-stats-title-container">
-                      <p className="home-section-service-stats-title">4.8/5</p>
+                      <p className="home-section-service-stats-title">4.7/5</p>
                       <p className="home-section-service-stats-subtitle">Average Support Rating</p>
                     </div>
                   </div>
@@ -248,7 +248,7 @@ const Home  =()=>{
           <div className="home-section-explore-courses-section">
             <div className="home-section-explore-courses-section1">
               <h3 className="home-section-service-heading">Explore courses</h3>
-              <p className="home-section-explore-courses-text">1000+ Free Courses, Live Sessions by Experts, and Job Opportunities from 2800+ Companies. Join 1 Crore+ learners to build your dream career now!</p>
+              <p className="home-section-explore-courses-text">2000+ Free Courses, Live Sessions by Experts, and Job Opportunities from 3000+ Companies. Join 2 Crore+ learners to build your dream career right now!</p>
               <button className="home-section-explore-courses-button">Explore Now</button>
             </div>
             <div className="home-section-explore-courses-section2">
@@ -256,9 +256,9 @@ const Home  =()=>{
             </div>
           </div>
           <div className="home-section-success-stories-container">
-            <p className="home-section-success-stories-text">Inspiring everyone to learn with</p>
-            <h1 className="home-section-service-heading">Multiple stories of growth</h1>
-            <p className="home-section-explore-courses-text">Find out how our Learners transformed their careers after learning with us.</p>
+            <p className="home-section-success-stories-text">Motivating everyone to engage in learning through.</p>
+            <h1 className="home-section-service-heading">Diverse tales of progress</h1>
+            <p className="home-section-explore-courses-text">Discover the career transformations our learners have experienced after completing their education with us.</p>
            <Link style={{textDecoration:"none"}}><button className="home-section-explore-courses-button">Get Inspired</button></Link>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >
@@ -266,8 +266,8 @@ const Home  =()=>{
           </Slider>
           <div className="home-section-transformed-careers-container">
             <div className="home-section-transformed-careers-container1">
-                <h1 className="home-section-transformed-careers-heading">66% of our learners transformed their careers</h1>
-                <p className="home-section-transformed-careers-text">There is no lack of jobs but lack of Employability Skills</p>
+                <h1 className="home-section-transformed-careers-heading">Career transformation was achieved by 66% of our learners.</h1>
+                <p className="home-section-transformed-careers-text">The issue isn't a shortage of jobs, but a deficiency in employability skills.</p>
             </div>
             <div>
             <Link to="/registration" style={{textDecoration:"none"}}><button className="home-section-transformed-careers-buttton">Register Now</button></Link>

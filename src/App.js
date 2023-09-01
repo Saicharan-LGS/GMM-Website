@@ -37,7 +37,7 @@ const App = () => (
     <Whatsapp />
     <ChatBot />
     <Routes>
-        <Route exact path="/englishoffline" element={<EnglishOffline />} />
+        <Route exact path="/english-offline" element={<EnglishOffline />} />
         <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />
         <Route exact path="ielts-score" element={<Ieltsscore />} />
         <Route exact path="/ielts" element={<Ielts />} />
@@ -54,7 +54,7 @@ const App = () => (
         <Route exact path="/Mendix" element={<Mendix />} />
         <Route exact path="/carrerSupport" element={<CarrerSupport />}/>
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/english" element={<English/>}/>
+        <Route exact path="/english-online" element={<English/>}/>
         <Route exact path="/salesforce" element={<Salesforce />} />
         <Route exact path="/DigitalMarkting" element={<DigitalMarketing />} />
         <Route exact path="/Hirefromus" element={<HireFromUs/>}/>

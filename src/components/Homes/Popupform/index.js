@@ -10,6 +10,7 @@ import {BiSolidCategory} from 'react-icons/bi'
 import {PiCertificateFill} from 'react-icons/pi'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 import {FaCommentDots} from 'react-icons/fa'
+import Button from "../../Button"
 
 const SelectCourseList=[
   {item:"100% Job Guarantee"},{item:"IT"},{item:"Soft Skills"},{item:"Study Abroad"}]
@@ -35,6 +36,7 @@ const PopupForm = ({ onSubmit }) => {
   const [successMsg, setSuccessMsg] = useState("");
   const [labelName,setLabelName]=useState("course");
   const [errorMsg, setErrorMsg] = useState("");
+  const [showLoader, setShowLoader] = useState(false)
 
 
   const navigate = useNavigate();
@@ -52,6 +54,7 @@ const PopupForm = ({ onSubmit }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setShowLoader(true);
     try {
       const response = await fetch(
         `${popupFormUrl}/register`,
@@ -80,11 +83,19 @@ const PopupForm = ({ onSubmit }) => {
         setCategory("100% Job Guarantee");
         setCourse("English Communication Blue Print");
         setComment("");
+        setShowLoader(false);
       } else {
         const data = await response.json();
         
         setErrorMsg(data.error);
         setSuccessMsg('');
+        setName("");
+        setEmail("");
+        setPhoneNumber("");
+        setCategory("100% Job Guarantee");
+        setCourse("English Communication Blue Print");
+        setComment("");
+        setShowLoader(false);
       }
     } catch (error) {
       setErrorMsg(error);
@@ -187,7 +198,13 @@ const PopupForm = ({ onSubmit }) => {
              />
              </div>
              <p className='ppr-message1'>{successMsg}{errorMsg}</p>
-             <button type="submit" className='popup-button1' onClick={handleSubmit}>Submit</button>
+             <div className='buttton-popupform-conatiner1'>
+             <Button text="Submit"
+                    onSubmit={handleSubmit}
+                    loading={showLoader}
+                    disabled={showLoader}/>
+             </div>
+             
              </div>
            </div>
          </form>
