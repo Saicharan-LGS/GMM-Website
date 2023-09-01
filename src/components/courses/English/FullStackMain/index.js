@@ -267,13 +267,13 @@ class English extends Component{
             {/* <div className='courseCompaniesHiringContainer'>
                 <h1 className="courseCompaniesHiringHeading">Companies hiring at Glorious Mind Mine</h1>
                 <div className="courseBanner">
-                    <BannerRight images={ScrolllingImages1} speed={5000} />
+                    <BannerRight images={ScrolllingImages1} speed={20000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerLeft images={ScrolllingImages2} speed={7000} />
+                    <BannerLeft images={ScrolllingImages2} speed={20000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerRight images={ScrolllingImages3} speed={10000} />
+                    <BannerRight images={ScrolllingImages3} speed={20000} />
                 </div>
             </div> */}
             <div className='courseTutionFeeMainContainer'> 
