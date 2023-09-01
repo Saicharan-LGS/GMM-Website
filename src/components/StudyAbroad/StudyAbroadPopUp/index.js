@@ -11,6 +11,7 @@ import {BiSolidPhoneCall} from 'react-icons/bi'
 import {FaCommentDots} from 'react-icons/fa'
 import {BiSolidCategory} from 'react-icons/bi'
 import {PiCertificateFill} from 'react-icons/pi'
+import  Button  from "../../Button";
 
 const SelectCourseList=[
   {id:0,item:"Bachelors"},{id:1,item:"MBA/PGDM-Masters"},{id:2,item:"MS/M.Sc-Masters"},{id:3,item:"Masters"},{id:4,item:"Doctorate/Ph.D"},{id:5,item:"Certificate"},{id:6,item:"Grad Certificate"},{id:7,item:"Diploma"},{id:8,item:"PG Diploma"}]
@@ -1217,6 +1218,7 @@ const StudyAbroadPopUp=()=>{
         const [successMsg, setSuccessMsg] = useState('');
         const [errorMsg, setErrorMsg] = useState('');
         const [category,setCategory] = useState("Bachelors")
+        const [showLoader, setShowLoader] = useState(false)
         
   
         const navigate = useNavigate();
@@ -1230,6 +1232,7 @@ const StudyAbroadPopUp=()=>{
         
         const handleSubmit = async (event) => {
           event.preventDefault();
+          setShowLoader(true)
           try {
             const response = await fetch(
               `${studyAboradUrl}/studyabroad`,
@@ -1253,10 +1256,26 @@ const StudyAbroadPopUp=()=>{
               const data = await response.json();
               setSuccessMsg(data.success);
               setErrorMsg('');
+              setName("");
+              setEmail("");
+              setCourse("Sciences");
+              setCategory("Bachelors");
+              setPhoneNumber("");
+              setCity("");
+              setComment("");
+              setShowLoader(false);
             } else {
               const data = await response.json();
               setErrorMsg(data.error);
               setSuccessMsg('');
+              setName("");
+              setEmail("");
+              setCourse("Sciences");
+              setCategory("Bachelors");
+              setPhoneNumber("");
+              setCity("");
+              setComment("");
+              setShowLoader(false)
             }
           } catch (error) {
             console.error(error);
@@ -1366,7 +1385,10 @@ const StudyAbroadPopUp=()=>{
                   </div>
             </div>
             <p className="studyabordpopup-response">{successMsg}{errorMsg}</p>
-            <button type="submit" className="study-abroad-popup-button" onClick={handleSubmit}>Submit</button>
+            <Button text="Submit"
+                    onSubmit={handleSubmit}
+                    loading={showLoader}
+                    disabled={showLoader}/>
         </div>
         </div>
     )

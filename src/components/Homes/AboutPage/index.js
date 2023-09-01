@@ -168,17 +168,13 @@ export default function About() {
   <div className='aboutus-page-banner-container'>
     <img className='aboutus-page-banner-container-image' src="https://www.poynter.org/wp-content/uploads/2022/04/shutterstock_1283029945.png" alt="" />
     <div className='aboutus-page-banner-content-container'>
-    <p className='aboutus-page-banner-container-content'>We believe in giving back to society and nurturing a sense of responsibility among our students. Through various community engagement initiatives, we encourage students to become socially aware and active contributors to their communities. </p>
-        <p className='aboutus-page-banner-container-content'>Join us at Glorious Mindmine and embark on a journey of educational growth, personal development, and unparalleled success. Together, let's create a brighter future! </p>
-  
+      <p className='aboutus-page-banner-container-content'>We believe in giving back to society and nurturing a sense of responsibility among our students. Through various community engagement initiatives, we encourage students to become socially aware and active contributors to their communities. </p>
+      <p className='aboutus-page-banner-container-content'>Join us at Glorious Mindmine and embark on a journey of educational growth, personal development, and unparalleled success. Together, let's create a brighter future! </p>
     </div>
   </div>
-  <h5 className="about-us-last-message">Feel free to visit us during our office hours to learn more about our programs and how we can help you achieve your academic goals. Your success starts here at Glorious Mindmine. </h5>
+  <h5 className="about-us-last-message">Feel free to visit us during our office hours to learn more about our programs and how we can help you achieve your academic goals.</h5>
+  <h5 className="about-us-last-message"> Your success starts here at Glorious Mindmine. </h5>
   </div>
-
-
-
-
     <Footer/>
     </>
   );

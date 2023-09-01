@@ -3,7 +3,7 @@ import "./index.css"
 import {Link} from "react-router-dom"
 import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
-import Header from "../../Homes/Headers"
+import Header from "../Headers"
 import Footer from "../Footer"
 
 export default function EnglishOfflineCourse() {
@@ -17,46 +17,46 @@ export default function EnglishOfflineCourse() {
             <h3>Online</h3>
             <div className="course-intro-batch-container">
                 <CgCalendarDates className='course-intro-calender-icon'/>
-                <span className='course-into-calender-heading'>Cohort Lima Starts On 18th July</span>
+                <span className='course-into-calender-heading'>You can start Classes after Registration</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                    <span className='course-intro-list-text'>6 months part-time program with live online classes</span>
+                    <span className='course-intro-list-text'>Full-time program with Recorded online classes</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon'/>
-                    <span className='course-intro-list-text'>Re-engineered curriculum for post Chat-GPT era</span>
+                    <span className='course-intro-list-text'>Daily Action Item For Results</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                    <span>No coding experience required</span>
+                    <span>No English Speaking Experience Required</span>
                 </div>
                 <div className='course-intro-button-container'>
                     <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLL NOW</button></Link>
-                    <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
+                    <Link to="/english" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
                 </div>
         </div>
         <div className='english-course-selection-sub-conatiner'>
             <h3>Offline</h3>
             <div className="course-intro-batch-container">
                 <CgCalendarDates className='course-intro-calender-icon'/>
-                <span className='course-into-calender-heading'>Cohort Lima Starts On 18th July</span>
+                <span className='course-into-calender-heading'>Cohort Lima Starts On Every Monday</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                    <span className='course-intro-list-text'>6 months part-time program with live online classes</span>
+                    <span className='course-intro-list-text'>45 days Full-fledged Offline classes</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon'/>
-                    <span className='course-intro-list-text'>Re-engineered curriculum for post Chat-GPT era</span>
+                    <span className='course-intro-list-text'>Daily Action Item For Results</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                    <span>No coding experience required</span>
+                    <span>No English Speaking Experience Required</span>
                 </div>
                 <div className='course-intro-button-container'>
                     <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLL NOW</button></Link>
-                    <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
+                    <Link to="/englishoffline" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
                 </div>
         </div>
     </div>
