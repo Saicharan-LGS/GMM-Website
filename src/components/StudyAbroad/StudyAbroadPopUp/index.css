@@ -213,10 +213,11 @@
     color: #196AE5;
     margin: 0px;
     padding: 0px;
-    margin-right: 10px;
   }
 
   .studyabordpopup-response{
     font-size: 14;
     margin: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }

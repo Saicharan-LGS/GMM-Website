@@ -33,7 +33,7 @@ export default function EnglishOfflineCourse() {
                 </div>
                 <div className='course-intro-button-container'>
                     <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLL NOW</button></Link>
-                    <Link to="/english" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
+                    <Link to="/english-online" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
                 </div>
         </div>
         <div className='english-course-selection-sub-conatiner'>
@@ -56,7 +56,7 @@ export default function EnglishOfflineCourse() {
                 </div>
                 <div className='course-intro-button-container'>
                     <Link to="/registration" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>ENROLL NOW</button></Link>
-                    <Link to="/englishoffline" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
+                    <Link to="/english-offline" style={{textDecoration:"none", color:"#fff"}}><button className='course-intro-button1'>EXPLORE NOW</button></Link>
                 </div>
         </div>
     </div>
