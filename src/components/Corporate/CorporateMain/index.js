@@ -55,6 +55,8 @@ import picture1 from "../../Images/Corporates.jpg"
 
 // ]
 
+const watsappUrl= process.env.REACT_APP_WHATSAPPLINK
+
 export default function Corporate() {
     const [currentIndex, setCurrentIndex] = useState(0);
     // State to keep track of the current page index
@@ -109,7 +111,7 @@ export default function Corporate() {
                     <p className='enterprise-banner-section-subtitle'>We are a lifelong learning partner for corporates, helping them build skills in emerging technologies at scale</p>
                     <p className='enterprise-banner-section-change-text'>{CorporateBannerRender[currentIndex]}</p>
                     
-                        <a href="https://api.whatsapp.com/send?phone=919866238940" rel="noreferrer" target="_blank"><button className='enterprise-banner-section-button' >Learn More</button></a>
+                        <a href={watsappUrl} rel="noreferrer" target="_blank"><button className='enterprise-banner-section-button' >Learn More</button></a>
                   
                 </div>
                     <img className='enterprise-banner-section-image' src={picture1} alt="" />
@@ -166,7 +168,7 @@ export default function Corporate() {
                     </div>
                 ))}
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=919866238940" rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
+                <a href={watsappUrl} rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
             </div>
             <EnterpriseBeginner />
             <div className='enterprise-partnership-section-container'>
@@ -184,7 +186,7 @@ export default function Corporate() {
                     <h1 className='enterprise-business-section-title'>Glorious for Business</h1>
                     <p className='enterprise-business-section-pargargh'>Get in touch with our team to discuss how GloriousMindMine for Business can power your Enterprise Learning.</p>
                     <div>
-                    <a href="https://api.whatsapp.com/send?phone=919866238940" rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
+                    <a href={watsappUrl} rel="noreferrer" target="_blank"><button className='enterprise-partners-section-button'>TALK TO US</button></a>
                     </div>
                 </div>
                 <div className="enterprise-business-section-player-conatiner">

@@ -22,6 +22,8 @@ const SelectCourseList1={
   "Study Abroad":{id:3,item:"Study Abroad",detail:[{id:0,course:"America"},{course:"Australia"},{course:"Canada"},{course:"Germany"},{course:"NewZealand"},{id:1,course:"Uk"},]}
 }
 
+const popupFormUrl  = process.env.REACT_APP_API_BASE_URL
+
 const PopupForm = ({ onSubmit }) => {
 
   const [email, setEmail] = useState('');
@@ -52,7 +54,7 @@ const PopupForm = ({ onSubmit }) => {
     event.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:3005/register",
+        `${popupFormUrl}/register`,
         {
           method: "POST",
           headers: {

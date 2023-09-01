@@ -1205,6 +1205,8 @@ const SelectCourseList1={
  }
 }
 
+const studyAboradUrl= process.env.REACT_APP_API_BASE_URL
+
 const StudyAbroadPopUp=()=>{
         const [email, setEmail] = useState('');
         const [name, setName] = useState('');
@@ -1219,6 +1221,8 @@ const StudyAbroadPopUp=()=>{
   
         const navigate = useNavigate();
 
+
+
   
         const closePopupPage = () => {
           navigate("/studyabroad");
@@ -1228,7 +1232,7 @@ const StudyAbroadPopUp=()=>{
           event.preventDefault();
           try {
             const response = await fetch(
-              "http://localhost:3005/studyabroad",
+              `${studyAboradUrl}/studyabroad`,
               {
                 method: "POST",
                 headers: {

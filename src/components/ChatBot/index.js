@@ -47,6 +47,9 @@
 // export default ChatBot;
 
 import { useEffect } from "react";
+
+const studyAboradUrl= process.env.REACT_APP_CHATBOT
+
 const ChatBot =()=>{
 useEffect(() => {
   var Tawk_API = Tawk_API || {};
@@ -55,7 +58,7 @@ useEffect(() => {
     var s1 = document.createElement("script");
     var s0 = document.getElementsByTagName("script")[0];
     s1.async = true;
-    s1.src = 'https://embed.tawk.to/64e5bbb4cc26a871b030d8c9/1h8gmaf3q';
+    s1.src = studyAboradUrl;
     s1.charset = 'UTF-8';
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);

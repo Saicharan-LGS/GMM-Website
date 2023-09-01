@@ -62,7 +62,10 @@ import study4 from "../../Images/studyuk.jpg"
 import study5 from "../../Images/studygermany.jpg"
 import study6 from "../../Images/studynewzealand.jpg"
 
-import moiz from "../../Images/moiz.JPG"
+import studyaboardImg1 from "../../Images/studyabord1.JPG"
+import studyaboardImg2 from "../../Images/studyabord2.JPG"
+import studyaboardImg3 from "../../Images/studyabord3.JPG"
+import studyaboardImg4 from "../../Images/studyabord4.JPG"
 
 const slides = [
   {
@@ -285,28 +288,28 @@ const letUsGuide = [
   
     const meetOur=[
       {
-        image:moiz,
+        image:studyaboardImg1,
         iamgeDesc:"Himanshi is a competent leader and skilled communicator, dedicated to offering unwavering support to students aspiring to study abroad. With over a decade of experience in the study abroad sector, she strongly focuses on US universities. She has successfully guided more than 3500 students in their search for the perfect academic opportunity.",
         heading:"Himanshi Garg",
         desc:"Senior Counsellor, 10+ Years of Experience, USA",
         button:"Fix an Appoinment"
       },
       {
-        image:"https://images.collegedunia.com/public/asset/img/studyabroad/counselors/rohit-soni.jpeg?h=262&w=262&mode=strech",
+        image:studyaboardImg2 ,
         iamgeDesc:"Rohit is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Rohit possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey.",
         heading:"Rohit Soni",
         desc:"Senior Counsellor,3+ Years of Experience, United Kingdom",
         button:"Fix an Appoinment"
       },
       {
-        image:"https://images.collegedunia.com/public/asset/img/studyabroad/counselors/aadhya-chadha.jpeg?h=262&w=262&mode=strech",
+        image:studyaboardImg3 ,
         iamgeDesc:"Aadya is an accomplished leader with excellent communication skills who prioritizes compassionate support for study abroad aspirants without compromising on quality. Her extensive knowledge of European & Australian universities has benefited approximately 1800 students in finding the perfect academic institution that meets their individual requirements.",
         heading:"Aadhya Chadha",
         desc:"Senior Counsellor, 2+ Years of Experience, Australia",
         button:"Fix an Appoinment"
       },
       {
-        image:"https://images.collegedunia.com/public/asset/img/studyabroad/counselors/rohit-soni.jpeg?h=262&w=262&mode=strech",
+        image:studyaboardImg4,
         iamgeDesc:"Sakshee is a compassionate and student-focused leader who excels in guiding students through the study abroad process for Canada. From university selection to securing offers, Sakshee's expertise ensures a seamless journey. She is dedicated to providing personalized support and ensuring her students feel supported every step of the way.",
         heading:"Sakshee Banerjee",
         desc:"Senior Counsellor, 2+ Years of Experience, Canada",

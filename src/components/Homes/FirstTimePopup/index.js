@@ -9,6 +9,8 @@ import {PiCertificateFill} from 'react-icons/pi'
 import {BiSolidPhoneCall} from 'react-icons/bi'
 import {FaCommentDots} from 'react-icons/fa'
 
+const firstTimePopupUrl  = process.env.REACT_APP_API_BASE_URL
+
 const SelectCourseList=[
   {id:0,item:"100% Job Guarantee"},{id:1,item:"IT"},{id:2,item:"Soft Skills"},{id:3,item:"Study Abroad"}]
 
@@ -56,7 +58,7 @@ const FirstTimePopup = () => {
     event.preventDefault();
     try {
       const response = await fetch(
-        "http://localhost:3005/register",
+        `${firstTimePopupUrl}/register`,
         {
           method: "POST",
           headers: {
