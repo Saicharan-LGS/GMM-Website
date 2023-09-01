@@ -130,95 +130,95 @@ const StudyAbroadCountryList=[
     {id:5,image:australia1,heading:"Studying in Australia: A Destination of Excellence, Diversity, and Opportunity",description:"Australia is often considered a prime destination for studying due to its exceptional education system, diverse and welcoming society, stunning natural landscapes, and vibrant cities. Renowned for its high-quality universities and research opportunities, Australia offers a wide array of programs catering to various interests."}]
 
 const StudyAbroadExamsList=[
-    {id:0,Exam:"International English Language Testing System [IELTS]",Description:"IELTS is an English language proficiency test that is widely accepted by over 3000 universities worldwide for the purpose of migration or higher education in countries like UK, USA, Canada, New Zealand, and Australia. It is available in two formats: IELTS Academic and IELTS General. To register for IELTS, candidates need to select a suitable test center and date. The exam fee for pen and paper based IELTS is INR 16,250. The total duration of the test is 2 hours and 45 minutes. Candidates can take the test up to four times a month. The IELTS score is usually available within 2-5 days after the test.",register:"IELTS REGISTRATION",link:""},
-    {id:1,Exam:"Test of a English as Foreign [TOEFL]",Description:"The TOEFL iBT (Test of English as a Foreign Language Internet-Based Test) is an exam that standardizes the evaluation of English language proficiency for non-native speakers. The test evaluates four language skills: Reading, Listening, Speaking, and Writing. TOEFL Registration fee is 195 USD(INR 16046). The test is taken online at authorized test centers worldwide and takes around three hours to complete. The TOEFL iBT is a widely recognized assessment tool by universities, employers, and immigration authorities to evaluate an individual's English language abilities.",register:"TOEFL REGISTRATION",link:""},
-    {id:2,Exam:"Pearson Test of English [PTE]",Description:"PTE is a computer-based English language proficiency test that assesses a candidate's English language proficiency for academic or immigration purposes. The test assesses non-native English speakers' reading, writing, speaking, and listening abilities. PTE is recognized by over 3000+ universities, institutions, and governments all around the world, including the UK, Australia, Canada, and New Zealand. PTE registration can be done by creating an account on the official website, completing their profile, selecting their preferred test date and center, and paying the registration fee of INR.15,900.",register:"PTE REGISTRATION",link:""},
-    {id:3,Exam:"Graduate Record Examination [GRE]",Description:"The GRE is an entrance exam required for pursuing postgraduate degrees in the USA, Canada, and select other countries. Due to the impact of COVID-19, candidates can now register for the GRE from the comfort of their homes as an alternative to taking the exam at a testing center. The GRE exam consists of three sections - Verbal Reasoning, Quantitative Reasoning, and Analytical Writing - with scores for the verbal and quant sections ranging from 130 to 170 each. The total GRE score ranges from 260 to 340, while the AWA score is measured on a scale of 0.0 to 6.0. Top universities typically require a GRE score of 150 to 160 for both verbal and quant. The GRE exam fee for 2023 in India is INR 18,863 ($228), while for other parts of the world, it is $220 (INR 18210.61)",register:"GRE REGISTRATION",link:""},
-    {id:4,Exam:"Graduate Management Admission Test [GMAT]", Description:"GMAT is an adaptive computerized test taken by students pursuing management studies abroad. As a result of the pandemic, candidates have the option to take the GMAT either at a test center or online. A new exam pattern which is GMAT Focus Edition for the GMAT 2023 has been introduced, with a shorter set of topics now being covered. The registration for The GMAT Exam- Focus Edition will open on August 29, 2023, while the existing GMAT exam will continue to run till early next year, so for some time candidates will have a choice to register for either of the exams or both exams.",register:"GMAT REGISTRATION",link:""},
-    {id:5,Exam:"Scholastic Aptitude Test [SAT]",Description:"SAT is administered by the College Board for undergraduate studies abroad, especially in the US, Canada, Europe, Singapore, and India. Candidates can register for the SAT exam up to five weeks before the test date and must pay an exam fee of $60 (INR 4,965.63). Indian candidates are required to pay a non-US regional fee of $49 (INR 3,600), making the total SAT exam fees for Indian nationals $104 (INR 7,700). The first SAT 2023 Digital Test is scheduled on March 11, 2023.",register:"SAT REGISTRATION",link:""}
+    {id:0,Exam:"International English Language Testing System [IELTS]",Description:"IELTS, a globally recognized English language proficiency test, enjoys widespread acceptance by more than 3000 universities worldwide, particularly for those pursuing higher education or migration to countries such as the UK, USA, Canada, New Zealand, and Australia. The IELTS exam comes in two formats: IELTS Academic and IELTS General. To enroll for IELTS, candidates must choose a suitable test center and date. The examination fee for the pen-and-paper-based IELTS stands at INR 16,250. The entire test takes approximately 2 hours and 45 minutes to complete.",register:"IELTS REGISTRATION",link:""},
+    {id:1,Exam:"Test of a English as Foreign [TOEFL]",Description:"The TOEFL iBT (Test of English as a Foreign Language Internet-Based Test) is a standardized assessment that measures English language proficiency among non-native speakers. This exam assesses proficiency in four language skills: Reading, Listening, Speaking, and Writing. The registration fee for the TOEFL is 195 USD (equivalent to INR 16,046). The test is administered online at authorized test centers globally and typically takes approximately three hours to complete. The TOEFL iBT is widely acknowledged and accepted by universities, employers, and immigration authorities.",register:"TOEFL REGISTRATION",link:""},
+    {id:2,Exam:"Pearson Test of English [PTE]",Description:"PTE, or the Pearson Test of English, is a computer-based assessment designed to evaluate an individual's English language proficiency for academic and immigration purposes. This test measures the reading, writing, speaking, and listening skills of non-native English speakers. PTE enjoys recognition from over 3000+ universities, institutions, and governments worldwide, including countries like the UK, Australia, Canada, and New Zealand. Registering for the PTE involves creating an account on the official website, completing the profile, selecting the preferred test date and center.",register:"PTE REGISTRATION",link:""},
+    {id:3,Exam:"Graduate Record Examination [GRE]",Description:"The GRE (Graduate Record Examination) is a mandatory entrance exam for individuals seeking postgraduate programs in the USA, Canada, and select other nations. In response to the COVID-19 pandemic, candidates now have the option to register for the GRE and take it from the convenience of their homes, offering an alternative to testing center attendance.The GRE exam encompasses three sections: Verbal Reasoning, Quantitative Reasoning, and Analytical Writing, with scores for the verbal and quantitative sections ranging from 130 to 170 each. The total GRE score spans from 260 to 340, while the Analytical Writing Assessment (AWA) score is measured on a scale of 0.0 to 6.0. ",register:"GRE REGISTRATION",link:""},
+    {id:4,Exam:"Graduate Management Admission Test [GMAT]", Description:"GMAT, the Graduate Management Admission Test, is an adaptive computerized examination taken by students aspiring to pursue management studies abroad. In response to the pandemic, candidates now have the flexibility to choose between taking the GMAT at a physical test center or online.An updated exam pattern, known as the GMAT Focus Edition for GMAT 2023, has been introduced. This version covers a narrower set of topics. The registration for The GMAT Exam - Focus Edition will commence on August 29, 2023. Concurrently, the existing GMAT exam will continue to be available until early next year.",register:"GMAT REGISTRATION",link:""},
+    {id:5,Exam:"Scholastic Aptitude Test [SAT]",Description:"The SAT, conducted by the College Board, is an essential examination for students pursuing undergraduate studies abroad, particularly in the United States, Canada, Europe, Singapore, and India. Aspiring candidates have the opportunity to register for the SAT exam up to five weeks before the designated test date. The examination fee stands at $60 (equivalent to INR 4,965.63). For Indian candidates, there is an additional non-US regional fee of $49 (INR 3,600), bringing the total SAT exam fees for Indian nationals to $104 (INR 7,700). The inaugural SAT 2023 Digital Test is slated for March 11, 2023.",register:"SAT REGISTRATION",link:""}
 ]
 
 
-const StudyAbroadChooseList=[{id:0,Icon:FaBusinessTime,title:"BUSINESS",text:"1435 COLLEGES"},
-{id:1,Icon:MdScience,title:"SCIENCE",text:"COLLEGES"},{id:2,Icon:MdEngineering,title:"ENGINEERING",text:"COLLEGES"},
-{id:3,Icon:MdDraw,title:"DRAWING",text:"COLLEGES"},{id:4,Icon:GiWatch,title:"SOCIAL STUDIES",text:"COLLEGES"},
-{id:5,Icon:TbMedicineSyrup,title:"MEDICINE",text:"COLLEGES"},{id:6,Icon:TbMedicalCrossFilled,title:"BIOLOGY",text:"COLLEGES"},
-{id:7,Icon:MdOutlinePsychologyAlt,title:"PSYCHOLOGY",text:"COLLEGES"},
-{id:8,Icon:FaCalculator,title:"ACCOUNTING",text:"COLLEGES"},{id:9,Icon:CgProfile,title:"HUMANITIES",text:"COLLEGES"},
-{id:10,Icon:MdCastForEducation,title:"EDUCATION",text:"COLLEGES"},{id:11,Icon:TbCoinRupee,title:"FINANCE",text:"COLLEGES"},
-{id:12,Icon:TbLanguage,title:"LANGUAGE",text:"COLLEGES"},{id:13,Icon:FaHistory,title:"HISTORY",text:"COLLEGES"},
-{id:14,Icon:BiLeaf,title:"ENVIRONMENTAL STUDIES",text:"COLLEGES"},{id:15,Icon:TbMathSymbols,title:"MATHMATICS",text:"COLLEGES"},
-{id:16,Icon:BsGraphUp,title:"ECONOMICS",text:"COLLEGES"},{id:17,Icon:GiChemicalDrop,title:"CHEMISTRY",text:"COLLEGES"},
-{id:18,Icon:GoLaw,title:"LAW",text:"COLLEGES"},{id:19,Icon:GiMaterialsScience,title:"SCIENCE",text:"COLLEGES"},
-{id:20,Icon:GiMicrophone,title:"JOURNALISM",text:"COLLEGES"},
-{id:21,Icon:MdBiotech,title:"BIOTECHNOLOGY",text:"COLLEGES"},{id:22,Icon:GiNurseFemale,title:"NURSING",text:"COLLEGES"},
-{id:23,Icon:GiPoloShirt,title:"DESIGN",text:"COLLEGES"},{id:24,Icon:SiSimpleanalytics,title:"DATA SCIENCE AND ANALYSIS",text:"COLLEGES"},
-{id:25,Icon:TbInfoSquareFilled,title:"INFORMATION STUDIES",text:"COLLEGES"},{id:26,Icon:MdArchitecture,title:"ARCHITECTURE",text:"COLLEGES"},
-{id:27,Icon:GiWorld,title:"GEOGRAPHY",text:"COLLEGES"},{id:28,Icon:MdOutlineColorLens,title:"GRAPHIC DESIGN",text:"COLLEGES"},
-{id:29,Icon:MdOutlineTour,title:"TOURISM AND HOSPITALITY",text:"COLLEGES"},{id:30,Icon:MdLocalPharmacy,title:"PHARMACY",text:"COLLEGES"},
-{id:31,Icon:MdAgriculture,title:"AGRICULTURE",text:"COLLEGES"},{id:32,Icon:GiTShirt,title:"FASHION DESIGN",text:"COLLEGES"},
-{id:33,Icon:BsGraphUp,title:"MANAGEMENT",text:"COLLEGES"},{id:34,Icon:LuShoppingCart,title:"COMMERCE",text:"COLLEGES"},
-{id:35,Icon:MdFlight,title:"AVIATION",text:"COLLEGES"},{id:36,Icon:PiHandshakeFill,title:"SOCIAL WORK",text:"COLLEGES"},
+const StudyAbroadChooseList=[{id:0,Icon:FaBusinessTime,title:"BUSINESS",text:"1535 COLLEGES"},
+{id:1,Icon:MdScience,title:"SCIENCE",text:" 800 COLLEGES"},{id:2,Icon:MdEngineering,title:"ENGINEERING",text:"2000 COLLEGES"},
+{id:3,Icon:MdDraw,title:"DRAWING",text:"200 COLLEGES"},{id:4,Icon:GiWatch,title:"SOCIAL STUDIES",text:"600 COLLEGES"},
+{id:5,Icon:TbMedicineSyrup,title:"MEDICINE",text:" 1000 COLLEGES"},{id:6,Icon:TbMedicalCrossFilled,title:"BIOLOGY",text:"900 COLLEGES"},
+{id:7,Icon:MdOutlinePsychologyAlt,title:"PSYCHOLOGY",text:"500 COLLEGES"},
+{id:8,Icon:FaCalculator,title:"ACCOUNTING",text:"400 COLLEGES"},{id:9,Icon:CgProfile,title:"HUMANITIES",text:" 100 COLLEGES"},
+{id:10,Icon:MdCastForEducation,title:"EDUCATION",text:"2000 COLLEGES"},{id:11,Icon:TbCoinRupee,title:"FINANCE",text:" 700 COLLEGES"},
+{id:12,Icon:TbLanguage,title:"LANGUAGE",text:" 1000 COLLEGES"},{id:13,Icon:FaHistory,title:"HISTORY",text:"300 COLLEGES"},
+{id:14,Icon:BiLeaf,title:"ENVIRONMENTAL STUDIES",text:"600 COLLEGES"},{id:15,Icon:TbMathSymbols,title:"MATHMATICS",text:"1200 COLLEGES"},
+{id:16,Icon:BsGraphUp,title:"ECONOMICS",text:"1100 COLLEGES"},{id:17,Icon:GiChemicalDrop,title:"CHEMISTRY",text:"587 COLLEGES"},
+{id:18,Icon:GoLaw,title:"LAW",text:" 430 COLLEGES"},{id:19,Icon:GiMaterialsScience,title:"SCIENCE",text:" 768 COLLEGES"},
+{id:20,Icon:GiMicrophone,title:"JOURNALISM",text:"554 COLLEGES"},
+{id:21,Icon:MdBiotech,title:"BIOTECHNOLOGY",text:"660 COLLEGES"},{id:22,Icon:GiNurseFemale,title:"NURSING",text:" 890 COLLEGES"},
+{id:23,Icon:GiPoloShirt,title:"DESIGN",text:"480 COLLEGES"},{id:24,Icon:SiSimpleanalytics,title:"DATA SCIENCE AND ANALYSIS",text:"750 COLLEGES"},
+{id:25,Icon:TbInfoSquareFilled,title:"INFORMATION STUDIES",text:" 1077 COLLEGES"},{id:26,Icon:MdArchitecture,title:"ARCHITECTURE",text:" 820 COLLEGES"},
+{id:27,Icon:GiWorld,title:"GEOGRAPHY",text:" 140 COLLEGES"},{id:28,Icon:MdOutlineColorLens,title:"GRAPHIC DESIGN",text:"700 COLLEGES"},
+{id:29,Icon:MdOutlineTour,title:"TOURISM AND HOSPITALITY",text:"390 COLLEGES"},{id:30,Icon:MdLocalPharmacy,title:"PHARMACY",text:" 900 COLLEGES"},
+{id:31,Icon:MdAgriculture,title:"AGRICULTURE",text:"776 COLLEGES"},{id:32,Icon:GiTShirt,title:"FASHION DESIGN",text:" 890 COLLEGES"},
+{id:33,Icon:BsGraphUp,title:"MANAGEMENT",text:"798 COLLEGES"},{id:34,Icon:LuShoppingCart,title:"COMMERCE",text:"877 COLLEGES"},
+{id:35,Icon:MdFlight,title:"AVIATION",text:"765 COLLEGES"},{id:36,Icon:PiHandshakeFill,title:"SOCIAL WORK",text:"987 COLLEGES"},
 ]
-const studyAbroadAboutList=[{id:0,Icon:FaSchool,title:"3400+",text:"Universities"},{id:1,Icon:FaGraduationCap,title:"150K+",text:"Courses"},{id:2,Icon:FaWpforms,title:"800+",text:"Applications Made"},{id:3,Icon:SiGooglescholar,title:"$2.1",text:"Million Scholarships"}]
+const studyAbroadAboutList=[{id:0,Icon:FaSchool,title:"3500+",text:"Universities"},{id:1,Icon:FaGraduationCap,title:"140K+",text:"Courses"},{id:2,Icon:FaWpforms,title:"900+",text:"Applications Made"},{id:3,Icon:SiGooglescholar,title:"$1.1",text:"Million Scholarships"}]
 
 const studyAbroadDestination=[
-    {id:0,text:"Study in USA",image:america1,colleges:"932",study:"27.8 L/Yr",living:"31.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 80%",fact2:"62% of students get a job after completing degree",fact3:"1.08 Million International Students study in US",fact4:"Intake Seasons- Fall & Spring",},
-    {id:1,text:"Study in CANADA",image:canada,colleges:"175",study:"13.9 L/Yr",living:"20.3 L/Yr",fact1:"622,000 International Students study in Canada",fact2:"35% of total international applicants are Indian",fact3:"27% South Asian Students Study in Canada",fact4:"Intake Seasons- Fall, Winter, & Summer",},
-    {id:2,text:"Study in UK",image:uk,colleges:"154",study:"21.4 L/Yr",living:"15.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 85%",fact2:"458,520 International Students studying in the UK",fact3:"54% International Freshman Enrolments",fact4:"Intake Seasons- October & January"},
-    {id:3,text:"Study in AUSTRALIA",image:australia,colleges:"65",study:"18.2 L/Yr",living:"21.4 L/Yr",fact1:"Visa Acceptance Rate for Student Visa in 90-95%",fact2:"79% students get a job after degree completion",fact3:"Numerous scholarships for international students",fact4:"Intake Seasons- February & July",},
-    {id:4,text:"Study in NEW ZEALAND",image:newzealand,colleges:"9",study:"18.3 L/Yr",living:"15.5 L/Yr",fact1:"68% students get a job after completing their degree",fact2:"7 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $870M spent on research annually",fact4:"Universities ranked in the top 3% in the world",},
-    {id:5,text:"Study in GERMANY",image:germany,colleges:"131",study:"4.3 L/Yr",living:"14.4 L/Yr",fact1:"Acceptance Rate in Germany is 92%",fact2:"2.3% of students are unemployed after degree completion",fact3:"No Tuition Fee",fact4:"Intake Seasons- Summer & Winter",}
+    {id:0,text:"Study in USA",image:america1,colleges:"942",study:"26.8 L/Yr",living:"32.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 82%",fact2:"72% of students get a job after completing degree",fact3:"1.09 Million International Students study in US",fact4:"Intake Seasons- Fall & Spring",},
+    {id:1,text:"Study in CANADA",image:canada,colleges:"179",study:"15.9 L/Yr",living:"26.3 L/Yr",fact1:"626,000 International Students study in Canada",fact2:"38% of total international applicants are Indian",fact3:"26% South Asian Students Study in Canada",fact4:"Intake Seasons- Fall, Winter, & Summer",},
+    {id:2,text:"Study in UK",image:uk,colleges:"158",study:"23.4 L/Yr",living:"17.6 L/Yr",fact1:"Acceptance Rate for Student Visa is 87%",fact2:"455,520 International Students studying in the UK",fact3:"57% International Freshman Enrolments",fact4:"Intake Seasons- October & January"},
+    {id:3,text:"Study in AUSTRALIA",image:australia,colleges:"67",study:"14.2 L/Yr",living:"23.4 L/Yr",fact1:"Visa Acceptance Rate for Student Visa in 92-95%",fact2:"89% students get a job after degree completion",fact3:"Numerous scholarships for international students",fact4:"Intake Seasons- February & July",},
+    {id:4,text:"Study in NEW ZEALAND",image:newzealand,colleges:"11",study:"19.3 L/Yr",living:"18.5 L/Yr",fact1:"65% students get a job after completing their degree",fact2:"11 universities amongst top 100 by 2020 QS Ranking",fact3:"More than $880M spent on research annually",fact4:"Universities ranked in the top 5% in the world",},
+    {id:5,text:"Study in GERMANY",image:germany,colleges:"135",study:"5.3 L/Yr",living:"16.4 L/Yr",fact1:"Acceptance Rate in Germany is 95%",fact2:"3.3% of students are unemployed after degree completion",fact3:"No Tuition Fee",fact4:"Intake Seasons- Summer & Winter",}
     ]
 
     
 const letUsGuide = [
     {
       mainHeading: 'Profile',
-      spainHeading: 'Evaluation',
+      spainHeading: 'Assessment',
       icon: ImProfile,
       desc:
-        'Once you submit your application, our expert team evaluates your profile on education, work exp. & objectives',
+        'After you ve submitted your application, our skilled team assesses your profile, considering factors such as your educational background, work experience, and career objectives.',
       button: 'Register',
     },
     {
       mainHeading: "Admission",
-      spainHeading: 'Guidance',
+      spainHeading: 'Support',
       icon: BiSolidDirections,
       desc:
-        'Our counsellors will help you in identifying the right country, college and program or arrange mentorship from existing students',
+        'Our counselors will assist you in determining the ideal country, college, and program or arrange for mentorship opportunities with current students.',
       button: 'Get Mentorship',
     },
     {
-      mainHeading: "Test Prep &",
-      spainHeading: 'Webinar',
+      mainHeading: "Test Preparation &",
+      spainHeading: 'Webinars',
       icon: CgProfile,
       desc:
-        'Get Free Tips and Tricks to crack study abroad exams like IELTS, TOEFL, SAT, GRE, GMAT. Also get cut off scores for top universities.',
+        'Access valuable insights and strategies to excel in international exams such as IELTS, TOEFL, SAT, GRE, and GMAT. Additionally, discover the admission cutoff scores for prestigious universities.',
       button: 'Register For-Webinar',
     },
     {
-      mainHeading: 'Application Document',
-      spainHeading: '& Essay',
+      mainHeading: 'Application Documents',
+      spainHeading: '& Essay Review',
       icon: TfiWrite,
       desc:
-        'Our expert team, checks every application & essay before submitting. We assist you in every step while preparing this documents.',
+        'Our expert team thoroughly reviews each application and essay before submission. We provide guidance and support at every stage of document preparation.',
       button: 'Avail Services',
     },
     {
-      mainHeading: "Visa &",
-      spainHeading: 'Interview',
+      mainHeading: "Visa Application  &",
+      spainHeading: 'Interview Preparation',
       icon: GrContactInfo,
       desc:
-        'With Best VISA approval rates in the industry, our team guides you for the best ways to earn a study visa at your dream destination',
+        'Achieving the highest visa approval rates in the industry, our team offers expert guidance on securing a study visa for your desired destination.',
       button: 'Get Information',
     },
     {
-      mainHeading: "Scholarships &",
-      spainHeading: 'Financial Aid',
+      mainHeading: "Scholarship Opportunities &",
+      spainHeading: 'Financial Assistance',
       icon: SiGooglescholar,
       desc:
-        'Our team will also guide you in planning your expenses, getting internship, education loan and scholarships',
+        'Our team will also provide guidance on budget planning, securing internships, obtaining education loans, and exploring scholarship opportunities.',
       button: 'Find Scholarships',
     }
   ];
@@ -226,92 +226,92 @@ const letUsGuide = [
   const howDoWeWork=[
     {
       id:0,
-      heading:"Register Yourself",
+      heading:"Enroll Yourself",
       icon:SiReacthookform,
       button:"Register"
   },
       {   
           id:1,
-          heading:"Career Counselling",
+          heading:"Vocational Guidance",
           icon:TbMessageDots,
-          desc:"Talk to our counsellors and know which country, course and college is better for you."
+          desc:"Engage with our counselors to discover optimal country,program for your needs."
       },
       {   
           id:2,
-          heading:"Entrance Test",
+          heading:"Admission Exam",
           icon:GoChecklist,
-          desc:"Identify the best entance test based on country and prepration tips."
+          desc:"Determine the most suitable admission examination based on your preference chosen country."
       },
       {
           id:3,
-          heading:"University Shortlist",
+          heading:"College Selection",
           icon:FaUniversity,
-          desc:"Our counsellors will help you shortlist best college as per the score"
+          desc:"Our counselors will assist you in selecting the most suitable college based on your scores."
       },
       {
           id:4,
-          heading:"Documentation",
+          heading:"Paperwork",
           icon:AiOutlineFolder,
-          desc:"We will help you in preparing documents for the application like SOPs, LOR, Essays, Resume Scholarship Essay etc."
+          desc:"We will assist you in crafting application documents, including Statements of Purpose, Essays, and Scholarship."
       },
       {
           id:5,
-          heading:"Applications",
+          heading:"Submissions",
           icon:AiOutlineIdcard,
-          desc:"Application to the colleges, online or offline will be guided by our team"
+          desc:"Our team will provide guidance for the submission of your college applications, whether online or offline."
       },
       {
           id:6,
-          heading:"Financial Documentation",
+          heading:"Financial Records",
           icon:GiWallet,
-          desc:"Talk to our counsellors and know which country, course and college is better for you"
+          desc:"Consult with our counselors to determine the most suitable country, college for your needs."
       },
       {   
           id:7,
-          heading:"VISA Application",
+          heading:"Visa Request",
           icon:FaAddressCard,
-          desc:"We help in VISA application form filling and interviews if needed"
+          desc:"We assist with completing visa application forms and offer support for interviews, if required."
       },
       {
         id:8,
         heading:"Post Visa",
         icon:MdFlightTakeoff,
-        desc:"We even help you in getting accommodation, mentorship for jobs, flight booking, forex, connect to the existing students"
+        desc:"We also provide support for securing house, job , flight reservations, and connections with current students."
     },
     {   
         id:9,
-        heading:"Talk to Counselor",
+        heading:"Consult with an Advisor",
         icon:FiPhoneCall,
-        button:"Talk to Counselor"
+        button:"Talk to Advisor"
     },
   ]
   
     const meetOur=[
       {
         image:studyaboardImg1,
-        iamgeDesc:"Himanshi is a competent leader and skilled communicator, dedicated to offering unwavering support to students aspiring to study abroad. With over a decade of experience in the study abroad sector, she strongly focuses on US universities. She has successfully guided more than 3500 students in their search for the perfect academic opportunity.",
-        heading:"Himanshi Garg",
+        iamgeDesc:"Noor Syed is a competent leader and skilled communicator, dedicated to offering unwavering support to students aspiring to study abroad. With over a decade of experience in the study abroad sector, she strongly focuses on US universities. She has successfully guided more than 3500 students in their search for the perfect academic opportunity.",
+        heading:"Noor Syed",
         desc:"Senior Counsellor, 10+ Years of Experience, USA",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg2 ,
-        iamgeDesc:"Rohit is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Rohit possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey.",
-        heading:"Rohit Soni",
+        iamgeDesc:"Syed Ibrahim is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Syed Ibrahim possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey.",
+        heading:"Syed Ibrahim",
         desc:"Senior Counsellor,3+ Years of Experience, United Kingdom",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg3 ,
-        iamgeDesc:"Aadya is an accomplished leader with excellent communication skills who prioritizes compassionate support for study abroad aspirants without compromising on quality. Her extensive knowledge of European & Australian universities has benefited approximately 1800 students in finding the perfect academic institution that meets their individual requirements.",
-        heading:"Aadhya Chadha",
+        iamgeDesc:"Syed Ali Shafiullah is an accomplished leader with excellent communication skills who prioritizes compassionate support for study abroad aspirants without compromising on quality. Her extensive knowledge of European & Australian universities has benefited approximately 1800 students in finding the perfect academic institution that meets their individual requirements.",
+        heading:"Syed Ali Shafiullah",
         desc:"Senior Counsellor, 2+ Years of Experience, Australia",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg4,
-        iamgeDesc:"Sakshee is a compassionate and student-focused leader who excels in guiding students through the study abroad process for Canada. From university selection to securing offers, Sakshee's expertise ensures a seamless journey. She is dedicated to providing personalized support and ensuring her students feel supported every step of the way.",
-        heading:"Sakshee Banerjee",
+        iamgeDesc:"Neymath Furqan is a compassionate and student-focused leader who excels in guiding students through the study abroad process for Canada. From university selection to securing offers, Neymath Furqan's expertise ensures a seamless journey. She is dedicated to providing personalized support and ensuring her students feel supported every step of the way.",
+        heading:"Neymath Furqan",
         desc:"Senior Counsellor, 2+ Years of Experience, Canada",
         button:"Fix an Appoinment"
       }
@@ -349,13 +349,10 @@ return(
     <div className='studyaboard-main-conatiner'>
       <div className='study-abroad-let-us-guide-container'>
         <h1 className='study-abroad-let-us-guide-title'>
-        Glorious Mindmine Free Counselling: Let Us Guide You
+        Glorious Mindmine Free Counseling: Allow Our Expertise to Lead the Way.
         </h1>
         <p className='study-abroad-let-us-guide-sub-title'>
-          Looking into Study Abroad colleges and universities as an international
-          student can be a challenge, but it's one you can overcome! From how
-          to look for accredited schools to what you should write about on your
-          applications, our expert counsellors will help you at every step
+        Exploring overseas colleges and universities as an international student may seem daunting, but it's a challenge you can conquer! Our experienced counselors are here to assist you at every stage, from finding accredited institutions to crafting compelling application materials.
         </p>
         <div className='study-abroad-let-us-guide-cards-conatiner'>
           {letUsGuide.map((guide, index) => (
@@ -587,8 +584,8 @@ return(
 
 
     <div className="study-abroad-choose-container">
-        <h1 className="study-abroad-let-us-guide-title">Choose Your Future</h1>
-        <p className="study-abroad-choose-main-text">Glorious Mimdmine is an extensive search engine for the students, parents,and education industry players who are seeking information</p>
+        <h1 className="study-abroad-let-us-guide-title">Shape Your Destiny</h1>
+        <p className="study-abroad-choose-main-text">Glorious Mindmine serves as an expansive search engine catering to students, parents, and stakeholders in the education industry who are in search of information.</p>
         <div className="study-abroad-choose-cards-container">
             <ul className="study-abroad-choose-cards-list">
                 {StudyAbroadChooseList.map(each=>(

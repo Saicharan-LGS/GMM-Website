@@ -35,6 +35,19 @@ import { CgNotes } from 'react-icons/cg';
 
 import { LuAlarmClock } from 'react-icons/lu';
 
+//career support images
+import Capgemini from '../Images/slider/Capgemini.png';
+import Citibank from '../Images/slider/Citibank.png';
+import cognizant from '../Images/slider/cognizant.jpg';
+import HDFC from '../Images/slider/HDFC.jpg';
+import squarespaces from '../Images/slider/squarespaces.webp';
+import amazon from '../Images/slider/amazon.png';
+import blue from '../Images/slider/blue.png';
+import infor from '../Images/slider/infor.png';
+import servio from '../Images/slider/servio.webp';
+import zingbus from '../Images/slider/zingbus.webp';
+import wipro from '../Images/slider/wipro.jpg';
+import del from '../Images/slider/del.jpg';
 
 //Carousel Settings
 export const Allsettings = {
@@ -73,17 +86,17 @@ export const CareerSupportTransformingCarrerList=[
 ]
 
 export const CareerSupportScrolllingImages1 = [
-    {id: 0, image: "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg"},
-    {id: 1, image: "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg"},
-    {id: 2, image: "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png"},
-    {id: 3, image: "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png"},
-    {id: 4, image: "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png"},
-    {id: 5, image: "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50"},
-    {id: 6, image: "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png"},
-    {id: 7, image: "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg"},
-    {id: 8, image: "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png"},
-    {id: 9, image: "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-"},
-    {id: 10, image: "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg"}
+    {id: 0, image: HDFC},
+    {id: 1, image: del},
+    {id: 2, image: Citibank},
+    {id: 3, image: cognizant},
+    {id: 4, image: amazon},
+    {id: 5, image: blue},
+    {id: 6, image: squarespaces},
+    {id: 7, image: wipro},
+    {id: 8, image: servio},
+    {id: 9, image: zingbus},
+    {id: 10, image: infor}
 ];
 
 
@@ -203,15 +216,15 @@ export const CorporateConsultativeCardData = [
 ];
 
 export const CorporateScrollingImages = [
-    {id: 0, image: "https://1000logos.net/wp-content/uploads/2021/06/HDFC-Bank-logo.jpg"},
-    {id: 1, image: "https://news.cognizant.com/image/cognizant-new-logo-400px.jpg"},
-    {id: 2, image: "https://1000logos.net/wp-content/uploads/2022/08/Myntra-Logo.png"},
-    {id: 3, image: "https://1000logos.net/wp-content/uploads/2017/02/HSBC-Logo.png"},
-    {id: 4, image: "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Logo.png"},
-    {id: 5, image: "https://www.popsci.com/uploads/2022/06/07/squarespace-logo-maker-best-free-logo-design-software.jpg?auto=webp&width=800&crop=16:10,offset-x50"},
-    {id: 6, image: "https://1000logos.net/wp-content/uploads/2016/11/Citibank-Logo.png"},
-    {id: 7, image: "https://cdn.cookielaw.org/logos/c2e51c50-8594-41cd-a02a-67907a0f7e2e/2f964a2f-44d3-4b77-b247-1774a38cb40a/3bc2e1ab-a3ef-4954-8e9a-69eef219f6c5/Genpact_Logo.jpg"},
-    {id: 8, image: "https://skillate-profile-pictures.s3.ap-south-1.amazonaws.com/org__237/5020af0a-289b-44d0-8e17-8b5ff1f0a985__Tiger_LOGO_new_main.png"},
-    {id: 9, image: "https://connect-assets.prosple.com/cdn/ff/WdcdY8IJZrwWmw6ImzA_uboAqko-obLkQ1fkBtT_aqI/1650724772/public/styles/scale_and_crop_center_974x309/public/2022-03/Logo-iit-madras480x480-2022.jpg?itok=bVtnp4G-"},
-    {id: 10, image: "https://media.designrush.com/agencies/130184/conversions/Deqode-logo-profile.jpg"}
+    {id: 0, image: HDFC},
+    {id: 1, image: cognizant},
+    {id: 2, image: Citibank},
+    {id: 3, image: del},
+    {id: 4, image: servio},
+    {id: 5, image: amazon},
+    {id: 6, image: infor},
+    {id: 7, image: zingbus},
+    {id: 8, image: wipro},
+    {id: 9, image: squarespaces},
+    {id: 10, image: blue}
 ];
