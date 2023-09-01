@@ -26,16 +26,18 @@ import AWS from "./components/courses/AWS/FullStackMain"
 import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
 import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain"
 import Leadership from './components/courses/LeaderShip/FullStackMain'
-import EnglishOfflineCourse from './components/Homes/EnglishOfflineCourse'
+import EnglishOfflineCourse from './components/Homes/EnglishSelection'
 import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain"
 import Ielts from './components/courses/Ielts/IeltsPage'
 import WhatIsIelts from './components/courses/Ielts/whatisIelts'
 import Ieltsscore from './components/courses/Ielts/IeltsScores'
+import EnglishOffline from "./components/courses/EnglishOffline/FullStackMain"
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
     <Routes>
+        <Route exact path="/englishoffline" element={<EnglishOffline />} />
         <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />
         <Route exact path="ielts-score" element={<Ieltsscore />} />
         <Route exact path="/ielts" element={<Ielts />} />
