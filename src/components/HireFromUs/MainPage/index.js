@@ -20,6 +20,7 @@ import umar from '../../Images/umarprofile.png'
 import chandana from '../../Images/chandana.jpg'
 import prashanth from '../../Images/prashanth.png'
 import courses from "../../Images/courses.png"
+import Button from "../../Button";
 
 const placmentUrl  = process.env.REACT_APP_API_BASE_URL
 
@@ -64,6 +65,7 @@ const HireFromUs=()=>{
         });
         const [errorMsg,setErrorMsg]=useState("");
         const [successMsg,setSuccessMsg]=useState("")
+        const [showLoader, setShowLoader] = useState(false)
       
         const handleInputChange = (e) => {
           const { name, value } = e.target;
@@ -71,6 +73,7 @@ const HireFromUs=()=>{
         };
         const handleSubmit = async (event) => {
             event.preventDefault();
+            setShowLoader(true)
             try {
                     
               const {name,email,mobileNumber,designation,companyName}=formData
@@ -102,10 +105,19 @@ const HireFromUs=()=>{
                     mobileNumber: '',
                     designation: '',
                 });
+                setShowLoader(false)
               } else {
                 const data = await response.json();
                 setErrorMsg(data.message);
                 setSuccessMsg("");
+                setFormData({
+                    name: '',
+                    email:'',
+                    companyName: '',
+                    mobileNumber: '',
+                    designation: '',
+                });
+                setShowLoader(false)
               }
             } catch (error) {
                 setErrorMsg(error);
@@ -239,10 +251,11 @@ const HireFromUs=()=>{
                     />
                 </div>
                 <p className='schedule-call-error-message'>{errorMsg}</p>
-                <p className='schedule-call-success-message' >{successMsg}</p>
-                <button type="submit" className="schedule-call-button">
-                    Submit
-                </button>
+                <p className='schedule-call-success-message'>{successMsg}</p>
+                <Button text="Submit"
+                    onSubmit={handleSubmit}
+                    loading={showLoader}
+                    disabled={showLoader}/>
                 </form>
 
             </div>

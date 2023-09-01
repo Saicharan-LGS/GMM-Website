@@ -48,7 +48,7 @@
 
     display: flex;
 
-    animation: swipe var(--speed) linear infinite backwards;
+    animation: swipe var(--speed) linear infinite reverse backwards;
 
   }
 

@@ -218,5 +218,7 @@
 
   .studyabordpopup-response{
     font-size: 14;
-    margin: 10px;
+    margin: 0px;
+    padding: 0px 3px;
+    text-align:center;
   }
