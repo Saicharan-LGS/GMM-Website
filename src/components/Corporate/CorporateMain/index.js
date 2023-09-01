@@ -15,10 +15,6 @@ import { CorporateScrollingImages } from '../../Constant/ListData';
 
 import picture1 from "../../Images/Corporates.jpg"
 
-
-
-
-
 // const mediaData=[
 //     {image:"https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/media-partners/healthworld.png",content:"Conversational Wellness Bots: The Future of Mental Health Therapy",date:"14 June 2023"},
 //     {image:"https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/media-partners/investors-observer.png",content:"Wharton Online Kickstarts the First Cohort for Its 12-Week Advanced Digital Marketing and Growth Strategies Program in Collaboration With Great Learning",date:"12 June 2023"},
