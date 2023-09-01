@@ -12,11 +12,11 @@ class Intro extends Component{
                     <h1 className="course-Intro-Heading">Certification In English Communication Blue Print</h1>
                     <div className="course-intro-batch-container">
                         <CgCalendarDates className='course-intro-calender-icon'/>
-                        <span className='course-into-calender-heading'>You can start Classes after Registration</span>
+                        <span className='course-into-calender-heading'>Cohort Lima Starts On Every Monday</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <span className='course-intro-list-text'>Full-time program with Recorded online classes</span>
+                        <span className='course-intro-list-text'>45 days Full-fledged online classes</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon'/>
