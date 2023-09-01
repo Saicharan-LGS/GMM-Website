@@ -107,9 +107,9 @@ const slides = [
 ];
 
 const StudentReviewVideoList = [
-    {id:0,video:"https://www.youtube.com/embed/watch?v=GzKs-rtLoiY",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
-    {id:1,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Nidhi Mittal , Studying in University of Melbourne, Australia",description:"Getting a detailed profile evaluation by a team of counsellors at Collegedunia ensured my safe transition to the University of Melbourne, says Nidhi Mittal."},
-    {id:2,video:"https://www.youtube.com/watch?v=GzKs-rtLoiY",Name:"Srishti Das , Studying in Columbia University, USA",description:"All-time support from counsellors through emails, calls or texts made my process to study abroad much easier than I imagined, says Srishti Das."}
+    {id:0,video:"https://youtu.be/4BQaEI52ZaY?si=1RrL0hLBuic9MnaG",Name:"Ayush Bhardwaj , Studying in Humber College, Canada",description:"From shortlisting university till attending my first class, Collegedunia has been there throughout, says Ayush Bhardwaj."},
+    {id:1,video:"https://youtu.be/7yjYDRcW2zg?si=AhSXugcxXhH9lyik",Name:"Nidhi Mittal , Studying in University of Melbourne, Australia",description:"Getting a detailed profile evaluation by a team of counsellors at Collegedunia ensured my safe transition to the University of Melbourne, says Nidhi Mittal."},
+    {id:2,video:"https://youtu.be/aZmtNKtUtPE?si=9velTEwnH6TbbGsy",Name:"Srishti Das , Studying in Columbia University, USA",description:"All-time support from counsellors through emails, calls or texts made my process to study abroad much easier than I imagined, says Srishti Das."}
 ]
 
 const ArticleSectionList=[
