@@ -36,7 +36,7 @@ import { CgNotes } from 'react-icons/cg';
 import { LuAlarmClock } from 'react-icons/lu';
 
 //career support images
-import Capgemini from '../Images/slider/Capgemini.png';
+
 import Citibank from '../Images/slider/Citibank.png';
 import cognizant from '../Images/slider/cognizant.jpg';
 import HDFC from '../Images/slider/HDFC.jpg';

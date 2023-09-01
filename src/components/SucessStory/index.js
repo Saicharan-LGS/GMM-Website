@@ -4,24 +4,24 @@ import "./index.css";
 
 import Header from '../Homes/Headers';
 import Footer from '../Homes/Footer';
-import {BsArrowDown} from 'react-icons/bs'
+import {BsArrowDown} from 'react-icons/bs';
 
 
-import roy from '../Images/roy.png'
-import Akhila from '../Images/Akhila.png'
-import saicharan from '../Images/saicharan.jpg'
-import triveni from '../Images/triveni.jpg'
-import venu from '../Images/venuprofile.jpg'
-import umar from '../Images/umarprofile.png'
-import nagesh from '../Images/nagesh.jpg'
-import chandana from '../Images/chandana.jpg'
-import cog from "../Images/cognizant.png"
-import genpact from "../Images/genpact.jpg"
-import google from "../Images/google.png"
-import capgemini from "../Images/capgemini.png"
-import wipro from "../Images/wipro.jpg"
-import exl from "../Images/exl.jpg"
-import lgs from "../Images/lgs.png"
+import roy from '../Images/roy.png';
+import Akhila from '../Images/Akhila.png';
+import saicharan from '../Images/saicharan.jpg';
+import triveni from '../Images/triveni.jpg';
+import venu from '../Images/venuprofile.jpg';
+import umar from '../Images/umarprofile.png';
+import nagesh from '../Images/nagesh.jpg';
+import chandana from '../Images/chandana.jpg';
+import cog from "../Images/cognizant.png";
+import genpact from "../Images/genpact.jpg";
+import google from "../Images/google.png";
+import capgemini from "../Images/capgemini.png";
+import wipro from "../Images/wipro.jpg";
+import exl from "../Images/exl.jpg";
+import lgs from "../Images/lgs.png";
 const SuccessStory = () => {
   const reviewsList = [
     {

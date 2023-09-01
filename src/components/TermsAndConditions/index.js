@@ -1,7 +1,7 @@
 import  { Component } from "react";
-import './index.css'
-import Header from '../Homes/Headers'
-import Footer from '../Homes/Footer'
+import './index.css';
+import Header from '../Homes/Headers';
+import Footer from '../Homes/Footer';
 class Terms extends Component {
     render(){
   return (
