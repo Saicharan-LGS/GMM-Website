@@ -36,7 +36,7 @@ import Capgemini from '../../../Images/slider/Capgemini.png';
 import Citibank from '../../../Images/slider/Citibank.png';
 import cognizant from '../../../Images/slider/cognizant.jpg';
 import Deqode from '../../../Images/slider/Deqode.jpg';
-import Genpact from '../../../Images/slider/Genpact.jpg';
+import Genpact from '../../../Images/slider/Genpact.png';
 import HDFC from '../../../Images/slider/HDFC.jpg';
 import HSBC from '../../../Images/slider/HSBC.png';
 import iit from '../../../Images/slider/iit.webp';
@@ -272,7 +272,7 @@ class DataScience extends Component{
                     <BannerRight images={ScrolllingImages1} speed={20000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerLeft images={ScrolllingImages2} speed={10000} />
+                    <BannerLeft images={ScrolllingImages2} speed={20000} />
                 </div>
                 <div  className="courseBanner">
                     <BannerRight images={ScrolllingImages3} speed={20000} />
