@@ -1,6 +1,6 @@
 import {Component} from 'react'
-import { BannerLeft } from "../../DataScience/BannerLeft";
-import {BannerRight} from "../../DataScience/BannerRight"
+// import { BannerLeft } from "../../DataScience/BannerLeft";
+// import {BannerRight} from "../../DataScience/BannerRight"
 import DoubtItem from '../../DataScience/DoubtItem';
 import FlexibleProgram from "../../DataScience/FlexibleProgram"
 import WhyGloriousMindMineCard from '../../DataScience/WhyGMMCard';
@@ -31,39 +31,40 @@ import umar from '../../../Images/umarprofile.png'
 import nagesh from '../../../Images/nagesh.jpg'
 import chandana from '../../../Images/chandana.jpg'
 import prashanth from '../../../Images/prashanth.png'
-import Capgemini from '../../../Images/slider/Capgemini.png';
-import Citibank from '../../../Images/slider/Citibank.png';
-import cognizant from '../../../Images/slider/cognizant.jpg';
-import Deqode from '../../../Images/slider/Deqode.jpg';
-import Genpact from '../../../Images/slider/Genpact.png';
-import HDFC from '../../../Images/slider/HDFC.jpg';
-import HSBC from '../../../Images/slider/HSBC.png';
-import iit from '../../../Images/slider/iit.webp';
-import Myntra from '../../../Images/slider/Myntra.png';
-import squarespace from '../../../Images/slider/squarespaces.webp';
-import Tiger from '../../../Images/slider/Tiger.png';
-import adf from '../../../Images/slider/adf.jpg';
-import amazon from '../../../Images/slider/amazon.png';
-import blue from '../../../Images/slider/blue.png';
-import del from '../../../Images/slider/del.jpg';
-import epam from '../../../Images/slider/epam.png';
-import infor from '../../../Images/slider/infor.png';
-import rocket from '../../../Images/slider/rocket.jpg';
-import servio from '../../../Images/slider/servio.webp';
-import superup from '../../../Images/slider/superup.webp';
-import zingbus from '../../../Images/slider/zingbus.webp';
-import wipro from '../../../Images/slider/wipro.jpg';
-import sisco from '../../../Images/slider/sisco.jpg';
-import Mitratech from '../../../Images/slider/Mitratech.jpg';
-import tcs from '../../../Images/slider/tcs.png';
-import Verizon from '../../../Images/slider/Verizon.png';
-import virtusa from '../../../Images/slider/virtusa.png';
-import Uplers from '../../../Images/slider/Uplers.webp';
-import Mindtree from '../../../Images/slider/Mindtree.jpg';
-import google from '../../../Images/slider/google.png';
-import godspeed from '../../../Images/slider/godspeed.png';
-import Adobe from '../../../Images/slider/Adobe.png';
-import HCL from '../../../Images/slider/HCL.png'
+
+// import Capgemini from '../../../Images/slider/Capgemini.png';
+// import Citibank from '../../../Images/slider/Citibank.png';
+// import cognizant from '../../../Images/slider/cognizant.jpg';
+// import Deqode from '../../../Images/slider/Deqode.jpg';
+// import Genpact from '../../../Images/slider/Genpact.jpg';
+// import HDFC from '../../../Images/slider/HDFC.jpg';
+// import HSBC from '../../../Images/slider/HSBC.png';
+// import iit from '../../../Images/slider/iit.webp';
+// import Myntra from '../../../Images/slider/Myntra.png';
+// import squarespace from '../../../Images/slider/squarespaces.webp';
+// import Tiger from '../../../Images/slider/Tiger.png';
+// import adf from '../../../Images/slider/adf.jpg';
+// import amazon from '../../../Images/slider/amazon.png';
+// import blue from '../../../Images/slider/blue.png';
+// import del from '../../../Images/slider/del.jpg';
+// import epam from '../../../Images/slider/epam.png';
+// import infor from '../../../Images/slider/infor.png';
+// import rocket from '../../../Images/slider/rocket.jpg';
+// import servio from '../../../Images/slider/servio.webp';
+// import superup from '../../../Images/slider/superup.webp';
+// import zingbus from '../../../Images/slider/zingbus.webp';
+// import wipro from '../../../Images/slider/wipro.jpg';
+// import sisco from '../../../Images/slider/sisco.jpg';
+// import Mitratech from '../../../Images/slider/Mitratech.jpg';
+// import tcs from '../../../Images/slider/tcs.png';
+// import Verizon from '../../../Images/slider/Verizon.png';
+// import virtusa from '../../../Images/slider/virtusa.png';
+// import Uplers from '../../../Images/slider/Uplers.webp';
+// import Mindtree from '../../../Images/slider/Mindtree.jpg';
+// import google from '../../../Images/slider/google.png';
+// import godspeed from '../../../Images/slider/godspeed.png';
+// import Adobe from '../../../Images/slider/Adobe.png';
+// import HCL from '../../../Images/slider/HCL.png'
 
 const learnersReviews=[
 {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
@@ -127,51 +128,48 @@ const whyGloriousMindMineList=[
     {id:5,Image:BiTargetLock,description:"Course Would Unlocked On a daily basis"},
 ]
 
-const ScrolllingImages1 = [
-    { id: 0, image: Tiger },
-    { id: 1, image: cognizant },
-    { id: 2, image: Myntra },
-    { id: 3, image: HSBC },
-    { id: 4, image: Capgemini },
-    { id: 5, image: squarespace },
-    { id: 6, image: Citibank },
-    { id: 7, image: Genpact },
-    { id: 8, image: Tiger },
-    { id: 9, image: iit },
-    { id: 10, image: Deqode },
-    { id: 11, image: HDFC }
-];
+// const ScrolllingImages1 = [
+//     { id: 0, image: Tiger },
+//     { id: 1, image: cognizant },
+//     { id: 2, image: Myntra },
+//     { id: 3, image: HSBC },
+//     { id: 4, image: Capgemini },
+//     { id: 5, image: squarespace },
+//     { id: 6, image: Citibank },
+//     { id: 7, image: Genpact },
+//     { id: 8, image: Tiger },
+//     { id: 9, image: iit },
+//     { id: 10, image: Deqode },
+//     { id: 11, image: HDFC }
+// ];
+ 
+// const ScrolllingImages2 = [
+//     { id: 0, image: adf },
+//     { id: 1, image: wipro },
+//     { id: 2, image: superup },
+//     { id: 3, image: epam },
+//     { id: 4, image: amazon },
+//     { id: 5, image: zingbus },
+//     { id: 6, image: infor },
+//     { id: 7, image: del },
+//     { id: 8, image: blue },
+//     { id: 9, image: rocket },
+//     { id: 10, image: servio }
+// ];
 
-  
-const ScrolllingImages2 = [
-    { id: 0, image: adf },
-    { id: 1, image: wipro },
-    { id: 2, image: superup },
-    { id: 3, image: epam },
-    { id: 4, image: amazon },
-    { id: 5, image: zingbus },
-    { id: 6, image: infor },
-    { id: 7, image: del },
-    { id: 8, image: blue },
-    { id: 9, image: rocket },
-    { id: 10, image: servio }
-];
-
-
-
-const ScrolllingImages3 = [
-    { id: 0, image: google },
-    { id: 1, image: Adobe },
-    { id: 2, image: Mindtree },
-    { id: 3, image: Mitratech },
-    { id: 4, image: Uplers },
-    { id: 5, image: virtusa },
-    { id: 6, image: godspeed },
-    { id: 7, image: Verizon },
-    { id: 8, image: sisco },
-    { id: 9, image: tcs },
-    { id: 10, image: HCL }
-];
+// const ScrolllingImages3 = [
+//     { id: 0, image: google },
+//     { id: 1, image: Adobe },
+//     { id: 2, image: Mindtree },
+//     { id: 3, image: Mitratech },
+//     { id: 4, image: Uplers },
+//     { id: 5, image: virtusa },
+//     { id: 6, image: godspeed },
+//     { id: 7, image: Verizon },
+//     { id: 8, image: sisco },
+//     { id: 9, image: tcs },
+//     { id: 10, image: HCL }
+// ];
   // eslint-disable-next-line
   const TransformingCarrerList=[
     {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
@@ -266,7 +264,7 @@ class EnglishOffline extends Component{
             <div>
                 
             </div>
-            <div className='courseCompaniesHiringContainer'>
+            {/* <div className='courseCompaniesHiringContainer'>
                 <h1 className="courseCompaniesHiringHeading">Companies hiring at Glorious Mind Mine</h1>
                 <div className="courseBanner">
                     <BannerRight images={ScrolllingImages1} speed={20000} />
@@ -275,9 +273,9 @@ class EnglishOffline extends Component{
                     <BannerLeft images={ScrolllingImages2} speed={20000} />
                 </div>
                 <div  className="courseBanner">
-                    <BannerRight images={ScrolllingImages3} speed={20000} />
-                </div>
-            </div>
+                    <BannerRight images={ScrolllingImages3} speed={10000} />
+                </div> 
+            </div>*/}
             <div className='courseTutionFeeMainContainer'>
                 <h1 className='courseTutionFeeMainHeading'>What You'll Get</h1>
                 <div className="courseTutionFeeSubContainer">

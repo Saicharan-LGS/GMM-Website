@@ -286,8 +286,8 @@
 .home-section-explore-courses-section{
   display: flex;
   align-items: center;
-  width:80%;
-  margin: 0px 10% 40px 15%;
+  width:90%;
+  margin: 0px 5% 40px 5%;
 }
 .home-section-explore-courses-section1{
   display: flex;
@@ -295,12 +295,12 @@
   justify-content: center;
   align-items: center;
   align-items: self-start;
-  width:40%;
+  width:50%;
   gap:30px;
 }
 
 .home-section-explore-courses-section2{
-  width: 40%;
+  width: 50%;
 }
 .home-section-explore-courses-text{
   font-family:"Roboto";
