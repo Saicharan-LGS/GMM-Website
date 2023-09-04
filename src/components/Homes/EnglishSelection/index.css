@@ -84,7 +84,7 @@
     cursor: pointer;
     display: inline-block;
     cursor: pointer;
-    border:1px solid #196AE5;
+    border:2px solid #196AE5;
     transition: all .5s ease;
     color: #000;
     background-color:transparent;
@@ -115,7 +115,7 @@
 }
 .course-intro-button2-category:hover{
     padding:9px 19px;
-    border:1px solid #196AE5;
+    border:2px solid #196AE5;
     color:#000;
     background:#fff !important; 
 }
