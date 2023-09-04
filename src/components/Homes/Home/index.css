@@ -226,15 +226,15 @@
 .home-section-transformed-careers-buttton{
   padding: 10px 15px 10px 15px;
   border-radius: 10px;
-  background: linear-gradient(to right,#7cb4e4,  #1c74d4, #7cb4e4);
+  border:2px solid linear-gradient(to right,#7cb4e4,  #1c74d4, #7cb4e4);
+  background-color: #fff;
   font-family:"Roboto";
   font-weight:600;
   display: inline-block;
     cursor: pointer;
     transition: all .5s ease;
-    color: #fff;
-    background-color:transparent;
-    border: none;
+    color: #196AE5;
+  
 }
 .home-section-transformed-careers-buttton:hover {
   background: linear-gradient(to right, #196ae5, #196ae5) border-box;

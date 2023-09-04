@@ -1,37 +1,38 @@
-import {Route,Routes} from 'react-router-dom'
-import './App.css'
-import Polarian from "./components/courses/Polarion/FullStackMain"
-import Mendix from "./components/courses/Mendix/FullStackMain"
-import English from './components/courses/English/FullStackMain'
-import DigitalMarketing from './components/courses/DigitalMarketing/FullStackMain'
-import Home from "./components/Homes/Home"
-import HireFromUs from './components/HireFromUs/MainPage'
-import DataScience from './components/courses/DataScience/FullStackMain'
-import CarrerSupport from "./components/CarrerSupport/CarrerMain"
-import Salesforce from "./components/courses/SalesForce/FullStackMain"
-import FullStackCourse from './components/courses/FullStackCourse/FullStackMain'
-import MobileViewCourse from './components/Homes/MobileViewCourse'
-import PopupForm from './components/Homes/Popupform'
-import About from './components/Homes/AboutPage'
-import SuccessStory from './components/SucessStory'
-import CareerSupport from './components/CarrerSupport/CarrerMain'
-import NotFound from './components/NotFound'
-import ChatBot from './components/ChatBot'
-import Whatsapp from './components/Whatsapp'
-import Corporate from './components/Corporate/CorporateMain'
-import Terms from "./components/TermsAndConditions"
-import Privacy from './components/PrivacyPolicy'
-import Studyabroad from './components/StudyAbroad/Studyabroad'
-import AWS from "./components/courses/AWS/FullStackMain"
-import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp'
-import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain"
-import Leadership from './components/courses/LeaderShip/FullStackMain'
-import EnglishOfflineCourse from './components/Homes/EnglishSelection'
-import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain"
-import Ielts from './components/courses/Ielts/IeltsPage'
-import WhatIsIelts from './components/courses/Ielts/whatisIelts'
-import Ieltsscore from './components/courses/Ielts/IeltsScores'
-import EnglishOffline from "./components/courses/EnglishOffline/FullStackMain"
+import {Route,Routes} from 'react-router-dom';
+import './App.css';
+import Polarian from "./components/courses/Polarion/FullStackMain";
+import Mendix from "./components/courses/Mendix/FullStackMain";
+import English from './components/courses/English/FullStackMain';
+import DigitalMarketing from './components/courses/DigitalMarketing/FullStackMain';
+import Home from "./components/Homes/Home";
+import HireFromUs from './components/HireFromUs/MainPage';
+import DataScience from './components/courses/DataScience/FullStackMain';
+import CarrerSupport from "./components/CarrerSupport/CarrerMain";
+import Salesforce from "./components/courses/SalesForce/FullStackMain";
+import FullStackCourse from './components/courses/FullStackCourse/FullStackMain';
+import MobileViewCourse from './components/Homes/MobileViewCourse';
+import PopupForm from './components/Homes/Popupform';
+import About from './components/Homes/AboutPage';
+import SuccessStory from './components/SucessStory';
+import CareerSupport from './components/CarrerSupport/CarrerMain';
+import NotFound from './components/NotFound';
+import ChatBot from './components/ChatBot';
+import Whatsapp from './components/Whatsapp';
+import Corporate from './components/Corporate/CorporateMain';
+import Terms from "./components/TermsAndConditions";
+import Privacy from './components/PrivacyPolicy';
+import Studyabroad from './components/StudyAbroad/Studyabroad';
+import AWS from "./components/courses/AWS/FullStackMain";
+import StudyAbroadPopUp from './components/StudyAbroad/StudyAbroadPopUp';
+import BusinessCorporate from "./components/courses/BusinessCorporate/FullStackMain";
+import Leadership from './components/courses/LeaderShip/FullStackMain';
+import EnglishOfflineCourse from './components/Homes/EnglishSelection';
+import TeamBuilding from "./components/courses/TeamBuilding/FullStackMain";
+import Ielts from './components/courses/Ielts/IeltsPage';
+import WhatIsIelts from './components/courses/Ielts/whatisIelts';
+import Ieltsscore from './components/courses/Ielts/IeltsScores';
+import EnglishOffline from "./components/courses/EnglishOffline/FullStackMain";
+import SocialIcons from './components/Homes/Socialicons';
 const App = () => (
     <>
     <Whatsapp />
@@ -72,4 +73,4 @@ const App = () => (
 
 )
 
-export default App
+export default App;

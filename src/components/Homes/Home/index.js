@@ -10,14 +10,16 @@ import HomeBannerCarousel from "../HomeCarousel"
 import image8 from "../../Images/8.png"
 import {TiTick} from 'react-icons/ti'
 import {AiFillStar} from 'react-icons/ai'
-import image1 from "../../Images/image-2.jpg"
-import image2 from "../../Images/image1.png"
+// import image1 from "../../Images/image-2.jpg"
+// import image2 from "../../Images/image1.png"
 import world from "../../Images/world.png"
 import SuccessCarousel from '../SuccessCarousel';
 import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
 import exploreProgramImage from "../../Images/salesiamge.JPG"
+import Home1 from "../../Images/home1.JPG"
+import SocialIcons from "../Socialicons";
 const settings = {
   dots: true,
   infinite: true,
@@ -150,6 +152,7 @@ const Home  =()=>{
     return (
       <>
         <Header/>
+        <SocialIcons/>
         <HomeBannerCarousel className="homeCarousel" slides={slidesData} />
         <div>
           <h1 className="why-choose-glorious-couse">Why choose GloriousMindmine?</h1>
@@ -158,7 +161,7 @@ const Home  =()=>{
               <img src={image8} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">Receive Tailored Guidance</h3>
+              <h3 className="home-section-service-heading">Tailored Guidance and Mentorship</h3>
               <p className="home-section-service-description">Participate in weekly mentorship sessions led by industry experts, benefiting from personalized support within small groups of 5-15 learners. Acquire practical experience through industry-related projects, gaining hands-on exposure.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
@@ -166,16 +169,20 @@ const Home  =()=>{
                       <TiTick className="home-section-service-stats-icon"/>
                     </div>
                     <div>
-                      <p className="home-section-service-stats-title">2,00,000+</p>
+                      <p className="home-section-service-stats-title">1,00,000+</p>
                       <p className="home-section-service-stats-subtitle">Mentorship Sessions Completed</p>
                     </div>
                   </div>
                   <div className="home-section-service-stats-item">
                     <div className="home-section-service-stats-icon-container">
                       <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
                     </div>
                     <div>
-                      <p className="home-section-service-stats-title">4.7/5</p>
+                      <p className="home-section-service-stats-title">4.9/5</p>
                       <p className="home-section-service-stats-subtitle">Mentorship Sessions Completed</p>
                     </div>
                   </div>
@@ -184,10 +191,10 @@ const Home  =()=>{
           </div>
           <div className="home-section-service-container-2">
             <div className="home-section-service-image-container">
-              <img src={image2} alt="" className="home-section-service-image"/>
+              <img src={Home1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">GL Excelerate Exclusive Career Assistance</h3>
+              <h3 className="home-section-service-heading">GloriousMindmine Excelerate Exclusive Career Assistance</h3>
               <p className="home-section-service-description">Our services include mock interviews to prepare you for your desired career. Engage in hackathons and career fairs to maintain a competitive edge.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
@@ -213,7 +220,7 @@ const Home  =()=>{
           </div>
           <div className="home-section-service-container">
             <div className="home-section-service-image-container">
-              <img src={image1} alt="" className="home-section-service-image"/>
+              <img src={Home1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
               <h3 className="home-section-service-heading">Enhanced Networking and Program Assistance</h3>
