@@ -159,7 +159,7 @@ const Home  =()=>{
               <img src={image8} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">Receive Tailored Guidance</h3>
+              <h3 className="home-section-service-heading">Tailored Guidance and Mentorship</h3>
               <p className="home-section-service-description">Participate in weekly mentorship sessions led by industry experts, benefiting from personalized support within small groups of 5-15 learners. Acquire practical experience through industry-related projects, gaining hands-on exposure.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
@@ -167,16 +167,20 @@ const Home  =()=>{
                       <TiTick className="home-section-service-stats-icon"/>
                     </div>
                     <div>
-                      <p className="home-section-service-stats-title">2,00,000+</p>
+                      <p className="home-section-service-stats-title">1,00,000+</p>
                       <p className="home-section-service-stats-subtitle">Mentorship Sessions Completed</p>
                     </div>
                   </div>
                   <div className="home-section-service-stats-item">
                     <div className="home-section-service-stats-icon-container">
                       <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
+                      <AiFillStar className="home-section-service-stats-star"/>
                     </div>
                     <div>
-                      <p className="home-section-service-stats-title">4.7/5</p>
+                      <p className="home-section-service-stats-title">4.9/5</p>
                       <p className="home-section-service-stats-subtitle">Mentorship Sessions Completed</p>
                     </div>
                   </div>
