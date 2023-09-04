@@ -19,6 +19,7 @@ import FullStack from "../FullStack"
 //import ReviewCard from '../../DataScience/ReviewCard';
 import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
+import SocialIcons from '../../../Homes/Socialicons';
 import Footer from '../../../Homes/Footer'
 import {Link} from "react-router-dom"
 import founder from "../../../Images/founder.png"
@@ -206,7 +207,7 @@ class TeamBuilding extends Component{
         return(
             <>
                 <Header/>
-            
+            <SocialIcons/>
             <div className="All-container">
             <div className="slider-container">
                 <div>

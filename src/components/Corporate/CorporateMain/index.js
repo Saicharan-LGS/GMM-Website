@@ -4,6 +4,7 @@ import "./index.css";
 
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
+import SocialIcons from '../../Homes/Socialicons';
 import EnterpriseBeginner from "../EnterpriceBegineer"
 import { BannerLeft } from "../../courses/DataScience/BannerLeft"
 
@@ -101,6 +102,7 @@ export default function Corporate() {
     return (
         <div>
             <Header />
+            <SocialIcons/>
             <div className='enterprise-banner-section'>
                 <div className='enterprise-banner-section-conatiner'>
                     <h3 className='enterprise-banner-section-title'>Delivering Learning Outcomes for Businesses</h3>

@@ -2,6 +2,7 @@ import "./index.css"
 import React ,{useState}from 'react';
 import Header from "../../Homes/Headers"
 import Footer from "../../Homes/Footer"
+import SocialIcons from "../../Homes/Socialicons";
 import StudyabroadCarousel from "../StudyabroadCarousel";
 
 import {FaSchool,FaGraduationCap,FaWpforms,FaBusinessTime,FaCalculator,FaHistory,} from "react-icons/fa"
@@ -121,6 +122,12 @@ const ArticleSectionList=[
     {id:5,Image:BsGlobeCentralSouthAsia,Name:"TRAVEL"},
     {id:6,Image:PiCertificate,Name:"POST DEGREE"}
 ]
+const StudyAbroadStudentReviewList=[
+  {id:0,image:america1,heading:"Education Excellence in America: Diverse Universities, Global Opportunities",description:"America is often considered a prime study destination due to its diverse and world-renowned universities, offering a wide range of programs. It provides ample research opportunities, a multicultural environment, and access to global job markets, enhancing students' academic and career prospects."},
+  {id:1,image:canada1,heading:"Pursue Excellence: Studying in Canada's Inclusive Academic Haven",description:"Canada is an excellent study destination due to its high-quality education, diverse multicultural environment, and welcoming policies for international students. Its renowned universities, research opportunities, and post-graduation work options make it an attractive choice for those seeking a well-rounded educational experience."},
+  {id:2,image:germany1,heading:"Germany: A Premier Study Destination",description:"Germany is an excellent choice for studying due to its renowned quality of education, affordability with tuition-free or low-cost programs, diverse range of English-taught courses, strong economy fostering job opportunities, leadership in research and innovation, and rich cultural experiences."},
+ ]
+
 const StudyAbroadCountryList=[
     {id:0,image:america1,heading:"Education Excellence in America: Diverse Universities, Global Opportunities",description:"America is often considered a prime study destination due to its diverse and world-renowned universities, offering a wide range of programs. It provides ample research opportunities, a multicultural environment, and access to global job markets, enhancing students' academic and career prospects."},
     {id:1,image:canada1,heading:"Pursue Excellence: Studying in Canada's Inclusive Academic Haven",description:"Canada is an excellent study destination due to its high-quality education, diverse multicultural environment, and welcoming policies for international students. Its renowned universities, research opportunities, and post-graduation work options make it an attractive choice for those seeking a well-rounded educational experience."},
@@ -344,6 +351,7 @@ const Studyabroad=()=>{
 return(
     <>
     <Header />
+    <SocialIcons/>
     <StudyabroadCarousel slides={slides}/>
     <div className='studyaboard-entire-conatiner'>
     <div className='studyaboard-main-conatiner'>
@@ -466,7 +474,7 @@ return(
 
     <div>
         <h3 className="student-review-video-main-heading">Our Student Loves us</h3>
-        <ul className="student-review-video-player-list-container">
+        {/*<ul className="student-review-video-player-list-container">
             {StudentReviewVideoList.map((eachStudentReview)=>(
                 <li className="student-review-video-player-display-container" key={eachStudentReview.id}>
                     <div className="responsive-container student-review-video-player-container">
@@ -479,7 +487,20 @@ return(
                 </li>
             
             ))}
-        </ul>
+            </ul>*/}
+            <div className="study-abroad-country-list-main-container">
+            <ul className="study-abroad-country-list-container">
+                {StudyAbroadStudentReviewList.map((eachCountry)=>(
+                    <li key={eachCountry.id} className="study-abroad-country-list-container-item">
+                        <img src={eachCountry.image} alt="" className="study-abroad-country-list-container-item-image"/>
+                        <div className="study-abroad-country-list-container-item-description-container">
+                            <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
+                            <p className="study-abroad-country-list-container-item-description">{eachCountry.description}</p>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+            </div>
     </div>
 
 

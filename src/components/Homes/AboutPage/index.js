@@ -3,6 +3,7 @@ import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Headers';
 import Footer from '../Footer';
+import SocialIcons from '../Socialicons';
 import aboutus1 from "../../Images/aboutus1.jpg"
 import aboutus2 from "../../Images/aboutus2.jpg"
 
@@ -13,6 +14,7 @@ export default function About() {
   return (
     <>
     <Header/>
+    <SocialIcons/>
     {/* 
     <div className="About-us-main-container">
     <div className="flip-card" tabIndex="0">

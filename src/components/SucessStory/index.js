@@ -5,7 +5,7 @@ import "./index.css";
 import Header from '../Homes/Headers';
 import Footer from '../Homes/Footer';
 import {BsArrowDown} from 'react-icons/bs';
-
+import SocialIcons from '../Homes/Socialicons';
 
 import roy from '../Images/roy.png';
 import Akhila from '../Images/Akhila.png';
@@ -106,6 +106,7 @@ const SuccessStory = () => {
   return (
         <>
         <Header/>
+        <SocialIcons/>
         <div>
           <div className="alumni-banner">
             <div className="alumni-banner-content">
