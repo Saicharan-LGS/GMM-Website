@@ -66,7 +66,7 @@ import google from '../../../Images/slider/google.png';
 import godspeed from '../../../Images/slider/godspeed.png';
 import Adobe from '../../../Images/slider/Adobe.png';
 import HCL from '../../../Images/slider/HCL.png'
-
+import {TransformingCarrerList } from "../../../Constant/ListData";
 const learnersReviews=[
     {id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
     {id:2,image:Akhila,name:"Akhila",designation:"Data Analyst At TCS",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analyst At TCS! Thanks to GloriousMindMine team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
@@ -176,16 +176,7 @@ const ScrolllingImages3 = [
 ];
 
 
-  // eslint-disable-next-line
-  const TransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at Glorious Mindmine was fabulous, and I’ll always be thankful to the entire Glorious Mindmine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
-]
+
   const tuitionFeeList=[
     "Fundamentals of Data Science with Specialisation Track","Placement Track offering guaranteed job above 5 LPA","100+ Live Classes and real time doubt resolution",
     "10+ industry relevant capstone projects","1:1 Mentorship and dedicated career coach","Educators from Microsoft, Google, Netflix, Airbnb, Apple",

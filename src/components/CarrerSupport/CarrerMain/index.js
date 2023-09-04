@@ -14,7 +14,7 @@ import TransformingCard from "../../courses/DataScience/TransformingCarrerCard"
 import { BannerLeft } from "../../courses/DataScience/BannerLeft";
 import SocialIcons from "../../Homes/Socialicons";
 //importing from ListData.js
-import { CareerSupportTransformingCarrerList } from "../../Constant/ListData";
+import { TransformingCarrerList } from "../../Constant/ListData";
 import { CareerSupportScrolllingImages1 } from "../../Constant/ListData";
 import { CareerSupportPrepList } from "../../Constant/ListData";
 import { Allsettings } from "../../Constant/ListData";
@@ -81,7 +81,7 @@ class CareerSupport extends Component{
                     <h1 className="carrerTransitionsMainHeading">Successful Career Transitions To Inspire You</h1>
                     <div className="careersupportslider">
                         <Slider {...Allsettings}>
-                            {CareerSupportTransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
+                            {TransformingCarrerList.map(each=>(<TransformingCard key={each.id} cardDetails={each} />))}
                         </Slider>
                     </div>
                 </div>
