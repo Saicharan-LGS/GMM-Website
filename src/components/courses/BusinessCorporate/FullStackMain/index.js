@@ -20,6 +20,7 @@ import FullStack from "../FullStack"
 import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
+import SocialIcons from '../../../Homes/Socialicons';
 import {Link} from "react-router-dom"
 import founder from "../../../Images/founder.png"
 import "../../DataScience/FullStackMain/index.css"
@@ -205,8 +206,8 @@ class BusinessCorporate extends Component{
         //   }
         return(
             <>
-                <Header/>
-            
+            <Header/>
+            <SocialIcons/>
             <div className="All-container">
             <div className="slider-container">
                 <div>

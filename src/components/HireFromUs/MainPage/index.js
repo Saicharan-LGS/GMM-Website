@@ -21,7 +21,7 @@ import chandana from '../../Images/chandana.jpg'
 import prashanth from '../../Images/prashanth.png'
 import courses from "../../Images/courses.png"
 import Button from "../../Button";
-
+import SocialIcons from "../../Homes/Socialicons";
 const placmentUrl  = process.env.REACT_APP_API_BASE_URL
 
 const HireFromUsList1=[
@@ -127,6 +127,7 @@ const HireFromUs=()=>{
     return(
         <>
         <Header/>
+        <SocialIcons/>
         <div className="HireFromUsContainer1">
             <div className="HireFromUsContainer1-1">
                 <h1 className="HireFromUsContainer2Heading">Hire top 5% IT talent</h1>

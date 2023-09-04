@@ -12,7 +12,7 @@ import CarrerPrep from "../CarrerPrep"
 import carrer from "../../Images/carrerimage.png"
 import TransformingCard from "../../courses/DataScience/TransformingCarrerCard"
 import { BannerLeft } from "../../courses/DataScience/BannerLeft";
-
+import SocialIcons from "../../Homes/Socialicons";
 //importing from ListData.js
 import { CareerSupportTransformingCarrerList } from "../../Constant/ListData";
 import { CareerSupportScrolllingImages1 } from "../../Constant/ListData";
@@ -29,6 +29,7 @@ class CareerSupport extends Component{
         return(
             <>
            <Header/>
+           <SocialIcons/>
             <div className="carrerSupportMain-home-container">
                 <div className="carrerSupportIntoductionContainer">
                     {/* <h3 className="careerSupportHeading">Achieve your career dreams with GMM Excelerate</h3> */}

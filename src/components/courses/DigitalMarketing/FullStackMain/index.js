@@ -19,6 +19,7 @@ import CourseJobReady from '../CourseJobReady';
 import Intro from '../Introduction'
 import Header from '../../../Homes/Headers'
 import Footer from '../../../Homes/Footer'
+import SocialIcons from '../../../Homes/Socialicons';
 import { Link } from 'react-router-dom';
 import founder from "../../../Images/founder.png"
 import "../../DataScience/FullStackMain/index.css"
@@ -231,7 +232,7 @@ class DigitalMarkting extends Component{
         return(
             <>
                 <Header/>
-            
+                <SocialIcons/>
             <div className="All-container">
             <div className="slider-container">
                 <div>

@@ -20,6 +20,7 @@ import newzee from '../../../Images/newzee.png';
 //import lastsection from '../../../Images/lastsection.png';
 import Header from "../../../Homes/Headers"
 import Footer from "../../../Homes/Footer"
+import SocialIcons from '../../../Homes/Socialicons';
 
 import ielts1 from "../../../Images/ielts1.png"
 import ielts2 from "../../../Images/ielts2.png"
@@ -50,6 +51,7 @@ const Ielts = () => {
     return (
       <>
       <Header />
+      <SocialIcons/>
       <div>
           <Slider {...settings} className="carousel-slider-home">
             {CarouselList.map(each=>(<CarouselCard key={each.id} cardDetails={each} />))}
