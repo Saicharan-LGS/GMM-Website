@@ -1,6 +1,23 @@
 .Social-icons-list{
-    z-index: 100;
+    margin-top: 10px;
     top: 80px; /* Adjust this value to set the desired distance from the bottom */
-    right: 40px; /* Adjust this value to set the desired distance from the left */
-    position: fixed;
+    left: 40px; 
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+}
+
+@media (max-width:768px){
+    .Social-icons-list{
+        margin-top: 10px;
+        top: 100px; /* Adjust this value to set the desired distance from the bottom */
+        left: 20px; 
+        display: flex;
+        justify-content: flex-end;
+        gap:5px;
+    }
+    .social-logo1{
+        width:16px;
+        height:16px;
+    }
 }

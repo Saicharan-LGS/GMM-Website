@@ -37,7 +37,6 @@ const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
-    <SocialIcons/>
     <Routes>
         <Route exact path="/english-offline" element={<EnglishOffline />} />
         <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />

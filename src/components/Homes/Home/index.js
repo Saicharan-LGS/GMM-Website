@@ -19,6 +19,7 @@ import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
 import exploreProgramImage from "../../Images/salesiamge.JPG"
 import Home1 from "../../Images/home1.JPG"
+import SocialIcons from "../Socialicons";
 const settings = {
   dots: true,
   infinite: true,
@@ -151,6 +152,7 @@ const Home  =()=>{
     return (
       <>
         <Header/>
+        <SocialIcons/>
         <HomeBannerCarousel className="homeCarousel" slides={slidesData} />
         <div>
           <h1 className="why-choose-glorious-couse">Why choose GloriousMindmine?</h1>
