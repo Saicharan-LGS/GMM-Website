@@ -36,6 +36,7 @@ import { CgNotes } from 'react-icons/cg';
 import { LuAlarmClock } from 'react-icons/lu';
 
 //career support images
+
 import Citibank from '../Images/slider/Citibank.png';
 import cognizant from '../Images/slider/cognizant.jpg';
 import HDFC from '../Images/slider/HDFC.jpg';
@@ -168,45 +169,45 @@ export const CorporateOurPatners=[
 
 export const CorporateConsultativeCardData = [
     {
-      title: 'Aligning Learning Outcomes with Business Goals',
-      listHead: 'Our Sales team will:',
+      title: 'Aligning Achievements in Learning with Corporate Objectives',
+      listHead: 'Our Sales team is committed to aligning with your business objectives:',
       listItems: [
-        'Understand your business goals',
-        'Recognize target audience and current challenges',
-        'Propose the best learning solution for your business',
+        'Grasp a deep understanding of your business goals.',
+        'Identify your target audience and prevailing challenges.',
+        'Suggest the most effective learning solution tailored to your business needs.',
       ],
       icon: <BsPuzzle size={40} color="#ffffff" />,
       backgroundColor: '#651cd5',
     },
     {
-        title: 'Aligning Learning Outcomes with Business Goals',
-        listHead: 'Our Sales team will:',
+        title: 'Tailoring a Unique Learning Pathway',
+        listHead: 'Our Solutioning & SME team is here to:',
         listItems: [
-          'Understand your business goals',
-          'Recognize target audience and current challenges',
-          'Propose the best learning solution for your business',
+          'Evaluate your requirements through our exclusive Skills Framework',
+          'Craft a personalized learning journey in consultation with your stakeholders',
+          'Work closely with you to establish clear and agreed-upon learning objectives.',
         ],
         icon: <CgNotes size={40} color="#ffffff"  />,
         backgroundColor: '#f1644c',
       },
       {
-        title: 'Aligning Learning Outcomes with Business Goals',
-        listHead: 'Our Sales team will:',
+        title: 'Boosting Learner Engagement',
+        listHead: 'Our Program Delivery Team is dedicated to:',
         listItems: [
-          'Understand your business goals',
-          'Recognize target audience and current challenges',
-          'Propose the best learning solution for your business',
+          'Guaranteeing active learner involvement and program excellence',
+          'Maintaining an ongoing feedback loop to enhance learner contentment',
+          'Offering around-the-clock support for a frictionless experience',
         ],
         icon: <BsFileBarGraph size={40} color="#ffffff"  />,
         backgroundColor: '#ffcc00',
       },
       {
-        title: 'Aligning Learning Outcomes with Business Goals',
-        listHead: 'Our Sales team will:',
+        title: 'Securing Program Excellence via Governance',
+        listHead: 'Our Governance Team assists you in:',
         listItems: [
-          'Understand your business goals',
-          'Recognize target audience and current challenges',
-          'Propose the best learning solution for your business',
+          'Gaining insights into learner progress for outcome assessment',
+          'Implementing adaptive adjustments based on feedback for continual improvement',
+          'Delivering regular progress reports to guarantee the triumph of your program.',
         ],
         icon: <LuAlarmClock size={40} color="#ffffff"  />,
         backgroundColor: '#0084ff',
