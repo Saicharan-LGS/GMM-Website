@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import image1 from "../../Images/signupimage.jpeg"
+import image1 from "../../Images/popupimage.jpg";
 
 import {BiSolidUser} from 'react-icons/bi'
 import {MdEmail} from 'react-icons/md'
