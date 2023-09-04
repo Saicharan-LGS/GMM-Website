@@ -32,10 +32,12 @@ import Ielts from './components/courses/Ielts/IeltsPage';
 import WhatIsIelts from './components/courses/Ielts/whatisIelts';
 import Ieltsscore from './components/courses/Ielts/IeltsScores';
 import EnglishOffline from "./components/courses/EnglishOffline/FullStackMain";
+import SocialIcons from './components/Homes/Socialicons';
 const App = () => (
     <>
     <Whatsapp />
     <ChatBot />
+    <SocialIcons/>
     <Routes>
         <Route exact path="/english-offline" element={<EnglishOffline />} />
         <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />
