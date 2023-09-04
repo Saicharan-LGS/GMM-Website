@@ -13,7 +13,7 @@ class Intro extends Component{
                     <h1 className="course-Intro-Heading">Certification In Polarion</h1>
                     <div className="course-intro-batch-container">
                         <CgCalendarDates className='course-intro-calender-icon'/>
-                        <span className='course-into-calender-heading'>Cohort Lima Starts On 18th July</span>
+                        <span className='course-into-calender-heading'>Cohort Live Batch Starts On 18th July</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />

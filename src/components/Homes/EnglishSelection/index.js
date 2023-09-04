@@ -40,7 +40,7 @@ export default function EnglishOfflineCourse() {
             <h3 className="english-course-selection-sub-conatiner-type-heading">Offline</h3>
             <div className="course-intro-batch-container-category">
                 <CgCalendarDates className='course-intro-calender-icon-category'/>
-                <span className='course-into-calender-heading-category'>Cohort Lima Starts On Every Monday</span>
+                <span className='course-into-calender-heading-category'>Cohort Live Batch Starts On Every Monday</span>
                 </div>
                 <div className='course-intro-list-container'>
                     <IoMdCheckmarkCircle className='course-intro-list-icon-category' />
