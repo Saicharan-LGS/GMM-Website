@@ -194,7 +194,7 @@ const Home  =()=>{
               <img src={Home1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">GloriousMindmine Excelerate Exclusive Career Assistance</h3>
+              <h3 className="home-section-service-heading">Glorious Mindmine Accelarate Exclusive Career Assistance</h3>
               <p className="home-section-service-description">Our services include mock interviews to prepare you for your desired career. Engage in hackathons and career fairs to maintain a competitive edge.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
@@ -240,7 +240,7 @@ const Home  =()=>{
                       <AiFillStar className="home-section-service-stats-star"/>
                     </div>
                     <div className="home-section-service-stats-title-container">
-                      <p className="home-section-service-stats-title">4.7/5</p>
+                      <p className="home-section-service-stats-title">4.9/5</p>
                       <p className="home-section-service-stats-subtitle">Average Support Rating</p>
                     </div>
                   </div>

@@ -117,7 +117,7 @@ function EnterpriseBeginner(){
                         </Slider>
                 </div>
             </div>
-            <div className="Enterprise-review-main-container">
+            {/*<div className="Enterprise-review-main-container">
                 <div className="Enterprise-review-of-recruiters">
                     <p className="Enterprise-review-of-recruiters-heading">Success in Campus Recruitment: Our Impact</p>
                     <p className="Enterprise-review-of-recruiters-description">We've supported over 400 recent graduates in mastering data science, leading to a twofold increase in revenue and a reduction of INR 1.7 billion in HR expenses for our business.</p>
@@ -128,7 +128,7 @@ function EnterpriseBeginner(){
                     <p className="Enterprise-review-of-partner-description">“Their meticulous approach, inventive concepts, comprehensive curricula, and unwavering dedication to delivering top-notch learning initiatives have left a remarkable impression.”</p>
                     <p className="Enterprise-review-of-partner-analytics">VP,Analytics</p>
                 </div>
-            </div>
+                </div>*/}
             <div>
                 <div className="Enterprise-card-main-text-container">
                     <p className="Enterprise-card-beginner-main-heading">For Mid-Senior Level Employees</p>
@@ -140,7 +140,7 @@ function EnterpriseBeginner(){
                         </Slider>
                 </div>
             </div>
-            <div className="Enterprise-review-main-container">
+            {/*<div className="Enterprise-review-main-container">
                 <div className="Enterprise-review-of-recruiters">
                     <p className="Enterprise-review-of-recruiters-heading">Success Story: Mid-Senior Level Employees</p>
                     <p className="Enterprise-review-of-recruiters-description">We revolutionized the Data Analytics & Modeling workforce, resulting in a threefold increase in revenue and a threefold boost in productivity for the business.</p>
@@ -151,7 +151,7 @@ function EnterpriseBeginner(){
                     <p className="Enterprise-review-of-partner-description">“Their meticulous approach, creative thinking, rigorous course content, and dedication to providing top-quality customized learning programs have left a strong impression. The mentor-led sessions consistently garner excellent reviews and feedback.”</p>
                     <p className="Enterprise-review-of-partner-analytics">VP,Analytics</p>
                 </div>
-            </div>
+                </div>*/}
             <div>
                 <div className="Enterprise-card-main-text-container">
                     <p className="Enterprise-card-beginner-main-heading">For Continuous Learners</p>

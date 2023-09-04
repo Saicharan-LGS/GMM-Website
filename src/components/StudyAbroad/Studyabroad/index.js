@@ -68,6 +68,10 @@ import studyaboardImg2 from "../../Images/studyabord2.JPG"
 import studyaboardImg3 from "../../Images/studyabord3.JPG"
 import studyaboardImg4 from "../../Images/studyabord4.JPG"
 
+import reviewstudy1 from "../../Images/reviewstudy1.JPG"
+import reviewstudy2 from "../../Images/reviewstudy2.JPG"
+import reviewstudy3 from "../../Images/reviewstudy3.JPG"
+
 const slides = [
   {
     image: study5, 
@@ -123,9 +127,9 @@ const ArticleSectionList=[
     {id:6,Image:PiCertificate,Name:"POST DEGREE"}
 ]
 const StudyAbroadStudentReviewList=[
-  {id:0,image:america1,heading:"Education Excellence in America: Diverse Universities, Global Opportunities",description:"America is often considered a prime study destination due to its diverse and world-renowned universities, offering a wide range of programs. It provides ample research opportunities, a multicultural environment, and access to global job markets, enhancing students' academic and career prospects."},
-  {id:1,image:canada1,heading:"Pursue Excellence: Studying in Canada's Inclusive Academic Haven",description:"Canada is an excellent study destination due to its high-quality education, diverse multicultural environment, and welcoming policies for international students. Its renowned universities, research opportunities, and post-graduation work options make it an attractive choice for those seeking a well-rounded educational experience."},
-  {id:2,image:germany1,heading:"Germany: A Premier Study Destination",description:"Germany is an excellent choice for studying due to its renowned quality of education, affordability with tuition-free or low-cost programs, diverse range of English-taught courses, strong economy fostering job opportunities, leadership in research and innovation, and rich cultural experiences."},
+  {id:0,image:reviewstudy1,heading:"Studying Abroad in the UK: A Transformative Journey",description:"The UK's rich history and world-class universities provided an unforgettable academic and cultural experience. I discovered new perspectives, made lifelong friends, and explored historic sites while pursuing my degree."},
+  {id:1,image:reviewstudy2,heading:"Canada: A Perfect Blend of Nature and Education",description:"Studying in Canada was a dream come true. The pristine landscapes and diverse communities complemented my rigorous coursework perfectly. I gained not only knowledge but also an appreciation for the great outdoors."},
+  {id:2,image:reviewstudy3,heading:"America: Unlocking Opportunities and Diversity",description:"My study abroad adventure in the United States was a game-changer. I was exposed to cutting-edge research, diverse cultures, and countless opportunities for personal and professional growth."},
  ]
 
 const StudyAbroadCountryList=[
