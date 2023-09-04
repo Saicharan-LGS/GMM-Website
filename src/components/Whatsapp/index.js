@@ -1,5 +1,5 @@
 
-import "./index.css"
+import "./index.css";
 import Lottie from 'lottie-react';
 
 import WhatsappTime from './WhatsappTime.json';

@@ -191,7 +191,7 @@ const Home  =()=>{
               <img src={image2} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
-              <h3 className="home-section-service-heading">GL Excelerate Exclusive Career Assistance</h3>
+              <h3 className="home-section-service-heading">GloriousMindmine Excelerate Exclusive Career Assistance</h3>
               <p className="home-section-service-description">Our services include mock interviews to prepare you for your desired career. Engage in hackathons and career fairs to maintain a competitive edge.</p>
               <div className="home-section-service-stats-container">
                   <div className="home-section-service-stats-item">
