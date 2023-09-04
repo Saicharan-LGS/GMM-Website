@@ -111,7 +111,7 @@ const SuccessStory = () => {
           <div className="alumni-banner">
             <div className="alumni-banner-content">
               <h3 className="alumini-text">Inspiring stories of success from our learners</h3>
-              <p className='alumini-para'>Pick from our pool of qualified & pre-trained candidates. Increase your interview-to-offer ratio.</p>
+              <p className='alumini-para'>Our candidate pool is your shortcut to efficient hiring. By choosing from our pre-qualified, pre-trained candidates, you'll experience a notable improvement in your interview-to-offer success rate. We've taken the guesswork out of recruitment by prioritizing quality and diversity, ensuring you have access to a wide range of talents and backgrounds.</p>
               {/*<div className="alumni-banner-btns">
               <button class="alumni-banner__btn " data-event-type="View Career Transitions" data-title="Alumni Banner" data-tab-id="tab-career-transition">Explore Career Transitions</button>
               <button class="alumni-banner__btn " data-event-type="Watch Success Stories" data-title="Alumni Banner" data-tab-id="tab-success-stories">View Testimonials</button>
