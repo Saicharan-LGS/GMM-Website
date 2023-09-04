@@ -10,8 +10,8 @@ import HomeBannerCarousel from "../HomeCarousel"
 import image8 from "../../Images/8.png"
 import {TiTick} from 'react-icons/ti'
 import {AiFillStar} from 'react-icons/ai'
-import image1 from "../../Images/image-2.jpg"
-import image2 from "../../Images/image1.png"
+// import image1 from "../../Images/image-2.jpg"
+// import image2 from "../../Images/image1.png"
 import world from "../../Images/world.png"
 import SuccessCarousel from '../SuccessCarousel';
 import story1 from "../../Images/story2.png"
