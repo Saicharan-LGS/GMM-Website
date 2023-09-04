@@ -2,13 +2,13 @@
 import pic1 from "../Images/Interview1.jpg"
 import pic2 from "../Images/careermen.png"
 import pic3 from "../Images/linked.jpg"
-import roy from '../Images/roy.png'
-import Akhila from '../Images/Akhila.png'
-import saicharan from '../Images/saicharan.jpg'
-import triveni from '../Images/triveni.jpg'
-import venu from '../Images/venuprofile.jpg'
-import umar from '../Images/umarprofile.png'
-import nagesh from '../Images/nagesh.jpg'
+import roy2 from '../Images/Transformingcardimages/roy.png'
+import Akhila2 from '../Images/Transformingcardimages/Akhila.png'
+import saicharan2 from '../Images/Transformingcardimages/saicharan.jpg'
+import triveni2 from '../Images/Transformingcardimages/triveni.jpg'
+import venu2 from '../Images/Transformingcardimages/venuprofile.jpg'
+import umar2 from '../Images/Transformingcardimages/umarprofile.png'
+import nagesh2 from '../Images/Transformingcardimages/nagesh.jpg'
 
 //Corporate Images
 
@@ -75,14 +75,14 @@ export const Allsettings = {
   }
 
 //Career-Support-Page-List
-export const CareerSupportTransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which GloriousMindMine stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at GloriousMindMine was fabulous, and I’ll always be thankful to the entire GloriousMindMine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
+export const TransformingCarrerList=[
+    {id:1, image:Akhila2,description:"If I were to name one value for which GloriousMindMine stands for, it would be 'Excellence'. I'm saying this because the course was excellently designed and executed.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
+    {id:2, image:saicharan2, description:"Having the scope to learn and grow alongside some fascinating cohort members amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
+    {id:3, image:triveni2,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
+    {id:4, image:umar2, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
+    {id:5, image:nagesh2, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
+    {id:6, image:venu2, description:"I was not financially sound, so GloriousMindMine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
+    {id:7, image:roy2, description:"My experience at GloriousMindMine was fabulous, and I’ll always be thankful to the entire GloriousMindMine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
 ]
 
 export const CareerSupportScrolllingImages1 = [

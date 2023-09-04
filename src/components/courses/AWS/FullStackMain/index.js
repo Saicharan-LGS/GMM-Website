@@ -22,7 +22,7 @@ import Footer from '../../../Homes/Footer'
 import SocialIcons from '../../../Homes/Socialicons';
 import {Link} from "react-router-dom"
 import "../../DataScience/FullStackMain/index.css"
-
+import {TransformingCarrerList } from "../../../Constant/ListData";
 import founder from "../../../Images/founder.png"
 import roy from '../../../Images/roy.png'
 import Akhila from '../../../Images/Akhila.png'
@@ -176,16 +176,7 @@ const ScrolllingImages3 = [
 ];
 
 
-  // eslint-disable-next-line
-  const TransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at Glorious Mindmine was fabulous, and I’ll always be thankful to the entire Glorious Mindmine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
-]
+
   const tuitionFeeList=[
     "Fundamentals of SalesForce with Specialization Track","Placement Track offering guaranteed job above 5 LPA","100+ Live Classes and real time doubt resolution",
     "10+ industry relevant capstone projects","1:1 Mentorship and dedicated career coach","Educators from Microsoft, Google, Netflix, Airbnb, Apple",
