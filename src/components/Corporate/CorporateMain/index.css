@@ -345,13 +345,14 @@
   text-align: start;
 }
 .enterprise-consultative-section-card-container-content-title{
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 24px;
     margin-left: 30px;
     text-align: left;
     padding-right: 16px;
     letter-spacing: -.7px;
-    color: #575757;
+    color: #222;
+    font-family: "Roboto";
+    font-weight:600;
 }
 .enterprise-consultative-section-card-container-content-list-head{
   margin-left: 35px;

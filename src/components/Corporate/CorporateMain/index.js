@@ -118,13 +118,13 @@ export default function Corporate() {
                 <p className='enterprise-partners-section-conatiner-subtitle'>200+ Industry Wide</p>
                 <h1 className='enterprise-partners-section-title'>Our Corporate Partners</h1>
                 <BannerLeft  images={CorporateScrollingImages} speed={10000} />
-                <div className='enterprise-industry-section-certificate-conatiner'>
+                {/*<div className='enterprise-industry-section-certificate-conatiner'>
                     <img className='enterprise-industry-section-image' src="https://d1vwxdpzbgdqj.cloudfront.net/assets/enterprise-new/iso-logo-1f29cec08343f009564ec969b6e154b1d1175213c214de1f97c02859b055dea8.jpg" alt="" />
                     <div className='enterprise-industry-section-certificate-conatiner-content'>
                         <p className='enterprise-industry-section-certificate-heading'>Glorious Mindmine is ISO 27001 Certified</p>
                         <p className='enterprise-industry-section-certificate-content'>ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS) and their requirements. We at GloriousMindMine have the industry best Data Privacy & Security practices, and the ISO 27001 certification from ISOQAR of UK is a testament of the same.</p>
                     </div>
-                </div>
+                </div>*/}
             </div>
             <div className='enterprise-partners-section-conatiner'>
                 <p className='enterprise-partners-section-conatiner-subtitle'>Supporting Our Collaborators</p>

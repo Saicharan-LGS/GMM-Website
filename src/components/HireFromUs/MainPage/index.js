@@ -34,10 +34,10 @@ const HireFromUsList1=[
 
    ]
    const HireFromUsList3=[
-    {id:1,Image:FiPhoneCall,question:"Book Demo",answer:"Book a demo session to get detailed information on our hiring proposition"},
-    {id:2,Image:AiOutlineSearch,question:"Shortlist",answer:"Save time by avoiding scrutiny on a pile of resumes."},
-    {id:3,Image:BiMessageAdd,question:"Interviews",answer:"Conduct interviews on your own OR use our in-house platform."},
-    {id:4,Image:TbFreeRights,question:"Hire free of cost",answer:"We charge zero fee for facilitating quick and trusted hiring."},
+    {id:1,Image:FiPhoneCall,question:"Book Demo",answer:"Schedule a demonstration session to receive in-depth insights into our hiring proposition."},
+    {id:2,Image:AiOutlineSearch,question:"Shortlist",answer:"Efficiently narrow down your selection and save time by avoiding the need to review numerous resumes."},
+    {id:3,Image:BiMessageAdd,question:"Interviews",answer:"Choose to conduct interviews independently or utilize our in-house platform for streamlined interview processes."},
+    {id:4,Image:TbFreeRights,question:"Hire free of cost",answer:"Experience cost-free and expedited hiring, as we do not charge any fees for our services."},
    ]
    
    const HireFromUsList4=[
@@ -130,8 +130,8 @@ const HireFromUs=()=>{
         <SocialIcons/>
         <div className="HireFromUsContainer1">
             <div className="HireFromUsContainer1-1">
-                <h1 className="HireFromUsContainer2Heading">Hire top 5% IT talent</h1>
-                <p className="HireFromUsContainer1Text">Build your Data & Engineering Team with industry ready top skilled tech talent.</p>
+                <h1 className="HireFromUsContainer2Heading">Attract the top 5% of IT professionals</h1>
+                <p className="HireFromUsContainer1Text">Assemble your Data and Engineering Team with highly skilled tech talent prepared for the industry.</p>
                 <button onClick={() => document.querySelector("#schedulecallContainer").scrollIntoView({ behavior: "smooth" })} className="HireFromUsContainer1Button">Hire Now</button>
             </div>
             <ul className="HireFromUsContainer1-2">
@@ -143,15 +143,15 @@ const HireFromUs=()=>{
         <div className="HireFromUsContainer1"> 
             <img alt="" src={courses} className="HireFromUsContainer2Image" />
             <div className="HireFromUsContainer1-1">
-                <h1 className="HireFromUsContainer2Heading">Access top notch Tech Talent</h1>
-                <p className="HireFromUsContainer1Text">Our students are trained in our flagship full-stack Data Science program and would be top fit for a multitude of data-oriented roles.</p>
+                <h1 className="HireFromUsContainer2Heading">Gain entry to exceptional tech talent.</h1>
+                <p className="HireFromUsContainer1Text">Our students have undergone comprehensive training in our flagship full-stack Data Science program and are exceptionally well-suited for a wide range of data-focused positions.</p>
                 <button onClick={() => document.querySelector("#schedulecallContainer").scrollIntoView({ behavior: "smooth" })} className="HireFromUsContainer1Button">Hire Now</button>
             </div>
         </div>
         <div className="HireFromUsContainer1"> 
         <div className="HireFromUsContainer1-1">
-                <h1 className="HireFromUsContainer3Heading">Intensive Candidate Training</h1>
-                <p className="HireFromUsContainer1Text">Our training process is quite intensive simulating a workplace environment for students to work in teams to solve industry relevant projects. With prior hands-on experience, our candidates are productive from Day 1 at the job.</p>
+                <h1 className="HireFromUsContainer3Heading">Comprehensive Candidate Development</h1>
+                <p className="HireFromUsContainer1Text">Our training program is designed to immerse students in a realistic workplace setting, where they collaborate in teams to address industry-specific projects. Equipped with practical experience, our candidates are immediately effective upon starting their job.</p>
             </div>
             <ul className="HireFromUsContainer3-2">
                 {HireFromUsList2.map(each=>(

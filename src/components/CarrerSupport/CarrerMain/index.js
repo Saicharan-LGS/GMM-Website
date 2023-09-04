@@ -70,11 +70,11 @@ class CareerSupport extends Component{
                 </div>
                 <div className="carrerJobBoardsMainContainer">
                     <h1 className="carrerJobBoardsMainHeading">Job Boards</h1>
-                    <p className="carrerJobBoardsMaintext">Our dedicated learner success team posts hand-picked opportunities from top organizations relevant to your profile and experience.</p>
+                    <p className="carrerJobBoardsMaintext">Our devoted team of learning success experts curates exclusive opportunities from premier organizations that align perfectly with your unique profile and extensive expertise.</p>
                     <ul className="carrerJobBoardsList">
-                        <li className="carrerJobBoardsListItem">60+ Job postings per month on an average</li>
-                        <li className="carrerJobBoardsListItem">Opportunities customized to your work experience</li>
-                        <li className="carrerJobBoardsListItem">Alumni connect for industry insights & interview tips</li>
+                        <li className="carrerJobBoardsListItem">On average, we offer 60+ job postings monthly.</li>
+                        <li className="carrerJobBoardsListItem">Tailored opportunities aligned with your professional experience.</li>
+                        <li className="carrerJobBoardsListItem">Stay connected with our alumni network for valuable industry insights and interview tips.</li>
                     </ul>
                 </div>
                 <div className="carrerTransitionsMainContainer">
