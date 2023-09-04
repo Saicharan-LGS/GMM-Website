@@ -18,6 +18,7 @@ import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
 import exploreProgramImage from "../../Images/salesiamge.JPG"
+import Home1 from "../../Images/home1.JPG"
 const settings = {
   dots: true,
   infinite: true,
@@ -184,7 +185,7 @@ const Home  =()=>{
           </div>
           <div className="home-section-service-container-2">
             <div className="home-section-service-image-container">
-              <img src={image2} alt="" className="home-section-service-image"/>
+              <img src={Home1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
               <h3 className="home-section-service-heading">GloriousMindmine Excelerate Exclusive Career Assistance</h3>
@@ -213,7 +214,7 @@ const Home  =()=>{
           </div>
           <div className="home-section-service-container">
             <div className="home-section-service-image-container">
-              <img src={image1} alt="" className="home-section-service-image"/>
+              <img src={Home1} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
               <h3 className="home-section-service-heading">Enhanced Networking and Program Assistance</h3>
