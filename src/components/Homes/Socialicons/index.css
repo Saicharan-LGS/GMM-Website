@@ -1,0 +1,6 @@
+.Social-icons-list{
+    z-index: 100;
+    top: 80px; /* Adjust this value to set the desired distance from the bottom */
+    right: 40px; /* Adjust this value to set the desired distance from the left */
+    position: fixed;
+}
