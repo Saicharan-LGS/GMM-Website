@@ -10,7 +10,9 @@ import aboutus2 from "../../Images/aboutus2.jpg"
 
 
 
-export default function About() {
+ function About(){
+
+ 
   return (
     <>
     <Header/>
@@ -157,7 +159,7 @@ export default function About() {
       <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Proven Track Record:</span>  Over the years, we have helped countless students achieve remarkable academic success.</li>
     </ul>
   </div>
-  <div>
+  {/*<div>
     <h1 className="about-us-why-choose-glorious-heading">Our Values</h1>
     <ul className="about-us-why-choose-glorious-description-container">
       <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Excellence:</span>  We strive for excellence in all aspects of education and student support. </li>
@@ -165,11 +167,42 @@ export default function About() {
       <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Innovation:</span>  Education is a dynamic field, and we continuously innovate our teaching methods and approaches to provide the best learning experience.</li>
       <li className="about-us-why-choose-glorious-description"><span className="about-us-why-choose-glorious-sub-heading">Empowerment:</span>   Beyond academics, we aim to empower our students with the skills and mindset necessary to overcome challenges and seize opportunities. </li>
     </ul>
+</div>*/}
+<h1 className="about-us-why-choose-glorious-heading">Our Values</h1>
+<div class="about-us-why-choose-glorious-values-container">
+  <div class="about-us-why-choose-glorious-value-card">
+    <h2 class="about-us-why-choose-glorious-value-heading">Excellence</h2>
+    <p class="about-us-why-choose-glorious-value-description">
+      We strive for excellence in all aspects of education and student support.
+    </p>
   </div>
+
+  <div class="about-us-why-choose-glorious-value-card">
+    <h2 class="about-us-why-choose-glorious-value-heading">Integrity</h2>
+    <p class="about-us-why-choose-glorious-value-description">
+      We uphold the highest standards of integrity, honesty, and ethics in all our interactions.
+    </p>
+  </div>
+
+  <div class="about-us-why-choose-glorious-value-card">
+    <h2 class="about-us-why-choose-glorious-value-heading">Innovation</h2>
+    <p class="about-us-why-choose-glorious-value-description">
+      Education is a dynamic field, and we continuously innovate our teaching methods and approaches to provide the best learning experience.
+    </p>
+  </div>
+
+  <div class="about-us-why-choose-glorious-value-card">
+    <h2 class="about-us-why-choose-glorious-value-heading">Empowerment</h2>
+    <p class="about-us-why-choose-glorious-value-description">
+      Beyond academics, we aim to empower our students with the skills and mindset necessary to overcome challenges and seize opportunities.
+    </p>
+  </div>
+</div>
+
   <div className='aboutus-page-banner-container'>
     <img className='aboutus-page-banner-container-image' src="https://www.poynter.org/wp-content/uploads/2022/04/shutterstock_1283029945.png" alt="" />
     <div className='aboutus-page-banner-content-container'>
-      <p className='aboutus-page-banner-container-content'>We believe in giving back to society and nurturing a sense of responsibility among our students. Through various community engagement initiatives, we encourage students to become socially aware and active contributors to their communities. </p>
+      <p className='aboutus-page-banner-container-content'>We believe in giving back to society and nurturing a sense of responsibility among our students. We encourage students to become socially aware and active contributors to their communities. </p>
       <p className='aboutus-page-banner-container-content'>Join us at Glorious Mindmine and embark on a journey of educational growth, personal development, and unparalleled success. Together, let's create a brighter future! </p>
     </div>
   </div>
@@ -180,3 +213,5 @@ export default function About() {
     </>
   );
 }
+
+export default About

@@ -65,8 +65,8 @@
   font-weight:600;
   font-family:"Roboto";
   text-align:center;
-  margin-bottom:14px;
-  margin-top:14px;
+  margin-bottom:20px;
+  margin-top:24px;
 }
 .about-us-why-choose-glorious-description-container{
   display:flex;
@@ -197,5 +197,85 @@
   }
   .about-us-why-choose-glorious-description{
     font-size:14px;
+  }
+}
+
+.about-us-why-choose-glorious-values-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.about-us-why-choose-glorious-value-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.about-us-why-choose-glorious-value-heading {
+  font-size: 24px;
+  color: #196AE5;
+  margin-bottom: 10px;
+  font-family:"Roboto";
+  font-weight:600;
+}
+
+.about-us-why-choose-glorious-value-description {
+  font-size: 16px;
+  color: #222;
+  font-family:"Roboto";
+}
+
+
+@media (min-width: 913px) and (max-width: 1200px) {
+  
+  .about-us-why-choose-glorious-values-container {
+    justify-content: space-between;
+  }
+
+  .about-us-why-choose-glorious-value-card {
+    width: calc(20% - 10px);
+  }
+}
+@media (min-width: 769px) and (max-width: 912px) {
+ 
+  .about-us-why-choose-glorious-values-container {
+    justify-content: center;
+  }
+
+  .about-us-why-choose-glorious-value-card {
+    width: calc(50% - 10px);
+  }
+}
+@media (min-width: 513px) and (max-width: 768px) {
+  .about-us-why-choose-glorious-values-container {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .about-us-why-choose-glorious-value-card {
+    width: 100%;
+  }
+}
+@media (max-width:512px){
+  .about-us-why-choose-glorious-value-card {
+    
+    min-width:200px;
+    max-width:350px;
+  }
+  .about-us-why-choose-glorious-value-heading{
+    font-size:16px;
+  }
+  .about-us-why-choose-glorious-values-container {
+    flex-direction: column;
+    align-items:center;
   }
 }

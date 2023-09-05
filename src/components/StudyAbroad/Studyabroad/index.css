@@ -337,7 +337,11 @@
         height:500px;
     }
 }
-
+@media(max-width:512px){
+    .study-abroad-meet-our-card-image{
+        height:400px;
+    }
+}
 
 
 
