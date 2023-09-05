@@ -156,7 +156,7 @@ const Home  =()=>{
         <SocialIcons/>
         <HomeBannerCarousel className="homeCarousel" slides={slidesData} />
         <div>
-          <h1 className="why-choose-glorious-couse">Why choose GloriousMindmine?</h1>
+          <h1 className="why-choose-glorious-couse">Why choose Glorious Mindmine?</h1>
           <div className="home-section-service-container">
             <div className="home-section-service-image-container">
               <img src={image8} alt="" className="home-section-service-image"/>

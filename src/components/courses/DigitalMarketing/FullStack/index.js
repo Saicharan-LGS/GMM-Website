@@ -194,10 +194,10 @@ const specialisationTrack = [
 const FullStack=()=> {
   return (
     <div className="Fullstack-main-container">
-        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> GloriousMindMine</span></h2>
+        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> Glorious Mindmine</span></h2>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">Foundation</span> Track </h2>
-          <p className="Foundation-track-description">GloriousMindMine's Digital Marketing course begins by cementing your foundation in DigitalMarketing concepts.</p>
+          <p className="Foundation-track-description">Glorious Mindmine's Digital Marketing course begins by cementing your foundation in DigitalMarketing concepts.</p>
           <CourseList tabData={foundation}/>
         </div>
         <div>

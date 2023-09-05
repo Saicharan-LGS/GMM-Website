@@ -119,7 +119,7 @@ const Footer = () => {
                         <h1 className="Ecommerce-Website-Footer-Section-heading mb-4">Contact Us</h1>
                         <div className="Footer-courses-list-2">
                           <p>+19-800-844885</p>
-                          <p>connect@glorious mindmine</p>
+                          <p>connect@glorious Mindmine</p>
                           <p>201,2nd Floor, Mustafa Towers,</p> 
                             <p>Lakdikapul-500004</p>
                         </div>
