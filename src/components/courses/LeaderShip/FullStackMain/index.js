@@ -228,7 +228,7 @@ class Leadership extends Component{
             <FullStack />
              
             <div className='courseWhyGloriousMindMineMainContainer'>
-                <h1 className='courseWhyGloriousMindMineMainHeading'>Why GloriousMindMine?</h1>
+                <h1 className='courseWhyGloriousMindMineMainHeading'>Why Glorious Mindmine?</h1>
                 <div className="courseWhyGloriousMindMineSubContainer">
                     <ul className='courseWhyGloriousMindMineList'>
                         {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}

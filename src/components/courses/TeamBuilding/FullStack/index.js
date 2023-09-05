@@ -121,7 +121,7 @@ const foundation = [
 const FullStack=()=> {
   return (
     <div className="Fullstack-main-container">
-        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> GloriousMindMine</span></h2>
+        <h2 className="Fullstack-journey-heading">Let’s walk through your journey at<span className="Fullstack-journey-heading-underline"> Glorious Mindmine</span></h2>
         <div>
           <h2 className="Foundation-track-heading"><span className="Foundation-track-heading-underline">WHAT ALL WILL </span> YOU  LEARN IN BUSINESS COMMUNICATION (VERBAL)</h2>
           <p className="Foundation-track-description">Speak English Fluently Without Banging Your Head On English Grammar And Spending Hours & Hours.</p>

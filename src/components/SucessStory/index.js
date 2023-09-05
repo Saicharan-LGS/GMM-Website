@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from "../Images/banner.jpeg";
+import logo1 from "../Images/bannersuccess.png";
 import "./index.css";
 
 import Header from '../Homes/Headers';
@@ -61,7 +61,7 @@ const SuccessStory = () => {
       name: "Umar",
       Image:umar,
       description: "Degree Graduate",
-      currentRole: "Polarian Developer",
+      currentRole: "Data Scientist",
       previousCompany2: "LGS",
       company:lgs ,
     },
@@ -80,7 +80,7 @@ const SuccessStory = () => {
       Image:venu,
       description: "Degree Graduate",
       previousCompany: "LGS",
-      currentRole: "Mendix Developer",
+      currentRole: "Software Developer",
       previousCompany2: "LGS",
       company: lgs ,
     },

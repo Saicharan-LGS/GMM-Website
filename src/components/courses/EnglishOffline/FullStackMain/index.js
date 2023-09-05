@@ -22,7 +22,7 @@ import SocialIcons from '../../../Homes/Socialicons';
 import {Link} from "react-router-dom"
 import founder from "../../../Images/founder.png"
 import "../../DataScience/FullStackMain/index.css"
-
+import { TransformingCarrerList } from '../../../Constant/ListData';
 import roy from '../../../Images/roy.png'
 import Akhila from '../../../Images/Akhila.png'
 import saicharan from '../../../Images/saicharan.jpg'
@@ -68,15 +68,15 @@ import prashanth from '../../../Images/prashanth.png'
 // import HCL from '../../../Images/slider/HCL.png'
 
 const learnersReviews=[
-{id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank GloriousMindMine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
-{id:2,image:Akhila,name:"Akhila",designation:"Data Analyst At TCS",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analyst At TCS! Thanks to GloriousMindMine team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
-{id:3,image:saicharan,name:"Saicharan",designation:"Fullstack Developer At Capgemini, India",review:"I’m happy to share that I’m starting a new position as Fullstack Developer at Capgemini, India! Big shoutout to GloriousMindMine for providing the platform to prepare and equip myself to get here. Thanks to my mentors, Swapnil Jain and Varun Nayyar, for their game-changing support, guidance and insights. I'm very grateful for the much-needed assistance and support offered by Nihal Sumesh, Lalita Choudhary, Kinjal Sengupta and my teammates, Mahima Phalkey and Lovejeet Singh, in this journey. Thanks to Team Capgemini for the warm onboarding and the opportunity to help build a better future for the people. Very thrilled and excited!",time:"07:00 PM, 9th Jan"},
-{id:4,image:triveni,name:"Triveni",designation:"Salesforce Admin At Wipro",review:"I have some exciting news to share! I have accepted a new position as the Salesforce Admin At Wipro. It has been a fruitful process, and I could not have done it without the learnings from GloriousMindMine. I am very excited to start this new journey",time:"07:15 PM, 11th Apr"},
-{id:5,image:venu,name:"Venu",designation:"Mendix Developer At LGS",review:"Hello connections! I’m happy to share that I’ve joined as Mendix Developer At LGS. I would like to thank Mansi T. for a very warm welcome. Thank you Swapnil Jain, Yagnik Pandya, Alok Anand, Vikash Srivastava, Shivam Dutta, Lalita Choudhary, Monica Balakrishna and Varzaan Rana for your constant support and motivation throughout this learning journey of Mendix at GloriousMindMine.",time:"05:00 PM, 16th May"},
-{id:6,image:umar,name:"Umar",designation:"Polarion Developer At LGS",review:"I am happy to share that I received my course completion certificate from GloriousMimdMine the journey was not so hard nor easy. I would say it's smooth because of the quality course content and risk-free education. Thank you, Vikash Srivastava and Shivam Dutta for putting together such an amazing course and a wonderful learning experience. Thanks to Alok Anand and Ravi Kumar Gupta for placement support Lalita Choudhary and Monica Balakrishna for student coordination. And lastly thank you career coach Tanishk Sachdeva and champion mentor Shubhankit Sirvaiya for your guidance and motivation during the placement journey. I hope to continue with the community and contribute learning experience as GloriousMindMine Alumni.",time:"12:45 PM, 14th Feb"},
-{id:7,image:nagesh,name:"Nagesh",designation:"Digital Marketing analyst at Genpact",review:"I am excited to share that I joined as Digital Marketing analyst at Genpact. As I reflect on my first week, I am thankful to Mounika Arnipalli, Ajit Kumar Sahu, Ridhi Bansal and Shruthi Treasa Jose for the smooth on-boarding and warm welcome. And while I will always value my learning and the network that I made at GloriousMimdMine. It has been an adventure to explore the digital marketing field and I am looking forward to learn, explore and hit milestones????.",time:"04:00 PM, 17th Mar"},
-{id:8,image:chandana,name:"Chandana",designation:"Software Developer At EXL",review:"Happy to share that, recently I have joined #EXL #Services as a #Softwaredeveloper. Special Thanks to my mentor Nayan Dharamshi and all my friends from #GloriousMindMine for their support and guidance. Thank you #EXL for such a warm welcome. Glad to be a part of the EXL Family. Looking forward to being full of new learnings and a wonderful journey at EXL.",time:"11:45 AM, 13th Jan"},
-{id:9,image:prashanth,name:"Prashanth",designation:"Software Engineer at IBM",review:"Hello family!! I'm excited to announce that I have joined as Software Engineer at IBM .I am excited to learn and grow In this role .I like to thank Ajit Kumar Sahu for smooth recruiting and onboarding process ,also thank you my friend Ankit S. for always supporting and motiving me. I couldn't be more excited to start this next chapter of my career. Special thanks to Sagnik Ganguly and to one of the best data science learning platform GloriousMimdMine",time:"10:30 AM, 16th Dec"},
+{id:1,image:roy,name:"Vashni Roy",designation:"Senior Developer At Cognizant",review:"I’m elated to share that I’m starting a new journey as Senior Developer at Cognizant! I would like to thank Glorious Mindmine for digging out the potential in me and providing the wonderful platform to upskill myself. It is a privilege for me to be able to get guidance and learn from you, Swapnil Jain and Yagnik Pandya. A big thanks to Lalita Choudhary for motivating and believing me throughout this exciting journey. This would not have been possible without your guidance. Kudos to our effort! Laveena V Kukreja Monica Balakrishna Laheri Reddy thank you for helping out me in each and every step of my journey. Looking ahead toward a wonderful journey and professional growth! I'm excited to start my new job!",time:"06:30PM, 18th Aug"},
+{id:2,image:Akhila,name:"Akhila",designation:"Data Analyst At TCS",review:"Hello All, I’m happy to share that I’m starting a new position as Data Analyst At TCS! Thanks to Glorious Mindmine team for helping me in my career transition",time:"06:00 PM, 11th Apr"},
+{id:3,image:saicharan,name:"Saicharan",designation:"Fullstack Developer At Capgemini, India",review:"I’m happy to share that I’m starting a new position as Fullstack Developer at Capgemini, India! Big shoutout to Glorious Mindmine for providing the platform to prepare and equip myself to get here. Thanks to my mentors, Swapnil Jain and Varun Nayyar, for their game-changing support, guidance and insights. I'm very grateful for the much-needed assistance and support offered by Nihal Sumesh, Lalita Choudhary, Kinjal Sengupta and my teammates, Mahima Phalkey and Lovejeet Singh, in this journey. Thanks to Team Capgemini for the warm onboarding and the opportunity to help build a better future for the people. Very thrilled and excited!",time:"07:00 PM, 9th Jan"},
+{id:4,image:triveni,name:"Triveni",designation:"Salesforce Admin At Wipro",review:"I have some exciting news to share! I have accepted a new position as the Salesforce Admin At Wipro. It has been a fruitful process, and I could not have done it without the learnings from Glorious Mindmine. I am very excited to start this new journey",time:"07:15 PM, 11th Apr"},
+{id:5,image:venu,name:"Venu",designation:"Software Developer At LGS",review:"Hello connections! I’m happy to share that I’ve joined as Mendix Developer At LGS. I would like to thank Mansi T. for a very warm welcome. Thank you Swapnil Jain, Yagnik Pandya, Alok Anand, Vikash Srivastava, Shivam Dutta, Lalita Choudhary, Monica Balakrishna and Varzaan Rana for your constant support and motivation throughout this learning journey of Mendix at Glorious Mindmine.",time:"05:00 PM, 16th May"},
+{id:6,image:umar,name:"Umar",designation:"Data Scientist At LGS",review:"I am happy to share that I received my course completion certificate from Glorious Mimdmine the journey was not so hard nor easy. I would say it's smooth because of the quality course content and risk-free education. Thank you, Vikash Srivastava and Shivam Dutta for putting together such an amazing course and a wonderful learning experience. Thanks to Alok Anand and Ravi Kumar Gupta for placement support Lalita Choudhary and Monica Balakrishna for student coordination. And lastly thank you career coach Tanishk Sachdeva and champion mentor Shubhankit Sirvaiya for your guidance and motivation during the placement journey. I hope to continue with the community and contribute learning experience as Glorious Mindmine Alumni.",time:"12:45 PM, 14th Feb"},
+{id:7,image:nagesh,name:"Nagesh",designation:"Digital Marketing analyst at Genpact",review:"I am excited to share that I joined as Digital Marketing analyst at Genpact. As I reflect on my first week, I am thankful to Mounika Arnipalli, Ajit Kumar Sahu, Ridhi Bansal and Shruthi Treasa Jose for the smooth on-boarding and warm welcome. And while I will always value my learning and the network that I made at Glorious Mimdmine. It has been an adventure to explore the digital marketing field and I am looking forward to learn, explore and hit milestones????.",time:"04:00 PM, 17th Mar"},
+{id:8,image:chandana,name:"Chandana",designation:"Software Developer At EXL",review:"Happy to share that, recently I have joined #EXL #Services as a #Softwaredeveloper. Special Thanks to my mentor Nayan Dharamshi and all my friends from #Glorious Mindmine for their support and guidance. Thank you #EXL for such a warm welcome. Glad to be a part of the EXL Family. Looking forward to being full of new learnings and a wonderful journey at EXL.",time:"11:45 AM, 13th Jan"},
+{id:9,image:prashanth,name:"Prashanth",designation:"Software Engineer at IBM",review:"Hello family!! I'm excited to announce that I have joined as Software Engineer at IBM .I am excited to learn and grow In this role .I like to thank Ajit Kumar Sahu for smooth recruiting and onboarding process ,also thank you my friend Ankit S. for always supporting and motiving me. I couldn't be more excited to start this next chapter of my career. Special thanks to Sagnik Ganguly and to one of the best data science learning platform Glorious Mimdmine",time:"10:30 AM, 16th Dec"},
 ]
 
 const basicDoubtsTabsList = [
@@ -122,7 +122,7 @@ const flexibleProgramList=[
 
 const whyGloriousMindMineList=[
     {id:0,Image:AiOutlineFileAdd,description:"45 Days Full-fledged Course"},
-    {id:1,Image:AiOutlineVideoCamera,description:"365 Days Access Licence: Recoreded Videos"},
+    {id:1,Image:AiOutlineVideoCamera,description:"365 Days Access Licence: Recorded Videos"},
     {id:2,Image:AiOutlineProject,description:"Assessments & Exercises"},
     {id:3,Image:AiOutlineMessage,description:"45 days Whatsapp Support"},
     {id:4,Image:CgProfile,description:"Mock interviews with dedicated Mentors "},
@@ -172,16 +172,8 @@ const whyGloriousMindMineList=[
 //     { id: 10, image: HCL }
 // ];
   // eslint-disable-next-line
-  const TransformingCarrerList=[
-    {id:1, image:Akhila,description:"If I were to name one value for which Glorious Mindmine stands for, it would be 'Excellence'.",name:"Akhila",previousRole:"Non-Technical",Role:"Data Anaylst",company:"TCS",hike:"70% hike"},
-    {id:2, image:saicharan, description:"Having the scope to learn and grow amidst the chaos of the pandemic was quite a novel experience.",name:"Sai Charan",previousRole:"Civil Graduate",Role:"Full Stack Developer",company:"Capgemini",hike:"70% hike"},
-    {id:3, image:triveni,description:"Mock interviews are great because you get honest, detailed, and timely feedback from industry experts.",name:"Triveni",previousRole:"Non-Tech background",Role:"Salesforce Admin",company:"Wipro",hike:""},
-    {id:4, image:umar, description:"A structured curriculum with quality content makes this program stand out.",name:"Umar",previousRole:"Degree Graduate",Role:"Polarian Developer",company:"LGS",hike:"75% hike"},
-    {id:5, image:nagesh, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Nagesh",previousRole:"Non-Tech background",Role:"Digital Marketing Specialist",company:"Genpact",hike:"120% hike"},
-    {id:6, image:venu, description:"I was not financially sound, so Glorious Mindmine proved to be very cost-effective and empowering.",name:"Venu",previousRole:"Degree Graduate",Role:"Mendix Developer",company:"LGS",hike:"50% hike"},
-    {id:7, image:roy, description:"My experience at Glorious Mindmine was fabulous, and I’ll always be thankful to the entire Glorious Mindmine team.",name:"Vashni Roy",previousRole:"Junior Developer",Role:"Senior Developer",company:"Cognizant",hike:""},
-]
-  const tuitionFeeList=["100+ Live Classes REcordings and real time doubt resolution",
+   
+  const tuitionFeeList=["100+ Live Classes Recordings and real time doubt resolution",
     "4 Accountability Sessions","1:1 Mentorship and dedicated career coach","Daily Action Item For Results",
     "Access to member only community of 20K+ Learners",
     "50 Free Speech Pattern Exercises"
@@ -245,7 +237,7 @@ class EnglishOffline extends Component{
             <FullStack />
              
             <div className='courseWhyGloriousMindMineMainContainer'>
-                <h1 className='courseWhyGloriousMindMineMainHeading'>Why GloriousMindMine?</h1>
+                <h1 className='courseWhyGloriousMindMineMainHeading'>Why Glorious Mindmine?</h1>
                 <div className="courseWhyGloriousMindMineSubContainer">
                     <ul className='courseWhyGloriousMindMineList'>
                         {whyGloriousMindMineList.map(each=>(<WhyGloriousMindMineCard key={each.id} eachDetails={each} />))}
@@ -310,7 +302,7 @@ class EnglishOffline extends Component{
             </ul>
         </div>
         <div className='courseReviewsMainContainer'>
-            <h1 className='courseReviewMainHeading'>What our learners say about GloriousMindMine Programs</h1>
+            <h1 className='courseReviewMainHeading'>What our learners say about Glorious Mindmine Programs</h1>
             <ul className='courseReviewList'>
                 {learnersReviews.map(each=>(<ReviewCard key={each.id} reviewDetails={each} />))}
             </ul>

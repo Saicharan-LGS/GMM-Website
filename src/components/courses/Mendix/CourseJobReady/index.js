@@ -21,7 +21,7 @@ const CourseJobReady = () => {
       ,
     {
       title: "Gamified Experiment",
-      description:"learn complex concepts through games & experiments at GloriousMindMine Labs",
+      description:"learn complex concepts through games & experiments at Glorious Mindmine Labs",
       images: gameImage
     }
     
