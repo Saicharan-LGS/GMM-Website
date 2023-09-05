@@ -120,8 +120,8 @@ const Footer = () => {
                         <div className="Footer-courses-list-2">
                           <p>+19-800-844885</p>
                           <p>connect@glorious Mindmine</p>
-                          <p>201,2nd Floor, Mustafa Towers,</p> 
-                            <p>Lakdikapul-500004</p>
+                          <p>Section-B, 2nd Floor, Yonus Towers,</p> 
+                          <p>Malakpet,Hyderabad</p>
                         </div>
                     </div>
                 </div>
