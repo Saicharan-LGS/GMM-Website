@@ -49,7 +49,7 @@ const HireFromUsList1=[
 ]
 
    const HireFromUsList2=[
-    {id:1,Image:ImProfile,question:"200+",answer:" GloriousMindMine Graduates"},
+    {id:1,Image:ImProfile,question:"200+",answer:" Glorious Mindmine Graduates"},
     {id:2,Image:BiTimeFive,question:"1000+",answer:"Hours of Learning"},
     {id:3,Image:BiMessageAdd,question:"50+",answer:"Mock Interviews"},
     {id:4,Image:AiFillFileAdd,question:"150+",answer:"Projects & Assignments"}
