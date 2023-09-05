@@ -176,6 +176,7 @@
     font-size: 32px;
     font-weight: 600;
     font-family:"Roboto";
+    margin-bottom:24px;
 }  
 @media (max-width:992px){
     .careerSupportIntoductionContainer1{

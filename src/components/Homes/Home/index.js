@@ -18,7 +18,8 @@ import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
 import exploreProgramImage from "../../Images/explore.png"
-import Home1 from "../../Images/home1.JPG"
+import Home2 from "../../Images/home2.png"
+import Home1 from "../../Images/home3.png"
 import SocialIcons from "../Socialicons";
 const settings = {
   dots: true,
@@ -191,7 +192,7 @@ const Home  =()=>{
           </div>
           <div className="home-section-service-container-2">
             <div className="home-section-service-image-container">
-              <img src={Home1} alt="" className="home-section-service-image"/>
+              <img src={Home2} alt="" className="home-section-service-image"/>
             </div>
             <div className="home-section-right-side-container">
               <h3 className="home-section-service-heading">Glorious Mindmine Accelarate Exclusive Career Assistance</h3>

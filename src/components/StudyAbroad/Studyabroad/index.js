@@ -496,7 +496,7 @@ return(
             <ul className="study-abroad-country-list-container">
                 {StudyAbroadStudentReviewList.map((eachCountry)=>(
                     <li key={eachCountry.id} className="study-abroad-country-list-container-item">
-                        <img src={eachCountry.image} alt="" className="study-abroad-country-list-container-item-image"/>
+                        <img src={eachCountry.image} alt="" className="study-abroad-country-list-container-item-image study-abroad-country-list-container-item-image-height"/>
                         <div className="study-abroad-country-list-container-item-description-container">
                             <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
                             <p className="study-abroad-country-list-container-item-description">{eachCountry.description}</p>
