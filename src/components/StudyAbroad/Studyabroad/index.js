@@ -68,9 +68,9 @@ import studyaboardImg2 from "../../Images/studyabord2.JPG"
 import studyaboardImg3 from "../../Images/studyabord3.JPG"
 import studyaboardImg4 from "../../Images/studyabord4.JPG"
 
-import reviewstudy1 from "../../Images/reviewstudy1.JPG"
-import reviewstudy2 from "../../Images/reviewstudy2.JPG"
-import reviewstudy3 from "../../Images/reviewstudy3.JPG"
+import reviewstudy1 from "../../Images/reviewstudy1.png"
+import reviewstudy2 from "../../Images/reviewstudy2.png"
+import reviewstudy3 from "../../Images/reviewstudy3.png"
 
 const slides = [
   {
@@ -300,28 +300,28 @@ const letUsGuide = [
     const meetOur=[
       {
         image:studyaboardImg1,
-        iamgeDesc:"Noor Syed is a competent leader and skilled communicator, dedicated to offering unwavering support to students aspiring to study abroad. With over a decade of experience in the study abroad sector, she strongly focuses on US universities. She has successfully guided more than 3500 students in their search for the perfect academic opportunity.",
+        iamgeDesc:"Noor Syed is a seasoned leader and effective communicator with over a decade of experience in the study abroad sector, particularly in US universities. She has supported over 3500 students in their pursuit of academic opportunities abroad.",
         heading:"Noor Syed",
         desc:"Senior Counsellor, 10+ Years of Experience, USA",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg2 ,
-        iamgeDesc:"Syed Ibrahim is known for his exceptional patience and popularity among students seeking guidance for studying abroad. Over the past three years, he has assisted numerous students in selecting suitable institutions in the United Kingdom. Syed Ibrahim possesses extensive knowledge of UK higher education institutions and has facilitated the successful journey.",
+        iamgeDesc:"Syed Ibrahim, widely recognized for his patience and popularity among students, has been a guiding force for those seeking to study in the UK. With a strong grasp of UK higher education institutions, he has aided countless students in their successful academic journeys over the past three years.",
         heading:"Syed Ibrahim",
         desc:"Senior Counsellor,3+ Years of Experience, United Kingdom",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg3 ,
-        iamgeDesc:"Syed Ali Shafiullah is an accomplished leader with excellent communication skills who prioritizes compassionate support for study abroad aspirants without compromising on quality. Her extensive knowledge of European & Australian universities has benefited approximately 1800 students in finding the perfect academic institution that meets their individual requirements.",
+        iamgeDesc:"Syed Ali Shafiullah, a skilled leader with strong communication abilities, provides compassionate support to study abroad aspirants, specializing in European and Australian universities. She has helped approximately 1800 students find their ideal academic institutions.",
         heading:"Syed Ali Shafiullah",
         desc:"Senior Counsellor, 2+ Years of Experience, Australia",
         button:"Fix an Appoinment"
       },
       {
         image:studyaboardImg4,
-        iamgeDesc:"Neymath Furqan is a compassionate and student-focused leader who excels in guiding students through the study abroad process for Canada. From university selection to securing offers, Neymath Furqan's expertise ensures a seamless journey. She is dedicated to providing personalized support and ensuring her students feel supported every step of the way.",
+        iamgeDesc:"Neymath Furqan, a compassionate leader, specializes in guiding students through the study abroad process for Canada. She offers personalized support, from university selection to securing offers, ensuring a seamless journey and strong student support.",
         heading:"Neymath Furqan",
         desc:"Senior Counsellor, 2+ Years of Experience, Canada",
         button:"Fix an Appoinment"
@@ -493,17 +493,18 @@ return(
             ))}
             </ul>*/}
             <div className="study-abroad-country-list-main-container">
-            <ul className="study-abroad-country-list-container">
                 {StudyAbroadStudentReviewList.map((eachCountry)=>(
-                    <li key={eachCountry.id} className="study-abroad-country-list-container-item">
-                        <img src={eachCountry.image} alt="" className="study-abroad-country-list-container-item-image study-abroad-country-list-container-item-image-height"/>
-                        <div className="study-abroad-country-list-container-item-description-container">
-                            <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
-                            <p className="study-abroad-country-list-container-item-description">{eachCountry.description}</p>
-                        </div>
-                    </li>
+              <div className='study-abroad-review-list-our-card' >
+                  <div className='study-abroad-review-list-our-card-image-container'>
+                    <img src={eachCountry.image} alt={eachCountry.id} className='study-abroad-review-list-our-card-image'/>
+                  </div>
+                  <div className='study-abroad-review-list-our-card-content'>
+                    <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
+                    <p className="study-abroad-country-list-container-item-description">{eachCountry.description}</p>
+                  </div>
+              </div>
+              
                 ))}
-            </ul>
             </div>
     </div>
 
