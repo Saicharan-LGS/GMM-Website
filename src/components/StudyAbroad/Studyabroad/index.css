@@ -747,7 +747,7 @@
 .study-abroad-country-list-container-item-description{
     font-size:14px;
     font-family:"Roboto";
-    color:white;
+    color:#222;
 }
 @media (max-width:912px){
     .study-abroad-country-list-container-item{
@@ -918,36 +918,53 @@
 }
 
 
-.study-abroad-country-list-main-container{
+.study-abroad-country-list-main-container-1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap:20px;
 }
-
-.study-abroad-review-list-our-card {
+.study-abroad-country-list-container-item-heading-1{
+    font-size:16px;
+    font-family:"Roboto";
+    font-weight:600;
+    color:#fff;
+}
+.study-abroad-country-list-container-item-description-1{
+    font-size:14px;
+    font-family:"Roboto";
+    color:#fff;
+}
+.study-abroad-review-list-our-card-1 {
     position: relative;
     overflow: hidden;
     width: 26%; /* Adjust this to match your desired card width */
   }
 
   @media(max-width:1200px){
-    .study-abroad-review-list-our-card {
+    .study-abroad-review-list-our-card-1 {
         width:46%;
     }
 }
 
 @media(max-width:768px){
-    .study-abroad-review-list-our-card{
-        width:100%;
+    .study-abroad-country-list-main-container-1{
+        justify-content:center;
+    }
+    .study-abroad-review-list-our-card-1{
+        width:70%;
+        height:400px;
         align-items:center;
         padding:0px;
+        display:flex;
+        justify-content: center;
+        
         
     }
 
 }
   
-  .study-abroad-review-list-our-card-content {
+  .study-abroad-review-list-our-card-content-1 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -962,16 +979,16 @@
     transition:0.9s;
   }
   
-  .study-abroad-review-list-our-card:hover .study-abroad-review-list-our-card-content {
+  .study-abroad-review-list-our-card-1:hover .study-abroad-review-list-our-card-content-1 {
     opacity: 1; /* Visible on hover */
     transform:translateY(0);
   }
   
-  .study-abroad-review-list-our-card-image-container {
+  .study-abroad-review-list-our-card-image-container-1 {
     position: relative;
   }
   
-  .study-abroad-review-list-our-card-image {
+  .study-abroad-review-list-our-card-image-1 {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Adjust as needed to control image sizing */

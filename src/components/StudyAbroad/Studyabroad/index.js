@@ -492,15 +492,15 @@ return(
             
             ))}
             </ul>*/}
-            <div className="study-abroad-country-list-main-container">
+            <div className="study-abroad-country-list-main-container-1">
                 {StudyAbroadStudentReviewList.map((eachCountry)=>(
-              <div className='study-abroad-review-list-our-card' >
-                  <div className='study-abroad-review-list-our-card-image-container'>
-                    <img src={eachCountry.image} alt={eachCountry.id} className='study-abroad-review-list-our-card-image'/>
+              <div className='study-abroad-review-list-our-card-1' >
+                  <div className='study-abroad-review-list-our-card-image-container-1'>
+                    <img src={eachCountry.image} alt={eachCountry.id} className='study-abroad-review-list-our-card-image-1'/>
                   </div>
-                  <div className='study-abroad-review-list-our-card-content'>
-                    <h1 className="study-abroad-country-list-container-item-heading">{eachCountry.heading}</h1>
-                    <p className="study-abroad-country-list-container-item-description">{eachCountry.description}</p>
+                  <div className='study-abroad-review-list-our-card-content-1'>
+                    <h1 className="study-abroad-country-list-container-item-heading-1">{eachCountry.heading}</h1>
+                    <p className="study-abroad-country-list-container-item-description-1">{eachCountry.description}</p>
                   </div>
               </div>
               
