@@ -13,10 +13,6 @@
     text-align: center;
     background-color: #ffffff;
 }
-.dcourseFlexibleProgramCard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
 .dcourseFlexibleProgramImage{
     color:#196AE5;
     font-size: 70px;

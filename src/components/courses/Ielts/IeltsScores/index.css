@@ -5,6 +5,7 @@
     font-family: "Roboto";
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .ielts-second-page-paragraph-body-score{    
@@ -18,11 +19,11 @@
     font-family: "Roboto";
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .ielts-margin-score{
-    margin-left: 40px;
-    margin-right: 40px;
+    padding:1% 5% 2% 5%;
 }
 .ielts-margin-score-button{
     font-size: 14px;    

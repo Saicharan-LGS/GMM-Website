@@ -293,7 +293,7 @@ const StudyAbroadExamsList = [
   {
     id: 4,
     Exam: "Graduate Management Admission Test [GMAT]",
-    Link: "",
+    Link: "https://www.mba.com/service/login?checkGISFirst=false&returnUrl=%2fservice%2ftesting%2fgmat-exam-profile%3fsourcePageUrl%3d%2fexams%2fgmat-exam%2fregister#_=_",
     Description:
       "GMAT, the Graduate Management Admission Test, is an adaptive computerized examination taken by students aspiring to pursue management studies abroad. In response to the pandemic, candidates now have the flexibility to choose between taking the GMAT at a physical test center or online.An updated exam pattern, known as the GMAT Focus Edition for GMAT 2023, has been introduced. This version covers a narrower set of topics. The registration for The GMAT Exam - Focus Edition will commence on August 29, 2023. Concurrently, the existing GMAT exam will continue to be available until early next year.",
     register: "GMAT REGISTRATION",
@@ -301,7 +301,7 @@ const StudyAbroadExamsList = [
   {
     id: 5,
     Exam: "Scholastic Aptitude Test [SAT]",
-    Link: "",
+    Link: "https://mysat.collegeboard.org/login",
     Description:
       "The SAT, conducted by the College Board, is an essential examination for students pursuing undergraduate studies abroad, particularly in the United States, Canada, Europe, Singapore, and India. Aspiring candidates have the opportunity to register for the SAT exam up to five weeks before the designated test date. The examination fee stands at $60 (equivalent to INR 4,965.63). For Indian candidates, there is an additional non-US regional fee of $49 (INR 3,600), bringing the total SAT exam fees for Indian nationals to $104 (INR 7,700). The inaugural SAT 2023 Digital Test is slated for March 11, 2023.",
     register: "SAT REGISTRATION",
