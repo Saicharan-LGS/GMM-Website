@@ -94,10 +94,10 @@ import uk1 from "../../Images/ukbanner.jpg";
 import newzealand1 from "../../Images/newzealandbanner.jpg";
 import australia1 from "../../Images/australiabanner.jpg";
 
-import study1 from "../../Images/studyaustralia.jpg";
+import study1 from "../../Images/studyabroadcarousel/australia.png"
 import study2 from "../../Images/studyamerica.jpg";
-import study3 from "../../Images/studycanada.jpg";
-import study4 from "../../Images/studyuk.jpg";
+import study3 from "../../Images/studyabroadcarousel/canada.png"
+import study4 from "../../Images/studyabroadcarousel/uk.png";
 import study5 from "../../Images/studygermany.jpg";
 import study6 from "../../Images/studynewzealand.jpg";
 
@@ -996,6 +996,8 @@ const Studyabroad = () => {
                   {eachExam.Description}
                 </p>
                 <a
+                rel="noreferrer"
+                target="_blank"
                   href={eachExam.Link}
                   className="study-aboad-exam-list-container-item-register"
                 >
