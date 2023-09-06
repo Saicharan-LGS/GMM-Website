@@ -31,15 +31,15 @@ class Intro extends Component{
                     </div>
                     <div className='course-intro-data-main-container'>
                         <div className='course-intro-data-sub-container'>
-                            <h1 className='course-intro-data-heading'>700+</h1>
+                            <h1 className='course-intro-data-heading'>250+</h1>
                             <p className='course-intro-data-text'>Hiring Partners</p>
                         </div>
                         <div className='course-intro-data-sub-container'>
-                            <h1 className='course-intro-data-heading'>8 LPA</h1>
+                            <h1 className='course-intro-data-heading'>6 LPA</h1>
                             <p className='course-intro-data-text'>Average Salary</p>
                         </div>
                         <div className='course-intro-data-sub-container'>
-                            <h1 className='course-intro-data-heading'>25LPA</h1>
+                            <h1 className='course-intro-data-heading'>12LPA</h1>
                             <p className='course-intro-data-text'>Highest Salary</p>
                         </div>
                     </div>
