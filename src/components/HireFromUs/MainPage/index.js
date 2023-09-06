@@ -26,11 +26,11 @@ const placmentUrl  = process.env.REACT_APP_API_BASE_URL
 
 const HireFromUsList1=[
     {id:1,Image:saicharan,name:"Saicharan",text:"Software Developer"},
-    {id:2,Image:venu,name:"venu",text:"Mendix developer"},
+    {id:2,Image:venu,name:"venu",text:"Software Developer"},
     {id:3,Image:prashanth,name:"Prashanth",text:"Software Engineer"},
     {id:4,Image:chandana,name:"Chandana",text:"Data Scientist" },
     {id:5,Image:roy,name:"Vashini Roy",text:"Senior developer"},
-    {id:6,Image:umar,name:"Umar",text:"Polarion Developer"},
+    {id:6,Image:umar,name:"Umar",text:"Data Scientist"},
 
    ]
    const HireFromUsList3=[

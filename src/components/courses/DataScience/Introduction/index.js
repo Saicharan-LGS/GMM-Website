@@ -3,7 +3,7 @@ import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import './index.css'
 import {Link} from 'react-router-dom'
-import img2 from '../../../Images/Akhila.png'
+import img2 from '../../../Images/umarprofile.png'
 class Intro extends Component{
     render(){
         return(
@@ -46,7 +46,7 @@ class Intro extends Component{
                 </div>
                 <div className="course-side-image-main-container">
                     <img src={img2} alt="" className="course-intro-side-image"/>
-                    <p className="course-intro-data-analyst">Akhila</p>
+                    <p className="course-intro-data-analyst">Umar</p>
                     <div className="course-intro-side-image-desc">
                         <p>Non Tech Background</p>
                         <p className="arrow-width">
@@ -56,7 +56,7 @@ class Intro extends Component{
                         </svg>
                         </p>
                         
-                        <p className="course-intro-data-analyst">Data Analyst</p>
+                        <p className="course-intro-data-analyst">Data Scientist</p>
                     </div>
                 </div>
             </div>

@@ -815,6 +815,8 @@
     font-family:"Roboto";
     font-weight:600;
     margin:4px 0px;
+    text-decoration: none;
+    cursor:pointer;
 }
 @media (max-width:912px){
     .study-aboad-exam-list-container-item{
