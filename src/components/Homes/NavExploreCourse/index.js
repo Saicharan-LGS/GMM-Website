@@ -15,7 +15,7 @@ function NavExploreCourse(props){
                         <li className="nav-explore-course-main-container-item">{eachItem.course}</li>
                         <p className="nav-explore-status-text">{eachItem.status}</p>
                     </div>
-                    <p className="nav-explore-duration">Duration : <span> <TfiTimer className="nav-explore-timer-icon"/> {eachItem.duration}</span> | Case Studies <span><VscBook className="nav-explore-timer-icon"/> {eachItem.casestudy}</span></p>
+                    <p className="nav-explore-duration">Duration : <span> <TfiTimer className="nav-explore-timer-icon"/> {eachItem.duration} </span>  | Case Studies <span><VscBook className="nav-explore-timer-icon"/> {eachItem.casestudy}</span></p>
                 </div></Link>
             )
             )

@@ -1,998 +1,974 @@
-.studyaboard-entire-conatiner{
-    padding:1% 5% 2% 5%;
+.studyaboard-entire-conatiner {
+  padding: 1% 5% 2% 5%;
 }
 
-
-.study-abroad-let-us-guide-container{
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0px;
+.study-abroad-let-us-guide-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
 }
-.study-abroad-let-us-guide-title{
-    font-size: 32px;
-    color: #1c74d4;
-    font-weight: 600;
-    line-height: 1.3;
-    text-align: center;
-    font-family:"Roboto";
-    margin-bottom:20px;
+.study-abroad-let-us-guide-title {
+  font-size: 32px;
+  color: #1c74d4;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "Roboto";
+  margin-bottom: 20px;
 }
-.study-abroad-let-us-guide-sub-title{
-    font-size: 16px;
-    text-align: center;
-    color: #333;
-    font-family:"Roboto";
+.study-abroad-let-us-guide-sub-title {
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  font-family: "Roboto";
 }
-.study-abroad-let-us-guide-cards-conatiner{
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap:20px;
-}
-
-.study-abroad-let-us-guide-card-conatiner{
-    width: 30%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.study-abroad-let-us-guide-cards-conatiner {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.study-abroad-let-us-guide-card-conatiner-top{
-    display: flex;
-    justify-content: space-between;
-    gap:5px;
+.study-abroad-let-us-guide-card-conatiner {
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.study-abroad-let-us-guide-card-conatiner-top-heading{
-    font-size: 24px;
-    font-weight: 600;
-    color: #333;
-    font-family:"Roboto";
+.study-abroad-let-us-guide-card-conatiner-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
 }
 
-.study-abroad-let-us-guide-card-conatiner-top-span{
-    color: #196ae5;
-}
-.study-abroad-let-us-guide-card-conatiner-icon{
-    font-size:45px;
-    color:#196AE5;
-}
-.study-abroad-let-us-guide-card-conatiner-subtitle{
-    font-weight: 400;
-    font-size: 16px;
-    color: #333;
-    font-family:"Roboto";
+.study-abroad-let-us-guide-card-conatiner-top-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  font-family: "Roboto";
 }
 
-.study-abroad-let-us-guide-card-conatiner-button{
-    display:inline-flexbox;
-    cursor: pointer;
-    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9) border-box;
-    transition: all .5s ease;
-    border: 2.5px solid transparent;
-    color: #000;
-    background-color:transparent;
-    padding: 5px 12px;
-    border-radius: 8px;
-    font-family:"Roboto";
-    font-size:18px;
+.study-abroad-let-us-guide-card-conatiner-top-span {
+  color: #196ae5;
+}
+.study-abroad-let-us-guide-card-conatiner-icon {
+  font-size: 45px;
+  color: #196ae5;
+}
+.study-abroad-let-us-guide-card-conatiner-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333;
+  font-family: "Roboto";
+}
+
+.study-abroad-let-us-guide-card-conatiner-button {
+  display: inline-flexbox;
+  cursor: pointer;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, #7cb4e4, #1c74d4, #0e39a9) border-box;
+  transition: all 0.5s ease;
+  border: 2.5px solid transparent;
+  color: #000;
+  background-color: transparent;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 
 .study-abroad-let-us-guide-card-conatiner-button:hover {
-    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
-    border: 3px solid transparent;
-    color: #FFF;
-    transition: all .1s ease;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    transition-delay:0s;
-  
-  }
-@media (max-width:912px){
-    .study-abroad-let-us-guide-title{
-        font-size:24px;
-    }
-    .study-abroad-let-us-guide-card-conatiner{
-        width:45%;
-    }
+  background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+  border: 3px solid transparent;
+  color: #fff;
+  transition: all 0.1s ease;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
-@media (max-width:768px){
-    .study-abroad-let-us-guide-title{
-        font-size:24px;
-    }
-    .study-abroad-let-us-guide-card-conatiner{
-        width:45%;
-    }
-    .study-abroad-let-us-guide-card-conatiner-top-heading{
-        font-size:16px;
-    }
-    .study-abroad-let-us-guide-card-conatiner-subtitle{
-        font-size:14px;
-    }
-    .study-abroad-let-us-guide-card-conatiner-icon{
-        font-size:30px;
-    }
-    .study-abroad-let-us-guide-card-conatiner-button{
-        font-size:14px;
-    }
-}
-@media (max-width:512px){
-    .study-abroad-let-us-guide-title{
-        font-size:24px;
-    }
-    .study-abroad-let-us-guide-card-conatiner{
-        width:100%;
-    }
-    .study-abroad-let-us-guide-card-conatiner-button{
-        width:70%;
-        display:flex;
-        text-align:center;
-        align-self: center;
-        justify-content: center;
-    }
-}
-  .study-abroad-how-do-we-work-cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap:20px;
-  }
-
-  .study-abroad-how-do-we-work-button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-  }
-.study-abroad-how-do-we-work-button-arrow{
-    font-size:30px;
-}
-  .study-abroad-how-do-we-work-card-container{
-    width: 22%;
-    min-height:240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    flex-shrink: 0;
-    font-family:"Roboto";
-  }
-
-  .study-abroad-how-do-we-work-cards-heading{
+@media (max-width: 912px) {
+  .study-abroad-let-us-guide-title {
     font-size: 24px;
-    color: #000;
-    font-weight: 500;
+  }
+  .study-abroad-let-us-guide-card-conatiner {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .study-abroad-let-us-guide-title {
+    font-size: 24px;
+  }
+  .study-abroad-let-us-guide-card-conatiner {
+    width: 45%;
+  }
+  .study-abroad-let-us-guide-card-conatiner-top-heading {
+    font-size: 16px;
+  }
+  .study-abroad-let-us-guide-card-conatiner-subtitle {
+    font-size: 14px;
+  }
+  .study-abroad-let-us-guide-card-conatiner-icon {
+    font-size: 30px;
+  }
+  .study-abroad-let-us-guide-card-conatiner-button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 512px) {
+  .study-abroad-let-us-guide-title {
+    font-size: 24px;
+  }
+  .study-abroad-let-us-guide-card-conatiner {
+    width: 100%;
+  }
+  .study-abroad-let-us-guide-card-conatiner-button {
+    width: 70%;
+    display: flex;
+    text-align: center;
     align-self: center;
-    text-align: center;
-  }
- .study-abroad-how-do-we-work-cards-container-icon{
-    font-size:30px;
-    color:#195AE5;
- }
-  
-  .study-abroad-how-do-we-work-cards-subtitle{
-    font-size: 16px;
-    font-weight: 400;
-    color:#333;
-  }
-
-  .study-abroad-how-do-we-work-button-container{
-    display: flex;
     justify-content: center;
   }
-
-  .study-abroad-how-do-we-work-button-container-button{
-    display: flex;
-    align-items: center;
-    width: 50px;
-  }
-@media (max-width:1200px){
-    .study-abroad-how-do-we-work-card-container{
-        width:45%;
-    }
 }
-@media(max-width:768px){
-    .study-abroad-how-do-we-work-cards-heading{
-        font-size:16px;
-        font-weight:600;
-    }
-    .study-abroad-how-do-we-work-cards-subtitle{
-        font-size:14px;
-        text-align:center;
-    }
-}
-@media (max-width:512px){
-    .study-abroad-how-do-we-work-card-container{
-        width:100%;
-    }
-    .study-abroad-how-do-we-work-cards-subtitle{
-        font-size:14px;
-        text-align:center;
-    }
+.study-abroad-how-do-we-work-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
-  .study-abroad-meet-our-container{
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0px;
+.study-abroad-how-do-we-work-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.study-abroad-how-do-we-work-button-arrow {
+  font-size: 30px;
+}
+.study-abroad-how-do-we-work-card-container {
+  width: 22%;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-shrink: 0;
+  font-family: "Roboto";
+}
+
+.study-abroad-how-do-we-work-cards-heading {
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+}
+.study-abroad-how-do-we-work-cards-container-icon {
+  font-size: 30px;
+  color: #195ae5;
+}
+
+.study-abroad-how-do-we-work-cards-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+
+.study-abroad-how-do-we-work-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.study-abroad-how-do-we-work-button-container-button {
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+@media (max-width: 1200px) {
+  .study-abroad-how-do-we-work-card-container {
+    width: 45%;
   }
-
-  .study-abroad-meet-our-cards-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap:20px;
+}
+@media (max-width: 768px) {
+  .study-abroad-how-do-we-work-cards-heading {
+    font-size: 16px;
+    font-weight: 600;
   }
-
-  .study-abroad-meet-our-card-container{
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-    margin-bottom:20px;
-    border:1px solid grey;
-    border-radius:5px;
-    padding-bottom:10px;
-    
-
+  .study-abroad-how-do-we-work-cards-subtitle {
+    font-size: 14px;
+    text-align: center;
   }
-
-  .study-abroad-meet-our-card-image-container{
+}
+@media (max-width: 512px) {
+  .study-abroad-how-do-we-work-card-container {
     width: 100%;
   }
-.study-abroad-meet-our-card-image{
-    width:100%;
+  .study-abroad-how-do-we-work-cards-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
+.study-abroad-meet-our-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+
+.study-abroad-meet-our-cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.study-abroad-meet-our-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.study-abroad-meet-our-card-image-container {
+  width: 100%;
+}
+.study-abroad-meet-our-card-image {
+  width: 100%;
+}
+
+.study-abroad-meet-our-card {
+  position: relative;
+  width: 100%;
+}
+.study-abroad-how-do-we-work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.study-abroad-meet-our-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  background-color: #222; /* Adjust opacity as needed */
+  padding: 20px;
+  opacity: 0;
+  color: #fff;
+  transition: opacity 0.3s;
+  transform: translateY(100px);
+  transition: 0.9s;
+  overflow: auto;
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+.study-abroad-meet-our-card:hover .study-abroad-meet-our-card-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.study-abroad-meet-our-card-content-desc {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.study-abroad-meet-our-card-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  opacity: 5;
+  z-index: 2;
+}
+
+.study-abroad-meet-our-card-content-container-heading {
+  font-size: 20px;
+}
+
+.study-abroad-meet-our-card-content-container-desc {
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .study-abroad-meet-our-card-container {
+    width: 46%;
+  }
+  .study-abroad-meet-our-card-image {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .study-abroad-meet-our-card-container {
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+  }
   .study-abroad-meet-our-card {
-    position: relative;
+    width: 80%;
+  }
+  .study-abroad-meet-our-card-image {
+    height: 500px;
+  }
+}
+@media (max-width: 512px) {
+  .study-abroad-meet-our-card-image {
+    height: 400px;
+  }
+}
+
+.study-abroad-aboutus-container {
+  background-color: #e6e6ff;
+  padding-top: 3%;
+}
+.study-abroad-aboutus-main-heading {
+  font-size: 32px;
+  color: #1c74d4;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+.study-abroad-aboutus-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2% 5% 2% 5%;
+}
+.study-abroad-aboutus-card {
+  margin-top: 20px;
+  background-color: transparent;
+  background-color: #fff;
+  width: 23%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+.study-abroad-aboutus-icon {
+  font-size: 100px;
+  color: #196ae5;
+}
+.study-abroad-aboutus-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.study-abroad-aboutus-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 912px) {
+  .study-abroad-aboutus-card {
+    width: 46%;
+  }
+}
+@media (max-width: 512px) {
+  .study-abroad-aboutus-card {
     width: 100%;
-    
-    
   }
-  .study-abroad-how-do-we-work-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 0px;
-  }
-  
-  .study-abroad-meet-our-card-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    background-color: #222; /* Adjust opacity as needed */
-    padding: 20px;
-    opacity: 0;
-    color:#fff;
-    transition: opacity 0.3s;
-    transform:translateY(100px);
-    transition:0.9s;
-    overflow:auto;
-    ::-webkit-scrollbar { 
-        width: 5px; 
-    };
-      
-  }
-  
-  .study-abroad-meet-our-card:hover .study-abroad-meet-our-card-content {
-    opacity: 1;
-    transform:translateY(0);
-  }
-
-  .study-abroad-meet-our-card-content-desc{
-    font-size: 13px;
-    color:#fff;
-    font-weight:600;
-  }
-  
-  .study-abroad-meet-our-card-content-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    padding: 5px;
-    opacity: 5;
-    z-index:2;
-  }
-
-  .study-abroad-meet-our-card-content-container-heading{
-    font-size: 20px;
-  }
-
-  .study-abroad-meet-our-card-content-container-desc{
-    font-size: 14px;
 }
 
-@media(max-width:1200px){
-    .study-abroad-meet-our-card-container{
-        width:46%;
-    }
-    .study-abroad-meet-our-card-image{
-        height:400px;
-    }
+.student-review-video-main-heading {
+  font-size: 32px;
+  color: #1c74d4;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "Roboto";
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-@media(max-width:768px){
-    .study-abroad-meet-our-card-container{
-        width:100%;
-        align-items:center;
-        padding:0px;
-        
-    }
-    .study-abroad-meet-our-card {
-        width:80%;
-    }
-    .study-abroad-meet-our-card-image{
-        height:500px;
-    }
-}
-@media(max-width:512px){
-    .study-abroad-meet-our-card-image{
-        height:400px;
-    }
+.student-review-video-player-list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style-type: none;
 }
 
-
-
- 
-
-
-
-
-
-.study-abroad-aboutus-container{
-    background-color: #e6e6ff;
-    padding-top: 3%;
+.student-review-video-player-display-container {
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
-.study-abroad-aboutus-main-heading{
-    font-size: 32px;
-    color: #1c74d4;
-    font-weight: 600;
-    line-height: 1.3;
-    text-align: center;
-    font-family:"Roboto";
-    margin-bottom:20px;
+.student-review-video-player-container {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.study-abroad-aboutus-list{
-    padding-left: 0px;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2% 5% 2% 5%;
+.student-review-video-player-item {
+  width: 100%;
+  height: 100%;
 }
-.study-abroad-aboutus-card{
-    margin-top: 20px;
-    background-color: transparent;
-    background-color: #fff;
-    width:23%;
-    min-height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:center;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius:10px;
+.student-review-video-player-description-container {
+  padding: 10px 20px 5px 20px;
 }
-.study-abroad-aboutus-icon{
-    font-size: 100px;
-    color:#196ae5;
+.student-review-video-player-title {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
 }
-.study-abroad-aboutus-title{
+.student-review-video-player-description {
+  font-family: "Roboto";
+  font-size: 14px;
+  margin: 0px;
+  color: #222;
+}
+
+@media (max-width: 912px) {
+  .student-review-video-main-heading {
     font-size: 24px;
-    font-weight: 600;
-}
-.study-abroad-aboutus-text{
-    font-size: 20px;
-    font-weight: 600;
-}
-
-@media (max-width:912px){
-    .study-abroad-aboutus-card{
-        width:46%;
-    }
-}
-@media (max-width:512px){
-    .study-abroad-aboutus-card{
-        width:100%;
-    }
-}
-
-.student-review-video-main-heading{
-    font-size: 32px;
-    color: #1c74d4;
-    font-weight: 600;
-    line-height: 1.3;
-    text-align: center;
-    font-family:"Roboto";
-    margin-bottom:30px;
-    margin-top:30px;
-}
-.student-review-video-player-list-container{
-    display:flex;
-    justify-content: space-between;
-    gap:10px;
-    list-style-type: none;
-}
-
-.student-review-video-player-display-container{
-    width:30%;
-    border:1px solid grey;
-    border-radius:5px;
-}
-.student-review-video-player-container{
-    width:100%;
-    height:200px;
-    object-fit: cover;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.student-review-video-player-item{
-    width:100%;
-    height:100%;
-}
-.student-review-video-player-description-container{
-    padding:10px 20px 5px 20px;
-}
-.student-review-video-player-title{
-    font-family:"Roboto";
-    font-size:16px;
-    font-weight:600;
-}
-.student-review-video-player-description{
-    font-family:"Roboto";
-    font-size:14px;
-    margin:0px;
-    color:#222;
-}
-
-@media (max-width:912px){
-    .student-review-video-main-heading{
-        font-size:24px;
-    }
-    .student-review-video-player-list-container{
-        display:flex;
-        flex-direction: column;
-        gap:20px;
-    }
-    .student-review-video-player-display-container{
-        width:100%;
-    }
-    .student-review-video-player-container{
-        height:300px;
-    }
-    .student-review-video-player-list-container{
-        padding:0px;
-        margin:5%;
-    }
-}
-
-
-
-
-
-.study-abroad-destination-list{
-    padding-left: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.study-abroad-destination-card{
-    margin-top: 40px;
-    box-shadow: 4px 4px 4px 4px #BFBFBF;
-    width:30%;
-    height:max-content;
-    border-radius: 5px;
-}
-.study-abroad-destination-line{
-    margin: 0px 20px 0px 20px;
-}
-.study-abroad-destination-card1{
-    padding: 20px 20px 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.study-abroad-destination-card-text{
-    font-size: 18px;
-}
-.study-abroad-destination-card-image{
-    width:100px;
-    height:50px;
-    border-radius: 3px;
-}
-.study-abroad-destination-card2{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-.study-abroad-destination-card2-sub{
+  }
+  .student-review-video-player-list-container {
     display: flex;
     flex-direction: column;
-}
-.study-abroad-destination-card2-text{
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0px;
-}
-.study-abroad-destination-card2-text2{
-    margin: 0px;
-    font-size: 12px;
-}
-.study-abroad-destination-key-facts-heading{
-    font-size: 16px;
-    margin: 20px 0px 0px 20px;
-}
-.study-abroad-destination-key-facts-container{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.study-abroad-destination-key-facts-subcontainer{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 10px;
-}
-.study-abroad-destination-key-facts-icon{
-    color:#196ae5;
-    margin: 0px;
-    margin-right: 10px;
-    font-size: 14px;
-}
-.study-abroad-destination-key-facts-text{
-    font-size: 14px;
-    margin: 0px;
-}
-.study-abroad-destination-card-button{
-    background-color: #196ae5;
-    color:#fff;
-    width:100%;
-    padding:10px;
-    border: none;
-    border-radius: 5px;
+    gap: 20px;
+  }
+  .student-review-video-player-display-container {
+    width: 100%;
+  }
+  .student-review-video-player-container {
+    height: 300px;
+  }
+  .student-review-video-player-list-container {
+    padding: 0px;
+    margin: 5%;
+  }
 }
 
-@media (max-width:1200px){
-    .study-abroad-destination-card{
-        width:46%;
-    }
+.study-abroad-destination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-@media (max-width:768px){
-    .study-abroad-destination-card{
-        width:100%;
-    }
+.study-abroad-destination-card {
+  margin-top: 40px;
+  box-shadow: 4px 4px 4px 4px #bfbfbf;
+  width: 30%;
+  height: max-content;
+  border-radius: 5px;
 }
-
-.study-abroad-article-section-main-heading{
-    font-size: 32px;
-    color: #1c74d4;
-    font-weight: 600;
-    line-height: 1.3;
-    text-align: center;
-    font-family:"Roboto";
-    margin-top:10px;
+.study-abroad-destination-line {
+  margin: 0px 20px 0px 20px;
 }
-.study-abroad-article-section-main-container{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    flex-wrap:wrap;
+.study-abroad-destination-card1 {
+  padding: 20px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.study-abroad-article-section-left-container{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    gap:10px;
-    justify-content: center;
+.study-abroad-destination-card-text {
+  font-size: 18px;
 }
-.study-abroad-article-section-left-icon{
-    font-size:50px;
+.study-abroad-destination-card-image {
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
 }
-.study-abroad-article-section-left-icon-text{
-    font-size:16px;
-    font-family:"Roboto";
-    color:#222;
+.study-abroad-destination-card2 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-.study-abraod-article-section-list-container{
-    display:flex;
-    list-style-type:none;
-
-   align-items: center;
-   padding-left:5px;
-   flex-wrap:wrap;
+.study-abroad-destination-card2-sub {
+  display: flex;
+  flex-direction: column;
 }
-.study-abraod-article-section-list-container-item{
-    display:flex;
+.study-abroad-destination-card2-text {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px;
 }
-.study-abraod-article-section-list-line-icon{
-    margin:0px;
-    border:2px solid #222;
-    width:50px;
-    height:1px;
-    align-self:center;
+.study-abroad-destination-card2-text2 {
+  margin: 0px;
+  font-size: 12px;
 }
-.study-abraod-article-section-list-logo-main-container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:5px;
-    padding-top:20px;
-    
-    
+.study-abroad-destination-key-facts-heading {
+  font-size: 16px;
+  margin: 20px 0px 0px 20px;
 }
-.study-abraod-article-section-list-logo-container{
-    width:80px;
-    height:80px;
-    border:1px solid grey;
-    border-radius:50%;
-    margin:0px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.study-abroad-destination-key-facts-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
-
-.study-abraod-article-section-list-logo{
-    font-size:50px;
+.study-abroad-destination-key-facts-subcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
 }
-.study-abraod-article-section-list-logo-name{
-    font-size:12px;
-    font-family:"Roboto";
-    color:#222;
+.study-abroad-destination-key-facts-icon {
+  color: #196ae5;
+  margin: 0px;
+  margin-right: 10px;
+  font-size: 14px;
 }
-@media (max-width:1200px){
-    .study-abroad-article-section-left-icon{
-        font-size:50px;
-        padding-top:20%;
-    }
-    .study-abroad-article-section-main-heading{
-        font-size:24px;
-    }
-    .study-abraod-article-section-list-line-icon{
-        width:30px;
-    }
-    .study-abraod-article-section-list-logo-container{
-        width:60px;
-        height:60px;
-    }
-    .study-abraod-article-section-list-logo{
-        font-size:25px;
-    }
-    .study-abraod-article-section-list-logo-main-container{
-        padding-top: 25px;
-    }
-    .study-abraod-article-section-list-logo-name{
-        font-size:8px;
-    }
+.study-abroad-destination-key-facts-text {
+  font-size: 14px;
+  margin: 0px;
 }
-@media (max-width:912px){
-    .study-abroad-article-section-left-icon{
-        font-size:50px;
-        padding-top:20%;
-    }
-    .study-abroad-article-section-main-heading{
-        font-size:24px;
-    }
-    .study-abraod-article-section-list-line-icon{
-        width:30px;
-    }
-    .study-abraod-article-section-list-logo-container{
-        width:40px;
-        height:40px;
-    }
-    .study-abraod-article-section-list-logo{
-        font-size:25px;
-    }
-    .study-abraod-article-section-list-logo-main-container{
-        padding-top: 40px;
-    }
-    .study-abraod-article-section-list-logo-name{
-        font-size:8px;
-    }
-}
-@media (max-width:512px){
-    .study-abraod-article-section-list-logo-main-container{
-        padding-top:20px;
-    }
+.study-abroad-destination-card-button {
+  background-color: #196ae5;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-
-
-.study-abroad-country-list-container{
-    display:flex;
-    justify-content: space-between;
-    gap:10px;
-    padding:0px;
-    flex-wrap:wrap;
-    list-style-type: none;
+@media (max-width: 1200px) {
+  .study-abroad-destination-card {
+    width: 46%;
+  }
 }
-.study-abroad-country-list-container-item{
-    width:30%;
-    height:30%;
-    border:1px solid grey;
-    border-radius:5px;
-
-}
-.study-abroad-country-list-container-item-image{
-    width:100%;
-    height:250px;
-}
-.study-abroad-country-list-container-item-image-height{
-    height:280px;
-}
-.study-abroad-country-list-container-item-description-container{
-    padding:5px 20px;
+@media (max-width: 768px) {
+  .study-abroad-destination-card {
+    width: 100%;
+  }
 }
 
-.study-abroad-country-list-container-item-heading{
-    font-size:16px;
-    font-family:"Roboto";
-    font-weight:600;
+.study-abroad-article-section-main-heading {
+  font-size: 32px;
+  color: #1c74d4;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "Roboto";
+  margin-top: 10px;
 }
-.study-abroad-country-list-container-item-description{
-    font-size:14px;
-    font-family:"Roboto";
-    color:#222;
+.study-abroad-article-section-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-@media (max-width:912px){
-    .study-abroad-country-list-container-item{
-        width:45%;
-        
-    }
-    .study-abroad-country-list-main-container{
-        margin:5%;
-    }
+.study-abroad-article-section-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
-@media (max-width:768px){
-    .study-abroad-country-list-main-container{
-        margin:5%;
-    }
-    .study-abroad-country-list-container{
-        flex-direction:column;
-    }
-    .study-abroad-country-list-container-item{
-        width:100%;
-    }
+.study-abroad-article-section-left-icon {
+  font-size: 50px;
+}
+.study-abroad-article-section-left-icon-text {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #222;
+}
+.study-abraod-article-section-list-container {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+  padding-left: 5px;
+  flex-wrap: wrap;
+}
+.study-abraod-article-section-list-container-item {
+  display: flex;
+}
+.study-abraod-article-section-list-line-icon {
+  margin: 0px;
+  border: 2px solid #222;
+  width: 50px;
+  height: 1px;
+  align-self: center;
+}
+.study-abraod-article-section-list-logo-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+.study-abraod-article-section-list-logo-container {
+  width: 80px;
+  height: 80px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.study-aboad-exam-main-heading{
-    font-size: 32px;
-    color: #1c74d4;
-    font-weight: 600;
-    line-height: 1.3;
-    text-align: center;
-    font-family:"Roboto";
-    margin-bottom:20px;
-    margin-top: 10px;
+.study-abraod-article-section-list-logo {
+  font-size: 50px;
 }
-.study-aboad-exam-list-container{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    gap:10px;
-    list-style-type:none;
-    padding-left: 0px;
+.study-abraod-article-section-list-logo-name {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: #222;
 }
-.study-aboad-exam-list-container-item{
-    display:flex;
-    flex-direction:column;
-    border:1px solid grey;
-    border-radius:5px;
-    width:30%;
-    padding:10px 20px;
-}
-.study-aboad-exam-list-container-item-heading{
-    font-size:18px;
-    font-family:"Roboto";
-    color:#222;
-    font-weight:600;
-    text-align:center;
-}
-.study-aboad-exam-list-container-item-description{
-    font-size:14px;
-    font-family:"Roboto";
-    color:#222;
-    margin:4px 0px;
-}
-.study-aboad-exam-list-container-item-register{
-    font-size:16px;
-    font-family:"Roboto";
-    font-weight:600;
-    margin:4px 0px;
-    text-decoration: none;
-    cursor:pointer;
-}
-@media (max-width:912px){
-    .study-aboad-exam-list-container-item{
-        width:45%;
-    }
-    .study-aboad-exam-main-heading{
-        font-size:24px;
-    }
-}
-@media (max-width:768px){
-    .study-aboad-exam-list-container-item{
-        width:100%;
-    }
-    .study-aboad-exam-main-container{
-        margin:5%;
-    }
-    .study-aboad-exam-main-heading{
-        font-size:24px;
-    }
-}
-
-
-
-
-
-
-
-.study-abroad-choose-container{
-    text-align: center;
-}
-
-.study-abroad-choose-cards-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items: center;
-    padding-left: 0px;
-}
-.study-abroad-choose-card{
-    margin-top: 35px;
-    width:250px;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.study-abroad-choose-card-icon{
+@media (max-width: 1200px) {
+  .study-abroad-article-section-left-icon {
     font-size: 50px;
-    color:#196ae5;
+    padding-top: 20%;
+  }
+  .study-abroad-article-section-main-heading {
+    font-size: 24px;
+  }
+  .study-abraod-article-section-list-line-icon {
+    width: 30px;
+  }
+  .study-abraod-article-section-list-logo-container {
+    width: 60px;
+    height: 60px;
+  }
+  .study-abraod-article-section-list-logo {
+    font-size: 25px;
+  }
+  .study-abraod-article-section-list-logo-main-container {
+    padding-top: 25px;
+  }
+  .study-abraod-article-section-list-logo-name {
+    font-size: 8px;
+  }
 }
-.study-abroad-choose-card-title{
+@media (max-width: 912px) {
+  .study-abroad-article-section-left-icon {
+    font-size: 50px;
+    padding-top: 20%;
+  }
+  .study-abroad-article-section-main-heading {
+    font-size: 24px;
+  }
+  .study-abraod-article-section-list-line-icon {
+    width: 30px;
+  }
+  .study-abraod-article-section-list-logo-container {
+    width: 40px;
+    height: 40px;
+  }
+  .study-abraod-article-section-list-logo {
+    font-size: 25px;
+  }
+  .study-abraod-article-section-list-logo-main-container {
+    padding-top: 40px;
+  }
+  .study-abraod-article-section-list-logo-name {
+    font-size: 8px;
+  }
+}
+@media (max-width: 512px) {
+  .study-abraod-article-section-list-logo-main-container {
+    padding-top: 20px;
+  }
+}
+
+.study-abroad-country-list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.study-abroad-country-list-container-item {
+  width: 30%;
+  height: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.study-abroad-country-list-container-item-image {
+  width: 100%;
+  height: 250px;
+}
+.study-abroad-country-list-container-item-image-height {
+  height: 280px;
+}
+.study-abroad-country-list-container-item-description-container {
+  padding: 5px 20px;
+}
+
+.study-abroad-country-list-container-item-heading {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.study-abroad-country-list-container-item-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #222;
+}
+@media (max-width: 912px) {
+  .study-abroad-country-list-container-item {
+    width: 45%;
+  }
+  .study-abroad-country-list-main-container {
+    margin: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .study-abroad-country-list-main-container {
+    margin: 5%;
+  }
+  .study-abroad-country-list-container {
+    flex-direction: column;
+  }
+  .study-abroad-country-list-container-item {
+    width: 100%;
+  }
+}
+
+.study-aboad-exam-main-heading {
+  font-size: 32px;
+  color: #1c74d4;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.study-aboad-exam-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.study-aboad-exam-list-container-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px 20px;
+}
+.study-aboad-exam-list-container-item-heading {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+}
+.study-aboad-exam-list-container-item-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #222;
+  margin: 4px 0px;
+}
+.study-aboad-exam-list-container-item-register {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 600;
+  margin: 4px 0px;
+}
+.study-aboad-exam-main-container {
+  margin-top: 6%;
+}
+@media (max-width: 912px) {
+  .study-aboad-exam-list-container-item {
+    width: 45%;
+  }
+  .study-aboad-exam-main-heading {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .study-aboad-exam-list-container-item {
+    width: 100%;
+  }
+  .study-aboad-exam-main-container {
+    margin: 5%;
+  }
+  .study-aboad-exam-main-heading {
+    font-size: 24px;
+  }
+}
+
+.study-abroad-choose-container {
+  text-align: center;
+  margin-top: 6%;
+}
+@media (max-width: 968px) {
+  .study-abroad-choose-container {
+    margin-top: 5%;
+  }
+}
+
+.study-abroad-choose-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+.study-abroad-choose-card {
+  margin-top: 35px;
+  width: 250px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.study-abroad-choose-card-icon {
+  font-size: 50px;
+  color: #196ae5;
+}
+.study-abroad-choose-card-title {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.study-abroad-choose-card-text {
+  margin-top: 0px;
+  font-size: 14px;
+}
+@media (max-width: 967px) {
+  .study-abroad-choose-card {
+    margin-top: 25px;
+    max-width: 150px;
+    min-height: 100px;
+    max-height: 140px;
+  }
+  .study-abroad-choose-card-icon {
+    font-size: 40px;
+  }
+  .study-abroad-choose-card-title {
     margin-top: 15px;
-    margin-bottom: 0px;
-    font-size: 18px;
-}
-.study-abroad-choose-card-text{
-    margin-top: 0px;
     font-size: 14px;
+  }
+  .study-abroad-choose-card-text {
+    font-size: 12px;
+  }
 }
-@media (max-width:967px){
-    .study-abroad-choose-card{
-        margin-top: 25px;
-        max-width:150px;
-        min-height: 100px;
-        max-height: 140px;
-    }
-    .study-abroad-choose-card-icon{
-        font-size: 40px;
-    }
-    .study-abroad-choose-card-title{
-        margin-top: 15px;
-        font-size: 14px;
-    }
-    .study-abroad-choose-card-text{
-        font-size: 12px;
-    }
-}
-@media (max-width:567px){
-    .study-abroad-choose-card{
-        margin-top: 20px;
-        max-width:150px;
-        min-height: 100px;
-        max-height: 140px;
-    }
-    .study-abroad-choose-card-icon{
-        font-size: 35px;
-    }
-    .study-abroad-choose-card-title{
-        margin-top: 15px;
-        font-size: 14px;
-        text-align: center;
-    }
-    .study-abroad-choose-card-text{
-        font-size: 10px;
-    }
+@media (max-width: 567px) {
+  .study-abroad-choose-card {
+    margin-top: 20px;
+    max-width: 150px;
+    min-height: 100px;
+    max-height: 140px;
+  }
+  .study-abroad-choose-card-icon {
+    font-size: 35px;
+  }
+  .study-abroad-choose-card-title {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .study-abroad-choose-card-text {
+    font-size: 10px;
+  }
 }
 
-.study-abroad-choose-main-text{
-    color: #333;
+.study-abroad-choose-main-text {
+  color: #333;
 }
 
-
-.study-abroad-country-list-main-container-1{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap:20px;
+.study-abroad-country-list-main-container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.study-abroad-country-list-container-item-heading-1{
-    font-size:16px;
-    font-family:"Roboto";
-    font-weight:600;
-    color:#fff;
+.study-abroad-country-list-container-item-heading-1 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #fff;
 }
-.study-abroad-country-list-container-item-description-1{
-    font-size:14px;
-    font-family:"Roboto";
-    color:#fff;
+.study-abroad-country-list-container-item-description-1 {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #fff;
 }
 .study-abroad-review-list-our-card-1 {
-    position: relative;
-    overflow: hidden;
-    width: 26%; /* Adjust this to match your desired card width */
+  position: relative;
+  overflow: hidden;
+  width: 26%; /* Adjust this to match your desired card width */
+}
+
+@media (max-width: 1200px) {
+  .study-abroad-review-list-our-card-1 {
+    width: 46%;
   }
-
-  @media(max-width:1200px){
-    .study-abroad-review-list-our-card-1 {
-        width:46%;
-    }
 }
 
-@media(max-width:768px){
-    .study-abroad-country-list-main-container-1{
-        justify-content:center;
-    }
-    .study-abroad-review-list-our-card-1{
-        width:70%;
-        height:400px;
-        align-items:center;
-        padding:0px;
-        display:flex;
-        justify-content: center;
-        
-        
-    }
-
+@media (max-width: 768px) {
+  .study-abroad-country-list-main-container-1 {
+    justify-content: center;
+  }
+  .study-abroad-review-list-our-card-1 {
+    width: 70%;
+    height: 400px;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
 }
-  
+
+.study-abroad-review-list-our-card-content-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  padding: 8px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust the background color and opacity as needed */
+  color: white; /* Text color for the content */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3;
+  transform: translateY(100px);
+  transition: 0.9s;
+}
+
+.study-abroad-review-list-our-card-1:hover
   .study-abroad-review-list-our-card-content-1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    padding: 8px;
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and opacity as needed */
-    color: white; /* Text color for the content */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3;
-    transform:translateY(100px);
-    transition:0.9s;
-  }
-  
-  .study-abroad-review-list-our-card-1:hover .study-abroad-review-list-our-card-content-1 {
-    opacity: 1; /* Visible on hover */
-    transform:translateY(0);
-  }
-  
-  .study-abroad-review-list-our-card-image-container-1 {
-    position: relative;
-  }
-  
-  .study-abroad-review-list-our-card-image-1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Adjust as needed to control image sizing */
-  }
-  
+  opacity: 1; /* Visible on hover */
+  transform: translateY(0);
+}
+
+.study-abroad-review-list-our-card-image-container-1 {
+  position: relative;
+}
+
+.study-abroad-review-list-our-card-image-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed to control image sizing */
+}
