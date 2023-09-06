@@ -6,7 +6,7 @@ import "./index.css"; // Create this CSS file for styling
 const StudyabroadCarousel = ({ slides }) => {
   return (
     <div className="study-abroad-carousel-main-container">
-    <Carousel showThumbs={false} autoPlay={true} interval={3000} style={{color:"#196AE5"}}>
+    <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} interval={3000} style={{color:"#196AE5"}}>
       {slides.map((slide, index) => (
         <div key={index} className="study-abroad-carousel-slide">
           <img src={slide.image} alt={`Slide ${index}`}  className="study-abroad-carousel-image"/>
