@@ -13,7 +13,7 @@ const StudyabroadCarousel = ({ slides }) => {
           <div className="study-abroad-carousel-text">
             <h3 className="study-abroad-carousel-heading">{slide.Heading}</h3>
             <p className="study-abroad-carousel-sub-heading">{slide.Subheading}</p>
-        </div>
+          </div>
         </div>
       ))}
     </Carousel>
