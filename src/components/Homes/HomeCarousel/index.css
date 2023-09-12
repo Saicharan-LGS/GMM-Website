@@ -19,7 +19,8 @@
 }
 @media (max-width:972px){
   .carousel-slider-home{
-    width: 85vw;
+    width: 90vw;
+    margin-right: 5%;
   }
 }
 @media (max-width:512px){
