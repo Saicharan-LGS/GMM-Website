@@ -258,16 +258,17 @@
     display: flex;
     margin: 0px 3% 0px 3%;
     border-radius: 15px;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px 0px 30px;
     margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
   }
   .home-section-transformed-careers-container1{
-    width:60%;
+    width:90%;
   }
   .home-section-transformed-careers-heading{
-    font-size: 22px;
+    font-size: 18px;
   }
   .home-section-transformed-careers-text{
     font-size: 14px;
