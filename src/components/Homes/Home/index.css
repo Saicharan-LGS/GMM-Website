@@ -358,16 +358,19 @@
   margin:20px 5% 50px 5%;
 }
 .success-carousel-slider-home{
-  max-width: 90vw;
+  max-width: 92vw;
   margin-left: 3%;
   margin-right: 1%;
   padding: 20px 2% 20px 2%;
 }
+.sucess-home-carousel{
+  padding-left: 0px;
+}
 @media (max-width:767px){
   .success-carousel-slider-home{
-    max-width: 80vw;
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 85vw;
+    margin-left: 7%;
+    margin-right: 1%;
     padding: 20px 2% 20px 2%;
   }
 }
