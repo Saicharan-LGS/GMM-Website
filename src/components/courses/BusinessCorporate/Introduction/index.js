@@ -16,7 +16,7 @@ class Intro extends Component{
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon' />
-                        <span className='course-intro-list-text'>45 days Full-fledged online classes</span>
+                        <span className='course-intro-list-text'>2 days Full-fledged online classes</span>
                     </div>
                     <div className='course-intro-list-container'>
                         <IoMdCheckmarkCircle className='course-intro-list-icon'/>

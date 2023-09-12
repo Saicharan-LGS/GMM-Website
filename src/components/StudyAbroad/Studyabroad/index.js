@@ -246,51 +246,80 @@ const StudyAbroadCountryList = [
 const StudyAbroadExamsList = [
   {
     id: 0,
+
     Exam: "International English Language Testing System [IELTS]",
+
+    Link: "https://www.ieltsidpindia.com/registration/registration",
+
     Description:
       "IELTS, a globally recognized English language proficiency test, enjoys widespread acceptance by more than 3000 universities worldwide, particularly for those pursuing higher education or migration to countries such as the UK, USA, Canada, New Zealand, and Australia. The IELTS exam comes in two formats: IELTS Academic and IELTS General. To enroll for IELTS, candidates must choose a suitable test center and date. The examination fee for the pen-and-paper-based IELTS stands at INR 16,250. The entire test takes approximately 2 hours and 45 minutes to complete.",
+
     register: "IELTS REGISTRATION",
-    link: "https://www.ieltsidpindia.com/information/international-english-language-exam-tests-registration/?utm_source=google&utm_medium=cpc&utm_campaign=Top_Keywords&utm_term=ielts%20registration&gclid=Cj0KCQjwl8anBhCFARIsAKbbpyT5hJZlE0uzAaHL8quaWjTHZVbKE6JWDGwGXEF4G6XYF3GrmH_482MaAlM8EALw_wcB",
   },
+
   {
     id: 1,
+
     Exam: "Test of a English as Foreign [TOEFL]",
+
+    Link: "https://v2.ereg.ets.org/ereg/public/customer/create",
+
     Description:
       "The TOEFL iBT (Test of English as a Foreign Language Internet-Based Test) is a standardized assessment that measures English language proficiency among non-native speakers. This exam assesses proficiency in four language skills: Reading, Listening, Speaking, and Writing. The registration fee for the TOEFL is 195 USD (equivalent to INR 16,046). The test is administered online at authorized test centers globally and typically takes approximately three hours to complete. The TOEFL iBT is widely acknowledged and accepted by universities, employers, and immigration authorities.",
+
     register: "TOEFL REGISTRATION",
-    link: "",
   },
+
   {
     id: 2,
+
     Exam: "Pearson Test of English [PTE]",
+
+    Link: "https://www.pearsonpte.com/",
+
     Description:
       "PTE, or the Pearson Test of English, is a computer-based assessment designed to evaluate an individual's English language proficiency for academic and immigration purposes. This test measures the reading, writing, speaking, and listening skills of non-native English speakers. PTE enjoys recognition from over 3000+ universities, institutions, and governments worldwide, including countries like the UK, Australia, Canada, and New Zealand. Registering for the PTE involves creating an account on the official website, completing the profile, selecting the preferred test date and center.",
+
     register: "PTE REGISTRATION",
-    link: "",
   },
+
   {
     id: 3,
+
     Exam: "Graduate Record Examination [GRE]",
+
+    Link: "https://ereg.ets.org/ereg/public/customer/create#/personal#top",
+
     Description:
       "The GRE (Graduate Record Examination) is a mandatory entrance exam for individuals seeking postgraduate programs in the USA, Canada, and select other nations. In response to the COVID-19 pandemic, candidates now have the option to register for the GRE and take it from the convenience of their homes, offering an alternative to testing center attendance.The GRE exam encompasses three sections: Verbal Reasoning, Quantitative Reasoning, and Analytical Writing, with scores for the verbal and quantitative sections ranging from 130 to 170 each. The total GRE score spans from 260 to 340, while the Analytical Writing Assessment (AWA) score is measured on a scale of 0.0 to 6.0. ",
+
     register: "GRE REGISTRATION",
-    link: "",
   },
+
   {
     id: 4,
+
     Exam: "Graduate Management Admission Test [GMAT]",
+
+    Link: "https://www.mba.com/service/login?checkGISFirst=false&returnUrl=%2fservice%2ftesting%2fgmat-exam-profile%3fsourcePageUrl%3d%2fexams%2fgmat-exam%2fregister#_=_",
+
     Description:
       "GMAT, the Graduate Management Admission Test, is an adaptive computerized examination taken by students aspiring to pursue management studies abroad. In response to the pandemic, candidates now have the flexibility to choose between taking the GMAT at a physical test center or online.An updated exam pattern, known as the GMAT Focus Edition for GMAT 2023, has been introduced. This version covers a narrower set of topics. The registration for The GMAT Exam - Focus Edition will commence on August 29, 2023. Concurrently, the existing GMAT exam will continue to be available until early next year.",
+
     register: "GMAT REGISTRATION",
-    link: "",
   },
+
   {
     id: 5,
+
     Exam: "Scholastic Aptitude Test [SAT]",
+
+    Link: "https://mysat.collegeboard.org/login",
+
     Description:
       "The SAT, conducted by the College Board, is an essential examination for students pursuing undergraduate studies abroad, particularly in the United States, Canada, Europe, Singapore, and India. Aspiring candidates have the opportunity to register for the SAT exam up to five weeks before the designated test date. The examination fee stands at $60 (equivalent to INR 4,965.63). For Indian candidates, there is an additional non-US regional fee of $49 (INR 3,600), bringing the total SAT exam fees for Indian nationals to $104 (INR 7,700). The inaugural SAT 2023 Digital Test is slated for March 11, 2023.",
+
     register: "SAT REGISTRATION",
-    link: "",
   },
 ];
 
