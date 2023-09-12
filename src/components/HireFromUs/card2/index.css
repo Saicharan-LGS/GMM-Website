@@ -1,33 +1,28 @@
-.scourseFlexibleProgramCard{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width:250px;
-    height:300px;
-    margin: 10px;
-    box-shadow: #bfbfbf 4px 4px 4px 4px;
-    margin-bottom: 30px;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #ffffff;    
-    
-}
-.scourseFlexibleProgramCard:hover{
-    -webkit-transform: scale(0.9);
-	transform: scale(0.9);
-}
-.scourseFlexibleProgramImage{
-    color:#196AE5;
-    font-size: 50px;
-}
-.scourseFlexibleProgramQuestion{
-    font-size: 24px;
-    font-family:"Roboto"
-}
-.scourseFlexibleProgramAnswer{
-    font-size: 16px;
-    font-family:"Roboto"
+.scourseFlexibleProgramCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: #bfbfbf 4px 4px 4px 4px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
 }
 
+.scourseFlexibleProgramImage {
+  color: #196ae5;
+  font-size: 50px;
+}
+.scourseFlexibleProgramQuestion {
+  font-size: 24px;
+  font-family: "Roboto";
+}
+.scourseFlexibleProgramAnswer {
+  font-size: 16px;
+  font-family: "Roboto";
+}
