@@ -80,7 +80,7 @@ const Enterprisesettings = {
             settings: {
             slidesToShow: 1,
             centerMode:true,
-            variableWidth:true,
+            variableWidth:false,
             arrows: false,
             },
         },

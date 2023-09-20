@@ -18,7 +18,18 @@ import CarouselCard from '../CarouselCard';
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    autoplay:true
+    autoplay:true,
+    responsive:[
+      {
+        breakpoint:512,
+        settings:{
+          arrows:false
+        }
+        
+      }
+    ]
+      
+    
   };
 
   const CarouselList=[
