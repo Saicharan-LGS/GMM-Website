@@ -1,9 +1,7 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './index.css'; // Create this CSS file for styling
-
-
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./index.css"; // Create this CSS file for styling
 
 const StudyabroadCarousel = ({ slides }) => {
   return (
@@ -15,7 +13,7 @@ const StudyabroadCarousel = ({ slides }) => {
           <div className="study-abroad-carousel-text">
             <h3 className="study-abroad-carousel-heading">{slide.Heading}</h3>
             <p className="study-abroad-carousel-sub-heading">{slide.Subheading}</p>
-        </div>
+          </div>
         </div>
       ))}
     </Carousel>

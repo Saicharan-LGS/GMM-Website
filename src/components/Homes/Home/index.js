@@ -270,7 +270,7 @@ const Home  =()=>{
            <Link style={{textDecoration:"none"}}><button className="home-section-explore-courses-button">Get Inspired</button></Link>
           </div>
           <Slider {...settings} className="success-carousel-slider-home" >
-            {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} cardDetails={each} />))}
+            {SuccessCarouselList.map(each=>(<SuccessCarousel key={each.id} className="sucess-home-carousel" cardDetails={each} />))}
           </Slider>
           <div className="home-section-transformed-careers-container">
             <div className="home-section-transformed-careers-container1">

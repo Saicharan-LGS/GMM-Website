@@ -15,7 +15,7 @@ class Ieltsscore extends Component {
             <p className="ielts-second-page-paragraph-body-score">But it goes beyond the confines of your workplace. For those individuals seeking to build their lives in English-speaking countries, the mastery of this language isn't just an asset; it's the very foundation upon which integration into the community is built. It's the bridge that connects you to your new home, facilitates relationships, and empowers you to thrive.</p>
             <p className="ielts-second-page-paragraph-body-score">And in this grand tapestry of linguistic competence, IELTS reigns supreme. It's not just popular; it's the global standard for English language assessment in the realms of higher education and international migration. Millions of determined individuals, hailing from 140 countries, embark on this transformative journey every year.</p>
             <p className="ielts-second-page-paragraph-body-score">Furthermore, IELTS holds a unique distinction. It is the sole English language test universally recognized by all major immigration authorities for visa applications and migration purposes. Australia, Canada, New Zealand, and the United Kingdom all converge on IELTS as the gold standard, the key that unlocks the door to new horizons.</p>
-            <button className="ielts-margin-score-button">Register to accept IELTS scores</button>
+            {/* <button className="ielts-margin-score-button">Register to accept IELTS scores</button> */}
         </div>
         <div className="ielts-margin-container">
             <h1 className="ielts-second-page-second-heading-score">IELTS Test Types</h1>
@@ -42,19 +42,16 @@ class Ieltsscore extends Component {
             <p className="ielts-second-page-paragraph-body-score">Find out more about the benefits of accepting IELTS results and how to use the IELTS Results Verification Service.</p>
             <hr className="ielts-score-line"/>
             <p className="ielts-second-page-second-heading-score-second-head">IELTS gives a reliable indication of entry level English Proficiency. Other tests are less satisfactory at providing this.</p>
-            <hr className="ielts-score-line"/>
             <div>
                 <p className="ielts-score-container">-Lecturer in Academic English and Study Skills, King's College London, UK</p>
             </div>
             <hr className="ielts-score-line"/>
             <p className="ielts-second-page-second-heading-score-second-head">As part of our assessment processes all IELTS reports are verified using the online IELTS results verification site. Access to this site has enabled us to ensure that the IELTS results we receive are genuine.</p>
-            <hr className="ielts-score-line"/>
             <div>
                 <p className="ielts-score-container">-Julianne O’Brien, Client Manager of the Skilled and Business Migration Program, Australian Capital Territory</p>
             </div>
             <hr className="ielts-score-line"/>
             <p className="ielts-second-page-second-heading-score-second-head">We consider an IELTS qualification to be a reliable indication of a student's English language competencies and of their ability to pursue their higher education in English.</p>
-            <hr className="ielts-score-line"/>
             <div>
                 <p className="ielts-score-container">-Carvi Stucki, Senior Admissions Office, École hôtelière de Lausanne, Switzerland</p>
             </div>

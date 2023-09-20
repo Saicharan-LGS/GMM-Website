@@ -387,7 +387,7 @@
   padding:8px 10px 8px 10px;
   border-radius:4px;
   font-size: 14px;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 .explore-program-item:hover{
   border:2px solid #196AE5;
@@ -444,7 +444,7 @@
   }
   @media (max-width:1100px){
     .explore-program-item{
-      margin-top: 6px;
+      margin-top: 4px;
       padding: 8px 10px;
       font-size: 12px;
     }
@@ -455,7 +455,7 @@
       padding-left: 0%;
       padding-right: 0%;
     }.explore-program-item{
-      margin-top: 8px;
+      margin-top: 4px;
       padding: 4px;
       font-size: 10px;
     }.nav-menu-item{
