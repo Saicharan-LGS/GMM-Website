@@ -20,84 +20,84 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 // ]
 
 const NavContainerList = [
+  // {
+  //   id: 0,
+  //   item: "100% Job Guarantee",
+  //   detail: [
+  //     {
+  //       id: 0,
+  //       course: "Data Science Engineer",
+  //       link: "/DataScience",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 1,
+  //       course: "Full Stack Developer",
+  //       link: "/FullStackCourse",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 2,
+  //       course: "AWS Cloud Technology",
+  //       link: "/AWS",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 1,
+  //   item: "IT",
+  //   detail: [
+  //     {
+  //       id: 0,
+  //       course: "Data Science Engineer",
+  //       link: "/DataScience",
+  //       status: "#RightChoice",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 1,
+  //       course: "Full Stack Developer",
+  //       link: "/FullStackCourse",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 2,
+  //       course: "Digital Marketing Expert",
+  //       link: "/DigitalMarkting",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 3,
+  //       course: "Salesforce Admin",
+  //       link: "/salesforce",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //     {
+  //       id: 4,
+  //       course: "AWS Cloud Technolgy",
+  //       link: "/AWS",
+  //       status: "#Trending",
+  //       duration: "Job Ready in 6 Month",
+  //       casestudy: "15",
+  //     },
+  //   ],
+  // },
   {
     id: 0,
-    item: "100% Job Guarantee",
-    detail: [
-      {
-        id: 0,
-        course: "Data Science Engineer",
-        link: "/DataScience",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 1,
-        course: "Full Stack Developer",
-        link: "/FullStackCourse",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 2,
-        course: "AWS Cloud Technology",
-        link: "/AWS",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-    ],
-  },
-  {
-    id: 1,
-    item: "IT",
-    detail: [
-      {
-        id: 0,
-        course: "Data Science Engineer",
-        link: "/DataScience",
-        status: "#RightChoice",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 1,
-        course: "Full Stack Developer",
-        link: "/FullStackCourse",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 2,
-        course: "Digital Marketing Expert",
-        link: "/DigitalMarkting",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 3,
-        course: "Salesforce Admin",
-        link: "/salesforce",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-      {
-        id: 4,
-        course: "AWS Cloud Technolgy",
-        link: "/AWS",
-        status: "#Trending",
-        duration: "Job Ready in 6 Month",
-        casestudy: "15",
-      },
-    ],
-  },
-  {
-    id: 2,
     item: "Soft Skills",
     detail: [
       {
@@ -151,7 +151,6 @@ class Header extends Component {
     mobileCourseItems: 0,
     showCourses: false,
   };
-
   toggleShowNavItems = () => {
     this.setState((prevState) => ({
       showNavItems: !prevState.showNavItems,

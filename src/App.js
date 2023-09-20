@@ -16,7 +16,7 @@ import About from './components/Homes/AboutPage';
 import SuccessStory from './components/SucessStory';
 import CareerSupport from './components/CarrerSupport/CarrerMain';
 import NotFound from './components/NotFound';
-import ChatBot from './components/ChatBot';
+//import ChatBot from './components/ChatBot';
 import Whatsapp from './components/Whatsapp';
 import Corporate from './components/Corporate/CorporateMain';
 import Terms from "./components/TermsAndConditions";
@@ -32,11 +32,11 @@ import Ielts from './components/courses/Ielts/IeltsPage';
 import WhatIsIelts from './components/courses/Ielts/whatisIelts';
 import Ieltsscore from './components/courses/Ielts/IeltsScores';
 import EnglishOffline from "./components/courses/EnglishOffline/FullStackMain";
-import SocialIcons from './components/Homes/Socialicons';
+//import SocialIcons from './components/Homes/Socialicons';
 const App = () => (
     <>
     <Whatsapp />
-    <ChatBot />
+    {/* <ChatBot /> */}
     <Routes>
         <Route exact path="/english-offline" element={<EnglishOffline />} />
         <Route exact path="/what-is-ielts" element={<WhatIsIelts />} />

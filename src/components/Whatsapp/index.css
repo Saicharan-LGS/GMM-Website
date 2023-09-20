@@ -2,7 +2,7 @@
   height: 60px;
   width: 60px;
   z-index: 100;
-  bottom: 150px; /* Adjust this value to set the desired distance from the bottom */
+  bottom: 30px; /* Adjust this value to set the desired distance from the bottom */
   right: 20px; /* Adjust this value to set the desired distance from the left */
   position: fixed;
 }
