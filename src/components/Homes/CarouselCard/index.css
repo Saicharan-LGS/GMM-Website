@@ -122,3 +122,23 @@
 .Carousel-card-right-image{
     width:30%;
 }
+@media (max-width:512px){
+    .Carousel-card-main-container{
+        flex-direction: column-reverse;
+        align-items:center;
+        min-height:80vh;
+        gap:20px;
+
+    }
+    .Carousel-card-left-container{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .Carousel-card-right-image{
+        width:80%;
+        
+    }
+    
+}
