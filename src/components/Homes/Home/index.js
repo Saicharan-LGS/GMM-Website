@@ -17,7 +17,7 @@ import SuccessCarousel from '../SuccessCarousel';
 import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
 import story3 from "../../Images/story3.png"
-import exploreProgramImage from "../../Images/explore.png"
+import exploreProgramImage from "../../Images/image-2.jpg"
 import Home2 from "../../Images/home2.png"
 import Home1 from "../../Images/home3.png"
 import SocialIcons from "../Socialicons";

@@ -101,14 +101,14 @@ import study4 from "../../Images/studyuk.jpg";
 import study5 from "../../Images/studygermany.jpg";
 import study6 from "../../Images/studynewzealand.jpg";
 
-import studyaboardImg1 from "../../Images/studyabord1.JPG";
-import studyaboardImg2 from "../../Images/studyabord2.JPG";
-import studyaboardImg3 from "../../Images/studyabord3.JPG";
-import studyaboardImg4 from "../../Images/studyabord4.JPG";
+// import studyaboardImg1 from "../../Images/studyabord1.JPG";
+// import studyaboardImg2 from "../../Images/studyabord2.JPG";
+// import studyaboardImg3 from "../../Images/studyabord3.JPG";
+// import studyaboardImg4 from "../../Images/studyabord4.JPG";
 
-import reviewstudy1 from "../../Images/reviewstudy1.png";
-import reviewstudy2 from "../../Images/reviewstudy2.png";
-import reviewstudy3 from "../../Images/reviewstudy3.png";
+// import reviewstudy1 from "../../Images/reviewstudy1.png";
+// import reviewstudy2 from "../../Images/reviewstudy2.png";
+// import reviewstudy3 from "../../Images/reviewstudy3.png";
 
 const slides = [
   {
@@ -171,29 +171,29 @@ const ArticleSectionList = [
   { id: 5, Image: BsGlobeCentralSouthAsia, Name: "TRAVEL" },
   { id: 6, Image: PiCertificate, Name: "POST DEGREE" },
 ];
-const StudyAbroadStudentReviewList = [
-  {
-    id: 0,
-    image: reviewstudy1,
-    heading: "Studying Abroad in the UK: A Transformative Journey",
-    description:
-      "The UK's rich history and world-class universities provided an unforgettable academic and cultural experience. I discovered new perspectives, made lifelong friends, and explored historic sites while pursuing my degree.",
-  },
-  {
-    id: 1,
-    image: reviewstudy2,
-    heading: "Canada: A Perfect Blend of Nature and Education",
-    description:
-      "Studying in Canada was a dream come true. The pristine landscapes and diverse communities complemented my rigorous coursework perfectly. I gained not only knowledge but also an appreciation for the great outdoors.",
-  },
-  {
-    id: 2,
-    image: reviewstudy3,
-    heading: "America: Unlocking Opportunities and Diversity",
-    description:
-      "My study abroad adventure in the United States was a game-changer. I was exposed to cutting-edge research, diverse cultures, and countless opportunities for personal and professional growth.",
-  },
-];
+// const StudyAbroadStudentReviewList = [
+//   {
+//     id: 0,
+//     image: reviewstudy1,
+//     heading: "Studying Abroad in the UK: A Transformative Journey",
+//     description:
+//       "The UK's rich history and world-class universities provided an unforgettable academic and cultural experience. I discovered new perspectives, made lifelong friends, and explored historic sites while pursuing my degree.",
+//   },
+//   {
+//     id: 1,
+//     image: reviewstudy2,
+//     heading: "Canada: A Perfect Blend of Nature and Education",
+//     description:
+//       "Studying in Canada was a dream come true. The pristine landscapes and diverse communities complemented my rigorous coursework perfectly. I gained not only knowledge but also an appreciation for the great outdoors.",
+//   },
+//   {
+//     id: 2,
+//     image: reviewstudy3,
+//     heading: "America: Unlocking Opportunities and Diversity",
+//     description:
+//       "My study abroad adventure in the United States was a game-changer. I was exposed to cutting-edge research, diverse cultures, and countless opportunities for personal and professional growth.",
+//   },
+// ];
 
 const StudyAbroadCountryList = [
   {
@@ -592,40 +592,40 @@ const howDoWeWork = [
   },
 ];
 
-const meetOur = [
-  {
-    image: studyaboardImg1,
-    iamgeDesc:
-      "Noor Syed is a seasoned leader and effective communicator with over a decade of experience in the study abroad sector, particularly in US universities. She has supported over 3500 students in their pursuit of academic opportunities abroad.",
-    heading: "Noor Syed",
-    desc: "Senior Counsellor, 10+ Years of Experience, USA",
-    button: "Fix an Appoinment",
-  },
-  {
-    image: studyaboardImg2,
-    iamgeDesc:
-      "Syed Ibrahim, widely recognized for his patience and popularity among students, has been a guiding force for those seeking to study in the UK. With a strong grasp of UK higher education institutions, he has aided countless students in their successful academic journeys over the past three years.",
-    heading: "Syed Ibrahim",
-    desc: "Senior Counsellor,3+ Years of Experience, United Kingdom",
-    button: "Fix an Appoinment",
-  },
-  {
-    image: studyaboardImg3,
-    iamgeDesc:
-      "Syed Ali Shafiullah, a skilled leader with strong communication abilities, provides compassionate support to study abroad aspirants, specializing in European and Australian universities. She has helped approximately 1800 students find their ideal academic institutions.",
-    heading: "Syed Ali Shafiullah",
-    desc: "Senior Counsellor, 2+ Years of Experience, Australia",
-    button: "Fix an Appoinment",
-  },
-  {
-    image: studyaboardImg4,
-    iamgeDesc:
-      "Neymath Furqan, a compassionate leader, specializes in guiding students through the study abroad process for Canada. She offers personalized support, from university selection to securing offers, ensuring a seamless journey and strong student support.",
-    heading: "Neymath Furqan",
-    desc: "Senior Counsellor, 2+ Years of Experience, Canada",
-    button: "Fix an Appoinment",
-  },
-];
+// const meetOur = [
+//   {
+//     image: studyaboardImg1,
+//     iamgeDesc:
+//       "Noor Syed is a seasoned leader and effective communicator with over a decade of experience in the study abroad sector, particularly in US universities. She has supported over 3500 students in their pursuit of academic opportunities abroad.",
+//     heading: "Noor Syed",
+//     desc: "Senior Counsellor, 10+ Years of Experience, USA",
+//     button: "Fix an Appoinment",
+//   },
+//   {
+//     image: studyaboardImg2,
+//     iamgeDesc:
+//       "Syed Ibrahim, widely recognized for his patience and popularity among students, has been a guiding force for those seeking to study in the UK. With a strong grasp of UK higher education institutions, he has aided countless students in their successful academic journeys over the past three years.",
+//     heading: "Syed Ibrahim",
+//     desc: "Senior Counsellor,3+ Years of Experience, United Kingdom",
+//     button: "Fix an Appoinment",
+//   },
+//   {
+//     image: studyaboardImg3,
+//     iamgeDesc:
+//       "Syed Ali Shafiullah, a skilled leader with strong communication abilities, provides compassionate support to study abroad aspirants, specializing in European and Australian universities. She has helped approximately 1800 students find their ideal academic institutions.",
+//     heading: "Syed Ali Shafiullah",
+//     desc: "Senior Counsellor, 2+ Years of Experience, Australia",
+//     button: "Fix an Appoinment",
+//   },
+//   {
+//     image: studyaboardImg4,
+//     iamgeDesc:
+//       "Neymath Furqan, a compassionate leader, specializes in guiding students through the study abroad process for Canada. She offers personalized support, from university selection to securing offers, ensuring a seamless journey and strong student support.",
+//     heading: "Neymath Furqan",
+//     desc: "Senior Counsellor, 2+ Years of Experience, Canada",
+//     button: "Fix an Appoinment",
+//   },
+// ];
 
 const Studyabroad = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -756,7 +756,7 @@ const Studyabroad = () => {
               </div>
             </div>
           </div>
-          <div className="study-abroad-meet-our-container">
+          {/* <div className="study-abroad-meet-our-container">
             <h1 className="study-abroad-let-us-guide-title">
               Meet Our Counsellors
             </h1>
@@ -797,7 +797,7 @@ const Studyabroad = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="study-abroad-aboutus-container">
@@ -815,7 +815,7 @@ const Studyabroad = () => {
           </ul>
         </div>
 
-        <div>
+       {/* <div>
           <h3 className="student-review-video-main-heading">
             Our Student Loves us
           </h3>
@@ -833,7 +833,7 @@ const Studyabroad = () => {
             
             ))}
             </ul>*/}
-          <div className="study-abroad-country-list-main-container-1">
+         {/* <div className="study-abroad-country-list-main-container-1">
             {StudyAbroadStudentReviewList.map((eachCountry) => (
               <div className="study-abroad-review-list-our-card-1">
                 <div className="study-abroad-review-list-our-card-image-container-1">
@@ -854,7 +854,7 @@ const Studyabroad = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="study-abroad-destination-container">
           <h1 className="student-review-video-main-heading">
