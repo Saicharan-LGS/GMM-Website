@@ -4,9 +4,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './index.css';
 import photo1 from "../../Images/homecarousel/zeeshan.png"
-import photo2 from "../../Images/homecarousel/umar.png"
-import photo3 from "../../Images/homecarousel/sai.png"
-import photo4 from "../../Images/homecarousel/roy.png"
+import photo2 from "../../Images/5.png"
+import photo3 from "../../Images/7.png"
+import photo4 from "../../Images/homeimage4.png"
 
 
 import CarouselCard from '../CarouselCard';

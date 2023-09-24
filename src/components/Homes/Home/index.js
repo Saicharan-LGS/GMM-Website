@@ -7,12 +7,12 @@ import Footer from "../Footer"
 import Header from "../Headers";
 import FirstTimePopup from "../FirstTimePopup";
 import HomeBannerCarousel from "../HomeCarousel"
-import image8 from "../../Images/8.png"
+import image8 from "../../Images/homeimage5.jpg"
 import {TiTick} from 'react-icons/ti'
 import {AiFillStar} from 'react-icons/ai'
 // import image1 from "../../Images/image-2.jpg"
 // import image2 from "../../Images/image1.png"
-import world from "../../Images/world.png"
+import world from "../../Images/worldimage2.png"
 import SuccessCarousel from '../SuccessCarousel';
 import story1 from "../../Images/story2.png"
 import story2 from "../../Images/story1.png"
