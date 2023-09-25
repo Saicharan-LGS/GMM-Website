@@ -2,13 +2,21 @@
 import pic1 from "../Images/Interview1.jpg"
 import pic2 from "../Images/careermen.png"
 import pic3 from "../Images/linked.jpg"
-import roy2 from '../Images/Transformingcardimages/roy.png'
+/*import roy2 from '../Images/Transformingcardimages/roy.png'
 import Akhila2 from '../Images/Transformingcardimages/Akhila.png'
 import saicharan2 from '../Images/Transformingcardimages/saicharan.jpg'
 import triveni2 from '../Images/Transformingcardimages/triveni.jpg'
 import venu2 from '../Images/Transformingcardimages/venuprofile.jpg'
 import umar2 from '../Images/Transformingcardimages/umarprofile.png'
-import nagesh2 from '../Images/Transformingcardimages/nagesh.jpg'
+import nagesh2 from '../Images/Transformingcardimages/nagesh.jpg'*/
+
+import roy2 from '../Images/ai-image-1.png'
+import Akhila2 from '../Images/ai-image-7.png'
+import saicharan2 from '../Images/ai-image-3.png'
+import triveni2 from '../Images/ai-image-6.png'
+import venu2 from '../Images/ai-image-9.png'
+import umar2 from '../Images/ai-image-4.png'
+import nagesh2 from '../Images/ai-image-2.png'
 
 //Corporate Images
 
