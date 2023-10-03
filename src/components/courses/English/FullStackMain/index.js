@@ -24,15 +24,15 @@ import {Link} from "react-router-dom"
 import founder from "../../../Images/founder.png"
 import "../../DataScience/FullStackMain/index.css"
 
-import roy from '../../../Images/roy.png'
-import Akhila from '../../../Images/Akhila.png'
-import saicharan from '../../../Images/saicharan.jpg'
-import triveni from '../../../Images/triveni.jpg'
-import venu from '../../../Images/venuprofile.jpg'
-import umar from '../../../Images/umarprofile.png'
-import nagesh from '../../../Images/nagesh.jpg'
-import chandana from '../../../Images/chandana.jpg'
-import prashanth from '../../../Images/prashanth.png'
+import roy from '../../../Images/ai-image-1.png'
+import Akhila from '../../../Images/ai-image-7.png'
+import saicharan from '../../../Images/ai-image-3.png'
+import triveni from '../../../Images/ai-image-6.png'
+import venu from '../../../Images/ai-image-9.png'
+import umar from '../../../Images/ai-image-4.png'
+import nagesh from '../../../Images/ai-image-2.png'
+import chandana from '../../../Images/ai-image-5.png'
+import prashanth from '../../../Images/ai-image-10.png'
 
 // import Capgemini from '../../../Images/slider/Capgemini.png';
 // import Citibank from '../../../Images/slider/Citibank.png';
