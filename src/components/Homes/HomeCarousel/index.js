@@ -34,9 +34,9 @@ import CarouselCard from '../CarouselCard';
 
   const CarouselList=[
     {id:1,link:"/english",head:"English Communication Blueprint",text:"Master The Art Of Effective Communication",description:"Fast Track Your Career By Becoming An Effective English Communicator",Image:photo1},
-    {id:2,link:"/DataScience",head:"Data Science Engineer",text:"Join The Brigade Of Data Science Engineers",description:"Learn Data Science From Industry Experts",Image:photo2},
-    {id:3,link:"/FullStackCourse",head:"Full Stack Web Developer",text:"Become A Full Stack Web Developer In 12 Weeks",description:"Accelerate & Super-Fast Your IT Career",Image:photo3},
-    {id:4,link:"/DigitalMarkting",head:"Digital Marketing Expert",text:"Unleashing The Potential Of Digital Marketing",description:"Learn The Art Of Empowering Any Brand Online",Image:photo4},
+    {id:2,link:"/",head:"Data Science Engineer",text:"Join The Brigade Of Data Science Engineers",description:"Learn Data Science From Industry Experts",Image:photo2},
+    {id:3,link:"/",head:"Full Stack Web Developer",text:"Become A Full Stack Web Developer In 12 Weeks",description:"Accelerate & Super-Fast Your IT Career",Image:photo3},
+    {id:4,link:"/",head:"Digital Marketing Expert",text:"Unleashing The Potential Of Digital Marketing",description:"Learn The Art Of Empowering Any Brand Online",Image:photo4},
 ]
 
 const Carousel = () => {
