@@ -1,4 +1,4 @@
-import {Component} from 'react' 
+import { Component } from "react";
 import { CgCalendarDates } from "react-icons/cg";
 import {IoMdCheckmarkCircle} from 'react-icons/io'
 import "../../DataScience/Introduction/index.css"
@@ -43,25 +43,37 @@ class Intro extends Component{
                             <p className='course-intro-data-text'>Highest Salary</p>
                         </div>
         </div> */}
-                </div>
-                <div className="course-side-image-main-container">
-                    <img src={profile} alt="" className="course-intro-side-image"/>
-                    <p className="course-intro-data-analyst">Vashini Roy</p>
-                    <div className="course-intro-side-image-desc">
-                        <p>Junior Developer</p>
-                        <p className="arrow-width">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                            <line x1="0" y1="20" x2="30" y2="20" stroke="#000" strokeDasharray="1, 3" />
-                            <polyline points="30,15 35,20 30,25" fill="#000" />
-                        </svg>
-                        </p>
-                        
-                        <p className="course-intro-data-analyst">Senior Developer</p>
-                    </div>
-                </div>
-            </div>
-        ) 
-    }
+        </div>
+        <div className="course-side-image-main-container">
+          <img src={profile} alt="" className="course-intro-side-image" />
+          <p className="course-intro-data-analyst">Vashini Roy</p>
+          <div className="course-intro-side-image-desc">
+            <p>Junior Developer</p>
+            <p className="arrow-width">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+              >
+                <line
+                  x1="0"
+                  y1="20"
+                  x2="30"
+                  y2="20"
+                  stroke="#000"
+                  strokeDasharray="1, 3"
+                />
+                <polyline points="30,15 35,20 30,25" fill="#000" />
+              </svg>
+            </p>
+
+            <p className="course-intro-data-analyst">Senior Developer</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default Intro
+export default Intro;
